@@ -1,0 +1,903 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,catalog_book_count,sold_book_count,line_count,order_count,customer_count,total_price,avg_price,secondary_value,share_pct,notes
+author_complexity_profile,author_complexity,single_author_title,,,author_complexity_value_rank,1.0,6028,2994,4152,4152,4151,42287.09,10.2388,,56.0463,Title demand by number of linked authors.
+author_complexity_profile,author_complexity,small_team_title,,,author_complexity_value_rank,2.0,3528,1675,2286,2286,2285,22490.42,9.8633,,29.8083,Title demand by number of linked authors.
+author_complexity_profile,author_complexity,no_author_link,,,author_complexity_value_rank,3.0,1069,540,743,743,743,7057.95,9.3053,,9.3544,Title demand by number of linked authors.
+author_complexity_profile,author_complexity,large_team_title,,,author_complexity_value_rank,4.0,502,257,369,369,369,3614.76,9.7517,,4.7909,Title demand by number of linked authors.
+customer_breadth_profile,customer_breadth,single_customer_reach,,,customer_breadth_value_rank,1.0,3825,3825,3827,3827,3825,38366.74,10.0253,,50.8504,Whether title demand comes from broad or narrow customer reach.
+customer_breadth_profile,customer_breadth,some_repeat_or_multi_customer_reach,,,customer_breadth_value_rank,2.0,1637,1637,3703,3703,3703,36885.2,9.9698,,48.8868,Whether title demand comes from broad or narrow customer reach.
+customer_breadth_profile,customer_breadth,broad_customer_reach,,,customer_breadth_value_rank,3.0,4,4,20,20,20,198.28,9.914,,0.2628,Whether title demand comes from broad or narrow customer reach.
+customer_breadth_profile,customer_breadth,no_observed_customer,,,customer_breadth_value_rank,4.0,5661,0,0,0,0,0.0,,,0.0,Whether title demand comes from broad or narrow customer reach.
+metadata_demand_profile,metadata_profile,English,2000_plus,mid_length_book,metadata_value_rank,1.0,2928,1437,1966,1966,1966,19680.24,10.0491,,26.0837,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,English,2000_plus,short_book,metadata_value_rank,2.0,1541,739,1033,1033,1032,10406.93,10.0651,,13.7931,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,English,2000_plus,long_book,metadata_value_rank,3.0,1266,637,846,846,845,8520.17,10.0783,,11.2924,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,English,1980_1999,mid_length_book,metadata_value_rank,4.0,1120,544,760,760,760,7734.11,10.1041,,10.2506,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,English,1980_1999,short_book,metadata_value_rank,5.0,676,310,439,439,439,4235.1,9.5821,,5.6131,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,English,1980_1999,long_book,metadata_value_rank,6.0,571,262,362,362,362,3475.35,9.6154,,4.6061,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,United States English,2000_plus,mid_length_book,metadata_value_rank,7.0,469,234,328,328,328,3395.77,10.5401,,4.5007,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,English,2000_plus,very_long_book,metadata_value_rank,8.0,337,180,246,246,246,2265.58,9.2512,,3.0027,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,United States English,2000_plus,short_book,metadata_value_rank,9.0,258,137,186,186,186,1833.68,10.0971,,2.4303,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,United States English,2000_plus,long_book,metadata_value_rank,10.0,232,126,165,165,165,1750.2,10.4991,,2.3197,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,English,1980_1999,very_long_book,metadata_value_rank,11.0,216,110,165,165,165,1659.96,10.0934,,2.2001,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,United States English,1980_1999,mid_length_book,metadata_value_rank,12.0,167,94,135,135,135,1280.95,9.3026,,1.6977,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,English,pre_1980,mid_length_book,metadata_value_rank,13.0,98,50,68,68,68,680.85,10.412,,0.9024,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,English,pre_1980,short_book,metadata_value_rank,14.0,93,43,67,67,67,608.25,9.0518,,0.8062,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,United States English,1980_1999,long_book,metadata_value_rank,15.0,74,41,61,61,61,593.17,10.0086,,0.7862,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,Spanish,2000_plus,mid_length_book,metadata_value_rank,16.0,69,39,58,58,58,537.65,9.0265,,0.7126,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,British English,2000_plus,short_book,metadata_value_rank,17.0,45,23,39,39,39,471.35,13.0717,,0.6247,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,Spanish,2000_plus,long_book,metadata_value_rank,18.0,75,36,48,48,48,461.24,9.614,,0.6113,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,United States English,1980_1999,short_book,metadata_value_rank,19.0,86,39,45,45,45,441.04,9.4712,,0.5845,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,United States English,2000_plus,very_long_book,metadata_value_rank,20.0,60,28,42,42,42,438.82,10.2358,,0.5816,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,British English,2000_plus,mid_length_book,metadata_value_rank,21.0,76,38,45,45,45,368.19,8.1649,,0.488,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,English,pre_1980,long_book,metadata_value_rank,22.0,54,25,33,33,33,359.51,11.1326,,0.4765,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,British English,2000_plus,long_book,metadata_value_rank,23.0,29,17,31,31,31,293.99,9.6105,,0.3896,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,Japanese,2000_plus,short_book,metadata_value_rank,24.0,32,15,25,25,25,246.6,9.7526,,0.3268,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,Spanish,2000_plus,short_book,metadata_value_rank,25.0,43,19,24,24,24,245.59,9.8703,,0.3255,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,British English,1980_1999,mid_length_book,metadata_value_rank,26.0,21,14,20,20,20,234.91,11.583,,0.3113,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,French,2000_plus,long_book,metadata_value_rank,27.0,24,11,20,20,20,217.48,11.6456,,0.2882,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,German,2000_plus,mid_length_book,metadata_value_rank,28.0,30,12,18,18,18,182.63,9.7381,,0.2421,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,French,2000_plus,mid_length_book,metadata_value_rank,29.0,36,17,20,20,20,179.46,9.5771,,0.2379,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,British English,1980_1999,long_book,metadata_value_rank,30.0,18,11,17,17,17,179.26,10.1781,,0.2376,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,French,2000_plus,short_book,metadata_value_rank,31.0,26,16,21,21,21,170.92,8.0394,,0.2265,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,German,2000_plus,long_book,metadata_value_rank,32.0,24,12,13,13,13,163.75,12.5304,,0.217,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,United States English,1980_1999,very_long_book,metadata_value_rank,33.0,18,8,12,12,12,107.39,10.8772,,0.1423,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,German,1980_1999,short_book,metadata_value_rank,34.0,12,6,8,8,8,91.03,10.9325,,0.1206,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,British English,1980_1999,short_book,metadata_value_rank,35.0,9,4,8,8,8,86.04,10.6983,,0.114,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,United States English,pre_1980,mid_length_book,metadata_value_rank,36.0,19,7,8,8,8,84.78,9.855,,0.1124,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,United States English,pre_1980,short_book,metadata_value_rank,37.0,13,6,9,9,9,80.41,8.5233,,0.1066,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,English,pre_1980,very_long_book,metadata_value_rank,38.0,11,5,8,8,8,78.06,10.671,,0.1035,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,Spanish,2000_plus,very_long_book,metadata_value_rank,39.0,11,6,7,7,7,76.74,10.8475,,0.1017,"Language, publication-era, and page-band context for title demand."
+metadata_demand_profile,metadata_profile,British English,2000_plus,very_long_book,metadata_value_rank,40.0,6,4,7,7,7,71.87,10.6375,,0.0953,"Language, publication-era, and page-band context for title demand."
+title_country_mix,title_country,200 Quilt Blocks: To Mix and Match,China,,country_rank_within_title,1.0,,,1,1,1,17.51,17.51,,40.9591,Destination-country mix for top observed titles.
+title_country_mix,title_country,"A Higher Justice (The Trials of Kit Shannon #5)",France,,country_rank_within_title,1.0,,,1,1,1,19.71,19.71,,34.2069,Destination-country mix for top observed titles.
+title_country_mix,title_country,"A Pinch of Snuff (Dalziel & Pascoe  #5)",Poland,,country_rank_within_title,1.0,,,1,1,1,18.43,18.43,,40.17,Destination-country mix for top observed titles.
+title_country_mix,title_country,Accordion Crimes,Russia,,country_rank_within_title,1.0,,,1,1,1,14.46,14.46,,35.3286,Destination-country mix for top observed titles.
+title_country_mix,title_country,Aeneid: Selections from Books 1  2  4  6  10  12,Indonesia,,country_rank_within_title,1.0,,,1,1,1,19.98,19.98,,51.3493,Destination-country mix for top observed titles.
+title_country_mix,title_country,Anleitung zum Zickigsein,Indonesia,,country_rank_within_title,1.0,,,1,1,1,18.09,18.09,,38.6704,Destination-country mix for top observed titles.
+title_country_mix,title_country,Are We There Yet?,Madagascar,,country_rank_within_title,1.0,,,1,1,1,18.75,18.75,,45.2134,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Betsy and Tacy Go Downtown (Betsy-Tacy  #4)",Netherlands,,country_rank_within_title,1.0,,,1,1,1,19.5,19.5,,45.8824,Destination-country mix for top observed titles.
+title_country_mix,title_country,Black Widow: Homecoming,Georgia,,country_rank_within_title,1.0,,,1,1,1,16.16,16.16,,35.184,Destination-country mix for top observed titles.
+title_country_mix,title_country,Camera Lucida: Reflections on Photography,Philippines,,country_rank_within_title,1.0,,,2,2,2,33.23,16.615,,75.3173,Destination-country mix for top observed titles.
+title_country_mix,title_country,Celebrations: Rituals of Peace and Prayer,China,,country_rank_within_title,1.0,,,1,1,1,18.45,18.45,,39.339,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Cities of the Plain (The Border Trilogy  #3)",Russia,,country_rank_within_title,1.0,,,3,3,3,34.23,11.41,,57.1166,Destination-country mix for top observed titles.
+title_country_mix,title_country,Close Range,Brazil,,country_rank_within_title,1.0,,,1,1,1,19.1,19.1,,41.2973,Destination-country mix for top observed titles.
+title_country_mix,title_country,Crime and Punishment,Portugal,,country_rank_within_title,1.0,,,1,1,1,16.15,16.15,,39.1231,Destination-country mix for top observed titles.
+title_country_mix,title_country,Daniel Deronda,China,,country_rank_within_title,1.0,,,1,1,1,17.8,17.8,,41.7057,Destination-country mix for top observed titles.
+title_country_mix,title_country,Different Seasons,China,,country_rank_within_title,1.0,,,2,2,2,33.61,16.805,,53.468,Destination-country mix for top observed titles.
+title_country_mix,title_country,Dostoevsky,South Africa,,country_rank_within_title,1.0,,,1,1,1,15.75,15.75,,34.9147,Destination-country mix for top observed titles.
+title_country_mix,title_country,Error humano,South Africa,,country_rank_within_title,1.0,,,1,1,1,17.15,17.15,,37.2179,Destination-country mix for top observed titles.
+title_country_mix,title_country,Falling Angel,Russia,,country_rank_within_title,1.0,,,1,1,1,17.56,17.56,,41.2594,Destination-country mix for top observed titles.
+title_country_mix,title_country,Fantastic Mr Fox,Ukraine,,country_rank_within_title,1.0,,,1,1,1,19.39,19.39,,49.3887,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Flight of the Nighthawks (The Darkwar Saga  #1)",Poland,,country_rank_within_title,1.0,,,2,2,2,33.83,16.915,,71.0416,Destination-country mix for top observed titles.
+title_country_mix,title_country,Full House: The Spread of Excellence from Plato to Darwin,China,,country_rank_within_title,1.0,,,1,1,1,16.45,16.45,,31.5921,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Fullmetal Alchemist  Vol. 5 (Fullmetal Alchemist  #5)",Slovenia,,country_rank_within_title,1.0,,,1,1,1,19.32,19.32,,50.2601,Destination-country mix for top observed titles.
+title_country_mix,title_country,Galápagos,Bhutan,,country_rank_within_title,1.0,,,1,1,1,18.22,18.22,,47.5222,Destination-country mix for top observed titles.
+title_country_mix,title_country,Genetics and the Origin of Species,Germany,,country_rank_within_title,1.0,,,1,1,1,18.55,18.55,,45.6897,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Gilda Joyce: Psychic Investigator (Gilda Joyce  #1)",Indonesia,,country_rank_within_title,1.0,,,1,1,1,16.79,16.79,,42.017,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Happy Are the Peace Makers (Blackie Ryan  #5)",Indonesia,,country_rank_within_title,1.0,,,3,3,3,42.58,14.1933,,100.0,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Hard Eight (Stephanie Plum  #8)",Indonesia,,country_rank_within_title,1.0,,,1,1,1,18.59,18.59,,39.2691,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Hidden Leaves (De Beers  #5)",China,,country_rank_within_title,1.0,,,2,2,2,30.05,15.025,,71.4116,Destination-country mix for top observed titles.
+title_country_mix,title_country,"How ""Natives"" Think: About Captain Cook  For Example",Indonesia,,country_rank_within_title,1.0,,,1,1,1,19.73,19.73,,48.4053,Destination-country mix for top observed titles.
+title_country_mix,title_country,How to Travel with a Salmon and Other Essays,China,,country_rank_within_title,1.0,,,1,1,1,17.9,17.9,,43.3939,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Hyperion (Los Cantos de Hyperion  #1)",China,,country_rank_within_title,1.0,,,1,1,1,19.13,19.13,,49.3296,Destination-country mix for top observed titles.
+title_country_mix,title_country,Identity,Poland,,country_rank_within_title,1.0,,,1,1,1,19.48,19.48,,27.6312,Destination-country mix for top observed titles.
+title_country_mix,title_country,In Pharaoh's Army: Memories of the Lost War,Russia,,country_rank_within_title,1.0,,,1,1,1,19.0,19.0,,46.0718,Destination-country mix for top observed titles.
+title_country_mix,title_country,"King Solomon's Mines (Allan Quatermain  #1)",Vietnam,,country_rank_within_title,1.0,,,1,1,1,18.83,18.83,,45.8821,Destination-country mix for top observed titles.
+title_country_mix,title_country,Lies My Teacher Told Me about Christopher Columbus: What Your History Books Got Wrong,Peru,,country_rank_within_title,1.0,,,1,1,1,19.9,19.9,,49.4164,Destination-country mix for top observed titles.
+title_country_mix,title_country,Life of Pi,China,,country_rank_within_title,1.0,,,1,1,1,17.15,17.15,,43.5832,Destination-country mix for top observed titles.
+title_country_mix,title_country,Love-Lies-Bleeding,China,,country_rank_within_title,1.0,,,2,2,2,24.67,12.335,,57.0801,Destination-country mix for top observed titles.
+title_country_mix,title_country,Moo  Baa  La La La!,Armenia,,country_rank_within_title,1.0,,,1,1,1,19.04,19.04,,46.0126,Destination-country mix for top observed titles.
+title_country_mix,title_country,"My Ishmael (Ishmael  #3)",United States of America,,country_rank_within_title,1.0,,,1,1,1,19.81,19.81,,50.2027,Destination-country mix for top observed titles.
+title_country_mix,title_country,Nickel and Dimed: On (Not) Getting by in America,Colombia,,country_rank_within_title,1.0,,,1,1,1,18.97,18.97,,44.8675,Destination-country mix for top observed titles.
+title_country_mix,title_country,O Xará,Brazil,,country_rank_within_title,1.0,,,1,1,1,18.23,18.23,,34.7635,Destination-country mix for top observed titles.
+title_country_mix,title_country,Pies and Tarts,China,,country_rank_within_title,1.0,,,1,1,1,18.89,18.89,,35.9604,Destination-country mix for top observed titles.
+title_country_mix,title_country,Preface to the Phenomenology of Spirit,Taiwan,,country_rank_within_title,1.0,,,1,1,1,18.92,18.92,,40.4446,Destination-country mix for top observed titles.
+title_country_mix,title_country,Raising the Bar: Ministry to Youth in the New Millennium,Myanmar,,country_rank_within_title,1.0,,,1,1,1,16.13,16.13,,39.8173,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Reversible Errors (Kindle County Legal Thriller #6)",China,,country_rank_within_title,1.0,,,1,1,1,19.75,19.75,,41.4394,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Ring of Fire (Ring of Fire Anthology  #1)",Uzbekistan,,country_rank_within_title,1.0,,,1,1,1,13.9,13.9,,27.8501,Destination-country mix for top observed titles.
+title_country_mix,title_country,Rose of No Man's Land,Cameroon,,country_rank_within_title,1.0,,,1,1,1,16.67,16.67,,39.9377,Destination-country mix for top observed titles.
+title_country_mix,title_country,Schopenhauer: A Very Short Introduction,China,,country_rank_within_title,1.0,,,2,2,2,21.42,10.71,,48.1457,Destination-country mix for top observed titles.
+title_country_mix,title_country,Secret for a Nightingale,Ecuador,,country_rank_within_title,1.0,,,1,1,1,19.06,19.06,,37.1902,Destination-country mix for top observed titles.
+title_country_mix,title_country,Seduction by Design,Indonesia,,country_rank_within_title,1.0,,,1,1,1,15.96,15.96,,37.6771,Destination-country mix for top observed titles.
+title_country_mix,title_country,SeinLanguage,China,,country_rank_within_title,1.0,,,1,1,1,19.14,19.14,,36.73,Destination-country mix for top observed titles.
+title_country_mix,title_country,Skylight Confessions,Indonesia,,country_rank_within_title,1.0,,,1,1,1,19.5,19.5,,38.6751,Destination-country mix for top observed titles.
+title_country_mix,title_country,Spares,France,,country_rank_within_title,1.0,,,1,1,1,18.23,18.23,,34.177,Destination-country mix for top observed titles.
+title_country_mix,title_country,Study Guide to Accompany Brunner and Suddarth's Textbook of Medical-Surgical Nursing,Honduras,,country_rank_within_title,1.0,,,1,1,1,19.98,19.98,,43.9604,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Territoires (Le talisman des territoires  #2)",Indonesia,,country_rank_within_title,1.0,,,1,1,1,18.43,18.43,,39.6771,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Architecture of Happiness,Indonesia,,country_rank_within_title,1.0,,,2,2,2,38.3,19.15,,71.4153,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Bible Cure For Diabetes,Poland,,country_rank_within_title,1.0,,,1,1,1,14.5,14.5,,35.0411,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Bluest Eye,Armenia,,country_rank_within_title,1.0,,,1,1,1,19.39,19.39,,46.4209,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Book of Five Rings,Pakistan,,country_rank_within_title,1.0,,,1,1,1,14.69,14.69,,37.7635,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Cat Who Walks Through Walls (The World As Myth),Czech Republic,,country_rank_within_title,1.0,,,2,2,2,26.85,13.425,,59.024,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Communist Manifesto,Madagascar,,country_rank_within_title,1.0,,,1,1,1,19.56,19.56,,50.0,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Complete Works: The Revised Oxford Translation  Vol. 1,Russia,,country_rank_within_title,1.0,,,2,2,2,15.19,7.595,,39.5985,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Dive from Clausen's Pier,Canada,,country_rank_within_title,1.0,,,1,1,1,17.68,17.68,,45.9579,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Door Into Summer,Morocco,,country_rank_within_title,1.0,,,1,1,1,17.0,17.0,,39.0894,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The End of Days (The Earth Chronicles  #7)",Indonesia,,country_rank_within_title,1.0,,,2,2,2,33.0,16.5,,68.9511,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Feminine Mystique,Germany,,country_rank_within_title,1.0,,,1,1,1,19.91,19.91,,48.4193,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Grail: A Year Ambling & Shambling Through an Oregon Vineyard in Pursuit of the Best Pinot Noir Wine in the Whole Wild World,China,,country_rank_within_title,1.0,,,1,1,1,14.73,14.73,,38.4194,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Hour Before Dark,United States of America,,country_rank_within_title,1.0,,,1,1,1,15.84,15.84,,38.013,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Illustrated Book of Ballet Stories (with CD),Ecuador,,country_rank_within_title,1.0,,,1,1,1,17.15,17.15,,44.4646,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Keeper's Companion 2: Prohibition  Firearms  Tomes  & Creatures (Call of Cthulhu RPG),China,,country_rank_within_title,1.0,,,2,2,2,22.77,11.385,,58.6251,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Killer Angels,Morocco,,country_rank_within_title,1.0,,,1,1,1,19.36,19.36,,49.7814,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Last Book of Swords: Shieldbreaker's Story (Lost Swords  #8)",Kenya,,country_rank_within_title,1.0,,,1,1,1,19.18,19.18,,41.1853,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Picture of Dorian Gray,China,,country_rank_within_title,1.0,,,1,1,1,15.79,15.79,,39.7633,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Prophet,Haiti,,country_rank_within_title,1.0,,,1,1,1,18.77,18.77,,30.9124,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Queen of Whale Cay: The Eccentric Story of 'Joe' Carstairs  Fastest Woman on Water,Russia,,country_rank_within_title,1.0,,,1,1,1,19.38,19.38,,39.8683,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Raphael Affair (Jonathan Argyll  #1)",Brazil,,country_rank_within_title,1.0,,,1,1,1,19.07,19.07,,36.1037,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Real Jimmy Carter: How Our Worst Ex-President Undermines American Foreign Policy  Coddles Dictators and Created the Party of Clinton and Kerry,China,,country_rank_within_title,1.0,,,2,2,2,34.06,17.03,,65.0,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Right Attitude to Rain (Isabel Dalhousie  #3)",Thailand,,country_rank_within_title,1.0,,,1,1,1,18.71,18.71,,31.7819,Destination-country mix for top observed titles.
+title_country_mix,title_country,The River at the Center of the World: A Journey Up the Yangtze & Back in Chinese Time,Indonesia,,country_rank_within_title,1.0,,,1,1,1,19.68,19.68,,50.0509,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Secret Lives of Men and Women: A PostSecret Book,Thailand,,country_rank_within_title,1.0,,,1,1,1,19.14,19.14,,48.0784,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Shadow Rising (The Wheel of Time  #4)",China,,country_rank_within_title,1.0,,,3,3,3,50.22,16.74,,91.5588,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Stone Fey,Indonesia,,country_rank_within_title,1.0,,,2,2,2,36.07,18.035,,72.0967,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Suppliant Maidens/The Persians/Seven against Thebes/Prometheus Bound,Indonesia,,country_rank_within_title,1.0,,,2,2,2,21.77,10.885,,52.0689,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Teeth of the Tiger (Jack Ryan Universe  #12)",Indonesia,,country_rank_within_title,1.0,,,1,1,1,19.0,19.0,,49.0323,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Voices of Morebath: Reformation and Rebellion in an English Village,Russia,,country_rank_within_title,1.0,,,2,2,2,38.36,19.18,,100.0,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Wealthy Barber: Everyone's Common-Sense Guide to Becoming Financially Independent,Poland,,country_rank_within_title,1.0,,,1,1,1,19.93,19.93,,40.74,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Working Poor: Invisible in America,Costa Rica,,country_rank_within_title,1.0,,,1,1,1,19.79,19.79,,50.3819,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Zucchini Warriors (Macdonald Hall  #5)",Belarus,,country_rank_within_title,1.0,,,1,1,1,18.58,18.58,,35.4648,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Time for the Stars (Heinlein's Juveniles  #10)",Netherlands,,country_rank_within_title,1.0,,,1,1,1,18.41,18.41,,41.0571,Destination-country mix for top observed titles.
+title_country_mix,title_country,Tinsel,Poland,,country_rank_within_title,1.0,,,1,1,1,18.1,18.1,,38.2098,Destination-country mix for top observed titles.
+title_country_mix,title_country,Tortilla Flat,China,,country_rank_within_title,1.0,,,1,1,1,16.6,16.6,,41.7085,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Unicorn Point (Apprentice Adept #6)",China,,country_rank_within_title,1.0,,,3,3,3,40.03,13.3433,,100.0,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Vale of the Vole (Xanth #10)",Mali,,country_rank_within_title,1.0,,,1,1,1,17.69,17.69,,45.6516,Destination-country mix for top observed titles.
+title_country_mix,title_country,Watership Down,Brazil,,country_rank_within_title,1.0,,,2,2,2,26.83,13.415,,46.596,Destination-country mix for top observed titles.
+title_country_mix,title_country,What Life Was Like in the Jewel in the Crown: British India  AD 1600-1905,New Zealand,,country_rank_within_title,1.0,,,1,1,1,17.39,17.39,,38.5673,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Wind Rider's Oath (War God  #3)",Pakistan,,country_rank_within_title,1.0,,,1,1,1,16.13,16.13,,37.4507,Destination-country mix for top observed titles.
+title_country_mix,title_country,Wolf Willow,Uganda,,country_rank_within_title,1.0,,,1,1,1,16.98,16.98,,34.2546,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Writings to Young Women on Laura Ingalls Wilder: As Told By Her Family  Friends  and Neighbors (Writings to Young Women on Laura Ingalls Wilder #3)",Haiti,,country_rank_within_title,1.0,,,1,1,1,18.33,18.33,,44.3182,Destination-country mix for top observed titles.
+title_country_mix,title_country,犬夜叉 17,Indonesia,,country_rank_within_title,1.0,,,1,1,1,13.85,13.85,,32.8277,Destination-country mix for top observed titles.
+title_country_mix,title_country,200 Quilt Blocks: To Mix and Match,Japan,,country_rank_within_title,2.0,,,1,1,1,11.25,11.25,,26.3158,Destination-country mix for top observed titles.
+title_country_mix,title_country,"A Higher Justice (The Trials of Kit Shannon #5)",China,,country_rank_within_title,2.0,,,1,1,1,17.31,17.31,,30.0417,Destination-country mix for top observed titles.
+title_country_mix,title_country,"A Pinch of Snuff (Dalziel & Pascoe  #5)",Pakistan,,country_rank_within_title,2.0,,,1,1,1,18.13,18.13,,39.5161,Destination-country mix for top observed titles.
+title_country_mix,title_country,Accordion Crimes,Sweden,,country_rank_within_title,2.0,,,1,1,1,13.27,13.27,,32.4212,Destination-country mix for top observed titles.
+title_country_mix,title_country,Aeneid: Selections from Books 1  2  4  6  10  12,Armenia,,country_rank_within_title,2.0,,,1,1,1,18.93,18.93,,48.6507,Destination-country mix for top observed titles.
+title_country_mix,title_country,Anleitung zum Zickigsein,China,,country_rank_within_title,2.0,,,1,1,1,14.91,14.91,,31.8726,Destination-country mix for top observed titles.
+title_country_mix,title_country,Are We There Yet?,Morocco,,country_rank_within_title,2.0,,,1,1,1,15.25,15.25,,36.7736,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Betsy and Tacy Go Downtown (Betsy-Tacy  #4)",China,,country_rank_within_title,2.0,,,1,1,1,14.77,14.77,,34.7529,Destination-country mix for top observed titles.
+title_country_mix,title_country,Black Widow: Homecoming,China,,country_rank_within_title,2.0,,,1,1,1,12.86,12.86,,27.9991,Destination-country mix for top observed titles.
+title_country_mix,title_country,Camera Lucida: Reflections on Photography,Guatemala,,country_rank_within_title,2.0,,,1,1,1,10.89,10.89,,24.6827,Destination-country mix for top observed titles.
+title_country_mix,title_country,Celebrations: Rituals of Peace and Prayer,Indonesia,,country_rank_within_title,2.0,,,1,1,1,16.18,16.18,,34.4989,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Cities of the Plain (The Border Trilogy  #3)",Costa Rica,,country_rank_within_title,2.0,,,1,1,1,17.88,17.88,,29.8348,Destination-country mix for top observed titles.
+title_country_mix,title_country,Close Range,China,,country_rank_within_title,2.0,,,1,1,1,17.4,17.4,,37.6216,Destination-country mix for top observed titles.
+title_country_mix,title_country,Crime and Punishment,Russia,,country_rank_within_title,2.0,,,1,1,1,14.16,14.16,,34.3023,Destination-country mix for top observed titles.
+title_country_mix,title_country,Daniel Deronda,Peru,,country_rank_within_title,2.0,,,1,1,1,13.29,13.29,,31.1387,Destination-country mix for top observed titles.
+title_country_mix,title_country,Different Seasons,United States of America,,country_rank_within_title,2.0,,,2,2,2,23.27,11.635,,37.0188,Destination-country mix for top observed titles.
+title_country_mix,title_country,Dostoevsky,Armenia,,country_rank_within_title,2.0,,,1,1,1,14.99,14.99,,33.2299,Destination-country mix for top observed titles.
+title_country_mix,title_country,Error humano,Indonesia,,country_rank_within_title,2.0,,,1,1,1,16.29,16.29,,35.3516,Destination-country mix for top observed titles.
+title_country_mix,title_country,Falling Angel,Poland,,country_rank_within_title,2.0,,,1,1,1,17.42,17.42,,40.9305,Destination-country mix for top observed titles.
+title_country_mix,title_country,Fantastic Mr Fox,Portugal,,country_rank_within_title,2.0,,,1,1,1,11.72,11.72,,29.8523,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Flight of the Nighthawks (The Darkwar Saga  #1)",Morocco,,country_rank_within_title,2.0,,,1,1,1,13.79,13.79,,28.9584,Destination-country mix for top observed titles.
+title_country_mix,title_country,Full House: The Spread of Excellence from Plato to Darwin,Russia,,country_rank_within_title,2.0,,,1,1,1,15.98,15.98,,30.6895,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Fullmetal Alchemist  Vol. 5 (Fullmetal Alchemist  #5)",Philippines,,country_rank_within_title,2.0,,,1,1,1,19.12,19.12,,49.7399,Destination-country mix for top observed titles.
+title_country_mix,title_country,Galápagos,China,,country_rank_within_title,2.0,,,1,1,1,15.68,15.68,,40.8972,Destination-country mix for top observed titles.
+title_country_mix,title_country,Genetics and the Origin of Species,Japan,,country_rank_within_title,2.0,,,1,1,1,11.92,11.92,,29.3596,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Gilda Joyce: Psychic Investigator (Gilda Joyce  #1)",United States of America,,country_rank_within_title,2.0,,,1,1,1,11.94,11.94,,29.8799,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Hard Eight (Stephanie Plum  #8)",Philippines,,country_rank_within_title,2.0,,,1,1,1,15.6,15.6,,32.9531,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Hidden Leaves (De Beers  #5)",New Zealand,,country_rank_within_title,2.0,,,1,1,1,12.03,12.03,,28.5884,Destination-country mix for top observed titles.
+title_country_mix,title_country,"How ""Natives"" Think: About Captain Cook  For Example",Nigeria,,country_rank_within_title,2.0,,,1,1,1,11.77,11.77,,28.8763,Destination-country mix for top observed titles.
+title_country_mix,title_country,How to Travel with a Salmon and Other Essays,United States of America,,country_rank_within_title,2.0,,,1,1,1,14.88,14.88,,36.0727,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Hyperion (Los Cantos de Hyperion  #1)",Brazil,,country_rank_within_title,2.0,,,1,1,1,14.68,14.68,,37.8546,Destination-country mix for top observed titles.
+title_country_mix,title_country,Identity,Russia,,country_rank_within_title,2.0,,,1,1,1,18.21,18.21,,25.8298,Destination-country mix for top observed titles.
+title_country_mix,title_country,In Pharaoh's Army: Memories of the Lost War,Macedonia,,country_rank_within_title,2.0,,,1,1,1,13.12,13.12,,31.8138,Destination-country mix for top observed titles.
+title_country_mix,title_country,"King Solomon's Mines (Allan Quatermain  #1)",Canada,,country_rank_within_title,2.0,,,1,1,1,12.43,12.43,,30.2875,Destination-country mix for top observed titles.
+title_country_mix,title_country,Lies My Teacher Told Me about Christopher Columbus: What Your History Books Got Wrong,United States of America,,country_rank_within_title,2.0,,,1,1,1,11.8,11.8,,29.3022,Destination-country mix for top observed titles.
+title_country_mix,title_country,Life of Pi,Brazil,,country_rank_within_title,2.0,,,1,1,1,15.9,15.9,,40.4066,Destination-country mix for top observed titles.
+title_country_mix,title_country,Love-Lies-Bleeding,Indonesia,,country_rank_within_title,2.0,,,1,1,1,18.55,18.55,,42.9199,Destination-country mix for top observed titles.
+title_country_mix,title_country,Moo  Baa  La La La!,Morocco,,country_rank_within_title,2.0,,,1,1,1,10.81,10.81,,26.1237,Destination-country mix for top observed titles.
+title_country_mix,title_country,"My Ishmael (Ishmael  #3)",Indonesia,,country_rank_within_title,2.0,,,1,1,1,17.13,17.13,,43.411,Destination-country mix for top observed titles.
+title_country_mix,title_country,Nickel and Dimed: On (Not) Getting by in America,Russia,,country_rank_within_title,2.0,,,1,1,1,16.6,16.6,,39.2621,Destination-country mix for top observed titles.
+title_country_mix,title_country,O Xará,Norway,,country_rank_within_title,2.0,,,1,1,1,18.22,18.22,,34.7445,Destination-country mix for top observed titles.
+title_country_mix,title_country,Pies and Tarts,Russia,,country_rank_within_title,2.0,,,1,1,1,15.03,15.03,,28.6122,Destination-country mix for top observed titles.
+title_country_mix,title_country,Preface to the Phenomenology of Spirit,Brazil,,country_rank_within_title,2.0,,,1,1,1,15.74,15.74,,33.6469,Destination-country mix for top observed titles.
+title_country_mix,title_country,Raising the Bar: Ministry to Youth in the New Millennium,Indonesia,,country_rank_within_title,2.0,,,1,1,1,9.47,9.47,,23.3769,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Reversible Errors (Kindle County Legal Thriller #6)",Ukraine,,country_rank_within_title,2.0,,,1,1,1,15.76,15.76,,33.0676,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Ring of Fire (Ring of Fire Anthology  #1)",Philippines,,country_rank_within_title,2.0,,,1,1,1,13.38,13.38,,26.8083,Destination-country mix for top observed titles.
+title_country_mix,title_country,Rose of No Man's Land,China,,country_rank_within_title,2.0,,,1,1,1,14.01,14.01,,33.5649,Destination-country mix for top observed titles.
+title_country_mix,title_country,Schopenhauer: A Very Short Introduction,Ireland,,country_rank_within_title,2.0,,,1,1,1,19.47,19.47,,43.7626,Destination-country mix for top observed titles.
+title_country_mix,title_country,Secret for a Nightingale,China,,country_rank_within_title,2.0,,,1,1,1,16.25,16.25,,31.7073,Destination-country mix for top observed titles.
+title_country_mix,title_country,Seduction by Design,China,,country_rank_within_title,2.0,,,1,1,1,13.7,13.7,,32.3418,Destination-country mix for top observed titles.
+title_country_mix,title_country,SeinLanguage,United States of America,,country_rank_within_title,2.0,,,1,1,1,16.69,16.69,,32.0284,Destination-country mix for top observed titles.
+title_country_mix,title_country,Skylight Confessions,Haiti,,country_rank_within_title,2.0,,,1,1,1,16.67,16.67,,33.0623,Destination-country mix for top observed titles.
+title_country_mix,title_country,Spares,China,,country_rank_within_title,2.0,,,1,1,1,17.95,17.95,,33.652,Destination-country mix for top observed titles.
+title_country_mix,title_country,Study Guide to Accompany Brunner and Suddarth's Textbook of Medical-Surgical Nursing,China,,country_rank_within_title,2.0,,,1,1,1,14.24,14.24,,31.3311,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Territoires (Le talisman des territoires  #2)",Czech Republic,,country_rank_within_title,2.0,,,1,1,1,18.26,18.26,,39.3111,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Architecture of Happiness,Russia,,country_rank_within_title,2.0,,,1,1,1,15.33,15.33,,28.5847,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Bible Cure For Diabetes,Japan,,country_rank_within_title,2.0,,,1,1,1,11.92,11.92,,28.8062,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Bluest Eye,Venezuela,,country_rank_within_title,2.0,,,1,1,1,14.63,14.63,,35.0251,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Book of Five Rings,United States of America,,country_rank_within_title,2.0,,,1,1,1,13.51,13.51,,34.7301,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Cat Who Walks Through Walls (The World As Myth),Indonesia,,country_rank_within_title,2.0,,,1,1,1,18.64,18.64,,40.976,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Communist Manifesto,Portugal,,country_rank_within_title,2.0,,,1,1,1,19.56,19.56,,50.0,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Complete Works: The Revised Oxford Translation  Vol. 1,Peru,,country_rank_within_title,2.0,,,1,1,1,15.11,15.11,,39.39,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Dive from Clausen's Pier,Mali,,country_rank_within_title,2.0,,,1,1,1,13.95,13.95,,36.262,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Door Into Summer,China,,country_rank_within_title,2.0,,,1,1,1,14.96,14.96,,34.3987,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The End of Days (The Earth Chronicles  #7)",Peru,,country_rank_within_title,2.0,,,1,1,1,14.86,14.86,,31.0489,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Feminine Mystique,Philippines,,country_rank_within_title,2.0,,,1,1,1,10.69,10.69,,25.9971,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Grail: A Year Ambling & Shambling Through an Oregon Vineyard in Pursuit of the Best Pinot Noir Wine in the Whole Wild World,Armenia,,country_rank_within_title,2.0,,,1,1,1,9.67,9.67,,25.2217,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Hour Before Dark,Colombia,,country_rank_within_title,2.0,,,1,1,1,9.55,9.55,,22.9182,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Illustrated Book of Ballet Stories (with CD),China,,country_rank_within_title,2.0,,,1,1,1,11.12,11.12,,28.8307,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Keeper's Companion 2: Prohibition  Firearms  Tomes  & Creatures (Call of Cthulhu RPG),Madagascar,,country_rank_within_title,2.0,,,1,1,1,16.07,16.07,,41.3749,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Killer Angels,China,,country_rank_within_title,2.0,,,1,1,1,15.86,15.86,,40.7817,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Last Book of Swords: Shieldbreaker's Story (Lost Swords  #8)",Belarus,,country_rank_within_title,2.0,,,1,1,1,18.21,18.21,,39.1024,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Picture of Dorian Gray,Samoa,,country_rank_within_title,2.0,,,1,1,1,13.72,13.72,,34.5505,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Prophet,Serbia,,country_rank_within_title,2.0,,,1,1,1,15.23,15.23,,25.0823,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Queen of Whale Cay: The Eccentric Story of 'Joe' Carstairs  Fastest Woman on Water,Brazil,,country_rank_within_title,2.0,,,1,1,1,18.85,18.85,,38.778,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Raphael Affair (Jonathan Argyll  #1)",Peru,,country_rank_within_title,2.0,,,1,1,1,17.18,17.18,,32.5256,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Real Jimmy Carter: How Our Worst Ex-President Undermines American Foreign Policy  Coddles Dictators and Created the Party of Clinton and Kerry,Indonesia,,country_rank_within_title,2.0,,,1,1,1,9.3,9.3,,17.7481,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Right Attitude to Rain (Isabel Dalhousie  #3)",France,,country_rank_within_title,2.0,,,1,1,1,18.48,18.48,,31.3912,Destination-country mix for top observed titles.
+title_country_mix,title_country,The River at the Center of the World: A Journey Up the Yangtze & Back in Chinese Time,China,,country_rank_within_title,2.0,,,1,1,1,19.64,19.64,,49.9491,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Secret Lives of Men and Women: A PostSecret Book,Ukraine,,country_rank_within_title,2.0,,,1,1,1,14.73,14.73,,37.0008,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Shadow Rising (The Wheel of Time  #4)",Russia,,country_rank_within_title,2.0,,,1,1,1,4.63,4.63,,8.4412,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Stone Fey,France,,country_rank_within_title,2.0,,,1,1,1,9.32,9.32,,18.6288,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Suppliant Maidens/The Persians/Seven against Thebes/Prometheus Bound,China,,country_rank_within_title,2.0,,,1,1,1,14.27,14.27,,34.1306,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Teeth of the Tiger (Jack Ryan Universe  #12)",Czech Republic,,country_rank_within_title,2.0,,,1,1,1,17.44,17.44,,45.0065,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Wealthy Barber: Everyone's Common-Sense Guide to Becoming Financially Independent,Russia,,country_rank_within_title,2.0,,,1,1,1,16.0,16.0,,32.7065,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Working Poor: Invisible in America,China,,country_rank_within_title,2.0,,,1,1,1,19.49,19.49,,49.6181,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Zucchini Warriors (Macdonald Hall  #5)",Afghanistan,,country_rank_within_title,2.0,,,1,1,1,14.66,14.66,,27.9824,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Time for the Stars (Heinlein's Juveniles  #10)",Philippines,,country_rank_within_title,2.0,,,1,1,1,15.8,15.8,,35.2364,Destination-country mix for top observed titles.
+title_country_mix,title_country,Tinsel,Czech Republic,,country_rank_within_title,2.0,,,1,1,1,15.73,15.73,,33.2067,Destination-country mix for top observed titles.
+title_country_mix,title_country,Tortilla Flat,Brazil,,country_rank_within_title,2.0,,,1,1,1,9.04,9.04,,22.7136,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Vale of the Vole (Xanth #10)",United States of America,,country_rank_within_title,2.0,,,1,1,1,10.99,10.99,,28.3613,Destination-country mix for top observed titles.
+title_country_mix,title_country,Watership Down,Morocco,,country_rank_within_title,2.0,,,1,1,1,19.49,19.49,,33.8486,Destination-country mix for top observed titles.
+title_country_mix,title_country,What Life Was Like in the Jewel in the Crown: British India  AD 1600-1905,Afghanistan,,country_rank_within_title,2.0,,,1,1,1,14.0,14.0,,31.049,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Wind Rider's Oath (War God  #3)",Mali,,country_rank_within_title,2.0,,,1,1,1,13.85,13.85,,32.157,Destination-country mix for top observed titles.
+title_country_mix,title_country,Wolf Willow,Greece,,country_rank_within_title,2.0,,,1,1,1,16.65,16.65,,33.5889,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Writings to Young Women on Laura Ingalls Wilder: As Told By Her Family  Friends  and Neighbors (Writings to Young Women on Laura Ingalls Wilder #3)",United States of America,,country_rank_within_title,2.0,,,1,1,1,13.85,13.85,,33.4865,Destination-country mix for top observed titles.
+title_country_mix,title_country,犬夜叉 17,China,,country_rank_within_title,2.0,,,1,1,1,13.5,13.5,,31.9981,Destination-country mix for top observed titles.
+title_country_mix,title_country,200 Quilt Blocks: To Mix and Match,Ukraine,,country_rank_within_title,3.0,,,1,1,1,9.64,9.64,,22.5497,Destination-country mix for top observed titles.
+title_country_mix,title_country,"A Higher Justice (The Trials of Kit Shannon #5)",United States of America,,country_rank_within_title,3.0,,,1,1,1,17.14,17.14,,29.7466,Destination-country mix for top observed titles.
+title_country_mix,title_country,"A Pinch of Snuff (Dalziel & Pascoe  #5)",Russia,,country_rank_within_title,3.0,,,1,1,1,9.32,9.32,,20.3139,Destination-country mix for top observed titles.
+title_country_mix,title_country,Accordion Crimes,China,,country_rank_within_title,3.0,,,1,1,1,13.2,13.2,,32.2502,Destination-country mix for top observed titles.
+title_country_mix,title_country,Anleitung zum Zickigsein,Sweden,,country_rank_within_title,3.0,,,1,1,1,8.69,8.69,,18.5763,Destination-country mix for top observed titles.
+title_country_mix,title_country,Are We There Yet?,Hungary,,country_rank_within_title,3.0,,,1,1,1,7.47,7.47,,18.013,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Betsy and Tacy Go Downtown (Betsy-Tacy  #4)",Indonesia,,country_rank_within_title,3.0,,,1,1,1,8.23,8.23,,19.3647,Destination-country mix for top observed titles.
+title_country_mix,title_country,Black Widow: Homecoming,Philippines,,country_rank_within_title,3.0,,,1,1,1,12.54,12.54,,27.3024,Destination-country mix for top observed titles.
+title_country_mix,title_country,Celebrations: Rituals of Peace and Prayer,Kenya,,country_rank_within_title,3.0,,,1,1,1,12.27,12.27,,26.162,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Cities of the Plain (The Border Trilogy  #3)",Brazil,,country_rank_within_title,3.0,,,1,1,1,7.82,7.82,,13.0486,Destination-country mix for top observed titles.
+title_country_mix,title_country,Close Range,Russia,,country_rank_within_title,3.0,,,1,1,1,9.75,9.75,,21.0811,Destination-country mix for top observed titles.
+title_country_mix,title_country,Crime and Punishment,China,,country_rank_within_title,3.0,,,1,1,1,10.97,10.97,,26.5746,Destination-country mix for top observed titles.
+title_country_mix,title_country,Daniel Deronda,Hungary,,country_rank_within_title,3.0,,,1,1,1,11.59,11.59,,27.1556,Destination-country mix for top observed titles.
+title_country_mix,title_country,Different Seasons,Brazil,,country_rank_within_title,3.0,,,1,1,1,5.98,5.98,,9.5132,Destination-country mix for top observed titles.
+title_country_mix,title_country,Dostoevsky,China,,country_rank_within_title,3.0,,,1,1,1,14.37,14.37,,31.8555,Destination-country mix for top observed titles.
+title_country_mix,title_country,Error humano,Vietnam,,country_rank_within_title,3.0,,,1,1,1,12.64,12.64,,27.4306,Destination-country mix for top observed titles.
+title_country_mix,title_country,Falling Angel,China,,country_rank_within_title,3.0,,,1,1,1,7.58,7.58,,17.8102,Destination-country mix for top observed titles.
+title_country_mix,title_country,Fantastic Mr Fox,Colombia,,country_rank_within_title,3.0,,,1,1,1,8.15,8.15,,20.759,Destination-country mix for top observed titles.
+title_country_mix,title_country,Full House: The Spread of Excellence from Plato to Darwin,Brazil,,country_rank_within_title,3.0,,,1,1,1,13.34,13.34,,25.6194,Destination-country mix for top observed titles.
+title_country_mix,title_country,Galápagos,South Africa,,country_rank_within_title,3.0,,,1,1,1,4.44,4.44,,11.5806,Destination-country mix for top observed titles.
+title_country_mix,title_country,Genetics and the Origin of Species,China,,country_rank_within_title,3.0,,,1,1,1,10.13,10.13,,24.9507,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Gilda Joyce: Psychic Investigator (Gilda Joyce  #1)",Poland,,country_rank_within_title,3.0,,,1,1,1,11.23,11.23,,28.1031,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Hard Eight (Stephanie Plum  #8)",Costa Rica,,country_rank_within_title,3.0,,,1,1,1,13.15,13.15,,27.7778,Destination-country mix for top observed titles.
+title_country_mix,title_country,"How ""Natives"" Think: About Captain Cook  For Example",United States of America,,country_rank_within_title,3.0,,,1,1,1,9.26,9.26,,22.7184,Destination-country mix for top observed titles.
+title_country_mix,title_country,How to Travel with a Salmon and Other Essays,Nigeria,,country_rank_within_title,3.0,,,1,1,1,8.47,8.47,,20.5333,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Hyperion (Los Cantos de Hyperion  #1)",Iran,,country_rank_within_title,3.0,,,1,1,1,4.97,4.97,,12.8159,Destination-country mix for top observed titles.
+title_country_mix,title_country,Identity,Indonesia,,country_rank_within_title,3.0,,,1,1,1,16.8,16.8,,23.8298,Destination-country mix for top observed titles.
+title_country_mix,title_country,In Pharaoh's Army: Memories of the Lost War,Indonesia,,country_rank_within_title,3.0,,,1,1,1,9.12,9.12,,22.1145,Destination-country mix for top observed titles.
+title_country_mix,title_country,"King Solomon's Mines (Allan Quatermain  #1)",Indonesia,,country_rank_within_title,3.0,,,1,1,1,9.78,9.78,,23.8304,Destination-country mix for top observed titles.
+title_country_mix,title_country,Lies My Teacher Told Me about Christopher Columbus: What Your History Books Got Wrong,Thailand,,country_rank_within_title,3.0,,,1,1,1,8.57,8.57,,21.2814,Destination-country mix for top observed titles.
+title_country_mix,title_country,Life of Pi,Indonesia,,country_rank_within_title,3.0,,,1,1,1,6.3,6.3,,16.0102,Destination-country mix for top observed titles.
+title_country_mix,title_country,Moo  Baa  La La La!,France,,country_rank_within_title,3.0,,,1,1,1,10.46,10.46,,25.2779,Destination-country mix for top observed titles.
+title_country_mix,title_country,"My Ishmael (Ishmael  #3)",Greece,,country_rank_within_title,3.0,,,1,1,1,2.52,2.52,,6.3862,Destination-country mix for top observed titles.
+title_country_mix,title_country,Nickel and Dimed: On (Not) Getting by in America,Brazil,,country_rank_within_title,3.0,,,1,1,1,6.71,6.71,,15.8704,Destination-country mix for top observed titles.
+title_country_mix,title_country,O Xará,China,,country_rank_within_title,3.0,,,1,1,1,9.0,9.0,,17.1625,Destination-country mix for top observed titles.
+title_country_mix,title_country,Pies and Tarts,Vietnam,,country_rank_within_title,3.0,,,1,1,1,9.39,9.39,,17.8755,Destination-country mix for top observed titles.
+title_country_mix,title_country,Preface to the Phenomenology of Spirit,Madagascar,,country_rank_within_title,3.0,,,1,1,1,12.12,12.12,,25.9085,Destination-country mix for top observed titles.
+title_country_mix,title_country,Raising the Bar: Ministry to Youth in the New Millennium,Moldova,,country_rank_within_title,3.0,,,1,1,1,9.11,9.11,,22.4883,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Reversible Errors (Kindle County Legal Thriller #6)",Peru,,country_rank_within_title,3.0,,,1,1,1,12.15,12.15,,25.4931,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Ring of Fire (Ring of Fire Anthology  #1)",China,,country_rank_within_title,3.0,,,1,1,1,12.16,12.16,,24.3639,Destination-country mix for top observed titles.
+title_country_mix,title_country,Rose of No Man's Land,Slovakia,,country_rank_within_title,3.0,,,1,1,1,6.08,6.08,,14.5664,Destination-country mix for top observed titles.
+title_country_mix,title_country,Schopenhauer: A Very Short Introduction,Ecuador,,country_rank_within_title,3.0,,,1,1,1,3.6,3.6,,8.0917,Destination-country mix for top observed titles.
+title_country_mix,title_country,Secret for a Nightingale,Germany,,country_rank_within_title,3.0,,,1,1,1,15.94,15.94,,31.1024,Destination-country mix for top observed titles.
+title_country_mix,title_country,Seduction by Design,Russia,,country_rank_within_title,3.0,,,1,1,1,12.7,12.7,,29.9811,Destination-country mix for top observed titles.
+title_country_mix,title_country,SeinLanguage,Panama,,country_rank_within_title,3.0,,,1,1,1,16.28,16.28,,31.2416,Destination-country mix for top observed titles.
+title_country_mix,title_country,Skylight Confessions,Sweden,,country_rank_within_title,3.0,,,1,1,1,14.25,14.25,,28.2626,Destination-country mix for top observed titles.
+title_country_mix,title_country,Spares,Indonesia,,country_rank_within_title,3.0,,,1,1,1,17.16,17.16,,32.171,Destination-country mix for top observed titles.
+title_country_mix,title_country,Study Guide to Accompany Brunner and Suddarth's Textbook of Medical-Surgical Nursing,Russia,,country_rank_within_title,3.0,,,1,1,1,8.5,8.5,,18.7019,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Territoires (Le talisman des territoires  #2)",China,,country_rank_within_title,3.0,,,1,1,1,9.76,9.76,,21.0118,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Bible Cure For Diabetes,Guinea,,country_rank_within_title,3.0,,,1,1,1,8.0,8.0,,19.333,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Bluest Eye,Indonesia,,country_rank_within_title,3.0,,,1,1,1,7.75,7.75,,18.554,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Book of Five Rings,Sweden,,country_rank_within_title,3.0,,,1,1,1,10.7,10.7,,27.5064,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Complete Works: The Revised Oxford Translation  Vol. 1,Pakistan,,country_rank_within_title,3.0,,,1,1,1,8.06,8.06,,21.0115,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Dive from Clausen's Pier,Poland,,country_rank_within_title,3.0,,,1,1,1,6.84,6.84,,17.7801,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Door Into Summer,Poland,,country_rank_within_title,3.0,,,1,1,1,5.25,5.25,,12.0717,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Feminine Mystique,China,,country_rank_within_title,3.0,,,1,1,1,10.52,10.52,,25.5837,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Grail: A Year Ambling & Shambling Through an Oregon Vineyard in Pursuit of the Best Pinot Noir Wine in the Whole Wild World,Cameroon,,country_rank_within_title,3.0,,,1,1,1,7.77,7.77,,20.266,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Hour Before Dark,Japan,,country_rank_within_title,3.0,,,1,1,1,8.33,8.33,,19.9904,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Illustrated Book of Ballet Stories (with CD),Armenia,,country_rank_within_title,3.0,,,1,1,1,10.3,10.3,,26.7047,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Killer Angels,Kenya,,country_rank_within_title,3.0,,,1,1,1,2.79,2.79,,7.1741,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Last Book of Swords: Shieldbreaker's Story (Lost Swords  #8)",Philippines,,country_rank_within_title,3.0,,,1,1,1,9.18,9.18,,19.7123,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Picture of Dorian Gray,Philippines,,country_rank_within_title,3.0,,,1,1,1,10.2,10.2,,25.6862,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Prophet,France,,country_rank_within_title,3.0,,,1,1,1,14.39,14.39,,23.6989,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Queen of Whale Cay: The Eccentric Story of 'Joe' Carstairs  Fastest Woman on Water,China,,country_rank_within_title,3.0,,,1,1,1,10.38,10.38,,21.3536,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Raphael Affair (Jonathan Argyll  #1)",Portugal,,country_rank_within_title,3.0,,,1,1,1,16.57,16.57,,31.3707,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Real Jimmy Carter: How Our Worst Ex-President Undermines American Foreign Policy  Coddles Dictators and Created the Party of Clinton and Kerry,Nigeria,,country_rank_within_title,3.0,,,1,1,1,9.04,9.04,,17.2519,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Right Attitude to Rain (Isabel Dalhousie  #3)",Ghana,,country_rank_within_title,3.0,,,1,1,1,12.79,12.79,,21.7258,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Secret Lives of Men and Women: A PostSecret Book,Portugal,,country_rank_within_title,3.0,,,1,1,1,5.94,5.94,,14.9209,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Stone Fey,Poland,,country_rank_within_title,3.0,,,1,1,1,4.64,4.64,,9.2744,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Suppliant Maidens/The Persians/Seven against Thebes/Prometheus Bound,Kenya,,country_rank_within_title,3.0,,,1,1,1,5.77,5.77,,13.8005,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Teeth of the Tiger (Jack Ryan Universe  #12)",Russia,,country_rank_within_title,3.0,,,1,1,1,2.31,2.31,,5.9613,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Wealthy Barber: Everyone's Common-Sense Guide to Becoming Financially Independent,China,,country_rank_within_title,3.0,,,1,1,1,12.99,12.99,,26.5536,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Zucchini Warriors (Macdonald Hall  #5)",Peru,,country_rank_within_title,3.0,,,1,1,1,14.6,14.6,,27.8679,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Time for the Stars (Heinlein's Juveniles  #10)",Portugal,,country_rank_within_title,3.0,,,1,1,1,10.63,10.63,,23.7065,Destination-country mix for top observed titles.
+title_country_mix,title_country,Tinsel,Hungary,,country_rank_within_title,3.0,,,1,1,1,13.54,13.54,,28.5835,Destination-country mix for top observed titles.
+title_country_mix,title_country,Tortilla Flat,Russia,,country_rank_within_title,3.0,,,1,1,1,9.01,9.01,,22.6382,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Vale of the Vole (Xanth #10)",Brazil,,country_rank_within_title,3.0,,,1,1,1,10.07,10.07,,25.9871,Destination-country mix for top observed titles.
+title_country_mix,title_country,Watership Down,Indonesia,,country_rank_within_title,3.0,,,1,1,1,11.26,11.26,,19.5554,Destination-country mix for top observed titles.
+title_country_mix,title_country,What Life Was Like in the Jewel in the Crown: British India  AD 1600-1905,Guatemala,,country_rank_within_title,3.0,,,1,1,1,13.7,13.7,,30.3837,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Wind Rider's Oath (War God  #3)",Peru,,country_rank_within_title,3.0,,,1,1,1,13.09,13.09,,30.3924,Destination-country mix for top observed titles.
+title_country_mix,title_country,Wolf Willow,Indonesia,,country_rank_within_title,3.0,,,1,1,1,15.94,15.94,,32.1565,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Writings to Young Women on Laura Ingalls Wilder: As Told By Her Family  Friends  and Neighbors (Writings to Young Women on Laura Ingalls Wilder #3)",Russia,,country_rank_within_title,3.0,,,1,1,1,9.18,9.18,,22.1954,Destination-country mix for top observed titles.
+title_country_mix,title_country,犬夜叉 17,Morocco,,country_rank_within_title,3.0,,,1,1,1,8.92,8.92,,21.1425,Destination-country mix for top observed titles.
+title_country_mix,title_country,200 Quilt Blocks: To Mix and Match,Thailand,,country_rank_within_title,4.0,,,1,1,1,4.35,4.35,,10.1754,Destination-country mix for top observed titles.
+title_country_mix,title_country,"A Higher Justice (The Trials of Kit Shannon #5)",Poland,,country_rank_within_title,4.0,,,1,1,1,3.46,3.46,,6.0049,Destination-country mix for top observed titles.
+title_country_mix,title_country,Anleitung zum Zickigsein,Colombia,,country_rank_within_title,4.0,,,1,1,1,5.09,5.09,,10.8807,Destination-country mix for top observed titles.
+title_country_mix,title_country,Black Widow: Homecoming,Poland,,country_rank_within_title,4.0,,,1,1,1,4.37,4.37,,9.5145,Destination-country mix for top observed titles.
+title_country_mix,title_country,Full House: The Spread of Excellence from Plato to Darwin,United States of America,,country_rank_within_title,4.0,,,1,1,1,6.3,6.3,,12.0991,Destination-country mix for top observed titles.
+title_country_mix,title_country,Identity,China,,country_rank_within_title,4.0,,,1,1,1,16.01,16.01,,22.7092,Destination-country mix for top observed titles.
+title_country_mix,title_country,Moo  Baa  La La La!,Indonesia,,country_rank_within_title,4.0,,,1,1,1,1.07,1.07,,2.5858,Destination-country mix for top observed titles.
+title_country_mix,title_country,O Xará,Myanmar,,country_rank_within_title,4.0,,,1,1,1,6.99,6.99,,13.3295,Destination-country mix for top observed titles.
+title_country_mix,title_country,Pies and Tarts,Afghanistan,,country_rank_within_title,4.0,,,1,1,1,9.22,9.22,,17.5519,Destination-country mix for top observed titles.
+title_country_mix,title_country,Raising the Bar: Ministry to Youth in the New Millennium,Venezuela,,country_rank_within_title,4.0,,,1,1,1,5.8,5.8,,14.3175,Destination-country mix for top observed titles.
+title_country_mix,title_country,"Ring of Fire (Ring of Fire Anthology  #1)",Brazil,,country_rank_within_title,4.0,,,1,1,1,10.47,10.47,,20.9778,Destination-country mix for top observed titles.
+title_country_mix,title_country,Rose of No Man's Land,Indonesia,,country_rank_within_title,4.0,,,1,1,1,4.98,4.98,,11.931,Destination-country mix for top observed titles.
+title_country_mix,title_country,Study Guide to Accompany Brunner and Suddarth's Textbook of Medical-Surgical Nursing,Indonesia,,country_rank_within_title,4.0,,,1,1,1,2.73,2.73,,6.0066,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Bible Cure For Diabetes,Sweden,,country_rank_within_title,4.0,,,1,1,1,6.96,6.96,,16.8197,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Door Into Summer,Brazil,,country_rank_within_title,4.0,,,1,1,1,3.96,3.96,,9.1055,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Grail: A Year Ambling & Shambling Through an Oregon Vineyard in Pursuit of the Best Pinot Noir Wine in the Whole Wild World,Costa Rica,,country_rank_within_title,4.0,,,1,1,1,6.17,6.17,,16.0929,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Hour Before Dark,Ukraine,,country_rank_within_title,4.0,,,1,1,1,7.95,7.95,,19.0785,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Killer Angels,Russia,,country_rank_within_title,4.0,,,1,1,1,0.88,0.88,,2.2628,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Prophet,China,,country_rank_within_title,4.0,,,1,1,1,12.33,12.33,,20.3063,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Right Attitude to Rain (Isabel Dalhousie  #3)",Peru,,country_rank_within_title,4.0,,,1,1,1,8.89,8.89,,15.1011,Destination-country mix for top observed titles.
+title_country_mix,title_country,"The Zucchini Warriors (Macdonald Hall  #5)",Indonesia,,country_rank_within_title,4.0,,,1,1,1,4.55,4.55,,8.6849,Destination-country mix for top observed titles.
+title_country_mix,title_country,Tortilla Flat,Indonesia,,country_rank_within_title,4.0,,,1,1,1,5.15,5.15,,12.9397,Destination-country mix for top observed titles.
+title_country_mix,title_country,犬夜叉 17,Uzbekistan,,country_rank_within_title,4.0,,,1,1,1,5.92,5.92,,14.0318,Destination-country mix for top observed titles.
+title_country_mix,title_country,The Door Into Summer,France,,country_rank_within_title,5.0,,,1,1,1,2.32,2.32,,5.3346,Destination-country mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,200 Quilt Blocks: To Mix and Match,delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,27.15,13.575,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"A Higher Justice (The Trials of Kit Shannon #5)",delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,37.02,18.51,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"A Pinch of Snuff (Dalziel & Pascoe  #5)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,27.45,13.725,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Accordion Crimes,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,27.73,13.865,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Aeneid: Selections from Books 1  2  4  6  10  12,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,1,1,1,19.98,19.98,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Anleitung zum Zickigsein,delivered_path,,lifecycle_rank_within_title,1.0,,,3,3,3,31.87,10.6233,,75.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Are We There Yet?,delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,26.22,13.11,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Betsy and Tacy Go Downtown (Betsy-Tacy  #4)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,23.0,11.5,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Black Widow: Homecoming,delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,28.7,14.35,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Camera Lucida: Reflections on Photography,delivered_path,,lifecycle_rank_within_title,1.0,,,3,3,3,44.12,14.7067,,100.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Celebrations: Rituals of Peace and Prayer,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,1,1,1,18.45,18.45,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Cities of the Plain (The Border Trilogy  #3)",delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,30.13,15.065,,40.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Close Range,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,36.5,18.25,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Crime and Punishment,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,30.31,15.155,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Daniel Deronda,delivered_path,,lifecycle_rank_within_title,1.0,,,3,3,3,42.68,14.2267,,100.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Different Seasons,delivered_path,,lifecycle_rank_within_title,1.0,,,4,4,4,59.08,14.77,,80.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Dostoevsky,delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,29.36,14.68,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Error humano,delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,29.79,14.895,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Falling Angel,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,25.0,12.5,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Fantastic Mr Fox,delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,19.87,9.935,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Flight of the Nighthawks (The Darkwar Saga  #1)",delivered_path,,lifecycle_rank_within_title,1.0,,,1,1,1,17.87,17.87,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Full House: The Spread of Excellence from Plato to Darwin,delivered_path,,lifecycle_rank_within_title,1.0,,,4,4,4,52.07,13.0175,,100.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Fullmetal Alchemist  Vol. 5 (Fullmetal Alchemist  #5)",delivered_path,,lifecycle_rank_within_title,1.0,,,1,1,1,19.32,19.32,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Galápagos,delivered_path,,lifecycle_rank_within_title,1.0,,,1,1,1,18.22,18.22,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Genetics and the Origin of Species,delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,22.05,11.025,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Gilda Joyce: Psychic Investigator (Gilda Joyce  #1)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,28.73,14.365,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Happy Are the Peace Makers (Blackie Ryan  #5)",delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,37.33,18.665,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Hard Eight (Stephanie Plum  #8)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,34.19,17.095,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Hidden Leaves (De Beers  #5)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,31.07,15.535,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"How ""Natives"" Think: About Captain Cook  For Example",delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,31.5,15.75,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,How to Travel with a Salmon and Other Essays,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,32.78,16.39,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Hyperion (Los Cantos de Hyperion  #1)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,19.65,9.825,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Identity,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,35.49,17.745,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,In Pharaoh's Army: Memories of the Lost War,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,1,1,1,19.0,19.0,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"King Solomon's Mines (Allan Quatermain  #1)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,22.21,11.105,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Lies My Teacher Told Me about Christopher Columbus: What Your History Books Got Wrong,delivered_path,,lifecycle_rank_within_title,1.0,,,1,1,1,19.9,19.9,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Life of Pi,returned_path,,lifecycle_rank_within_title,1.0,,,1,1,1,17.15,17.15,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Love-Lies-Bleeding,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,3,3,3,43.22,14.4067,,100.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Moo  Baa  La La La!,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,3,3,3,30.57,10.19,,75.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"My Ishmael (Ishmael  #3)",delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,22.33,11.165,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Nickel and Dimed: On (Not) Getting by in America,delivered_path,,lifecycle_rank_within_title,1.0,,,1,1,1,18.97,18.97,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,O Xará,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,27.23,13.615,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Pies and Tarts,delivered_path,,lifecycle_rank_within_title,1.0,,,4,4,4,52.53,13.1325,,100.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Preface to the Phenomenology of Spirit,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,31.04,15.52,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Raising the Bar: Ministry to Youth in the New Millennium,delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,21.93,10.965,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Reversible Errors (Kindle County Legal Thriller #6)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,31.9,15.95,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Ring of Fire (Ring of Fire Anthology  #1)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,3,3,3,36.01,12.0033,,75.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Rose of No Man's Land,delivered_path,,lifecycle_rank_within_title,1.0,,,3,3,3,35.66,11.8867,,75.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Schopenhauer: A Very Short Introduction,delivered_path,,lifecycle_rank_within_title,1.0,,,3,3,3,25.02,8.34,,75.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Secret for a Nightingale,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,32.19,16.095,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Seduction by Design,delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,26.4,13.2,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,SeinLanguage,delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,35.83,17.915,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Skylight Confessions,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,36.17,18.085,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Spares,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,36.18,18.09,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Study Guide to Accompany Brunner and Suddarth's Textbook of Medical-Surgical Nursing,delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,28.48,14.24,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Territoires (Le talisman des territoires  #2)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,3,3,3,46.45,15.4833,,100.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Architecture of Happiness,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,34.93,17.465,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Bible Cure For Diabetes,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,3,3,3,29.46,9.82,,75.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Bluest Eye,delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,22.38,11.19,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Book of Five Rings,delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,28.2,14.1,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Cat Who Walks Through Walls (The World As Myth),incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,1,1,1,18.64,18.64,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Communist Manifesto,delivered_path,,lifecycle_rank_within_title,1.0,,,1,1,1,19.56,19.56,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Complete Works: The Revised Oxford Translation  Vol. 1,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,3,3,3,23.25,7.75,,75.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Dive from Clausen's Pier,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,20.79,10.395,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Door Into Summer,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,3,3,3,22.53,7.51,,60.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"The End of Days (The Earth Chronicles  #7)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,3,3,3,47.86,15.9533,,100.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Feminine Mystique,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,21.21,10.605,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Grail: A Year Ambling & Shambling Through an Oregon Vineyard in Pursuit of the Best Pinot Noir Wine in the Whole Wild World,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,13.94,6.97,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Hour Before Dark,delivered_path,,lifecycle_rank_within_title,1.0,,,4,4,4,41.67,10.4175,,100.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Illustrated Book of Ballet Stories (with CD),delivered_path,,lifecycle_rank_within_title,1.0,,,3,3,3,38.57,12.8567,,100.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Keeper's Companion 2: Prohibition  Firearms  Tomes  & Creatures (Call of Cthulhu RPG),delivered_path,,lifecycle_rank_within_title,1.0,,,3,3,3,38.84,12.9467,,100.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Killer Angels,delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,16.74,8.37,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"The Last Book of Swords: Shieldbreaker's Story (Lost Swords  #8)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,3,3,3,46.57,15.5233,,100.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Picture of Dorian Gray,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,23.92,11.96,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Prophet,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,31.1,15.55,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Queen of Whale Cay: The Eccentric Story of 'Joe' Carstairs  Fastest Woman on Water,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,3,3,3,48.61,16.2033,,100.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"The Raphael Affair (Jonathan Argyll  #1)",delivered_path,,lifecycle_rank_within_title,1.0,,,3,3,3,52.82,17.6067,,100.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Real Jimmy Carter: How Our Worst Ex-President Undermines American Foreign Policy  Coddles Dictators and Created the Party of Clinton and Kerry,delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,27.27,13.635,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"The Right Attitude to Rain (Isabel Dalhousie  #3)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,3,3,3,40.39,13.4633,,75.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The River at the Center of the World: A Journey Up the Yangtze & Back in Chinese Time,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,39.32,19.66,,100.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Secret Lives of Men and Women: A PostSecret Book,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,33.87,16.935,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"The Shadow Rising (The Wheel of Time  #4)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,34.82,17.41,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Stone Fey,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,3,3,3,40.71,13.57,,75.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Suppliant Maidens/The Persians/Seven against Thebes/Prometheus Bound,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,33.93,16.965,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"The Teeth of the Tiger (Jack Ryan Universe  #12)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,36.44,18.22,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Voices of Morebath: Reformation and Rebellion in an English Village,delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,38.36,19.18,,100.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Wealthy Barber: Everyone's Common-Sense Guide to Becoming Financially Independent,delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,35.93,17.965,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Working Poor: Invisible in America,delivered_path,,lifecycle_rank_within_title,1.0,,,1,1,1,19.79,19.79,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"The Zucchini Warriors (Macdonald Hall  #5)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,3,3,3,33.81,11.27,,75.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Time for the Stars (Heinlein's Juveniles  #10)",delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,34.21,17.105,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Tinsel,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,29.27,14.635,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Tortilla Flat,delivered_path,,lifecycle_rank_within_title,1.0,,,3,3,3,23.2,7.7333,,75.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Unicorn Point (Apprentice Adept #6)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,21.34,10.67,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Vale of the Vole (Xanth #10)",delivered_path,,lifecycle_rank_within_title,1.0,,,3,3,3,38.75,12.9167,,100.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Watership Down,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,30.67,15.335,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,What Life Was Like in the Jewel in the Crown: British India  AD 1600-1905,delivered_path,,lifecycle_rank_within_title,1.0,,,2,2,2,31.09,15.545,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Wind Rider's Oath (War God  #3)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,3,3,3,43.07,14.3567,,100.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Wolf Willow,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,1,1,1,16.98,16.98,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Writings to Young Women on Laura Ingalls Wilder: As Told By Her Family  Friends  and Neighbors (Writings to Young Women on Laura Ingalls Wilder #3)",incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,27.51,13.755,,66.6667,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,犬夜叉 17,incomplete_or_in_progress,,lifecycle_rank_within_title,1.0,,,2,2,2,27.35,13.675,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,200 Quilt Blocks: To Mix and Match,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,11.25,11.25,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"A Higher Justice (The Trials of Kit Shannon #5)",incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,2,2,2,20.6,10.3,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"A Pinch of Snuff (Dalziel & Pascoe  #5)",delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,18.43,18.43,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Accordion Crimes,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,13.2,13.2,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Aeneid: Selections from Books 1  2  4  6  10  12,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,18.93,18.93,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Anleitung zum Zickigsein,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,14.91,14.91,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Are We There Yet?,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,15.25,15.25,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Betsy and Tacy Go Downtown (Betsy-Tacy  #4)",delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,19.5,19.5,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Black Widow: Homecoming,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,2,2,2,17.23,8.615,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Celebrations: Rituals of Peace and Prayer,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,16.18,16.18,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Cities of the Plain (The Border Trilogy  #3)",incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,2,2,2,10.27,5.135,,40.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Close Range,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,9.75,9.75,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Crime and Punishment,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,10.97,10.97,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Different Seasons,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,3.78,3.78,,20.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Dostoevsky,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,15.75,15.75,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Error humano,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,16.29,16.29,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Falling Angel,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,17.56,17.56,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Fantastic Mr Fox,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,19.39,19.39,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Flight of the Nighthawks (The Darkwar Saga  #1)",incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,15.96,15.96,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Fullmetal Alchemist  Vol. 5 (Fullmetal Alchemist  #5)",incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,19.12,19.12,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Galápagos,cancelled_path,,lifecycle_rank_within_title,2.0,,,1,1,1,15.68,15.68,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Genetics and the Origin of Species,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,18.55,18.55,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Gilda Joyce: Psychic Investigator (Gilda Joyce  #1)",delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,11.23,11.23,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Happy Are the Peace Makers (Blackie Ryan  #5)",incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,5.25,5.25,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Hard Eight (Stephanie Plum  #8)",delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,13.15,13.15,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Hidden Leaves (De Beers  #5)",delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,11.01,11.01,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"How ""Natives"" Think: About Captain Cook  For Example",incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,9.26,9.26,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,How to Travel with a Salmon and Other Essays,cancelled_path,,lifecycle_rank_within_title,2.0,,,1,1,1,8.47,8.47,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Hyperion (Los Cantos de Hyperion  #1)",delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,19.13,19.13,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Identity,cancelled_path,,lifecycle_rank_within_title,2.0,,,1,1,1,18.21,18.21,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,In Pharaoh's Army: Memories of the Lost War,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,13.12,13.12,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"King Solomon's Mines (Allan Quatermain  #1)",delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,18.83,18.83,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Lies My Teacher Told Me about Christopher Columbus: What Your History Books Got Wrong,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,11.8,11.8,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Life of Pi,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,15.9,15.9,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Moo  Baa  La La La!,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,10.81,10.81,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"My Ishmael (Ishmael  #3)",incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,17.13,17.13,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Nickel and Dimed: On (Not) Getting by in America,cancelled_path,,lifecycle_rank_within_title,2.0,,,1,1,1,16.6,16.6,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,O Xará,delivered_path,,lifecycle_rank_within_title,2.0,,,2,2,2,25.21,12.605,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Preface to the Phenomenology of Spirit,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,15.74,15.74,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Raising the Bar: Ministry to Youth in the New Millennium,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,2,2,2,18.58,9.29,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Reversible Errors (Kindle County Legal Thriller #6)",delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,15.76,15.76,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Ring of Fire (Ring of Fire Anthology  #1)",delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,13.9,13.9,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Rose of No Man's Land,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,6.08,6.08,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Schopenhauer: A Very Short Introduction,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,19.47,19.47,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Secret for a Nightingale,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,19.06,19.06,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Seduction by Design,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,15.96,15.96,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,SeinLanguage,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,16.28,16.28,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Skylight Confessions,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,14.25,14.25,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Spares,cancelled_path,,lifecycle_rank_within_title,2.0,,,1,1,1,17.16,17.16,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Study Guide to Accompany Brunner and Suddarth's Textbook of Medical-Surgical Nursing,cancelled_path,,lifecycle_rank_within_title,2.0,,,2,2,2,16.97,8.485,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Architecture of Happiness,cancelled_path,,lifecycle_rank_within_title,2.0,,,1,1,1,18.7,18.7,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Bible Cure For Diabetes,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,11.92,11.92,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Bluest Eye,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,19.39,19.39,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Book of Five Rings,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,10.7,10.7,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Cat Who Walks Through Walls (The World As Myth),delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,18.35,18.35,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Communist Manifesto,returned_path,,lifecycle_rank_within_title,2.0,,,1,1,1,19.56,19.56,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Complete Works: The Revised Oxford Translation  Vol. 1,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,15.11,15.11,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Dive from Clausen's Pier,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,17.68,17.68,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Door Into Summer,delivered_path,,lifecycle_rank_within_title,2.0,,,2,2,2,20.96,10.48,,40.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Feminine Mystique,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,19.91,19.91,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Grail: A Year Ambling & Shambling Through an Oregon Vineyard in Pursuit of the Best Pinot Noir Wine in the Whole Wild World,cancelled_path,,lifecycle_rank_within_title,2.0,,,1,1,1,14.73,14.73,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Killer Angels,cancelled_path,,lifecycle_rank_within_title,2.0,,,1,1,1,19.36,19.36,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Picture of Dorian Gray,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,15.79,15.79,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Prophet,delivered_path,,lifecycle_rank_within_title,2.0,,,2,2,2,29.62,14.81,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Real Jimmy Carter: How Our Worst Ex-President Undermines American Foreign Policy  Coddles Dictators and Created the Party of Clinton and Kerry,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,2,2,2,25.13,12.565,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"The Right Attitude to Rain (Isabel Dalhousie  #3)",delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,18.48,18.48,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Secret Lives of Men and Women: A PostSecret Book,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,5.94,5.94,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"The Shadow Rising (The Wheel of Time  #4)",delivered_path,,lifecycle_rank_within_title,2.0,,,2,2,2,20.03,10.015,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Stone Fey,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,9.32,9.32,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Suppliant Maidens/The Persians/Seven against Thebes/Prometheus Bound,delivered_path,,lifecycle_rank_within_title,2.0,,,2,2,2,7.88,3.94,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"The Teeth of the Tiger (Jack Ryan Universe  #12)",delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,2.31,2.31,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Wealthy Barber: Everyone's Common-Sense Guide to Becoming Financially Independent,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,12.99,12.99,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Working Poor: Invisible in America,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,19.49,19.49,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"The Zucchini Warriors (Macdonald Hall  #5)",delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,18.58,18.58,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Time for the Stars (Heinlein's Juveniles  #10)",incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,10.63,10.63,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Tinsel,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,18.1,18.1,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Tortilla Flat,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,16.6,16.6,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Unicorn Point (Apprentice Adept #6)",delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,18.69,18.69,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Watership Down,delivered_path,,lifecycle_rank_within_title,2.0,,,2,2,2,26.91,13.455,,50.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,What Life Was Like in the Jewel in the Crown: British India  AD 1600-1905,incomplete_or_in_progress,,lifecycle_rank_within_title,2.0,,,1,1,1,14.0,14.0,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Wolf Willow,cancelled_path,,lifecycle_rank_within_title,2.0,,,1,1,1,16.65,16.65,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Writings to Young Women on Laura Ingalls Wilder: As Told By Her Family  Friends  and Neighbors (Writings to Young Women on Laura Ingalls Wilder #3)",delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,13.85,13.85,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,犬夜叉 17,delivered_path,,lifecycle_rank_within_title,2.0,,,1,1,1,8.92,8.92,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,200 Quilt Blocks: To Mix and Match,returned_path,,lifecycle_rank_within_title,3.0,,,1,1,1,4.35,4.35,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Celebrations: Rituals of Peace and Prayer,cancelled_path,,lifecycle_rank_within_title,3.0,,,1,1,1,12.27,12.27,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Cities of the Plain (The Border Trilogy  #3)",cancelled_path,,lifecycle_rank_within_title,3.0,,,1,1,1,19.53,19.53,,20.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,"Flight of the Nighthawks (The Darkwar Saga  #1)",returned_path,,lifecycle_rank_within_title,3.0,,,1,1,1,13.79,13.79,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Galápagos,incomplete_or_in_progress,,lifecycle_rank_within_title,3.0,,,1,1,1,4.44,4.44,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Identity,delivered_path,,lifecycle_rank_within_title,3.0,,,1,1,1,16.8,16.8,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,In Pharaoh's Army: Memories of the Lost War,cancelled_path,,lifecycle_rank_within_title,3.0,,,1,1,1,9.12,9.12,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Lies My Teacher Told Me about Christopher Columbus: What Your History Books Got Wrong,cancelled_path,,lifecycle_rank_within_title,3.0,,,1,1,1,8.57,8.57,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Life of Pi,delivered_path,,lifecycle_rank_within_title,3.0,,,1,1,1,6.3,6.3,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Nickel and Dimed: On (Not) Getting by in America,incomplete_or_in_progress,,lifecycle_rank_within_title,3.0,,,1,1,1,6.71,6.71,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Cat Who Walks Through Walls (The World As Myth),returned_path,,lifecycle_rank_within_title,3.0,,,1,1,1,8.5,8.5,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Grail: A Year Ambling & Shambling Through an Oregon Vineyard in Pursuit of the Best Pinot Noir Wine in the Whole Wild World,delivered_path,,lifecycle_rank_within_title,3.0,,,1,1,1,9.67,9.67,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,The Killer Angels,incomplete_or_in_progress,,lifecycle_rank_within_title,3.0,,,1,1,1,2.79,2.79,,25.0,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,Wolf Willow,delivered_path,,lifecycle_rank_within_title,3.0,,,1,1,1,15.94,15.94,,33.3333,Lifecycle mix for top observed titles.
+title_lifecycle_mix,title_lifecycle,犬夜叉 17,cancelled_path,,lifecycle_rank_within_title,3.0,,,1,1,1,5.92,5.92,,25.0,Lifecycle mix for top observed titles.
+title_operational_baseline,title,Identity,Harper,English,title_value_rank,1.0,1,1,4,4,4,70.5,17.625,176.0,0.0934,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Different Seasons,Futura,British English,title_value_rank,2.0,1,1,5,5,5,62.86,12.572,560.0,0.0833,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Prophet,Rupa & Co,English,title_value_rank,3.0,1,1,4,4,4,60.72,15.18,127.0,0.0805,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"Cities of the Plain (The Border Trilogy  #3)",Vintage,English,title_value_rank,4.0,1,1,5,5,5,59.93,11.986,292.0,0.0794,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"The Right Attitude to Rain (Isabel Dalhousie  #3)",Pantheon Books,English,title_value_rank,5.0,1,1,4,4,4,58.87,14.7175,276.0,0.078,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"A Higher Justice (The Trials of Kit Shannon #5)",Bethany House Publishers,English,title_value_rank,6.0,1,1,4,4,4,57.62,14.405,303.0,0.0764,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Watership Down,HarperPerennial,English,title_value_rank,7.0,1,1,4,4,4,57.58,14.395,479.0,0.0763,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"The Shadow Rising (The Wheel of Time  #4)",Tom Doherty Tor Fantasy,English,title_value_rank,8.0,1,1,4,4,4,54.85,13.7125,1007.0,0.0727,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Architecture of Happiness,Pantheon Books,English,title_value_rank,9.0,1,1,3,3,3,53.63,17.8767,280.0,0.0711,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Spares,HarperCollins,English,title_value_rank,10.0,1,1,3,3,3,53.34,17.78,317.0,0.0707,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"The Raphael Affair (Jonathan Argyll  #1)",Berkley Books,English,title_value_rank,11.0,1,1,3,3,3,52.82,17.6067,257.0,0.07,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Pies and Tarts,Time Life Medical,English,title_value_rank,12.0,1,1,4,4,4,52.53,13.1325,108.0,0.0696,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,O Xará,Companhia das Letras,Portuguese,title_value_rank,13.0,1,1,4,4,4,52.44,13.11,336.0,0.0695,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Real Jimmy Carter: How Our Worst Ex-President Undermines American Foreign Policy  Coddles Dictators and Created the Party of Clinton and Kerry,Regnery Publishing,English,title_value_rank,14.0,1,1,4,4,4,52.4,13.1,272.0,0.0694,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"The Zucchini Warriors (Macdonald Hall  #5)",Scholastic,English,title_value_rank,15.0,1,1,4,4,4,52.39,13.0975,208.0,0.0694,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,SeinLanguage,Bantam,English,title_value_rank,16.0,1,1,3,3,3,52.11,17.37,180.0,0.0691,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Full House: The Spread of Excellence from Plato to Darwin,Three Rivers Press (CA),English,title_value_rank,17.0,1,1,4,4,4,52.07,13.0175,256.0,0.069,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Secret for a Nightingale,Ivy Books,English,title_value_rank,18.0,1,1,3,3,3,51.25,17.0833,396.0,0.0679,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Skylight Confessions,Little Brown and Company,English,title_value_rank,19.0,1,1,3,3,3,50.42,16.8067,264.0,0.0668,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Stone Fey,HMH Books for Young Readers,English,title_value_rank,20.0,1,1,4,4,4,50.03,12.5075,64.0,0.0663,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"Ring of Fire (Ring of Fire Anthology  #1)",Baen,English,title_value_rank,21.0,1,1,4,4,4,49.91,12.4775,722.0,0.0661,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Wolf Willow,Penguin Classics,English,title_value_rank,22.0,1,1,3,3,3,49.57,16.5233,306.0,0.0657,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Wealthy Barber: Everyone's Common-Sense Guide to Becoming Financially Independent,Prima Lifestyles,English,title_value_rank,23.0,1,1,3,3,3,48.92,16.3067,199.0,0.0648,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Queen of Whale Cay: The Eccentric Story of 'Joe' Carstairs  Fastest Woman on Water,Penguin Books,English,title_value_rank,24.0,1,1,3,3,3,48.61,16.2033,256.0,0.0644,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"The End of Days (The Earth Chronicles  #7)",William Morrow,English,title_value_rank,25.0,1,1,3,3,3,47.86,15.9533,336.0,0.0634,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"Reversible Errors (Kindle County Legal Thriller #6)",Warner Vision,English,title_value_rank,26.0,1,1,3,3,3,47.66,15.8867,553.0,0.0632,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"Flight of the Nighthawks (The Darkwar Saga  #1)",Harper Voyager,United States English,title_value_rank,27.0,1,1,3,3,3,47.62,15.8733,368.0,0.0631,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Tinsel,Dell,English,title_value_rank,28.0,1,1,3,3,3,47.37,15.79,399.0,0.0628,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"Hard Eight (Stephanie Plum  #8)",St. Martin's Press,English,title_value_rank,29.0,1,1,3,3,3,47.34,15.78,326.0,0.0627,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Celebrations: Rituals of Peace and Prayer,Random House,English,title_value_rank,30.0,1,1,3,3,3,46.9,15.6333,128.0,0.0622,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Anleitung zum Zickigsein,Lübbe,German,title_value_rank,31.0,1,1,4,4,4,46.78,11.695,254.0,0.062,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Preface to the Phenomenology of Spirit,Princeton University Press,English,title_value_rank,32.0,1,1,3,3,3,46.78,15.5933,223.0,0.062,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"The Last Book of Swords: Shieldbreaker's Story (Lost Swords  #8)",Tor Fantasy,United States English,title_value_rank,33.0,1,1,3,3,3,46.57,15.5233,255.0,0.0617,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"Territoires (Le talisman des territoires  #2)",Laffont,French,title_value_rank,34.0,1,1,3,3,3,46.45,15.4833,556.0,0.0616,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Close Range,Scribner,English,title_value_rank,35.0,1,1,3,3,3,46.25,15.4167,285.0,0.0613,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Error humano,Mondadori,Spanish,title_value_rank,36.0,1,1,3,3,3,46.08,15.36,253.0,0.0611,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Black Widow: Homecoming,Marvel,English,title_value_rank,37.0,1,1,4,4,4,45.93,11.4825,144.0,0.0609,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"A Pinch of Snuff (Dalziel & Pascoe  #5)",Dell,English,title_value_rank,38.0,1,1,3,3,3,45.88,15.2933,336.0,0.0608,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Cat Who Walks Through Walls (The World As Myth),Ace Books,United States English,title_value_rank,39.0,1,1,3,3,3,45.49,15.1633,388.0,0.0603,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Study Guide to Accompany Brunner and Suddarth's Textbook of Medical-Surgical Nursing,LWW,English,title_value_rank,40.0,1,1,4,4,4,45.45,11.3625,400.0,0.0602,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Dostoevsky,Haus Publishing,English,title_value_rank,41.0,1,1,3,3,3,45.11,15.0367,183.0,0.0598,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,What Life Was Like in the Jewel in the Crown: British India  AD 1600-1905,Time Life Medical,English,title_value_rank,42.0,1,1,3,3,3,45.09,15.03,168.0,0.0598,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"Time for the Stars (Heinlein's Juveniles  #10)",Tor Books,English,title_value_rank,43.0,1,1,3,3,3,44.84,14.9467,256.0,0.0594,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Schopenhauer: A Very Short Introduction,Oxford University Press,English,title_value_rank,44.0,1,1,4,4,4,44.49,11.1225,137.0,0.059,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Camera Lucida: Reflections on Photography,Hill and Wang,English,title_value_rank,45.0,1,1,3,3,3,44.12,14.7067,119.0,0.0585,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Door Into Summer,Del Rey,English,title_value_rank,46.0,1,1,5,5,5,43.49,8.698,304.0,0.0576,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Love-Lies-Bleeding,Scribner,English,title_value_rank,47.0,1,1,3,3,3,43.22,14.4067,112.0,0.0573,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"Wind Rider's Oath (War God  #3)",Baen,English,title_value_rank,48.0,1,1,3,3,3,43.07,14.3567,570.0,0.0571,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,200 Quilt Blocks: To Mix and Match,Krause Publications,English,title_value_rank,49.0,1,1,4,4,4,42.75,10.6875,128.0,0.0567,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Daniel Deronda,Barnes Noble Classics,English,title_value_rank,50.0,1,1,3,3,3,42.68,14.2267,784.0,0.0566,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"Happy Are the Peace Makers (Blackie Ryan  #5)",Jove Books,English,title_value_rank,51.0,1,1,3,3,3,42.58,14.1933,300.0,0.0564,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Falling Angel,Millipede Press,English,title_value_rank,52.0,1,1,3,3,3,42.56,14.1867,302.0,0.0564,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"Betsy and Tacy Go Downtown (Betsy-Tacy  #4)",Thomas Y. Crowell Company,English,title_value_rank,53.0,1,1,3,3,3,42.5,14.1667,180.0,0.0563,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Seduction by Design,Grand Central Publishing (Formerly Warner Books),English,title_value_rank,54.0,1,1,3,3,3,42.36,14.12,224.0,0.0561,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Nickel and Dimed: On (Not) Getting by in America,Owl Books (Henry Holt),English,title_value_rank,55.0,1,1,3,3,3,42.28,14.0933,240.0,0.056,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,犬夜叉 17,小学館,Japanese,title_value_rank,56.0,1,1,4,4,4,42.19,10.5475,192.0,0.0559,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"Hidden Leaves (De Beers  #5)",Pocket Star,United States English,title_value_rank,57.0,1,1,3,3,3,42.08,14.0267,288.0,0.0558,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Suppliant Maidens/The Persians/Seven against Thebes/Prometheus Bound,Kessinger Publishing,English,title_value_rank,58.0,1,1,4,4,4,41.81,10.4525,208.0,0.0554,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Bluest Eye,Plume,English,title_value_rank,59.0,1,1,3,3,3,41.77,13.9233,216.0,0.0554,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Rose of No Man's Land,Mariner Books,English,title_value_rank,60.0,1,1,4,4,4,41.74,10.435,320.0,0.0553,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Hour Before Dark,Leisure Books,English,title_value_rank,61.0,1,1,4,4,4,41.67,10.4175,370.0,0.0552,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Are We There Yet?,Alfred A. Knopf,English,title_value_rank,62.0,1,1,3,3,3,41.47,13.8233,215.0,0.055,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Moo  Baa  La La La!,Simon & Schuster Childrens Books,English,title_value_rank,63.0,1,1,4,4,4,41.38,10.345,14.0,0.0548,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Bible Cure For Diabetes,Siloam,English,title_value_rank,64.0,1,1,4,4,4,41.38,10.345,96.0,0.0548,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"Writings to Young Women on Laura Ingalls Wilder: As Told By Her Family  Friends  and Neighbors (Writings to Young Women on Laura Ingalls Wilder #3)",Thomas Nelson,English,title_value_rank,65.0,1,1,3,3,3,41.36,13.7867,128.0,0.0548,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Crime and Punishment,Penguin,English,title_value_rank,66.0,1,1,3,3,3,41.28,13.76,671.0,0.0547,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,How to Travel with a Salmon and Other Essays,Houghton Mifflin,English,title_value_rank,67.0,1,1,3,3,3,41.25,13.75,248.0,0.0547,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,In Pharaoh's Army: Memories of the Lost War,Vintage,English,title_value_rank,68.0,1,1,3,3,3,41.24,13.7467,240.0,0.0547,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Feminine Mystique,W. W. Norton Company,English,title_value_rank,69.0,1,1,3,3,3,41.12,13.7067,592.0,0.0545,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"King Solomon's Mines (Allan Quatermain  #1)",Modern Library,English,title_value_rank,70.0,1,1,3,3,3,41.04,13.68,264.0,0.0544,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Accordion Crimes,Scribner,English,title_value_rank,71.0,1,1,3,3,3,40.93,13.6433,432.0,0.0542,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"How ""Natives"" Think: About Captain Cook  For Example",University of Chicago Press,British English,title_value_rank,72.0,1,1,3,3,3,40.76,13.5867,328.0,0.054,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Genetics and the Origin of Species,Columbia University Press,English,title_value_rank,73.0,1,1,3,3,3,40.6,13.5333,364.0,0.0538,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Raising the Bar: Ministry to Youth in the New Millennium,Kregel Academic & Professional,United States English,title_value_rank,74.0,1,1,4,4,4,40.51,10.1275,208.0,0.0537,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Lies My Teacher Told Me about Christopher Columbus: What Your History Books Got Wrong,New Press,English,title_value_rank,75.0,1,1,3,3,3,40.27,13.4233,48.0,0.0534,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"Unicorn Point (Apprentice Adept #6)",Ace Books,English,title_value_rank,76.0,1,1,3,3,3,40.03,13.3433,337.0,0.0531,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"Gilda Joyce: Psychic Investigator (Gilda Joyce  #1)",Puffin Books,English,title_value_rank,77.0,1,1,3,3,3,39.96,13.32,336.0,0.053,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Secret Lives of Men and Women: A PostSecret Book,William Morrow,British English,title_value_rank,78.0,1,1,3,3,3,39.81,13.27,144.0,0.0528,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Tortilla Flat,Penguin Classics,British English,title_value_rank,79.0,1,1,4,4,4,39.8,9.95,154.0,0.0528,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Picture of Dorian Gray,W. W. Norton & Company,English,title_value_rank,80.0,1,1,3,3,3,39.71,13.2367,462.0,0.0526,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"My Ishmael (Ishmael  #3)",Bantam,English,title_value_rank,81.0,1,1,3,3,3,39.46,13.1533,293.0,0.0523,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Life of Pi,Mariner Books / Harvest Books,United States English,title_value_rank,82.0,1,1,3,3,3,39.35,13.1167,401.0,0.0522,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The River at the Center of the World: A Journey Up the Yangtze & Back in Chinese Time,Picador,English,title_value_rank,83.0,1,1,2,2,2,39.32,19.66,416.0,0.0521,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Working Poor: Invisible in America,Vintage,English,title_value_rank,84.0,1,1,2,2,2,39.28,19.64,352.0,0.0521,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Fantastic Mr Fox,Samuel French Ltd,British English,title_value_rank,85.0,1,1,3,3,3,39.26,13.0867,74.0,0.052,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Communist Manifesto,Filiquarian Publishing LLC.,United States English,title_value_rank,86.0,1,1,2,2,2,39.12,19.56,88.0,0.0518,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Aeneid: Selections from Books 1  2  4  6  10  12,Bolchazy-Carducci Publishers,English,title_value_rank,87.0,1,1,2,2,2,38.91,19.455,161.0,0.0516,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Book of Five Rings,Shambhala,English,title_value_rank,88.0,1,1,3,3,3,38.9,12.9667,166.0,0.0516,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Killer Angels,Random House Audio Publishing Group,United States English,title_value_rank,89.0,1,1,4,4,4,38.89,9.7225,13.0,0.0515,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Keeper's Companion 2: Prohibition  Firearms  Tomes  & Creatures (Call of Cthulhu RPG),Chaosium,English,title_value_rank,90.0,1,1,3,3,3,38.84,12.9467,170.0,0.0515,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"Hyperion (Los Cantos de Hyperion  #1)",Ediciones B,Spanish,title_value_rank,91.0,1,1,3,3,3,38.78,12.9267,618.0,0.0514,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"The Teeth of the Tiger (Jack Ryan Universe  #12)",Penguin Books Ltd.,English,title_value_rank,92.0,1,1,3,3,3,38.75,12.9167,625.0,0.0514,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"Vale of the Vole (Xanth #10)",Tor Fantasy,English,title_value_rank,93.0,1,1,3,3,3,38.75,12.9167,304.0,0.0514,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Illustrated Book of Ballet Stories (with CD),DK Children,English,title_value_rank,94.0,1,1,3,3,3,38.57,12.8567,64.0,0.0511,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Dive from Clausen's Pier,Piatkus,English,title_value_rank,95.0,1,1,3,3,3,38.47,12.8233,368.0,0.051,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,"Fullmetal Alchemist  Vol. 5 (Fullmetal Alchemist  #5)",VIZ Media LLC,English,title_value_rank,96.0,1,1,2,2,2,38.44,19.22,200.0,0.0509,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Complete Works: The Revised Oxford Translation  Vol. 1,Bollingen/Princeton University Press (NJ),English,title_value_rank,97.0,1,1,4,4,4,38.36,9.59,1757.0,0.0508,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Voices of Morebath: Reformation and Rebellion in an English Village,Yale University Press,English,title_value_rank,98.0,1,1,2,2,2,38.36,19.18,232.0,0.0508,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,The Grail: A Year Ambling & Shambling Through an Oregon Vineyard in Pursuit of the Best Pinot Noir Wine in the Whole Wild World,Oregon State University Press,English,title_value_rank,99.0,1,1,4,4,4,38.34,9.585,208.0,0.0508,Top titles by observed order value with catalog metadata.
+title_operational_baseline,title,Galápagos,Grasset,French,title_value_rank,100.0,1,1,3,3,3,38.34,12.78,282.0,0.0508,Top titles by observed order value with catalog metadata.
+title_shipping_mix,title_shipping,200 Quilt Blocks: To Mix and Match,Priority,,shipping_rank_within_title,1.0,,,2,2,2,28.76,14.38,,67.2749,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"A Higher Justice (The Trials of Kit Shannon #5)",Priority,,shipping_rank_within_title,1.0,,,2,2,2,34.45,17.225,,59.7883,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"A Pinch of Snuff (Dalziel & Pascoe  #5)",Express,,shipping_rank_within_title,1.0,,,1,1,1,18.43,18.43,,40.17,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Accordion Crimes,Express,,shipping_rank_within_title,1.0,,,1,1,1,14.46,14.46,,35.3286,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Aeneid: Selections from Books 1  2  4  6  10  12,Standard,,shipping_rank_within_title,1.0,,,1,1,1,19.98,19.98,,51.3493,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Anleitung zum Zickigsein,Standard,,shipping_rank_within_title,1.0,,,2,2,2,26.78,13.39,,57.2467,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Are We There Yet?,Express,,shipping_rank_within_title,1.0,,,1,1,1,18.75,18.75,,45.2134,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Betsy and Tacy Go Downtown (Betsy-Tacy  #4)",Priority,,shipping_rank_within_title,1.0,,,2,2,2,23.0,11.5,,54.1176,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Black Widow: Homecoming,Priority,,shipping_rank_within_title,1.0,,,2,2,2,28.7,14.35,,62.4864,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Camera Lucida: Reflections on Photography,Express,,shipping_rank_within_title,1.0,,,2,2,2,24.6,12.3,,55.757,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Celebrations: Rituals of Peace and Prayer,Priority,,shipping_rank_within_title,1.0,,,1,1,1,18.45,18.45,,39.339,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Cities of the Plain (The Border Trilogy  #3)",Express,,shipping_rank_within_title,1.0,,,1,1,1,19.53,19.53,,32.588,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Close Range,Express,,shipping_rank_within_title,1.0,,,1,1,1,19.1,19.1,,41.2973,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Crime and Punishment,Priority,,shipping_rank_within_title,1.0,,,1,1,1,16.15,16.15,,39.1231,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Daniel Deronda,International,,shipping_rank_within_title,1.0,,,2,2,2,29.39,14.695,,68.8613,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Different Seasons,Express,,shipping_rank_within_title,1.0,,,2,2,2,33.61,16.805,,53.468,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Dostoevsky,Standard,,shipping_rank_within_title,1.0,,,1,1,1,15.75,15.75,,34.9147,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Error humano,Standard,,shipping_rank_within_title,1.0,,,2,2,2,29.79,14.895,,64.6484,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Falling Angel,International,,shipping_rank_within_title,1.0,,,2,2,2,34.98,17.49,,82.1898,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Fantastic Mr Fox,Priority,,shipping_rank_within_title,1.0,,,1,1,1,19.39,19.39,,49.3887,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Flight of the Nighthawks (The Darkwar Saga  #1)",Express,,shipping_rank_within_title,1.0,,,3,3,3,47.62,15.8733,,100.0,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Full House: The Spread of Excellence from Plato to Darwin,Express,,shipping_rank_within_title,1.0,,,2,2,2,29.79,14.895,,57.2114,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Fullmetal Alchemist  Vol. 5 (Fullmetal Alchemist  #5)",Standard,,shipping_rank_within_title,1.0,,,2,2,2,38.44,19.22,,100.0,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Galápagos,International,,shipping_rank_within_title,1.0,,,1,1,1,18.22,18.22,,47.5222,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Genetics and the Origin of Species,Priority,,shipping_rank_within_title,1.0,,,1,1,1,18.55,18.55,,45.6897,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Gilda Joyce: Psychic Investigator (Gilda Joyce  #1)",Express,,shipping_rank_within_title,1.0,,,1,1,1,16.79,16.79,,42.017,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Happy Are the Peace Makers (Blackie Ryan  #5)",Express,,shipping_rank_within_title,1.0,,,2,2,2,24.95,12.475,,58.5956,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Hard Eight (Stephanie Plum  #8)",International,,shipping_rank_within_title,1.0,,,2,2,2,28.75,14.375,,60.7309,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Hidden Leaves (De Beers  #5)",Priority,,shipping_rank_within_title,1.0,,,1,1,1,19.04,19.04,,45.2471,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"How ""Natives"" Think: About Captain Cook  For Example",Priority,,shipping_rank_within_title,1.0,,,1,1,1,19.73,19.73,,48.4053,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,How to Travel with a Salmon and Other Essays,Priority,,shipping_rank_within_title,1.0,,,2,2,2,23.35,11.675,,56.6061,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Hyperion (Los Cantos de Hyperion  #1)",International,,shipping_rank_within_title,1.0,,,1,1,1,19.13,19.13,,49.3296,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Identity,International,,shipping_rank_within_title,1.0,,,2,2,2,32.81,16.405,,46.539,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,In Pharaoh's Army: Memories of the Lost War,International,,shipping_rank_within_title,1.0,,,1,1,1,19.0,19.0,,46.0718,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"King Solomon's Mines (Allan Quatermain  #1)",Priority,,shipping_rank_within_title,1.0,,,3,3,3,41.04,13.68,,100.0,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Lies My Teacher Told Me about Christopher Columbus: What Your History Books Got Wrong,Priority,,shipping_rank_within_title,1.0,,,2,2,2,20.37,10.185,,50.5836,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Life of Pi,Express,,shipping_rank_within_title,1.0,,,1,1,1,17.15,17.15,,43.5832,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Love-Lies-Bleeding,Priority,,shipping_rank_within_title,1.0,,,2,2,2,24.67,12.335,,57.0801,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Moo  Baa  La La La!,Standard,,shipping_rank_within_title,1.0,,,2,2,2,29.5,14.75,,71.2905,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"My Ishmael (Ishmael  #3)",Express,,shipping_rank_within_title,1.0,,,1,1,1,19.81,19.81,,50.2027,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Nickel and Dimed: On (Not) Getting by in America,Express,,shipping_rank_within_title,1.0,,,1,1,1,18.97,18.97,,44.8675,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,O Xará,Standard,,shipping_rank_within_title,1.0,,,2,2,2,27.23,13.615,,51.926,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Pies and Tarts,Priority,,shipping_rank_within_title,1.0,,,3,3,3,43.14,14.38,,82.1245,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Preface to the Phenomenology of Spirit,Priority,,shipping_rank_within_title,1.0,,,2,2,2,34.66,17.33,,74.0915,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Raising the Bar: Ministry to Youth in the New Millennium,International,,shipping_rank_within_title,1.0,,,2,2,2,25.6,12.8,,63.1943,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Reversible Errors (Kindle County Legal Thriller #6)",Priority,,shipping_rank_within_title,1.0,,,2,2,2,35.51,17.755,,74.5069,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Ring of Fire (Ring of Fire Anthology  #1)",Standard,,shipping_rank_within_title,1.0,,,2,2,2,22.63,11.315,,45.3416,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Rose of No Man's Land,International,,shipping_rank_within_title,1.0,,,1,1,1,16.67,16.67,,39.9377,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Schopenhauer: A Very Short Introduction,International,,shipping_rank_within_title,1.0,,,1,1,1,19.47,19.47,,43.7626,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Secret for a Nightingale,Express,,shipping_rank_within_title,1.0,,,3,3,3,51.25,17.0833,,100.0,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Seduction by Design,International,,shipping_rank_within_title,1.0,,,1,1,1,15.96,15.96,,37.6771,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,SeinLanguage,Express,,shipping_rank_within_title,1.0,,,1,1,1,19.14,19.14,,36.73,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Skylight Confessions,Priority,,shipping_rank_within_title,1.0,,,1,1,1,19.5,19.5,,38.6751,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Spares,International,,shipping_rank_within_title,1.0,,,1,1,1,18.23,18.23,,34.177,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Study Guide to Accompany Brunner and Suddarth's Textbook of Medical-Surgical Nursing,Priority,,shipping_rank_within_title,1.0,,,3,3,3,25.47,8.49,,56.0396,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Territoires (Le talisman des territoires  #2)",Standard,,shipping_rank_within_title,1.0,,,1,1,1,18.43,18.43,,39.6771,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Architecture of Happiness,Priority,,shipping_rank_within_title,1.0,,,2,2,2,38.3,19.15,,71.4153,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Bible Cure For Diabetes,Priority,,shipping_rank_within_title,1.0,,,2,2,2,26.42,13.21,,63.8473,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Bluest Eye,International,,shipping_rank_within_title,1.0,,,1,1,1,19.39,19.39,,46.4209,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Book of Five Rings,Express,,shipping_rank_within_title,1.0,,,2,2,2,25.39,12.695,,65.2699,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Cat Who Walks Through Walls (The World As Myth),Standard,,shipping_rank_within_title,1.0,,,1,1,1,18.64,18.64,,40.976,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Communist Manifesto,Express,,shipping_rank_within_title,1.0,,,1,1,1,19.56,19.56,,50.0,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Complete Works: The Revised Oxford Translation  Vol. 1,Standard,,shipping_rank_within_title,1.0,,,1,1,1,15.11,15.11,,39.39,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Dive from Clausen's Pier,Priority,,shipping_rank_within_title,1.0,,,1,1,1,17.68,17.68,,45.9579,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Door Into Summer,International,,shipping_rank_within_title,1.0,,,2,2,2,20.21,10.105,,46.4705,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"The End of Days (The Earth Chronicles  #7)",Express,,shipping_rank_within_title,1.0,,,2,2,2,31.54,15.77,,65.9005,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Feminine Mystique,Standard,,shipping_rank_within_title,1.0,,,2,2,2,21.21,10.605,,51.5807,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Grail: A Year Ambling & Shambling Through an Oregon Vineyard in Pursuit of the Best Pinot Noir Wine in the Whole Wild World,International,,shipping_rank_within_title,1.0,,,2,2,2,20.9,10.45,,54.5123,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Hour Before Dark,Priority,,shipping_rank_within_title,1.0,,,2,2,2,17.5,8.75,,41.9966,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Illustrated Book of Ballet Stories (with CD),International,,shipping_rank_within_title,1.0,,,1,1,1,17.15,17.15,,44.4646,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Keeper's Companion 2: Prohibition  Firearms  Tomes  & Creatures (Call of Cthulhu RPG),Priority,,shipping_rank_within_title,1.0,,,2,2,2,29.17,14.585,,75.103,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Killer Angels,Priority,,shipping_rank_within_title,1.0,,,2,2,2,35.22,17.61,,90.5631,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"The Last Book of Swords: Shieldbreaker's Story (Lost Swords  #8)",Priority,,shipping_rank_within_title,1.0,,,2,2,2,27.39,13.695,,58.8147,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Picture of Dorian Gray,International,,shipping_rank_within_title,1.0,,,1,1,1,15.79,15.79,,39.7633,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Prophet,Express,,shipping_rank_within_title,1.0,,,2,2,2,34.0,17.0,,55.9947,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Queen of Whale Cay: The Eccentric Story of 'Joe' Carstairs  Fastest Woman on Water,Standard,,shipping_rank_within_title,1.0,,,2,2,2,38.23,19.115,,78.6464,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"The Raphael Affair (Jonathan Argyll  #1)",Express,,shipping_rank_within_title,1.0,,,1,1,1,19.07,19.07,,36.1037,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Real Jimmy Carter: How Our Worst Ex-President Undermines American Foreign Policy  Coddles Dictators and Created the Party of Clinton and Kerry,Express,,shipping_rank_within_title,1.0,,,2,2,2,27.27,13.635,,52.042,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"The Right Attitude to Rain (Isabel Dalhousie  #3)",International,,shipping_rank_within_title,1.0,,,2,2,2,31.27,15.635,,53.117,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The River at the Center of the World: A Journey Up the Yangtze & Back in Chinese Time,Priority,,shipping_rank_within_title,1.0,,,1,1,1,19.68,19.68,,50.0509,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Secret Lives of Men and Women: A PostSecret Book,International,,shipping_rank_within_title,1.0,,,1,1,1,19.14,19.14,,48.0784,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"The Shadow Rising (The Wheel of Time  #4)",International,,shipping_rank_within_title,1.0,,,2,2,2,34.82,17.41,,63.4822,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Stone Fey,Express,,shipping_rank_within_title,1.0,,,1,1,1,19.53,19.53,,39.0366,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Suppliant Maidens/The Persians/Seven against Thebes/Prometheus Bound,Express,,shipping_rank_within_title,1.0,,,2,2,2,20.04,10.02,,47.9311,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"The Teeth of the Tiger (Jack Ryan Universe  #12)",Priority,,shipping_rank_within_title,1.0,,,2,2,2,36.44,18.22,,94.0387,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Voices of Morebath: Reformation and Rebellion in an English Village,International,,shipping_rank_within_title,1.0,,,1,1,1,19.56,19.56,,50.9906,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Wealthy Barber: Everyone's Common-Sense Guide to Becoming Financially Independent,Standard,,shipping_rank_within_title,1.0,,,2,2,2,28.99,14.495,,59.26,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Working Poor: Invisible in America,International,,shipping_rank_within_title,1.0,,,1,1,1,19.79,19.79,,50.3819,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"The Zucchini Warriors (Macdonald Hall  #5)",International,,shipping_rank_within_title,1.0,,,2,2,2,33.18,16.59,,63.3327,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Time for the Stars (Heinlein's Juveniles  #10)",Standard,,shipping_rank_within_title,1.0,,,3,3,3,44.84,14.9467,,100.0,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Tinsel,Standard,,shipping_rank_within_title,1.0,,,2,2,2,33.83,16.915,,71.4165,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Tortilla Flat,Express,,shipping_rank_within_title,1.0,,,2,2,2,18.05,9.025,,45.3518,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Unicorn Point (Apprentice Adept #6)",Standard,,shipping_rank_within_title,1.0,,,2,2,2,27.23,13.615,,68.024,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Vale of the Vole (Xanth #10)",Standard,,shipping_rank_within_title,1.0,,,2,2,2,21.06,10.53,,54.3484,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Watership Down,Priority,,shipping_rank_within_title,1.0,,,2,2,2,30.67,15.335,,53.265,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,What Life Was Like in the Jewel in the Crown: British India  AD 1600-1905,International,,shipping_rank_within_title,1.0,,,1,1,1,17.39,17.39,,38.5673,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Wind Rider's Oath (War God  #3)",Express,,shipping_rank_within_title,1.0,,,2,2,2,29.22,14.61,,67.843,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Wolf Willow,Express,,shipping_rank_within_title,1.0,,,2,2,2,33.63,16.815,,67.8435,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Writings to Young Women on Laura Ingalls Wilder: As Told By Her Family  Friends  and Neighbors (Writings to Young Women on Laura Ingalls Wilder #3)",Standard,,shipping_rank_within_title,1.0,,,1,1,1,18.33,18.33,,44.3182,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,犬夜叉 17,International,,shipping_rank_within_title,1.0,,,2,2,2,14.84,7.42,,35.1742,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,200 Quilt Blocks: To Mix and Match,Express,,shipping_rank_within_title,2.0,,,1,1,1,9.64,9.64,,22.5497,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"A Higher Justice (The Trials of Kit Shannon #5)",International,,shipping_rank_within_title,2.0,,,1,1,1,19.71,19.71,,34.2069,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"A Pinch of Snuff (Dalziel & Pascoe  #5)",Standard,,shipping_rank_within_title,2.0,,,1,1,1,18.13,18.13,,39.5161,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Accordion Crimes,Standard,,shipping_rank_within_title,2.0,,,1,1,1,13.27,13.27,,32.4212,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Aeneid: Selections from Books 1  2  4  6  10  12,International,,shipping_rank_within_title,2.0,,,1,1,1,18.93,18.93,,48.6507,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Anleitung zum Zickigsein,Priority,,shipping_rank_within_title,2.0,,,2,2,2,20.0,10.0,,42.7533,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Are We There Yet?,International,,shipping_rank_within_title,2.0,,,1,1,1,15.25,15.25,,36.7736,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Betsy and Tacy Go Downtown (Betsy-Tacy  #4)",Express,,shipping_rank_within_title,2.0,,,1,1,1,19.5,19.5,,45.8824,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Black Widow: Homecoming,Express,,shipping_rank_within_title,2.0,,,1,1,1,12.86,12.86,,27.9991,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Camera Lucida: Reflections on Photography,International,,shipping_rank_within_title,2.0,,,1,1,1,19.52,19.52,,44.243,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Celebrations: Rituals of Peace and Prayer,Standard,,shipping_rank_within_title,2.0,,,1,1,1,16.18,16.18,,34.4989,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Cities of the Plain (The Border Trilogy  #3)",International,,shipping_rank_within_title,2.0,,,1,1,1,17.88,17.88,,29.8348,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Close Range,Standard,,shipping_rank_within_title,2.0,,,1,1,1,17.4,17.4,,37.6216,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Crime and Punishment,Standard,,shipping_rank_within_title,2.0,,,1,1,1,14.16,14.16,,34.3023,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Daniel Deronda,Standard,,shipping_rank_within_title,2.0,,,1,1,1,13.29,13.29,,31.1387,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Different Seasons,Priority,,shipping_rank_within_title,2.0,,,2,2,2,25.47,12.735,,40.5186,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Dostoevsky,International,,shipping_rank_within_title,2.0,,,1,1,1,14.99,14.99,,33.2299,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Error humano,Express,,shipping_rank_within_title,2.0,,,1,1,1,16.29,16.29,,35.3516,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Falling Angel,Express,,shipping_rank_within_title,2.0,,,1,1,1,7.58,7.58,,17.8102,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Fantastic Mr Fox,Express,,shipping_rank_within_title,2.0,,,1,1,1,11.72,11.72,,29.8523,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Full House: The Spread of Excellence from Plato to Darwin,Priority,,shipping_rank_within_title,2.0,,,2,2,2,22.28,11.14,,42.7886,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Galápagos,Express,,shipping_rank_within_title,2.0,,,1,1,1,15.68,15.68,,40.8972,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Genetics and the Origin of Species,Standard,,shipping_rank_within_title,2.0,,,1,1,1,11.92,11.92,,29.3596,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Gilda Joyce: Psychic Investigator (Gilda Joyce  #1)",International,,shipping_rank_within_title,2.0,,,1,1,1,11.94,11.94,,29.8799,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Happy Are the Peace Makers (Blackie Ryan  #5)",Standard,,shipping_rank_within_title,2.0,,,1,1,1,17.63,17.63,,41.4044,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Hard Eight (Stephanie Plum  #8)",Express,,shipping_rank_within_title,2.0,,,1,1,1,18.59,18.59,,39.2691,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Hidden Leaves (De Beers  #5)",Express,,shipping_rank_within_title,2.0,,,1,1,1,12.03,12.03,,28.5884,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"How ""Natives"" Think: About Captain Cook  For Example",Express,,shipping_rank_within_title,2.0,,,1,1,1,11.77,11.77,,28.8763,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,How to Travel with a Salmon and Other Essays,Standard,,shipping_rank_within_title,2.0,,,1,1,1,17.9,17.9,,43.3939,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Hyperion (Los Cantos de Hyperion  #1)",Standard,,shipping_rank_within_title,2.0,,,1,1,1,14.68,14.68,,37.8546,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Identity,Standard,,shipping_rank_within_title,2.0,,,1,1,1,19.48,19.48,,27.6312,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,In Pharaoh's Army: Memories of the Lost War,Express,,shipping_rank_within_title,2.0,,,1,1,1,13.12,13.12,,31.8138,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Lies My Teacher Told Me about Christopher Columbus: What Your History Books Got Wrong,Express,,shipping_rank_within_title,2.0,,,1,1,1,19.9,19.9,,49.4164,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Life of Pi,Priority,,shipping_rank_within_title,2.0,,,1,1,1,15.9,15.9,,40.4066,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Love-Lies-Bleeding,Standard,,shipping_rank_within_title,2.0,,,1,1,1,18.55,18.55,,42.9199,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Moo  Baa  La La La!,Priority,,shipping_rank_within_title,2.0,,,2,2,2,11.88,5.94,,28.7095,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"My Ishmael (Ishmael  #3)",Priority,,shipping_rank_within_title,2.0,,,1,1,1,17.13,17.13,,43.411,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Nickel and Dimed: On (Not) Getting by in America,International,,shipping_rank_within_title,2.0,,,1,1,1,16.6,16.6,,39.2621,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,O Xará,Priority,,shipping_rank_within_title,2.0,,,1,1,1,18.22,18.22,,34.7445,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Pies and Tarts,Standard,,shipping_rank_within_title,2.0,,,1,1,1,9.39,9.39,,17.8755,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Preface to the Phenomenology of Spirit,Express,,shipping_rank_within_title,2.0,,,1,1,1,12.12,12.12,,25.9085,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Raising the Bar: Ministry to Youth in the New Millennium,Express,,shipping_rank_within_title,2.0,,,1,1,1,9.11,9.11,,22.4883,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Reversible Errors (Kindle County Legal Thriller #6)",Standard,,shipping_rank_within_title,2.0,,,1,1,1,12.15,12.15,,25.4931,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Ring of Fire (Ring of Fire Anthology  #1)",International,,shipping_rank_within_title,2.0,,,1,1,1,13.9,13.9,,27.8501,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Rose of No Man's Land,Standard,,shipping_rank_within_title,2.0,,,1,1,1,14.01,14.01,,33.5649,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Schopenhauer: A Very Short Introduction,Express,,shipping_rank_within_title,2.0,,,1,1,1,19.35,19.35,,43.4929,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Seduction by Design,Standard,,shipping_rank_within_title,2.0,,,1,1,1,13.7,13.7,,32.3418,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,SeinLanguage,Standard,,shipping_rank_within_title,2.0,,,1,1,1,16.69,16.69,,32.0284,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Skylight Confessions,International,,shipping_rank_within_title,2.0,,,1,1,1,16.67,16.67,,33.0623,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Spares,Priority,,shipping_rank_within_title,2.0,,,1,1,1,17.95,17.95,,33.652,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Study Guide to Accompany Brunner and Suddarth's Textbook of Medical-Surgical Nursing,Express,,shipping_rank_within_title,2.0,,,1,1,1,19.98,19.98,,43.9604,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Territoires (Le talisman des territoires  #2)",Express,,shipping_rank_within_title,2.0,,,1,1,1,18.26,18.26,,39.3111,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Architecture of Happiness,Express,,shipping_rank_within_title,2.0,,,1,1,1,15.33,15.33,,28.5847,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Bible Cure For Diabetes,International,,shipping_rank_within_title,2.0,,,2,2,2,14.96,7.48,,36.1527,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Bluest Eye,Standard,,shipping_rank_within_title,2.0,,,1,1,1,14.63,14.63,,35.0251,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Book of Five Rings,Standard,,shipping_rank_within_title,2.0,,,1,1,1,13.51,13.51,,34.7301,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Cat Who Walks Through Walls (The World As Myth),International,,shipping_rank_within_title,2.0,,,1,1,1,18.35,18.35,,40.3385,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Communist Manifesto,Priority,,shipping_rank_within_title,2.0,,,1,1,1,19.56,19.56,,50.0,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Complete Works: The Revised Oxford Translation  Vol. 1,Express,,shipping_rank_within_title,2.0,,,1,1,1,15.02,15.02,,39.1554,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Dive from Clausen's Pier,Standard,,shipping_rank_within_title,2.0,,,1,1,1,13.95,13.95,,36.262,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Door Into Summer,Express,,shipping_rank_within_title,2.0,,,1,1,1,17.0,17.0,,39.0894,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"The End of Days (The Earth Chronicles  #7)",Standard,,shipping_rank_within_title,2.0,,,1,1,1,16.32,16.32,,34.0995,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Feminine Mystique,Express,,shipping_rank_within_title,2.0,,,1,1,1,19.91,19.91,,48.4193,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Grail: A Year Ambling & Shambling Through an Oregon Vineyard in Pursuit of the Best Pinot Noir Wine in the Whole Wild World,Priority,,shipping_rank_within_title,2.0,,,2,2,2,17.44,8.72,,45.4877,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Hour Before Dark,International,,shipping_rank_within_title,2.0,,,1,1,1,15.84,15.84,,38.013,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Illustrated Book of Ballet Stories (with CD),Priority,,shipping_rank_within_title,2.0,,,1,1,1,11.12,11.12,,28.8307,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Keeper's Companion 2: Prohibition  Firearms  Tomes  & Creatures (Call of Cthulhu RPG),Standard,,shipping_rank_within_title,2.0,,,1,1,1,9.67,9.67,,24.897,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Killer Angels,Standard,,shipping_rank_within_title,2.0,,,1,1,1,2.79,2.79,,7.1741,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"The Last Book of Swords: Shieldbreaker's Story (Lost Swords  #8)",Standard,,shipping_rank_within_title,2.0,,,1,1,1,19.18,19.18,,41.1853,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Picture of Dorian Gray,Express,,shipping_rank_within_title,2.0,,,1,1,1,13.72,13.72,,34.5505,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Prophet,International,,shipping_rank_within_title,2.0,,,1,1,1,14.39,14.39,,23.6989,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Queen of Whale Cay: The Eccentric Story of 'Joe' Carstairs  Fastest Woman on Water,Priority,,shipping_rank_within_title,2.0,,,1,1,1,10.38,10.38,,21.3536,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"The Raphael Affair (Jonathan Argyll  #1)",Priority,,shipping_rank_within_title,2.0,,,1,1,1,17.18,17.18,,32.5256,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Real Jimmy Carter: How Our Worst Ex-President Undermines American Foreign Policy  Coddles Dictators and Created the Party of Clinton and Kerry,Priority,,shipping_rank_within_title,2.0,,,1,1,1,16.09,16.09,,30.7061,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"The Right Attitude to Rain (Isabel Dalhousie  #3)",Express,,shipping_rank_within_title,2.0,,,1,1,1,18.71,18.71,,31.7819,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The River at the Center of the World: A Journey Up the Yangtze & Back in Chinese Time,Express,,shipping_rank_within_title,2.0,,,1,1,1,19.64,19.64,,49.9491,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Secret Lives of Men and Women: A PostSecret Book,Priority,,shipping_rank_within_title,2.0,,,1,1,1,14.73,14.73,,37.0008,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"The Shadow Rising (The Wheel of Time  #4)",Standard,,shipping_rank_within_title,2.0,,,1,1,1,15.4,15.4,,28.0766,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Stone Fey,International,,shipping_rank_within_title,2.0,,,1,1,1,16.54,16.54,,33.0602,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Suppliant Maidens/The Persians/Seven against Thebes/Prometheus Bound,Priority,,shipping_rank_within_title,2.0,,,1,1,1,19.66,19.66,,47.0222,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"The Teeth of the Tiger (Jack Ryan Universe  #12)",International,,shipping_rank_within_title,2.0,,,1,1,1,2.31,2.31,,5.9613,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Voices of Morebath: Reformation and Rebellion in an English Village,Priority,,shipping_rank_within_title,2.0,,,1,1,1,18.8,18.8,,49.0094,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Wealthy Barber: Everyone's Common-Sense Guide to Becoming Financially Independent,International,,shipping_rank_within_title,2.0,,,1,1,1,19.93,19.93,,40.74,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Working Poor: Invisible in America,Express,,shipping_rank_within_title,2.0,,,1,1,1,19.49,19.49,,49.6181,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"The Zucchini Warriors (Macdonald Hall  #5)",Priority,,shipping_rank_within_title,2.0,,,2,2,2,19.21,9.605,,36.6673,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Tinsel,International,,shipping_rank_within_title,2.0,,,1,1,1,13.54,13.54,,28.5835,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Tortilla Flat,International,,shipping_rank_within_title,2.0,,,1,1,1,16.6,16.6,,41.7085,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Unicorn Point (Apprentice Adept #6)",International,,shipping_rank_within_title,2.0,,,1,1,1,12.8,12.8,,31.976,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Vale of the Vole (Xanth #10)",Express,,shipping_rank_within_title,2.0,,,1,1,1,17.69,17.69,,45.6516,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Watership Down,Standard,,shipping_rank_within_title,2.0,,,2,2,2,26.91,13.455,,46.735,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,What Life Was Like in the Jewel in the Crown: British India  AD 1600-1905,Priority,,shipping_rank_within_title,2.0,,,1,1,1,14.0,14.0,,31.049,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Wind Rider's Oath (War God  #3)",International,,shipping_rank_within_title,2.0,,,1,1,1,13.85,13.85,,32.157,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Wolf Willow,International,,shipping_rank_within_title,2.0,,,1,1,1,15.94,15.94,,32.1565,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Writings to Young Women on Laura Ingalls Wilder: As Told By Her Family  Friends  and Neighbors (Writings to Young Women on Laura Ingalls Wilder #3)",Express,,shipping_rank_within_title,2.0,,,1,1,1,13.85,13.85,,33.4865,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,犬夜叉 17,Standard,,shipping_rank_within_title,2.0,,,1,1,1,13.85,13.85,,32.8277,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,200 Quilt Blocks: To Mix and Match,Standard,,shipping_rank_within_title,3.0,,,1,1,1,4.35,4.35,,10.1754,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"A Higher Justice (The Trials of Kit Shannon #5)",Standard,,shipping_rank_within_title,3.0,,,1,1,1,3.46,3.46,,6.0049,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"A Pinch of Snuff (Dalziel & Pascoe  #5)",International,,shipping_rank_within_title,3.0,,,1,1,1,9.32,9.32,,20.3139,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Accordion Crimes,Priority,,shipping_rank_within_title,3.0,,,1,1,1,13.2,13.2,,32.2502,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Are We There Yet?,Standard,,shipping_rank_within_title,3.0,,,1,1,1,7.47,7.47,,18.013,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Black Widow: Homecoming,International,,shipping_rank_within_title,3.0,,,1,1,1,4.37,4.37,,9.5145,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Celebrations: Rituals of Peace and Prayer,Express,,shipping_rank_within_title,3.0,,,1,1,1,12.27,12.27,,26.162,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Cities of the Plain (The Border Trilogy  #3)",Standard,,shipping_rank_within_title,3.0,,,2,2,2,14.7,7.35,,24.5286,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Close Range,Priority,,shipping_rank_within_title,3.0,,,1,1,1,9.75,9.75,,21.0811,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Crime and Punishment,International,,shipping_rank_within_title,3.0,,,1,1,1,10.97,10.97,,26.5746,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Different Seasons,International,,shipping_rank_within_title,3.0,,,1,1,1,3.78,3.78,,6.0134,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Dostoevsky,Express,,shipping_rank_within_title,3.0,,,1,1,1,14.37,14.37,,31.8555,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Fantastic Mr Fox,Standard,,shipping_rank_within_title,3.0,,,1,1,1,8.15,8.15,,20.759,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Galápagos,Standard,,shipping_rank_within_title,3.0,,,1,1,1,4.44,4.44,,11.5806,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Genetics and the Origin of Species,International,,shipping_rank_within_title,3.0,,,1,1,1,10.13,10.13,,24.9507,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Gilda Joyce: Psychic Investigator (Gilda Joyce  #1)",Standard,,shipping_rank_within_title,3.0,,,1,1,1,11.23,11.23,,28.1031,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Hidden Leaves (De Beers  #5)",Standard,,shipping_rank_within_title,3.0,,,1,1,1,11.01,11.01,,26.1644,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"How ""Natives"" Think: About Captain Cook  For Example",International,,shipping_rank_within_title,3.0,,,1,1,1,9.26,9.26,,22.7184,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Hyperion (Los Cantos de Hyperion  #1)",Priority,,shipping_rank_within_title,3.0,,,1,1,1,4.97,4.97,,12.8159,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Identity,Express,,shipping_rank_within_title,3.0,,,1,1,1,18.21,18.21,,25.8298,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,In Pharaoh's Army: Memories of the Lost War,Priority,,shipping_rank_within_title,3.0,,,1,1,1,9.12,9.12,,22.1145,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Life of Pi,Standard,,shipping_rank_within_title,3.0,,,1,1,1,6.3,6.3,,16.0102,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"My Ishmael (Ishmael  #3)",International,,shipping_rank_within_title,3.0,,,1,1,1,2.52,2.52,,6.3862,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Nickel and Dimed: On (Not) Getting by in America,Standard,,shipping_rank_within_title,3.0,,,1,1,1,6.71,6.71,,15.8704,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,O Xará,International,,shipping_rank_within_title,3.0,,,1,1,1,6.99,6.99,,13.3295,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Raising the Bar: Ministry to Youth in the New Millennium,Priority,,shipping_rank_within_title,3.0,,,1,1,1,5.8,5.8,,14.3175,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Ring of Fire (Ring of Fire Anthology  #1)",Priority,,shipping_rank_within_title,3.0,,,1,1,1,13.38,13.38,,26.8083,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Rose of No Man's Land,Express,,shipping_rank_within_title,3.0,,,2,2,2,11.06,5.53,,26.4974,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Schopenhauer: A Very Short Introduction,Standard,,shipping_rank_within_title,3.0,,,1,1,1,3.6,3.6,,8.0917,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Seduction by Design,Express,,shipping_rank_within_title,3.0,,,1,1,1,12.7,12.7,,29.9811,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,SeinLanguage,International,,shipping_rank_within_title,3.0,,,1,1,1,16.28,16.28,,31.2416,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Skylight Confessions,Standard,,shipping_rank_within_title,3.0,,,1,1,1,14.25,14.25,,28.2626,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Spares,Standard,,shipping_rank_within_title,3.0,,,1,1,1,17.16,17.16,,32.171,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Territoires (Le talisman des territoires  #2)",Priority,,shipping_rank_within_title,3.0,,,1,1,1,9.76,9.76,,21.0118,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Bluest Eye,Priority,,shipping_rank_within_title,3.0,,,1,1,1,7.75,7.75,,18.554,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Cat Who Walks Through Walls (The World As Myth),Priority,,shipping_rank_within_title,3.0,,,1,1,1,8.5,8.5,,18.6854,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Complete Works: The Revised Oxford Translation  Vol. 1,International,,shipping_rank_within_title,3.0,,,2,2,2,8.23,4.115,,21.4546,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Dive from Clausen's Pier,International,,shipping_rank_within_title,3.0,,,1,1,1,6.84,6.84,,17.7801,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Door Into Summer,Priority,,shipping_rank_within_title,3.0,,,2,2,2,6.28,3.14,,14.4401,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Hour Before Dark,Express,,shipping_rank_within_title,3.0,,,1,1,1,8.33,8.33,,19.9904,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Illustrated Book of Ballet Stories (with CD),Express,,shipping_rank_within_title,3.0,,,1,1,1,10.3,10.3,,26.7047,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Killer Angels,Express,,shipping_rank_within_title,3.0,,,1,1,1,0.88,0.88,,2.2628,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Picture of Dorian Gray,Priority,,shipping_rank_within_title,3.0,,,1,1,1,10.2,10.2,,25.6862,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Prophet,Priority,,shipping_rank_within_title,3.0,,,1,1,1,12.33,12.33,,20.3063,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"The Raphael Affair (Jonathan Argyll  #1)",International,,shipping_rank_within_title,3.0,,,1,1,1,16.57,16.57,,31.3707,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Real Jimmy Carter: How Our Worst Ex-President Undermines American Foreign Policy  Coddles Dictators and Created the Party of Clinton and Kerry,Standard,,shipping_rank_within_title,3.0,,,1,1,1,9.04,9.04,,17.2519,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"The Right Attitude to Rain (Isabel Dalhousie  #3)",Priority,,shipping_rank_within_title,3.0,,,1,1,1,8.89,8.89,,15.1011,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Secret Lives of Men and Women: A PostSecret Book,Express,,shipping_rank_within_title,3.0,,,1,1,1,5.94,5.94,,14.9209,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"The Shadow Rising (The Wheel of Time  #4)",Express,,shipping_rank_within_title,3.0,,,1,1,1,4.63,4.63,,8.4412,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Stone Fey,Standard,,shipping_rank_within_title,3.0,,,2,2,2,13.96,6.98,,27.9033,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,The Suppliant Maidens/The Persians/Seven against Thebes/Prometheus Bound,International,,shipping_rank_within_title,3.0,,,1,1,1,2.11,2.11,,5.0466,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Tortilla Flat,Standard,,shipping_rank_within_title,3.0,,,1,1,1,5.15,5.15,,12.9397,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,What Life Was Like in the Jewel in the Crown: British India  AD 1600-1905,Standard,,shipping_rank_within_title,3.0,,,1,1,1,13.7,13.7,,30.3837,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Writings to Young Women on Laura Ingalls Wilder: As Told By Her Family  Friends  and Neighbors (Writings to Young Women on Laura Ingalls Wilder #3)",Priority,,shipping_rank_within_title,3.0,,,1,1,1,9.18,9.18,,22.1954,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,犬夜叉 17,Express,,shipping_rank_within_title,3.0,,,1,1,1,13.5,13.5,,31.9981,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,"Cities of the Plain (The Border Trilogy  #3)",Priority,,shipping_rank_within_title,4.0,,,1,1,1,7.82,7.82,,13.0486,Shipping mix for top observed titles.
+title_shipping_mix,title_shipping,Schopenhauer: A Very Short Introduction,Priority,,shipping_rank_within_title,4.0,,,1,1,1,2.07,2.07,,4.6527,Shipping mix for top observed titles.

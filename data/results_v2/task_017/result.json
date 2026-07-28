@@ -1,0 +1,159 @@
+{
+  "task_id": "017",
+  "db_id": "car_retails",
+  "engine": "DuckDB",
+  "data_source": "CSV",
+  "schema_source": "database_description",
+  "status": "success",
+  "elapsed_seconds": 0.024,
+  "tables": [
+    {
+      "table": "customers",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/car_retails/tables/customers.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/car_retails/database_description/customers.csv",
+      "size_bytes": 13846,
+      "modified_time_ns": 1782118967562724739,
+      "row_count": 122,
+      "column_types": {
+        "customerNumber": "BIGINT",
+        "customerName": "VARCHAR",
+        "contactLastName": "VARCHAR",
+        "contactFirstName": "VARCHAR",
+        "phone": "VARCHAR",
+        "addressLine1": "VARCHAR",
+        "addressLine2": "VARCHAR",
+        "city": "VARCHAR",
+        "state": "VARCHAR",
+        "postalCode": "VARCHAR",
+        "country": "VARCHAR",
+        "salesRepEmployeeNumber": "BIGINT",
+        "creditLimit": "DOUBLE"
+      }
+    },
+    {
+      "table": "employees",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/car_retails/tables/employees.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/car_retails/database_description/employees.csv",
+      "size_bytes": 1761,
+      "modified_time_ns": 1782118967563211579,
+      "row_count": 23,
+      "column_types": {
+        "employeeNumber": "BIGINT",
+        "lastName": "VARCHAR",
+        "firstName": "VARCHAR",
+        "extension": "VARCHAR",
+        "email": "VARCHAR",
+        "officeCode": "VARCHAR",
+        "reportsTo": "BIGINT",
+        "jobTitle": "VARCHAR"
+      }
+    },
+    {
+      "table": "offices",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/car_retails/tables/offices.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/car_retails/database_description/offices.csv",
+      "size_bytes": 593,
+      "modified_time_ns": 1782118967563558293,
+      "row_count": 7,
+      "column_types": {
+        "officeCode": "VARCHAR",
+        "city": "VARCHAR",
+        "phone": "VARCHAR",
+        "addressLine1": "VARCHAR",
+        "addressLine2": "VARCHAR",
+        "state": "VARCHAR",
+        "country": "VARCHAR",
+        "postalCode": "VARCHAR",
+        "territory": "VARCHAR"
+      }
+    },
+    {
+      "table": "orderdetails",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/car_retails/tables/orderdetails.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/car_retails/database_description/orderdetails.csv",
+      "size_bytes": 82700,
+      "modified_time_ns": 1782118967568236653,
+      "row_count": 2996,
+      "column_types": {
+        "orderNumber": "BIGINT",
+        "productCode": "VARCHAR",
+        "quantityOrdered": "BIGINT",
+        "priceEach": "DOUBLE",
+        "orderLineNumber": "BIGINT"
+      }
+    },
+    {
+      "table": "orders",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/car_retails/tables/orders.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/car_retails/database_description/orders.csv",
+      "size_bytes": 23875,
+      "modified_time_ns": 1782118967569667966,
+      "row_count": 326,
+      "column_types": {
+        "orderNumber": "BIGINT",
+        "orderDate": "DATE",
+        "requiredDate": "DATE",
+        "shippedDate": "DATE",
+        "status": "VARCHAR",
+        "comments": "VARCHAR",
+        "customerNumber": "BIGINT"
+      }
+    },
+    {
+      "table": "payments",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/car_retails/tables/payments.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/car_retails/database_description/payments.csv",
+      "size_bytes": 9242,
+      "modified_time_ns": 1782118967570464727,
+      "row_count": 273,
+      "column_types": {
+        "customerNumber": "BIGINT",
+        "checkNumber": "VARCHAR",
+        "paymentDate": "DATE",
+        "amount": "DOUBLE"
+      }
+    },
+    {
+      "table": "productlines",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/car_retails/tables/productlines.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/car_retails/database_description/productlines.csv",
+      "size_bytes": 1951,
+      "modified_time_ns": 1782118967570764023,
+      "row_count": 7,
+      "column_types": {
+        "productLine": "VARCHAR",
+        "textDescription": "VARCHAR",
+        "htmlDescription": "VARCHAR",
+        "image": "VARCHAR"
+      }
+    },
+    {
+      "table": "products",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/car_retails/tables/products.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/car_retails/database_description/products.csv",
+      "size_bytes": 29385,
+      "modified_time_ns": 1782118967571790997,
+      "row_count": 110,
+      "column_types": {
+        "productCode": "VARCHAR",
+        "productName": "VARCHAR",
+        "productLine": "VARCHAR",
+        "productScale": "VARCHAR",
+        "productVendor": "VARCHAR",
+        "productDescription": "VARCHAR",
+        "quantityInStock": "BIGINT",
+        "buyPrice": "DOUBLE",
+        "MSRP": "DOUBLE"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "insight_id": "TASK",
+      "sql_file": "queries_v2/task_017/task_017_customer_lifecycle_repurchase_quality_evidence.sql",
+      "file": "outputs/TASK__task_017_customer_lifecycle_repurchase_quality_evidence.csv",
+      "rows": 85
+    }
+  ],
+  "qa_outputs": []
+}

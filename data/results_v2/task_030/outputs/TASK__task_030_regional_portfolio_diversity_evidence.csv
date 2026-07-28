@@ -1,0 +1,27 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,release_year,start_year,end_year,games,game_platforms,platforms,publishers,genres,regions,reported_sales_volume,sales_share,avg_sales_per_game_platform,secondary_value,secondary_label,notes
+region_market_breadth_baseline,region,North America,X360,Action,region_sales_rank,1.0,,,,11360,16326,31,577,13,1,4335.07,0.4916,0.2655,0.1375,top_platform_share,Establish each region market size and breadth before concentration analysis.
+region_market_breadth_baseline,region,Europe,PS3,Action,region_sales_rank,2.0,,,,11360,16326,31,577,13,1,2410.37,0.2733,0.1476,0.1412,top_platform_share,Establish each region market size and breadth before concentration analysis.
+region_market_breadth_baseline,region,Japan,DS,Role-Playing,region_sales_rank,3.0,,,,11360,16326,31,577,13,1,1284.33,0.1456,0.0787,0.1363,top_platform_share,Establish each region market size and breadth before concentration analysis.
+region_market_breadth_baseline,region,Other,PS2,Action,region_sales_rank,4.0,,,,11360,16326,31,577,13,1,789.33,0.0895,0.0483,0.2413,top_platform_share,Establish each region market size and breadth before concentration analysis.
+region_platform_concentration,region_platform,Other,PS2,,top_platform_share,,,,,,,1,,,1,789.33,0.2413,,190.47,top_platform_sales,Quantify platform concentration within each regional market.
+region_platform_concentration,region_platform,North America,X360,,top_platform_share,,,,,,,1,,,1,4335.07,0.1375,,595.95,top_platform_sales,Quantify platform concentration within each regional market.
+region_platform_concentration,region_platform,Japan,DS,,top_platform_share,,,,,,,1,,,1,1284.33,0.1363,,175.02,top_platform_sales,Quantify platform concentration within each regional market.
+region_platform_concentration,region_platform,Europe,PS3,,top_platform_share,,,,,,,1,,,1,2410.37,0.1412,,340.46,top_platform_sales,Quantify platform concentration within each regional market.
+region_genre_concentration,region_genre,Japan,Role-Playing,,top_genre_share,,,,,,,,,1,1,1284.33,0.2718,,349.02,top_genre_sales,Quantify genre concentration within each regional market.
+region_genre_concentration,region_genre,North America,Action,,top_genre_share,,,,,,,,,1,1,4335.07,0.1976,,856.72,top_genre_sales,Quantify genre concentration within each regional market.
+region_genre_concentration,region_genre,Other,Action,,top_genre_share,,,,,,,,,1,1,789.33,0.2332,,184.07,top_genre_sales,Quantify genre concentration within each regional market.
+region_genre_concentration,region_genre,Europe,Action,,top_genre_share,,,,,,,,,1,1,2410.37,0.2131,,513.68,top_genre_sales,Quantify genre concentration within each regional market.
+region_publisher_concentration,region_publisher,Other,Electronic Arts,,top_publisher_share,,,,,,,,1,,1,789.33,0.1621,,127.95,top_publisher_sales,Quantify publisher concentration within each regional market.
+region_publisher_concentration,region_publisher,Europe,Nintendo,,top_publisher_share,,,,,,,,1,,1,2410.37,0.1735,,418.3,top_publisher_sales,Quantify publisher concentration within each regional market.
+region_publisher_concentration,region_publisher,Japan,Nintendo,,top_publisher_share,,,,,,,,1,,1,1284.33,0.3543,,454.99,top_publisher_sales,Quantify publisher concentration within each regional market.
+region_publisher_concentration,region_publisher,North America,Nintendo,,top_publisher_share,,,,,,,,1,,1,4335.07,0.1882,,815.75,top_publisher_sales,Quantify publisher concentration within each regional market.
+region_pair_genre_similarity,region_pair,Europe,Japan,,genre_mix_cosine_similarity,,,,,,,,,,2,,0.7521,,,not_applicable,Compare whether regions have similar or distinct genre portfolios.
+region_pair_genre_similarity,region_pair,North America,Other,,genre_mix_cosine_similarity,,,,,,,,,,2,,0.9884,,,not_applicable,Compare whether regions have similar or distinct genre portfolios.
+region_pair_genre_similarity,region_pair,Europe,Other,,genre_mix_cosine_similarity,,,,,,,,,,2,,0.9965,,,not_applicable,Compare whether regions have similar or distinct genre portfolios.
+region_pair_genre_similarity,region_pair,Europe,North America,,genre_mix_cosine_similarity,,,,,,,,,,2,,0.9955,,,not_applicable,Compare whether regions have similar or distinct genre portfolios.
+region_pair_genre_similarity,region_pair,Japan,North America,,genre_mix_cosine_similarity,,,,,,,,,,2,,0.7609,,,not_applicable,Compare whether regions have similar or distinct genre portfolios.
+region_pair_genre_similarity,region_pair,Japan,Other,,genre_mix_cosine_similarity,,,,,,,,,,2,,0.7302,,,not_applicable,Compare whether regions have similar or distinct genre portfolios.
+region_strongest_concentration_axis,region,North America,genre,Action,strongest_single_axis_share,,,,,,,,,,1,,0.1976,,,not_applicable,Identify the main axis through which each region is most concentrated.
+region_strongest_concentration_axis,region,Europe,genre,Action,strongest_single_axis_share,,,,,,,,,,1,,0.2131,,,not_applicable,Identify the main axis through which each region is most concentrated.
+region_strongest_concentration_axis,region,Japan,publisher,Nintendo,strongest_single_axis_share,,,,,,,,,,1,,0.3543,,,not_applicable,Identify the main axis through which each region is most concentrated.
+region_strongest_concentration_axis,region,Other,platform,PS2,strongest_single_axis_share,,,,,,,,,,1,,0.2413,,,not_applicable,Identify the main axis through which each region is most concentrated.

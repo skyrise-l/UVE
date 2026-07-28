@@ -1,0 +1,3 @@
+table_name,row_count,distinct_composite_keys,duplicate_key_rows,qa_status
+people,2501,2501,0,pass
+product,5298,5298,0,pass

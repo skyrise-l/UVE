@@ -1,0 +1,185 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,calls,linked_complaints,clients,districts,regions,avg_priority,avg_service_seconds,avg_sent_delay_days,dispute_rate_pct,untimely_rate_pct,no_relief_rate_pct,linked_rate_pct,share_pct,notes
+call_linkage_baseline,call_linkage,linked_to_complaint,,,linkage_volume_rank,1.0,2504,2504,2019,77,5,0.7971,698.649,3.1138,16.4537,1.877,3.3546,100.0,62.6157,Compare calls that do and do not join to formal complaints.
+call_linkage_baseline,call_linkage,not_linked_to_complaint,,,linkage_volume_rank,2.0,1495,0,0,0,1,0.4658,450.9719,,,,,0.0,37.3843,Compare calls that do and do not join to formal complaints.
+call_type_routing,call_type,PS,,,call_type_volume_rank,1.0,1996,1723,1482,77,5,0.8778,623.9364,2.9565,16.4248,2.0894,3.4243,86.3226,49.9125,Compare call types by scale and linkage.
+call_type_routing,call_type,unknown_type,,,call_type_volume_rank,2.0,984,0,0,0,1,,635.7104,,,,,0.0,24.6062,Compare call types by scale and linkage.
+call_type_routing,call_type,NW,,,call_type_volume_rank,3.0,624,424,409,77,5,0.1202,474.0369,3.9387,16.5094,1.4151,2.5943,67.9487,15.6039,Compare call types by scale and linkage.
+call_type_routing,call_type,NE,,,call_type_volume_rank,4.0,254,234,232,68,5,1.1535,650.9882,2.6026,15.812,1.7094,4.2735,92.126,6.3516,Compare call types by scale and linkage.
+call_type_routing,call_type,TT,,,call_type_volume_rank,5.0,94,85,81,45,5,0.9574,619.9468,2.9059,16.4706,0.0,3.5294,90.4255,2.3506,Compare call types by scale and linkage.
+call_type_routing,call_type,IN,,,call_type_volume_rank,6.0,28,21,21,19,5,0.1429,582.6786,1.9048,33.3333,0.0,4.7619,75.0,0.7002,Compare call types by scale and linkage.
+call_type_routing,call_type,PE,,,call_type_volume_rank,7.0,19,17,17,17,5,1.0526,892.8421,8.0588,5.8824,5.8824,0.0,89.4737,0.4751,Compare call types by scale and linkage.
+priority_routing,priority,0,,,priority_volume_rank,1.0,1656,1306,1161,77,5,0.0,548.4771,2.9709,16.0031,1.7611,3.5222,78.8647,41.4104,Compare priority buckets by call linkage and outcomes.
+priority_routing,priority,unknown_priority,,,priority_volume_rank,2.0,984,0,0,0,1,,635.7104,,,,,0.0,24.6062,Compare priority buckets by call linkage and outcomes.
+priority_routing,priority,2,,,priority_volume_rank,3.0,875,798,756,77,5,2.0,656.5657,2.891,17.0426,1.8797,3.1328,91.2,21.8805,Compare priority buckets by call linkage and outcomes.
+priority_routing,priority,1,,,priority_volume_rank,4.0,484,400,385,77,5,1.0,651.4628,4.025,16.75,2.25,3.25,82.6446,12.103,Compare priority buckets by call linkage and outcomes.
+line_routing,vru_line,unknown_line,,,line_volume_rank,1.0,984,0,0,0,1,,635.7104,,,,,0.0,24.6062,Compare line routing patterns.
+line_routing,vru_line,AA0213,,,line_volume_rank,2.0,183,159,157,65,5,0.6885,657.7596,2.8931,18.239,2.5157,3.7736,86.8852,4.5761,Compare line routing patterns.
+line_routing,vru_line,AA0106,,,line_volume_rank,3.0,169,131,130,59,5,0.6627,569.7811,4.3893,13.7405,1.5267,3.0534,77.5148,4.2261,Compare line routing patterns.
+line_routing,vru_line,AA0109,,,line_volume_rank,4.0,167,143,143,66,5,0.9222,621.3772,2.5874,10.4895,2.0979,4.1958,85.6287,4.176,Compare line routing patterns.
+line_routing,vru_line,AA0101,,,line_volume_rank,5.0,160,135,134,67,5,0.725,621.525,2.4444,20.0,0.7407,3.7037,84.375,4.001,Compare line routing patterns.
+line_routing,vru_line,AA0202,,,line_volume_rank,6.0,158,126,124,56,5,0.8418,600.1772,2.1667,19.0476,0.0,2.381,79.7468,3.951,Compare line routing patterns.
+line_routing,vru_line,AA0214,,,line_volume_rank,7.0,152,129,128,60,5,0.8289,615.3092,2.062,13.9535,1.5504,1.5504,84.8684,3.801,Compare line routing patterns.
+line_routing,vru_line,AA0110,,,line_volume_rank,8.0,145,118,117,56,5,0.7448,580.0276,2.2627,21.1864,0.8475,2.5424,81.3793,3.6259,Compare line routing patterns.
+line_routing,vru_line,AA0102,,,line_volume_rank,9.0,142,114,114,54,5,0.6338,540.8099,1.7807,15.7895,1.7544,1.7544,80.2817,3.5509,Compare line routing patterns.
+line_routing,vru_line,AA0205,,,line_volume_rank,10.0,142,113,112,57,5,0.6761,549.9718,2.7788,17.6991,0.885,6.1947,79.5775,3.5509,Compare line routing patterns.
+line_routing,vru_line,AA0115,,,line_volume_rank,11.0,141,117,117,59,5,0.6879,534.0355,8.7009,18.8034,2.5641,1.7094,82.9787,3.5259,Compare line routing patterns.
+line_routing,vru_line,AA0206,,,line_volume_rank,12.0,139,108,108,51,5,0.5827,574.3597,3.8704,14.8148,2.7778,3.7037,77.6978,3.4759,Compare line routing patterns.
+line_routing,vru_line,AA0210,,,line_volume_rank,13.0,139,118,118,60,5,0.9281,702.9281,2.5763,20.339,1.6949,5.0847,84.8921,3.4759,Compare line routing patterns.
+line_routing,vru_line,AA0209,,,line_volume_rank,14.0,138,120,119,55,5,0.7899,623.7971,4.3,13.3333,2.5,3.3333,86.9565,3.4509,Compare line routing patterns.
+line_routing,vru_line,AA0215,,,line_volume_rank,15.0,134,113,113,57,5,0.6567,652.5373,2.2743,19.469,5.3097,4.4248,84.3284,3.3508,Compare line routing patterns.
+line_routing,vru_line,AA0103,,,line_volume_rank,16.0,131,106,105,51,5,0.8092,505.8626,2.783,14.1509,2.8302,0.9434,80.916,3.2758,Compare line routing patterns.
+line_routing,vru_line,AA0203,,,line_volume_rank,17.0,129,102,101,49,5,0.7209,537.1473,3.9216,11.7647,0.9804,4.902,79.0698,3.2258,Compare line routing patterns.
+line_routing,vru_line,AA0105,,,line_volume_rank,18.0,127,100,97,50,5,0.6693,509.8898,2.75,17.0,2.0,4.0,78.7402,3.1758,Compare line routing patterns.
+line_routing,vru_line,AA0104,,,line_volume_rank,19.0,119,94,93,47,5,0.6555,502.437,2.6277,14.8936,1.0638,4.2553,78.9916,2.9757,Compare line routing patterns.
+line_routing,vru_line,AA0204,,,line_volume_rank,20.0,115,108,107,57,5,0.687,691.7913,3.2778,17.5926,2.7778,1.8519,93.913,2.8757,Compare line routing patterns.
+line_routing,vru_line,AA0201,,,line_volume_rank,21.0,76,64,64,39,5,0.9079,599.6842,2.5625,12.5,1.5625,3.125,84.2105,1.9005,Compare line routing patterns.
+line_routing,vru_line,AA0113,,,line_volume_rank,22.0,54,49,49,28,5,0.5741,603.5185,3.1429,14.2857,2.0408,4.0816,90.7407,1.3503,Compare line routing patterns.
+line_routing,vru_line,AA0107,,,line_volume_rank,23.0,53,51,49,35,5,1.1321,894.4528,2.0196,21.5686,0.0,1.9608,96.2264,1.3253,Compare line routing patterns.
+line_routing,vru_line,AA0112,,,line_volume_rank,24.0,38,34,34,30,5,0.8684,716.7105,3.0,29.4118,5.8824,2.9412,89.4737,0.9502,Compare line routing patterns.
+line_routing,vru_line,AA0108,,,line_volume_rank,25.0,25,22,22,14,5,1.0,507.52,3.5,4.5455,0.0,4.5455,88.0,0.6252,Compare line routing patterns.
+line_routing,vru_line,AA0111,,,line_volume_rank,26.0,16,15,15,14,5,0.625,582.5,1.8,0.0,0.0,6.6667,93.75,0.4001,Compare line routing patterns.
+line_routing,vru_line,AA0216,,,line_volume_rank,27.0,14,7,7,7,3,0.0,364.9286,2.4286,0.0,0.0,0.0,50.0,0.3501,Compare line routing patterns.
+line_routing,vru_line,AA0116,,,line_volume_rank,28.0,9,8,8,8,5,0.0,544.6667,1.375,50.0,0.0,12.5,88.8889,0.2251,Compare line routing patterns.
+server_volume_quality,server,unknown_server,,,server_volume_rank,1.0,984,0,0,0,1,,635.7104,,,,,0.0,24.6062,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,NO_SERVER,,,server_volume_rank,2.0,488,50,50,31,5,0.4734,77.957,3.66,20.0,2.0,2.0,10.2459,12.2031,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,KAZAV,,,server_volume_rank,3.0,188,181,179,70,5,1.0532,744.3989,3.1547,16.5746,2.2099,5.5249,96.2766,4.7012,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,TOVA,,,server_volume_rank,4.0,184,179,175,61,5,0.6957,723.1576,1.8492,11.7318,0.0,3.9106,97.2826,4.6012,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,IDIT,,,server_volume_rank,5.0,172,167,166,64,5,0.6512,668.0581,2.7545,14.9701,1.1976,5.988,97.093,4.3011,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,SHARON,,,server_volume_rank,6.0,164,158,156,63,5,0.9024,691.0915,3.1772,18.9873,1.2658,3.7975,96.3415,4.101,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,YIFAT,,,server_volume_rank,7.0,158,154,153,64,5,0.6962,691.6519,3.4416,18.1818,0.0,0.6494,97.4684,3.951,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,AVNI,,,server_volume_rank,8.0,153,148,143,57,5,0.7386,614.9281,2.9662,16.8919,4.7297,2.027,96.732,3.826,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,YITZ,,,server_volume_rank,9.0,144,143,140,60,5,0.8542,656.4306,3.3007,18.8811,2.7972,4.1958,99.3056,3.6009,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,MIKI,,,server_volume_rank,10.0,131,128,127,57,5,0.7557,758.9618,3.8359,14.0625,3.9063,2.3438,97.7099,3.2758,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,MORIAH,,,server_volume_rank,11.0,124,120,119,57,5,0.9758,731.9435,3.4333,16.6667,1.6667,2.5,96.7742,3.1008,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,MICHAL,,,server_volume_rank,12.0,118,115,114,54,5,0.6271,709.2034,2.9478,20.0,0.8696,2.6087,97.4576,2.9507,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,STEREN,,,server_volume_rank,13.0,110,107,105,51,5,0.9,672.7091,2.1682,17.757,2.8037,5.6075,97.2727,2.7507,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,BASCH,,,server_volume_rank,14.0,107,105,103,53,5,0.6729,722.3271,2.4952,17.1429,0.9524,2.8571,98.1308,2.6757,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,DORIT,,,server_volume_rank,15.0,105,103,102,51,5,0.7524,705.4381,2.5631,14.5631,0.0,0.9709,98.0952,2.6257,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,ANAT,,,server_volume_rank,16.0,104,100,99,53,5,0.75,723.4327,8.77,16.0,2.0,5.0,96.1538,2.6007,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,BENSION,,,server_volume_rank,17.0,104,100,100,48,5,0.5673,765.0,2.51,21.0,5.0,4.0,96.1538,2.6007,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,AVIDAN,,,server_volume_rank,18.0,102,100,100,55,5,0.9706,711.8431,2.3,12.0,2.0,3.0,98.0392,2.5506,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,ZOHARI,,,server_volume_rank,19.0,92,86,85,45,5,0.8261,571.0217,3.9884,12.7907,3.4884,4.6512,93.4783,2.3006,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,GILI,,,server_volume_rank,20.0,77,75,73,44,5,0.8312,754.026,2.12,21.3333,2.6667,1.3333,97.4026,1.9255,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,SHLOMO,,,server_volume_rank,21.0,57,55,55,36,5,0.614,687.4211,2.4727,16.3636,0.0,1.8182,96.4912,1.4254,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,ELI,,,server_volume_rank,22.0,47,46,45,32,5,0.8298,658.1064,2.1739,17.3913,2.1739,4.3478,97.8723,1.1753,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,DARMON,,,server_volume_rank,23.0,44,43,43,34,5,1.0682,632.2955,2.093,20.9302,0.0,2.3256,97.7273,1.1003,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,NAAMA,,,server_volume_rank,24.0,32,31,31,26,5,0.6563,605.6563,3.3871,3.2258,0.0,0.0,96.875,0.8002,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,GELBER,,,server_volume_rank,25.0,7,7,7,7,4,1.2857,713.7143,1.5714,0.0,0.0,0.0,100.0,0.175,Compare server-level call volume and linked outcomes.
+server_volume_quality,server,PINHAS,,,server_volume_rank,26.0,3,3,3,3,3,0.0,451.3333,2.3333,0.0,0.0,0.0,100.0,0.075,Compare server-level call volume and linked outcomes.
+service_time_routing,service_time_bucket,long_10_20_min,,,service_time_volume_rank,1.0,1706,1194,1071,77,5,0.799,901.459,2.9606,16.2479,1.8425,3.0151,69.9883,42.6607,Compare service-time buckets in call records.
+service_time_routing,service_time_bucket,medium_3_10_min,,,service_time_volume_rank,2.0,1091,748,702,77,5,0.7348,402.4849,3.3382,16.5775,1.3369,4.2781,68.561,27.2818,Compare service-time buckets in call records.
+service_time_routing,service_time_bucket,short_0_3_min,,,service_time_volume_rank,3.0,906,312,303,72,5,0.5868,46.9095,3.4327,15.0641,1.2821,2.2436,34.4371,22.6557,Compare service-time buckets in call records.
+service_time_routing,service_time_bucket,very_long_20_plus_min,,,service_time_volume_rank,4.0,296,250,243,70,5,0.9407,1365.2703,2.776,18.8,4.4,3.6,84.4595,7.4019,Compare service-time buckets in call records.
+call_product_overlay,product_call_type,Bank account or service,PS,,call_type_rank_in_product,1.0,1248,1248,1123,77,5,0.9022,701.3718,2.4864,14.5032,1.5224,2.3237,100.0,31.2078,Check product mix within call types.
+call_product_overlay,product_call_type,Bank account or service,NW,,call_type_rank_in_product,2.0,290,290,284,73,5,0.1621,671.8724,3.3414,13.4483,0.6897,2.4138,100.0,7.2518,Check product mix within call types.
+call_product_overlay,product_call_type,Bank account or service,NE,,call_type_rank_in_product,3.0,175,175,174,65,5,1.1257,703.6629,2.8343,15.4286,1.1429,2.8571,100.0,4.3761,Check product mix within call types.
+call_product_overlay,product_call_type,Bank account or service,TT,,call_type_rank_in_product,4.0,65,65,63,38,5,0.9846,695.0308,3.0154,13.8462,0.0,3.0769,100.0,1.6254,Check product mix within call types.
+call_product_overlay,product_call_type,Bank account or service,IN,,call_type_rank_in_product,5.0,15,15,15,15,4,0.2667,747.0667,2.3333,33.3333,0.0,6.6667,100.0,0.3751,Check product mix within call types.
+call_product_overlay,product_call_type,Credit card,PS,,call_type_rank_in_product,1.0,475,475,452,76,5,0.8968,713.8274,4.1916,21.4737,3.5789,6.3158,100.0,11.878,Check product mix within call types.
+call_product_overlay,product_call_type,Credit card,NW,,call_type_rank_in_product,2.0,134,134,131,58,5,0.2015,667.3657,5.2313,23.1343,2.9851,2.9851,100.0,3.3508,Check product mix within call types.
+call_product_overlay,product_call_type,Credit card,NE,,call_type_rank_in_product,3.0,59,59,59,39,5,1.1525,634.9492,1.9153,16.9492,3.3898,8.4746,100.0,1.4754,Check product mix within call types.
+call_product_overlay,product_call_type,Credit card,TT,,call_type_rank_in_product,4.0,20,20,20,18,4,0.95,601.4,2.55,25.0,0.0,5.0,100.0,0.5001,Check product mix within call types.
+call_product_overlay,product_call_type,Credit card,IN,,call_type_rank_in_product,5.0,6,6,6,6,4,0.0,848.1667,0.8333,33.3333,0.0,0.0,100.0,0.15,Check product mix within call types.
+call_product_overlay,product_call_type,no_linked_product,unknown_type,,call_type_rank_in_product,1.0,984,0,0,0,1,,635.7104,,,,,0.0,24.6062,Check product mix within call types.
+call_product_overlay,product_call_type,no_linked_product,PS,,call_type_rank_in_product,2.0,273,0,0,0,1,0.7326,113.5421,,,,,0.0,6.8267,Check product mix within call types.
+call_product_overlay,product_call_type,no_linked_product,NW,,call_type_rank_in_product,3.0,200,0,0,0,1,0.005,57.645,,,,,0.0,5.0013,Check product mix within call types.
+call_product_overlay,product_call_type,no_linked_product,NE,,call_type_rank_in_product,4.0,20,0,0,0,1,1.4,237.4,,,,,0.0,0.5001,Check product mix within call types.
+call_product_overlay,product_call_type,no_linked_product,TT,,call_type_rank_in_product,5.0,9,0,0,0,1,0.7778,118.8889,,,,,0.0,0.2251,Check product mix within call types.
+call_issue_overlay,issue_call_type,Application processing delay,PS,,call_type_rank_in_issue,1.0,2,2,2,2,2,1.0,948.0,3.5,0.0,0.0,0.0,100.0,0.05,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Collection debt dispute,PS,,call_type_rank_in_issue,1.0,6,6,6,5,4,0.8333,982.0,9.5,16.6667,0.0,0.0,100.0,0.15,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Collection debt dispute,NE,,call_type_rank_in_issue,2.0,2,2,2,2,2,1.0,386.0,2.5,0.0,50.0,0.0,100.0,0.05,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Collection debt dispute,TT,,call_type_rank_in_issue,3.0,1,1,1,1,1,2.0,299.0,2.0,0.0,0.0,0.0,100.0,0.025,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Balance transfer,PS,,call_type_rank_in_issue,1.0,3,3,3,3,2,1.0,466.3333,2.0,33.3333,0.0,0.0,100.0,0.075,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Balance transfer,NW,,call_type_rank_in_issue,2.0,1,1,1,1,1,0.0,1141.0,7.0,0.0,0.0,0.0,100.0,0.025,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Forbearance / Workout plans,NW,,call_type_rank_in_issue,1.0,3,3,3,3,3,0.0,606.0,37.3333,100.0,0.0,0.0,100.0,0.075,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Forbearance / Workout plans,PS,,call_type_rank_in_issue,2.0,3,3,3,3,2,1.0,908.3333,6.3333,66.6667,33.3333,33.3333,100.0,0.075,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Identity theft / Fraud / Embezzlement,PS,,call_type_rank_in_issue,1.0,44,44,44,30,5,0.7727,726.4545,2.3182,34.0909,0.0,2.2727,100.0,1.1003,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Identity theft / Fraud / Embezzlement,NW,,call_type_rank_in_issue,2.0,10,10,10,8,3,0.3,785.8,4.3,30.0,10.0,0.0,100.0,0.2501,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Identity theft / Fraud / Embezzlement,NE,,call_type_rank_in_issue,3.0,6,6,6,5,3,0.5,698.6667,2.1667,16.6667,16.6667,50.0,100.0,0.15,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Unsolicited issuance of credit card,PS,,call_type_rank_in_issue,1.0,11,11,11,11,5,0.9091,578.0,1.1818,18.1818,0.0,0.0,100.0,0.2751,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Unsolicited issuance of credit card,NW,,call_type_rank_in_issue,2.0,4,4,4,3,2,1.0,760.0,2.5,25.0,0.0,0.0,100.0,0.1,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Using a debit or ATM card,PS,,call_type_rank_in_issue,1.0,69,69,69,42,5,0.8986,677.7246,2.2899,17.3913,2.8986,1.4493,100.0,1.7254,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Using a debit or ATM card,NW,,call_type_rank_in_issue,2.0,14,14,14,11,4,0.3571,529.7857,2.5714,7.1429,0.0,0.0,100.0,0.3501,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Using a debit or ATM card,NE,,call_type_rank_in_issue,3.0,9,9,9,7,3,0.6667,635.8889,1.3333,22.2222,0.0,11.1111,100.0,0.2251,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Advertising and marketing,PS,,call_type_rank_in_issue,1.0,11,11,11,10,4,0.7273,773.4545,3.1818,9.0909,0.0,0.0,100.0,0.2751,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Advertising and marketing,NW,,call_type_rank_in_issue,2.0,3,3,3,3,3,0.0,541.0,5.3333,0.0,0.0,0.0,100.0,0.075,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Advertising and marketing,NE,,call_type_rank_in_issue,3.0,2,2,2,2,2,2.0,727.5,0.5,0.0,0.0,0.0,100.0,0.05,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Closing/Cancelling account,PS,,call_type_rank_in_issue,1.0,37,37,37,26,5,0.8919,686.4054,2.1081,16.2162,0.0,13.5135,100.0,0.9252,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Closing/Cancelling account,NW,,call_type_rank_in_issue,2.0,15,15,15,14,3,0.0667,556.9333,4.8,26.6667,0.0,6.6667,100.0,0.3751,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Closing/Cancelling account,NE,,call_type_rank_in_issue,3.0,7,7,7,7,3,1.2857,655.8571,1.5714,14.2857,0.0,14.2857,100.0,0.175,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Credit determination,PS,,call_type_rank_in_issue,1.0,4,4,4,4,3,1.0,821.0,2.0,25.0,0.0,0.0,100.0,0.1,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Credit determination,NW,,call_type_rank_in_issue,2.0,2,2,2,2,2,0.0,851.0,3.0,0.0,0.0,0.0,100.0,0.05,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Credit determination,IN,,call_type_rank_in_issue,3.0,1,1,1,1,1,0.0,593.0,0.0,0.0,0.0,0.0,100.0,0.025,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Cash advance,NW,,call_type_rank_in_issue,1.0,2,2,2,2,2,0.0,366.5,2.5,0.0,0.0,0.0,100.0,0.05,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Cash advance,PS,,call_type_rank_in_issue,2.0,2,2,2,1,1,0.5,442.5,2.0,0.0,0.0,0.0,100.0,0.05,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Credit reporting,PS,,call_type_rank_in_issue,1.0,13,13,13,11,4,0.9231,569.3077,1.6923,23.0769,15.3846,15.3846,100.0,0.3251,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Credit reporting,NW,,call_type_rank_in_issue,2.0,5,5,5,5,3,0.4,564.6,4.8,40.0,20.0,0.0,100.0,0.125,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Credit reporting,NE,,call_type_rank_in_issue,3.0,1,1,1,1,1,2.0,690.0,5.0,0.0,0.0,0.0,100.0,0.025,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Problems caused by my funds being low,PS,,call_type_rank_in_issue,1.0,115,115,114,56,5,0.7217,739.5304,2.2783,10.4348,0.8696,1.7391,100.0,2.8757,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Problems caused by my funds being low,NW,,call_type_rank_in_issue,2.0,21,21,21,18,3,0.0476,565.7143,2.0476,0.0,0.0,0.0,100.0,0.5251,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Problems caused by my funds being low,NE,,call_type_rank_in_issue,3.0,16,16,16,15,5,1.0625,737.625,1.6875,25.0,0.0,6.25,100.0,0.4001,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Billing disputes,PS,,call_type_rank_in_issue,1.0,102,102,101,54,5,0.9902,689.2745,2.4412,16.6667,2.9412,4.902,100.0,2.5506,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Billing disputes,NW,,call_type_rank_in_issue,2.0,23,23,23,17,4,0.087,732.913,7.2174,17.3913,0.0,0.0,100.0,0.5751,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Billing disputes,NE,,call_type_rank_in_issue,3.0,10,10,10,10,5,1.2,596.6,1.5,20.0,0.0,0.0,100.0,0.2501,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Delinquent account,PS,,call_type_rank_in_issue,1.0,8,8,8,7,3,1.375,767.875,1.625,12.5,0.0,0.0,100.0,0.2001,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Delinquent account,IN,,call_type_rank_in_issue,2.0,1,1,1,1,1,0.0,1529.0,1.0,100.0,0.0,0.0,100.0,0.025,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Delinquent account,NW,,call_type_rank_in_issue,3.0,1,1,1,1,1,0.0,377.0,1.0,0.0,0.0,0.0,100.0,0.025,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Other,PS,,call_type_rank_in_issue,1.0,54,54,54,33,5,0.963,669.2037,2.4444,18.5185,1.8519,0.0,100.0,1.3503,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Other,NW,,call_type_rank_in_issue,2.0,13,13,13,13,4,0.1538,659.6923,2.1538,15.3846,0.0,0.0,100.0,0.3251,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Other,NE,,call_type_rank_in_issue,3.0,11,11,11,11,4,0.9091,694.8182,1.9091,18.1818,0.0,0.0,100.0,0.2751,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Sale of account,PS,,call_type_rank_in_issue,1.0,4,4,4,4,3,1.0,756.5,2.25,25.0,0.0,0.0,100.0,0.1,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Sale of account,NW,,call_type_rank_in_issue,2.0,1,1,1,1,1,0.0,914.0,5.0,100.0,100.0,0.0,100.0,0.025,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Collection practices,PS,,call_type_rank_in_issue,1.0,5,5,5,5,4,0.6,781.4,3.2,0.0,20.0,20.0,100.0,0.125,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Collection practices,NW,,call_type_rank_in_issue,2.0,3,3,3,3,1,0.0,639.0,1.3333,0.0,0.0,33.3333,100.0,0.075,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Transaction issue,PS,,call_type_rank_in_issue,1.0,12,12,12,10,4,0.6667,830.4167,2.3333,25.0,0.0,0.0,100.0,0.3001,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Transaction issue,NW,,call_type_rank_in_issue,2.0,4,4,4,4,3,0.0,886.5,2.5,75.0,0.0,0.0,100.0,0.1,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Transaction issue,NE,,call_type_rank_in_issue,3.0,2,2,2,2,1,1.0,666.0,4.0,0.0,0.0,0.0,100.0,0.05,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Bankruptcy,PS,,call_type_rank_in_issue,1.0,2,2,2,2,2,1.0,614.5,0.5,0.0,0.0,0.0,100.0,0.05,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Bankruptcy,NW,,call_type_rank_in_issue,2.0,1,1,1,1,1,0.0,1023.0,1.0,0.0,0.0,0.0,100.0,0.025,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Bankruptcy,TT,,call_type_rank_in_issue,3.0,1,1,1,1,1,0.0,568.0,0.0,100.0,0.0,0.0,100.0,0.025,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Rewards,PS,,call_type_rank_in_issue,1.0,13,13,13,11,4,0.6923,902.5385,11.3077,23.0769,7.6923,7.6923,100.0,0.3251,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Rewards,NE,,call_type_rank_in_issue,2.0,5,5,5,5,2,1.6,778.8,0.4,0.0,0.0,0.0,100.0,0.125,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Rewards,NW,,call_type_rank_in_issue,3.0,3,3,3,3,1,0.6667,1114.6667,0.6667,33.3333,33.3333,0.0,100.0,0.075,Check issue mix within call types.
+call_issue_overlay,issue_call_type,APR or interest rate,PS,,call_type_rank_in_issue,1.0,38,38,38,27,5,1.0789,769.8421,18.3684,15.7895,2.6316,2.6316,100.0,0.9502,Check issue mix within call types.
+call_issue_overlay,issue_call_type,APR or interest rate,NW,,call_type_rank_in_issue,2.0,4,4,4,4,2,0.25,261.5,0.75,0.0,0.0,25.0,100.0,0.1,Check issue mix within call types.
+call_issue_overlay,issue_call_type,APR or interest rate,NE,,call_type_rank_in_issue,3.0,3,3,3,3,2,1.3333,493.6667,3.3333,33.3333,0.0,0.0,100.0,0.075,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Balance transfer fee,PS,,call_type_rank_in_issue,1.0,1,1,1,1,1,0.0,24.0,4.0,0.0,0.0,0.0,100.0,0.025,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Cash advance fee,PS,,call_type_rank_in_issue,1.0,2,2,2,2,1,0.0,881.5,2.0,50.0,100.0,50.0,100.0,0.05,Check issue mix within call types.
+call_issue_overlay,issue_call_type,"Account opening, closing, or management",PS,,call_type_rank_in_issue,1.0,584,584,557,77,5,0.899,700.8784,2.3219,14.8973,1.5411,2.226,100.0,14.6037,Check issue mix within call types.
+call_issue_overlay,issue_call_type,"Account opening, closing, or management",NW,,call_type_rank_in_issue,2.0,140,140,139,58,5,0.1857,697.8643,2.85,12.8571,0.7143,0.7143,100.0,3.5009,Check issue mix within call types.
+call_issue_overlay,issue_call_type,"Account opening, closing, or management",NE,,call_type_rank_in_issue,3.0,86,86,86,53,5,1.1977,687.814,2.9419,12.7907,1.1628,1.1628,100.0,2.1505,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Credit line increase/decrease,PS,,call_type_rank_in_issue,1.0,11,11,11,11,3,1.0,701.5455,5.1818,27.2727,18.1818,0.0,100.0,0.2751,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Credit line increase/decrease,NW,,call_type_rank_in_issue,2.0,6,6,6,6,4,0.3333,691.1667,2.1667,16.6667,0.0,0.0,100.0,0.15,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Credit line increase/decrease,NE,,call_type_rank_in_issue,3.0,2,2,2,2,2,1.0,181.5,1.5,0.0,0.0,0.0,100.0,0.05,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Deposits and withdrawals,PS,,call_type_rank_in_issue,1.0,394,394,387,74,5,0.9492,694.0102,2.8553,14.9746,1.0152,2.5381,100.0,9.8525,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Deposits and withdrawals,NW,,call_type_rank_in_issue,2.0,93,93,92,50,5,0.1183,690.2258,4.8172,13.9785,1.0753,4.3011,100.0,2.3256,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Deposits and withdrawals,NE,,call_type_rank_in_issue,3.0,55,55,55,35,5,1.1273,723.6,3.4182,12.7273,1.8182,3.6364,100.0,1.3753,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Other fee,PS,,call_type_rank_in_issue,1.0,9,9,9,9,4,0.7778,518.4444,1.6667,22.2222,0.0,22.2222,100.0,0.2251,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Other fee,NW,,call_type_rank_in_issue,2.0,2,2,2,2,2,1.0,779.5,0.5,0.0,0.0,0.0,100.0,0.05,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Other fee,TT,,call_type_rank_in_issue,3.0,1,1,1,1,1,2.0,1292.0,1.0,0.0,0.0,0.0,100.0,0.025,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Payoff process,PS,,call_type_rank_in_issue,1.0,12,12,12,8,4,1.1667,843.0833,2.5833,16.6667,0.0,16.6667,100.0,0.3001,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Payoff process,NE,,call_type_rank_in_issue,2.0,2,2,2,2,2,2.0,377.5,3.0,100.0,0.0,0.0,100.0,0.05,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Payoff process,NW,,call_type_rank_in_issue,3.0,2,2,2,2,1,0.0,720.5,42.0,50.0,0.0,0.0,100.0,0.05,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Privacy,PE,,call_type_rank_in_issue,1.0,1,1,1,1,1,2.0,1297.0,0.0,0.0,0.0,0.0,100.0,0.025,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Privacy,PS,,call_type_rank_in_issue,2.0,1,1,1,1,1,2.0,869.0,45.0,100.0,0.0,100.0,100.0,0.025,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Privacy,TT,,call_type_rank_in_issue,3.0,1,1,1,1,1,2.0,777.0,0.0,100.0,0.0,0.0,100.0,0.025,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Customer service / Customer relations,PS,,call_type_rank_in_issue,1.0,19,19,19,17,5,0.9474,667.0,2.2105,26.3158,0.0,0.0,100.0,0.4751,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Customer service / Customer relations,NW,,call_type_rank_in_issue,2.0,15,15,15,12,4,0.3333,536.3333,4.8667,26.6667,0.0,0.0,100.0,0.3751,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Customer service / Customer relations,NE,,call_type_rank_in_issue,3.0,3,3,3,3,3,1.3333,587.0,0.6667,33.3333,0.0,0.0,100.0,0.075,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Overlimit fee,PS,,call_type_rank_in_issue,1.0,1,1,1,1,1,2.0,267.0,5.0,0.0,0.0,0.0,100.0,0.025,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Credit card protection / Debt protection,PS,,call_type_rank_in_issue,1.0,19,19,19,16,5,0.7368,766.7895,2.3684,36.8421,5.2632,15.7895,100.0,0.4751,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Credit card protection / Debt protection,NW,,call_type_rank_in_issue,2.0,2,2,2,2,2,0.0,617.5,0.0,50.0,0.0,0.0,100.0,0.05,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Credit card protection / Debt protection,NE,,call_type_rank_in_issue,3.0,1,1,1,1,1,0.0,1006.0,1.0,0.0,0.0,100.0,100.0,0.025,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Arbitration,PS,,call_type_rank_in_issue,1.0,2,2,2,2,2,1.0,675.5,15.0,0.0,50.0,50.0,100.0,0.05,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Billing statement,PS,,call_type_rank_in_issue,1.0,9,9,9,8,4,0.4444,864.5556,3.6667,33.3333,0.0,11.1111,100.0,0.2251,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Billing statement,NW,,call_type_rank_in_issue,2.0,7,7,7,7,5,0.1429,702.7143,1.2857,0.0,0.0,14.2857,100.0,0.175,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Billing statement,TT,,call_type_rank_in_issue,3.0,1,1,1,1,1,0.0,496.0,0.0,100.0,0.0,0.0,100.0,0.025,Check issue mix within call types.
+call_issue_overlay,issue_call_type,"Making/receiving payments, sending money",PS,,call_type_rank_in_issue,1.0,86,86,86,52,5,0.9535,706.3953,2.3488,12.7907,3.4884,3.4884,100.0,2.1505,Check issue mix within call types.
+call_issue_overlay,issue_call_type,"Making/receiving payments, sending money",NW,,call_type_rank_in_issue,2.0,22,22,22,19,4,0.1818,620.6364,1.9545,31.8182,0.0,9.0909,100.0,0.5501,Check issue mix within call types.
+call_issue_overlay,issue_call_type,"Making/receiving payments, sending money",NE,,call_type_rank_in_issue,3.0,9,9,9,9,5,1.0,740.6667,1.7778,33.3333,0.0,0.0,100.0,0.2251,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Late fee,PS,,call_type_rank_in_issue,1.0,15,15,15,13,5,0.4,657.4667,2.4,33.3333,6.6667,13.3333,100.0,0.3751,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Late fee,NW,,call_type_rank_in_issue,2.0,2,2,2,2,2,0.0,694.5,3.0,0.0,0.0,0.0,100.0,0.05,Check issue mix within call types.
+call_issue_overlay,issue_call_type,Late fee,NE,,call_type_rank_in_issue,3.0,1,1,1,1,1,0.0,1207.0,6.0,0.0,0.0,0.0,100.0,0.025,Check issue mix within call types.
+call_issue_overlay,issue_call_type,no_linked_issue,unknown_type,,call_type_rank_in_issue,1.0,984,0,0,0,1,,635.7104,,,,,0.0,24.6062,Check issue mix within call types.
+call_issue_overlay,issue_call_type,no_linked_issue,PS,,call_type_rank_in_issue,2.0,273,0,0,0,1,0.7326,113.5421,,,,,0.0,6.8267,Check issue mix within call types.
+call_issue_overlay,issue_call_type,no_linked_issue,NW,,call_type_rank_in_issue,3.0,200,0,0,0,1,0.005,57.645,,,,,0.0,5.0013,Check issue mix within call types.

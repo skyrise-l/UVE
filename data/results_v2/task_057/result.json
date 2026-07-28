@@ -1,0 +1,121 @@
+{
+  "task_id": "057",
+  "db_id": "regional_sales",
+  "engine": "DuckDB",
+  "data_source": "CSV",
+  "schema_source": "database_description",
+  "status": "success",
+  "elapsed_seconds": 0.034,
+  "tables": [
+    {
+      "table": "Customers",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/regional_sales/tables/Customers.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/regional_sales/database_description/Customers.csv",
+      "size_bytes": 767,
+      "modified_time_ns": 1782119364023157405,
+      "row_count": 50,
+      "column_types": {
+        "CustomerID": "BIGINT",
+        "Customer Names": "VARCHAR"
+      }
+    },
+    {
+      "table": "Products",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/regional_sales/tables/Products.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/regional_sales/database_description/Products.csv",
+      "size_bytes": 726,
+      "modified_time_ns": 1782119364023420076,
+      "row_count": 47,
+      "column_types": {
+        "ProductID": "BIGINT",
+        "Product Name": "VARCHAR"
+      }
+    },
+    {
+      "table": "Regions",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/regional_sales/tables/Regions.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/regional_sales/database_description/Regions.csv",
+      "size_bytes": 1012,
+      "modified_time_ns": 1782119364023679705,
+      "row_count": 48,
+      "column_types": {
+        "StateCode": "VARCHAR",
+        "State": "VARCHAR",
+        "Region": "VARCHAR"
+      }
+    },
+    {
+      "table": "Sales_Orders",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/regional_sales/tables/Sales_Orders.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/regional_sales/database_description/Sales_Orders.csv",
+      "size_bytes": 879614,
+      "modified_time_ns": 1782119364059127808,
+      "row_count": 7991,
+      "column_types": {
+        "OrderNumber": "VARCHAR",
+        "Sales Channel": "VARCHAR",
+        "WarehouseCode": "VARCHAR",
+        "ProcuredDate": "VARCHAR",
+        "OrderDate": "VARCHAR",
+        "ShipDate": "VARCHAR",
+        "DeliveryDate": "VARCHAR",
+        "CurrencyCode": "VARCHAR",
+        "_SalesTeamID": "BIGINT",
+        "_CustomerID": "BIGINT",
+        "_StoreID": "BIGINT",
+        "_ProductID": "BIGINT",
+        "Order Quantity": "BIGINT",
+        "Discount Applied": "DOUBLE",
+        "Unit Price": "VARCHAR",
+        "Unit Cost": "VARCHAR"
+      }
+    },
+    {
+      "table": "Sales_Team",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/regional_sales/tables/Sales_Team.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/regional_sales/database_description/Sales_Team.csv",
+      "size_bytes": 726,
+      "modified_time_ns": 1782119364060333117,
+      "row_count": 28,
+      "column_types": {
+        "SalesTeamID": "BIGINT",
+        "Sales Team": "VARCHAR",
+        "Region": "VARCHAR"
+      }
+    },
+    {
+      "table": "Store_Locations",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/regional_sales/tables/Store_Locations.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/regional_sales/database_description/Store_Locations.csv",
+      "size_bytes": 47715,
+      "modified_time_ns": 1782119364062734735,
+      "row_count": 367,
+      "column_types": {
+        "StoreID": "BIGINT",
+        "City Name": "VARCHAR",
+        "County": "VARCHAR",
+        "StateCode": "VARCHAR",
+        "State": "VARCHAR",
+        "Type": "VARCHAR",
+        "Latitude": "DOUBLE",
+        "Longitude": "DOUBLE",
+        "AreaCode": "BIGINT",
+        "Population": "BIGINT",
+        "Household Income": "BIGINT",
+        "Median Income": "BIGINT",
+        "Land Area": "BIGINT",
+        "Water Area": "BIGINT",
+        "Time Zone": "VARCHAR"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "insight_id": "TASK",
+      "sql_file": "queries_v2/task_057/task_057_end_to_end_cycle_risk_evidence.sql",
+      "file": "outputs/TASK__task_057_end_to_end_cycle_risk_evidence.csv",
+      "rows": 28
+    }
+  ],
+  "qa_outputs": []
+}

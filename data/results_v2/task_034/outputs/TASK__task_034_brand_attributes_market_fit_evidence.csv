@@ -1,0 +1,79 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,transactions,customers,brands,reviews,revenue,gross_margin_proxy,gross_margin_proxy_rate_pct,avg_rating,transaction_share_pct,review_share_pct,notes
+attribute_brand_exception,attribute_brand,Barq's,Caffeinated,TRUE,brand_demand_rank_in_group,1.0,284,221,1,19,798.0,684.4,85.7644,2.5789,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Barq's,CornSyrup,TRUE,brand_demand_rank_in_group,3.0,284,221,1,19,798.0,684.4,85.7644,2.5789,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Barq's,CaneSugar,FALSE,brand_demand_rank_in_group,3.0,284,221,1,19,798.0,684.4,85.7644,2.5789,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Diet Stewarts,ArtificialSweetener,TRUE,brand_demand_rank_in_group,2.0,1,1,1,0,3.0,1.72,57.3333,,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Dog n Suds,CornSyrup,TRUE,brand_demand_rank_in_group,1.0,410,297,1,17,1120.0,746.9,66.6875,3.1176,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Dog n Suds,CaneSugar,FALSE,brand_demand_rank_in_group,1.0,410,297,1,17,1120.0,746.9,66.6875,3.1176,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Dominion,Honey,TRUE,brand_demand_rank_in_group,2.0,394,298,1,17,1182.0,669.8,56.6667,3.7059,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Fitz's,Honey,FALSE,brand_demand_rank_in_group,3.0,486,326,1,24,1458.0,928.26,63.6667,3.0417,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Fitz's,CornSyrup,FALSE,brand_demand_rank_in_group,3.0,486,326,1,24,1458.0,928.26,63.6667,3.0417,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Fitz's,Caffeinated,FALSE,brand_demand_rank_in_group,3.0,486,326,1,24,1458.0,928.26,63.6667,3.0417,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Fitz's,ArtificialSweetener,FALSE,brand_demand_rank_in_group,3.0,486,326,1,24,1458.0,928.26,63.6667,3.0417,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Fitz's,CaneSugar,TRUE,brand_demand_rank_in_group,3.0,486,326,1,24,1458.0,928.26,63.6667,3.0417,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Gales,ArtificialSweetener,FALSE,brand_demand_rank_in_group,2.0,523,337,1,22,1445.0,922.0,63.8062,2.7727,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Gales,CaneSugar,TRUE,brand_demand_rank_in_group,2.0,523,337,1,22,1445.0,922.0,63.8062,2.7727,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Gales,Honey,FALSE,brand_demand_rank_in_group,2.0,523,337,1,22,1445.0,922.0,63.8062,2.7727,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Gales,CornSyrup,FALSE,brand_demand_rank_in_group,2.0,523,337,1,22,1445.0,922.0,63.8062,2.7727,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Gales,Caffeinated,FALSE,brand_demand_rank_in_group,2.0,523,337,1,22,1445.0,922.0,63.8062,2.7727,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Henry Weinhard's,CaneSugar,FALSE,brand_demand_rank_in_group,2.0,385,279,1,18,1155.0,716.1,62.0,3.1111,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Henry Weinhard's,CornSyrup,TRUE,brand_demand_rank_in_group,2.0,385,279,1,18,1155.0,716.1,62.0,3.1111,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Henry Weinhard's,Honey,TRUE,brand_demand_rank_in_group,3.0,385,279,1,18,1155.0,716.1,62.0,3.1111,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,IBC,Honey,FALSE,brand_demand_rank_in_group,1.0,537,333,1,32,1611.0,1068.63,66.3333,3.0938,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,IBC,CornSyrup,FALSE,brand_demand_rank_in_group,1.0,537,333,1,32,1611.0,1068.63,66.3333,3.0938,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,IBC,Caffeinated,FALSE,brand_demand_rank_in_group,1.0,537,333,1,32,1611.0,1068.63,66.3333,3.0938,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,IBC,ArtificialSweetener,FALSE,brand_demand_rank_in_group,1.0,537,333,1,32,1611.0,1068.63,66.3333,3.0938,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,IBC,CaneSugar,TRUE,brand_demand_rank_in_group,1.0,537,333,1,32,1611.0,1068.63,66.3333,3.0938,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Mug,ArtificialSweetener,TRUE,brand_demand_rank_in_group,1.0,283,224,1,17,785.0,671.8,85.5796,2.8824,,,Find brands that may drive an attribute-level pattern.
+attribute_brand_exception,attribute_brand,Sparky's Fresh Draft,Honey,TRUE,brand_demand_rank_in_group,1.0,453,316,1,20,1359.0,629.67,46.3333,3.05,,,Find brands that may drive an attribute-level pattern.
+attribute_margin_proxy_quality,attribute_group,ArtificialSweetener,TRUE,,margin_rank_within_attribute,1.0,284,225,2,17,788.0,673.52,85.4721,2.8824,,,Check whether attribute groups differ in gross-margin proxy quality.
+attribute_margin_proxy_quality,attribute_group,ArtificialSweetener,FALSE,,margin_rank_within_attribute,2.0,6028,4322,21,696,17708.0,11211.61,63.3138,3.0805,,,Check whether attribute groups differ in gross-margin proxy quality.
+attribute_margin_proxy_quality,attribute_group,Caffeinated,TRUE,,margin_rank_within_attribute,1.0,284,221,1,19,798.0,684.4,85.7644,2.5789,,,Check whether attribute groups differ in gross-margin proxy quality.
+attribute_margin_proxy_quality,attribute_group,Caffeinated,FALSE,,margin_rank_within_attribute,2.0,6028,4326,22,694,17698.0,11200.73,63.2881,3.0893,,,Check whether attribute groups differ in gross-margin proxy quality.
+attribute_margin_proxy_quality,attribute_group,CaneSugar,FALSE,,margin_rank_within_attribute,1.0,1529,1170,7,131,4329.0,3206.47,74.0695,3.0534,,,Check whether attribute groups differ in gross-margin proxy quality.
+attribute_margin_proxy_quality,attribute_group,CaneSugar,TRUE,,margin_rank_within_attribute,2.0,4783,3377,16,582,14167.0,8678.66,61.2597,3.0808,,,Check whether attribute groups differ in gross-margin proxy quality.
+attribute_margin_proxy_quality,attribute_group,CornSyrup,TRUE,,margin_rank_within_attribute,1.0,1528,1169,6,131,4326.0,3204.75,74.0811,3.0534,,,Check whether attribute groups differ in gross-margin proxy quality.
+attribute_margin_proxy_quality,attribute_group,CornSyrup,FALSE,,margin_rank_within_attribute,2.0,4784,3378,17,582,14170.0,8680.38,61.2589,3.0808,,,Check whether attribute groups differ in gross-margin proxy quality.
+attribute_margin_proxy_quality,attribute_group,Honey,FALSE,,margin_rank_within_attribute,1.0,4747,3392,17,526,13801.0,9212.04,66.7491,3.0304,,,Check whether attribute groups differ in gross-margin proxy quality.
+attribute_margin_proxy_quality,attribute_group,Honey,TRUE,,margin_rank_within_attribute,2.0,1565,1155,6,187,4695.0,2673.09,56.9348,3.2032,,,Check whether attribute groups differ in gross-margin proxy quality.
+availability_container_alignment,brand,A&W,TRUE,FALSE,can_transactions,70.0,147,,1,8,411.0,349.26,84.9781,3.25,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,A.J. Stephans,FALSE,TRUE,can_transactions,0.0,274,,1,20,764.0,495.48,64.8534,3.2,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Abita,FALSE,TRUE,can_transactions,0.0,334,,1,18,1002.0,624.58,62.3333,2.8333,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Barq's,TRUE,FALSE,can_transactions,147.0,284,,1,19,798.0,684.4,85.7644,2.5789,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Bedfords,FALSE,TRUE,can_transactions,0.0,352,,1,17,1056.0,668.8,63.3333,3.1176,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Bulldog,FALSE,TRUE,can_transactions,0.0,307,,1,25,921.0,607.86,66.0,3.0,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Bundaberg,TRUE,FALSE,can_transactions,302.0,333,,1,15,999.0,616.05,61.6667,2.8,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Captain Eli's,FALSE,TRUE,can_transactions,0.0,419,,1,22,1257.0,800.29,63.6667,3.0,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Dad's,FALSE,TRUE,can_transactions,157.0,359,,1,20,1077.0,624.66,58.0,2.75,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Diet Stewarts,FALSE,TRUE,can_transactions,0.0,1,,1,0,3.0,1.72,57.3333,,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Dog n Suds,FALSE,TRUE,can_transactions,0.0,410,,1,17,1120.0,746.9,66.6875,3.1176,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Dominion,FALSE,TRUE,can_transactions,0.0,394,,1,17,1182.0,669.8,56.6667,3.7059,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Fitz's,FALSE,TRUE,can_transactions,0.0,486,,1,24,1458.0,928.26,63.6667,3.0417,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Frostie,FALSE,TRUE,can_transactions,0.0,1,,1,86,3.0,1.91,63.6667,3.0349,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Gales,FALSE,TRUE,can_transactions,0.0,523,,1,22,1445.0,922.0,63.8062,2.7727,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Henry Weinhard's,FALSE,TRUE,can_transactions,0.0,385,,1,18,1155.0,716.1,62.0,3.1111,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,IBC,FALSE,TRUE,can_transactions,0.0,537,,1,32,1611.0,1068.63,66.3333,3.0938,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Mug,TRUE,FALSE,can_transactions,283.0,283,,1,17,785.0,671.8,85.5796,2.8824,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,River City,FALSE,TRUE,can_transactions,0.0,2,,1,132,6.0,3.82,63.6667,3.1515,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Sparky's Fresh Draft,FALSE,TRUE,can_transactions,0.0,453,,1,20,1359.0,629.67,46.3333,3.05,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Sprecher,FALSE,TRUE,can_transactions,11.0,19,,1,52,57.0,36.29,63.6667,3.2115,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Thomas Kemper,FALSE,TRUE,can_transactions,0.0,7,,1,55,21.0,13.37,63.6667,3.2182,,,Check whether declared package availability aligns with observed container sales.
+availability_container_alignment,brand,Virgil's,FALSE,TRUE,can_transactions,0.0,2,,1,57,6.0,3.48,58.0,3.0877,,,Check whether declared package availability aligns with observed container sales.
+caffeine_market_signal,attribute_group,Caffeinated,FALSE,,demand_rank_within_attribute,1.0,6028,4326,22,694,17698.0,11200.73,63.2881,3.0893,,,"Test whether caffeine status carries demand, rating, or margin-proxy signal."
+caffeine_market_signal,attribute_group,Caffeinated,TRUE,,demand_rank_within_attribute,2.0,284,221,1,19,798.0,684.4,85.7644,2.5789,,,"Test whether caffeine status carries demand, rating, or margin-proxy signal."
+sweetener_demand_comparison,attribute_group,ArtificialSweetener,FALSE,,demand_rank_within_attribute,1.0,6028,4322,21,696,17708.0,11211.61,63.3138,3.0805,,,Compare attribute groups on transaction demand.
+sweetener_demand_comparison,attribute_group,ArtificialSweetener,TRUE,,demand_rank_within_attribute,2.0,284,225,2,17,788.0,673.52,85.4721,2.8824,,,Compare attribute groups on transaction demand.
+sweetener_demand_comparison,attribute_group,CaneSugar,TRUE,,demand_rank_within_attribute,1.0,4783,3377,16,582,14167.0,8678.66,61.2597,3.0808,,,Compare attribute groups on transaction demand.
+sweetener_demand_comparison,attribute_group,CaneSugar,FALSE,,demand_rank_within_attribute,2.0,1529,1170,7,131,4329.0,3206.47,74.0695,3.0534,,,Compare attribute groups on transaction demand.
+sweetener_demand_comparison,attribute_group,CornSyrup,FALSE,,demand_rank_within_attribute,1.0,4784,3378,17,582,14170.0,8680.38,61.2589,3.0808,,,Compare attribute groups on transaction demand.
+sweetener_demand_comparison,attribute_group,CornSyrup,TRUE,,demand_rank_within_attribute,2.0,1528,1169,6,131,4326.0,3204.75,74.0811,3.0534,,,Compare attribute groups on transaction demand.
+sweetener_demand_comparison,attribute_group,Honey,FALSE,,demand_rank_within_attribute,1.0,4747,3392,17,526,13801.0,9212.04,66.7491,3.0304,,,Compare attribute groups on transaction demand.
+sweetener_demand_comparison,attribute_group,Honey,TRUE,,demand_rank_within_attribute,2.0,1565,1155,6,187,4695.0,2673.09,56.9348,3.2032,,,Compare attribute groups on transaction demand.
+sweetener_rating_comparison,attribute_group,ArtificialSweetener,FALSE,,rating_rank_within_attribute,1.0,6028,4322,21,696,17708.0,11211.61,63.3138,3.0805,,,Compare attribute groups on review acceptance.
+sweetener_rating_comparison,attribute_group,ArtificialSweetener,TRUE,,rating_rank_within_attribute,2.0,284,225,2,17,788.0,673.52,85.4721,2.8824,,,Compare attribute groups on review acceptance.
+sweetener_rating_comparison,attribute_group,CaneSugar,TRUE,,rating_rank_within_attribute,1.0,4783,3377,16,582,14167.0,8678.66,61.2597,3.0808,,,Compare attribute groups on review acceptance.
+sweetener_rating_comparison,attribute_group,CaneSugar,FALSE,,rating_rank_within_attribute,2.0,1529,1170,7,131,4329.0,3206.47,74.0695,3.0534,,,Compare attribute groups on review acceptance.
+sweetener_rating_comparison,attribute_group,CornSyrup,FALSE,,rating_rank_within_attribute,1.0,4784,3378,17,582,14170.0,8680.38,61.2589,3.0808,,,Compare attribute groups on review acceptance.
+sweetener_rating_comparison,attribute_group,CornSyrup,TRUE,,rating_rank_within_attribute,2.0,1528,1169,6,131,4326.0,3204.75,74.0811,3.0534,,,Compare attribute groups on review acceptance.
+sweetener_rating_comparison,attribute_group,Honey,TRUE,,rating_rank_within_attribute,1.0,1565,1155,6,187,4695.0,2673.09,56.9348,3.2032,,,Compare attribute groups on review acceptance.
+sweetener_rating_comparison,attribute_group,Honey,FALSE,,rating_rank_within_attribute,2.0,4747,3392,17,526,13801.0,9212.04,66.7491,3.0304,,,Compare attribute groups on review acceptance.

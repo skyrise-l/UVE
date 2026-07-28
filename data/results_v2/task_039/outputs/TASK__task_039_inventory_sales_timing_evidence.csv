@@ -1,0 +1,46 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,transactions,customers,brands,reviews,revenue,gross_margin_proxy,gross_margin_proxy_rate_pct,avg_rating,transaction_share_pct,review_share_pct,notes
+sales_lag_bucket_baseline,sale_lag_bucket,days_31_to_180,,,transaction_rank,1.0,3383,554,21,,9955.0,6400.8,64.2973,3.0259,47.4594,,Establish sale-lag buckets between item purchase date and customer transaction date.
+sales_lag_bucket_baseline,sale_lag_bucket,days_8_to_30,,,transaction_rank,2.0,2273,542,20,,6629.0,4263.02,64.3086,3.0116,19.0044,,Establish sale-lag buckets between item purchase date and customer transaction date.
+sales_lag_bucket_baseline,sale_lag_bucket,same_week,,,transaction_rank,3.0,655,381,18,,1909.0,1219.59,63.8863,3.0054,4.0244,,Establish sale-lag buckets between item purchase date and customer transaction date.
+sales_lag_bucket_baseline,sale_lag_bucket,sold_before_item_purchase_date,,,transaction_rank,4.0,1,1,1,,3.0,1.72,57.3333,,-12.0,,Establish sale-lag buckets between item purchase date and customer transaction date.
+sales_lag_quality_comparison,sale_lag_bucket,days_31_to_180,1,1/2,max_lag_quality_rank_gap,1.0,3383,554,21,,9955.0,6400.8,64.2973,3.0259,47.4594,,Check whether slower-moving stock buckets differ in rating or margin proxy quality.
+sales_lag_quality_comparison,sale_lag_bucket,days_8_to_30,2,2/1,max_lag_quality_rank_gap,1.0,2273,542,20,,6629.0,4263.02,64.3086,3.0116,19.0044,,Check whether slower-moving stock buckets differ in rating or margin proxy quality.
+sales_lag_quality_comparison,sale_lag_bucket,same_week,3,3/3,max_lag_quality_rank_gap,0.0,655,381,18,,1909.0,1219.59,63.8863,3.0054,4.0244,,Check whether slower-moving stock buckets differ in rating or margin proxy quality.
+sales_lag_quality_comparison,sale_lag_bucket,sold_before_item_purchase_date,4,4/4,max_lag_quality_rank_gap,0.0,1,1,1,,3.0,1.72,57.3333,,-12.0,,Check whether slower-moving stock buckets differ in rating or margin proxy quality.
+brand_sales_lag_exception,brand,IBC,1,6,longest_lag_rank,6.0,537,333,1,,1611.0,1068.63,66.3333,3.0938,33.5847,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Gales,2,19,longest_lag_rank,19.0,523,337,1,,1445.0,922.0,63.8062,2.7727,31.4015,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Fitz's,3,18,longest_lag_rank,18.0,486,326,1,,1458.0,928.26,63.6667,3.0417,31.6852,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Sparky's Fresh Draft,4,8,longest_lag_rank,8.0,453,316,1,,1359.0,629.67,46.3333,3.05,32.9647,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Captain Eli's,5,4,longest_lag_rank,4.0,419,293,1,,1257.0,800.29,63.6667,3.0,34.5346,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Dog n Suds,6,11,longest_lag_rank,11.0,410,297,1,,1120.0,746.9,66.6875,3.1176,32.7122,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Dominion,7,5,longest_lag_rank,5.0,394,298,1,,1182.0,669.8,56.6667,3.7059,34.3122,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Henry Weinhard's,8,9,longest_lag_rank,9.0,385,279,1,,1155.0,716.1,62.0,3.1111,32.9636,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Dad's,9,20,longest_lag_rank,20.0,359,249,1,,1077.0,624.66,58.0,2.75,31.0529,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Bedfords,10,7,longest_lag_rank,7.0,352,264,1,,1056.0,668.8,63.3333,3.1176,33.0426,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Abita,11,15,longest_lag_rank,15.0,334,252,1,,1002.0,624.58,62.3333,2.8333,32.3743,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Bundaberg,12,14,longest_lag_rank,14.0,333,241,1,,999.0,616.05,61.6667,2.8,32.3814,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Bulldog,13,16,longest_lag_rank,16.0,307,236,1,,921.0,607.86,66.0,3.0,32.1694,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Barq's,14,10,longest_lag_rank,10.0,284,221,1,,798.0,684.4,85.7644,2.5789,32.7535,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Mug,15,13,longest_lag_rank,13.0,283,224,1,,785.0,671.8,85.5796,2.8824,32.6184,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,A.J. Stephans,16,17,longest_lag_rank,17.0,274,220,1,,764.0,495.48,64.8534,3.2,32.0292,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,A&W,17,12,longest_lag_rank,12.0,147,129,1,,411.0,349.26,84.9781,3.25,32.6599,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Sprecher,18,3,longest_lag_rank,3.0,19,19,1,,57.0,36.29,63.6667,3.2115,41.4211,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Thomas Kemper,19,21,longest_lag_rank,21.0,7,7,1,,21.0,13.37,63.6667,3.2182,26.8571,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,River City,20,22,longest_lag_rank,22.0,2,2,1,,6.0,3.82,63.6667,3.1515,17.5,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Virgil's,21,1,longest_lag_rank,1.0,2,2,1,,6.0,3.48,58.0,3.0877,45.0,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Diet Stewarts,22,23,longest_lag_rank,23.0,1,1,1,,3.0,1.72,57.3333,,-12.0,,Identify brands whose sale-lag behavior differs from their demand scale.
+brand_sales_lag_exception,brand,Frostie,23,2,longest_lag_rank,2.0,1,1,1,,3.0,1.91,63.6667,3.0349,45.0,,Identify brands whose sale-lag behavior differs from their demand scale.
+container_location_lag,container_location,Bottle,Sac State American River Courtyard,1,avg_sale_lag_days_rank,1.0,2625,535,19,,7715.0,4835.43,62.6757,3.0513,32.8465,,Check whether sale lag is tied to container and location cells.
+container_location_lag,container_location,Bottle,Sac State Union,2,avg_sale_lag_days_rank,2.0,2717,536,21,,7987.0,5014.21,62.7796,3.0582,32.7935,,Check whether sale lag is tied to container and location cells.
+container_location_lag,container_location,Can,Sac State Union,3,avg_sale_lag_days_rank,3.0,499,308,6,,1441.0,1049.02,72.7981,2.8222,32.3487,,Check whether sale lag is tied to container and location cells.
+container_location_lag,container_location,Can,Sac State American River Courtyard,4,avg_sale_lag_days_rank,4.0,471,294,6,,1353.0,986.47,72.9098,2.8168,31.6603,,Check whether sale lag is tied to container and location cells.
+year_lag_mix,transaction_year_lag_bucket,2016,days_31_to_180,1,lag_bucket_rank_in_year,1.0,903,411,19,,2659.0,1708.82,64.2655,3.0262,47.2071,,Track whether sale-lag composition changes across transaction years.
+year_lag_mix,transaction_year_lag_bucket,2016,days_8_to_30,2,lag_bucket_rank_in_year,2.0,594,344,17,,1742.0,1124.12,64.5304,3.0234,18.9579,,Track whether sale-lag composition changes across transaction years.
+year_lag_mix,transaction_year_lag_bucket,2016,same_week,3,lag_bucket_rank_in_year,3.0,165,133,17,,481.0,306.46,63.7131,3.0213,4.1515,,Track whether sale-lag composition changes across transaction years.
+year_lag_mix,transaction_year_lag_bucket,2016,sold_before_item_purchase_date,4,lag_bucket_rank_in_year,4.0,1,1,1,,3.0,1.72,57.3333,,-12.0,,Track whether sale-lag composition changes across transaction years.
+year_lag_mix,transaction_year_lag_bucket,2014,days_31_to_180,1,lag_bucket_rank_in_year,1.0,198,105,18,,588.0,380.11,64.6446,3.017,47.4646,,Track whether sale-lag composition changes across transaction years.
+year_lag_mix,transaction_year_lag_bucket,2014,days_8_to_30,2,lag_bucket_rank_in_year,2.0,118,68,17,,348.0,224.85,64.6121,3.0025,18.2119,,Track whether sale-lag composition changes across transaction years.
+year_lag_mix,transaction_year_lag_bucket,2014,same_week,3,lag_bucket_rank_in_year,3.0,48,36,16,,142.0,91.19,64.2183,3.0159,4.0625,,Track whether sale-lag composition changes across transaction years.
+year_lag_mix,transaction_year_lag_bucket,2015,days_31_to_180,1,lag_bucket_rank_in_year,1.0,2282,531,20,,6708.0,4311.87,64.2795,3.0266,47.5587,,Track whether sale-lag composition changes across transaction years.
+year_lag_mix,transaction_year_lag_bucket,2015,days_8_to_30,2,lag_bucket_rank_in_year,2.0,1561,509,20,,4539.0,2914.05,64.2003,3.0078,19.082,,Track whether sale-lag composition changes across transaction years.
+year_lag_mix,transaction_year_lag_bucket,2015,same_week,3,lag_bucket_rank_in_year,3.0,442,300,18,,1286.0,821.94,63.9145,2.9984,3.9729,,Track whether sale-lag composition changes across transaction years.

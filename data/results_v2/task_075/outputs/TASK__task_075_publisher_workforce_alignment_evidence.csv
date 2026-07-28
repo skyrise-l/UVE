@@ -1,0 +1,87 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,employee_count,job_role_count,title_count,type_count,order_count,sale_lines,sample_qty,revenue_proxy,ytd_revenue_proxy,avg_job_level,revenue_per_employee,titles_per_employee,share_pct,notes
+publisher_staffing_baseline,publisher,Ramona Publishers,USA,1,revenue_rank,7.0,1,1,0,0,0,0,0.0,0.0,0.0,246.0,0.0,0.0,0.0,"Publisher staffing, catalog, sales, and productivity baseline."
+publisher_staffing_baseline,publisher,Scootney Books,USA,3,revenue_rank,8.0,3,3,0,0,0,0,0.0,0.0,0.0,214.0,0.0,0.0,0.0,"Publisher staffing, catalog, sales, and productivity baseline."
+publisher_staffing_baseline,publisher,Five Lakes Publishing,USA,1,revenue_rank,4.0,1,1,0,0,0,0,0.0,0.0,0.0,198.0,0.0,0.0,0.0,"Publisher staffing, catalog, sales, and productivity baseline."
+publisher_staffing_baseline,publisher,GGG&G,Germany,1,revenue_rank,5.0,1,1,0,0,0,0,0.0,0.0,0.0,172.0,0.0,0.0,0.0,"Publisher staffing, catalog, sales, and productivity baseline."
+publisher_staffing_baseline,publisher,New Moon Books,USA,10,revenue_rank,3.0,10,10,5,2,8,8,208.0,1961.85,187202.45,155.0,196.185,0.5,29.3826,"Publisher staffing, catalog, sales, and productivity baseline."
+publisher_staffing_baseline,publisher,Lucerne Publishing,France,7,revenue_rank,6.0,7,7,0,0,0,0,0.0,0.0,0.0,140.5714,0.0,0.0,0.0,"Publisher staffing, catalog, sales, and productivity baseline."
+publisher_staffing_baseline,publisher,Algodata Infosystems,USA,10,revenue_rank,1.0,10,10,6,2,6,6,135.0,2586.95,493437.3,106.4,258.695,0.6,38.7448,"Publisher staffing, catalog, sales, and productivity baseline."
+publisher_staffing_baseline,publisher,Binnet & Hardley,USA,10,revenue_rank,2.0,10,10,7,4,7,7,150.0,2128.1,364868.97,84.9,212.81,0.7,31.8726,"Publisher staffing, catalog, sales, and productivity baseline."
+staff_without_current_catalog,publisher,Ramona Publishers,USA,1,employee_count,1.0,1,1,0,0,0,0,0.0,0.0,0.0,246.0,0.0,0.0,,Publishers with staff but no linked current catalog or sales.
+staff_without_current_catalog,publisher,Scootney Books,USA,3,employee_count,3.0,3,3,0,0,0,0,0.0,0.0,0.0,214.0,0.0,0.0,,Publishers with staff but no linked current catalog or sales.
+staff_without_current_catalog,publisher,Five Lakes Publishing,USA,1,employee_count,1.0,1,1,0,0,0,0,0.0,0.0,0.0,198.0,0.0,0.0,,Publishers with staff but no linked current catalog or sales.
+staff_without_current_catalog,publisher,GGG&G,Germany,1,employee_count,1.0,1,1,0,0,0,0,0.0,0.0,0.0,172.0,0.0,0.0,,Publishers with staff but no linked current catalog or sales.
+staff_without_current_catalog,publisher,Lucerne Publishing,France,7,employee_count,7.0,7,7,0,0,0,0,0.0,0.0,0.0,140.5714,0.0,0.0,,Publishers with staff but no linked current catalog or sales.
+role_breadth_by_output,publisher,Ramona Publishers,no_current_output,USA,job_role_count,1.0,1,1,0,0,0,0,0.0,0.0,0.0,246.0,0.0,0.0,0.0,Compare job-role breadth with whether the publisher has linked active output.
+role_breadth_by_output,publisher,Scootney Books,no_current_output,USA,job_role_count,3.0,3,3,0,0,0,0,0.0,0.0,0.0,214.0,0.0,0.0,0.0,Compare job-role breadth with whether the publisher has linked active output.
+role_breadth_by_output,publisher,Five Lakes Publishing,no_current_output,USA,job_role_count,1.0,1,1,0,0,0,0,0.0,0.0,0.0,198.0,0.0,0.0,0.0,Compare job-role breadth with whether the publisher has linked active output.
+role_breadth_by_output,publisher,GGG&G,no_current_output,Germany,job_role_count,1.0,1,1,0,0,0,0,0.0,0.0,0.0,172.0,0.0,0.0,0.0,Compare job-role breadth with whether the publisher has linked active output.
+role_breadth_by_output,publisher,New Moon Books,active_output,USA,job_role_count,10.0,10,10,5,2,8,8,208.0,1961.85,187202.45,155.0,196.185,0.5,29.3826,Compare job-role breadth with whether the publisher has linked active output.
+role_breadth_by_output,publisher,Lucerne Publishing,no_current_output,France,job_role_count,7.0,7,7,0,0,0,0,0.0,0.0,0.0,140.5714,0.0,0.0,0.0,Compare job-role breadth with whether the publisher has linked active output.
+role_breadth_by_output,publisher,Algodata Infosystems,active_output,USA,job_role_count,10.0,10,10,6,2,6,6,135.0,2586.95,493437.3,106.4,258.695,0.6,38.7448,Compare job-role breadth with whether the publisher has linked active output.
+role_breadth_by_output,publisher,Binnet & Hardley,active_output,USA,job_role_count,10.0,10,10,7,4,7,7,150.0,2128.1,364868.97,84.9,212.81,0.7,31.8726,Compare job-role breadth with whether the publisher has linked active output.
+staff_level_vs_output,publisher,Ramona Publishers,USA,1,avg_level_rank,1.0,1,1,0,0,0,0,0.0,0.0,0.0,246.0,0.0,0.0,0.0,Compare seniority signal with active publishing output.
+staff_level_vs_output,publisher,Scootney Books,USA,2,avg_level_rank,2.0,3,3,0,0,0,0,0.0,0.0,0.0,214.0,0.0,0.0,0.0,Compare seniority signal with active publishing output.
+staff_level_vs_output,publisher,Five Lakes Publishing,USA,3,avg_level_rank,3.0,1,1,0,0,0,0,0.0,0.0,0.0,198.0,0.0,0.0,0.0,Compare seniority signal with active publishing output.
+staff_level_vs_output,publisher,GGG&G,Germany,4,avg_level_rank,4.0,1,1,0,0,0,0,0.0,0.0,0.0,172.0,0.0,0.0,0.0,Compare seniority signal with active publishing output.
+staff_level_vs_output,publisher,New Moon Books,USA,5,avg_level_rank,5.0,10,10,5,2,8,8,208.0,1961.85,187202.45,155.0,196.185,0.5,29.3826,Compare seniority signal with active publishing output.
+staff_level_vs_output,publisher,Lucerne Publishing,France,6,avg_level_rank,6.0,7,7,0,0,0,0,0.0,0.0,0.0,140.5714,0.0,0.0,0.0,Compare seniority signal with active publishing output.
+staff_level_vs_output,publisher,Algodata Infosystems,USA,7,avg_level_rank,7.0,10,10,6,2,6,6,135.0,2586.95,493437.3,106.4,258.695,0.6,38.7448,Compare seniority signal with active publishing output.
+staff_level_vs_output,publisher,Binnet & Hardley,USA,8,avg_level_rank,8.0,10,10,7,4,7,7,150.0,2128.1,364868.97,84.9,212.81,0.7,31.8726,Compare seniority signal with active publishing output.
+job_role_distribution,job_role,Managing Editor,4,140-225,employee_count,4.0,4,4,,,,,,,,176.0,140.0,220.0,,Distribution of staff roles and observed job levels.
+job_role_distribution,job_role,Publisher,7,150-250,employee_count,7.0,7,7,,,,,,,,187.2857,150.0,246.0,,Distribution of staff roles and observed job levels.
+job_role_distribution,job_role,Sales Representative,3,25-100,employee_count,3.0,3,3,,,,,,,,66.3333,35.0,100.0,,Distribution of staff roles and observed job levels.
+job_role_distribution,job_role,Editor,3,25-100,employee_count,3.0,3,3,,,,,,,,55.6667,32.0,100.0,,Distribution of staff roles and observed job levels.
+job_role_distribution,job_role,Chief Executive Officer,1,200-250,employee_count,1.0,1,1,,,,,,,,215.0,215.0,215.0,,Distribution of staff roles and observed job levels.
+job_role_distribution,job_role,Public Relations Manager,4,100-175,employee_count,4.0,4,4,,,,,,,,125.25,100.0,175.0,,Distribution of staff roles and observed job levels.
+job_role_distribution,job_role,Operations Manager,4,75-150,employee_count,4.0,4,4,,,,,,,,121.75,75.0,150.0,,Distribution of staff roles and observed job levels.
+job_role_distribution,job_role,Designer,3,25-100,employee_count,3.0,3,3,,,,,,,,74.6667,35.0,100.0,,Distribution of staff roles and observed job levels.
+job_role_distribution,job_role,Marketing Manager,4,120-200,employee_count,4.0,4,4,,,,,,,,142.5,120.0,195.0,,Distribution of staff roles and observed job levels.
+job_role_distribution,job_role,Productions Manager,4,75-165,employee_count,4.0,4,4,,,,,,,,101.75,75.0,165.0,,Distribution of staff roles and observed job levels.
+job_role_distribution,job_role,Chief Financial Officier,1,175-250,employee_count,1.0,1,1,,,,,,,,227.0,227.0,227.0,,Distribution of staff roles and observed job levels.
+job_role_distribution,job_role,Acquisitions Manager,4,75-175,employee_count,4.0,4,4,,,,,,,,123.25,75.0,170.0,,Distribution of staff roles and observed job levels.
+job_role_distribution,job_role,Business Operations Manager,1,175-225,employee_count,1.0,1,1,,,,,,,,200.0,200.0,200.0,,Distribution of staff roles and observed job levels.
+job_role_distribution,job_role,New Hire - Job not specified,0,10-10,employee_count,0.0,0,0,,,,,,,,,,,,Distribution of staff roles and observed job levels.
+publisher_job_mix,publisher_job,Algodata Infosystems,Productions Manager,,employee_count,1.0,1,,,,,,,,,87.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Scootney Books,Business Operations Manager,,employee_count,1.0,1,,,,,,,,,200.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Lucerne Publishing,Publisher,,employee_count,1.0,1,,,,,,,,,211.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Binnet & Hardley,Operations Manager,,employee_count,1.0,1,,,,,,,,,75.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Algodata Infosystems,Managing Editor,,employee_count,1.0,1,,,,,,,,,192.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Binnet & Hardley,Acquisitions Manager,,employee_count,1.0,1,,,,,,,,,75.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,New Moon Books,Public Relations Manager,,employee_count,1.0,1,,,,,,,,,175.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Five Lakes Publishing,Publisher,,employee_count,1.0,1,,,,,,,,,198.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Lucerne Publishing,Managing Editor,,employee_count,1.0,1,,,,,,,,,152.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,New Moon Books,Editor,,employee_count,1.0,1,,,,,,,,,100.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,New Moon Books,Designer,,employee_count,1.0,1,,,,,,,,,100.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Lucerne Publishing,Productions Manager,,employee_count,1.0,1,,,,,,,,,80.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Algodata Infosystems,Publisher,,employee_count,1.0,1,,,,,,,,,150.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,New Moon Books,Productions Manager,,employee_count,1.0,1,,,,,,,,,165.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,New Moon Books,Managing Editor,,employee_count,1.0,1,,,,,,,,,220.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Binnet & Hardley,Sales Representative,,employee_count,1.0,1,,,,,,,,,35.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Algodata Infosystems,Public Relations Manager,,employee_count,1.0,1,,,,,,,,,125.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Binnet & Hardley,Marketing Manager,,employee_count,1.0,1,,,,,,,,,120.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,New Moon Books,Publisher,,employee_count,1.0,1,,,,,,,,,175.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Lucerne Publishing,Public Relations Manager,,employee_count,1.0,1,,,,,,,,,101.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Algodata Infosystems,Designer,,employee_count,1.0,1,,,,,,,,,89.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Algodata Infosystems,Editor,,employee_count,1.0,1,,,,,,,,,32.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Binnet & Hardley,Public Relations Manager,,employee_count,1.0,1,,,,,,,,,100.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Algodata Infosystems,Sales Representative,,employee_count,1.0,1,,,,,,,,,64.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Scootney Books,Chief Financial Officier,,employee_count,1.0,1,,,,,,,,,227.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,New Moon Books,Acquisitions Manager,,employee_count,1.0,1,,,,,,,,,170.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Lucerne Publishing,Marketing Manager,,employee_count,1.0,1,,,,,,,,,120.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,GGG&G,Publisher,,employee_count,1.0,1,,,,,,,,,172.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Ramona Publishers,Publisher,,employee_count,1.0,1,,,,,,,,,246.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,New Moon Books,Operations Manager,,employee_count,1.0,1,,,,,,,,,150.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Lucerne Publishing,Acquisitions Manager,,employee_count,1.0,1,,,,,,,,,170.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Lucerne Publishing,Operations Manager,,employee_count,1.0,1,,,,,,,,,150.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,New Moon Books,Marketing Manager,,employee_count,1.0,1,,,,,,,,,195.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Binnet & Hardley,Publisher,,employee_count,1.0,1,,,,,,,,,159.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Binnet & Hardley,Designer,,employee_count,1.0,1,,,,,,,,,35.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Binnet & Hardley,Editor,,employee_count,1.0,1,,,,,,,,,35.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Algodata Infosystems,Marketing Manager,,employee_count,1.0,1,,,,,,,,,135.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Algodata Infosystems,Operations Manager,,employee_count,1.0,1,,,,,,,,,112.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Algodata Infosystems,Acquisitions Manager,,employee_count,1.0,1,,,,,,,,,78.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Binnet & Hardley,Productions Manager,,employee_count,1.0,1,,,,,,,,,75.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Scootney Books,Chief Executive Officer,,employee_count,1.0,1,,,,,,,,,215.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,New Moon Books,Sales Representative,,employee_count,1.0,1,,,,,,,,,100.0,,,,Publisher-specific job role coverage.
+publisher_job_mix,publisher_job,Binnet & Hardley,Managing Editor,,employee_count,1.0,1,,,,,,,,,140.0,,,,Publisher-specific job role coverage.

@@ -1,0 +1,151 @@
+{
+  "task_id": "032",
+  "db_id": "beer_factory",
+  "engine": "DuckDB",
+  "data_source": "CSV",
+  "schema_source": "database_description",
+  "status": "success",
+  "elapsed_seconds": 0.048,
+  "tables": [
+    {
+      "table": "customers",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/beer_factory/tables/customers.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/beer_factory/database_description/customers.csv",
+      "size_bytes": 61755,
+      "modified_time_ns": 1782118882776297450,
+      "row_count": 554,
+      "column_types": {
+        "CustomerID": "BIGINT",
+        "First": "VARCHAR",
+        "Last": "VARCHAR",
+        "StreetAddress": "VARCHAR",
+        "City": "VARCHAR",
+        "State": "VARCHAR",
+        "ZipCode": "BIGINT",
+        "Email": "VARCHAR",
+        "PhoneNumber": "VARCHAR",
+        "FirstPurchaseDate": "DATE",
+        "SubscribedToEmailList": "VARCHAR",
+        "Gender": "VARCHAR"
+      }
+    },
+    {
+      "table": "geolocation",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/beer_factory/tables/geolocation.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/beer_factory/database_description/geolocation.csv",
+      "size_bytes": 91,
+      "modified_time_ns": 1782118882777127254,
+      "row_count": 3,
+      "column_types": {
+        "LocationID": "BIGINT",
+        "Latitude": "DOUBLE",
+        "Longitude": "DOUBLE"
+      }
+    },
+    {
+      "table": "location",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/beer_factory/tables/location.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/beer_factory/database_description/location.csv",
+      "size_bytes": 187,
+      "modified_time_ns": 1782118882777553802,
+      "row_count": 3,
+      "column_types": {
+        "LocationID": "BIGINT",
+        "LocationName": "VARCHAR",
+        "StreetAddress": "VARCHAR",
+        "City": "VARCHAR",
+        "State": "VARCHAR",
+        "ZipCode": "BIGINT"
+      }
+    },
+    {
+      "table": "rootbeer",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/beer_factory/tables/rootbeer.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/beer_factory/database_description/rootbeer.csv",
+      "size_bytes": 215696,
+      "modified_time_ns": 1782118882786873938,
+      "row_count": 6430,
+      "column_types": {
+        "RootBeerID": "BIGINT",
+        "BrandID": "BIGINT",
+        "ContainerType": "VARCHAR",
+        "LocationID": "BIGINT",
+        "PurchaseDate": "DATE"
+      }
+    },
+    {
+      "table": "rootbeerbrand",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/beer_factory/tables/rootbeerbrand.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/beer_factory/database_description/rootbeerbrand.csv",
+      "size_bytes": 9654,
+      "modified_time_ns": 1782118882788013747,
+      "row_count": 24,
+      "column_types": {
+        "BrandID": "BIGINT",
+        "BrandName": "VARCHAR",
+        "FirstBrewedYear": "BIGINT",
+        "BreweryName": "VARCHAR",
+        "City": "VARCHAR",
+        "State": "VARCHAR",
+        "Country": "VARCHAR",
+        "Description": "VARCHAR",
+        "CaneSugar": "VARCHAR",
+        "CornSyrup": "VARCHAR",
+        "Honey": "VARCHAR",
+        "ArtificialSweetener": "VARCHAR",
+        "Caffeinated": "VARCHAR",
+        "Alcoholic": "VARCHAR",
+        "AvailableInCans": "VARCHAR",
+        "AvailableInBottles": "VARCHAR",
+        "AvailableInKegs": "VARCHAR",
+        "Website": "VARCHAR",
+        "FacebookPage": "VARCHAR",
+        "Twitter": "VARCHAR",
+        "WholesaleCost": "DOUBLE",
+        "CurrentRetailPrice": "DOUBLE"
+      }
+    },
+    {
+      "table": "rootbeerreview",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/beer_factory/tables/rootbeerreview.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/beer_factory/database_description/rootbeerreview.csv",
+      "size_bytes": 20525,
+      "modified_time_ns": 1782118882789303808,
+      "row_count": 713,
+      "column_types": {
+        "CustomerID": "BIGINT",
+        "BrandID": "BIGINT",
+        "StarRating": "BIGINT",
+        "ReviewDate": "DATE",
+        "Review": "VARCHAR"
+      }
+    },
+    {
+      "table": "transaction",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/beer_factory/tables/transaction.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/beer_factory/database_description/transaction.csv",
+      "size_bytes": 412711,
+      "modified_time_ns": 1782118882803601017,
+      "row_count": 6312,
+      "column_types": {
+        "TransactionID": "BIGINT",
+        "CreditCardNumber": "BIGINT",
+        "CustomerID": "BIGINT",
+        "TransactionDate": "DATE",
+        "CreditCardType": "VARCHAR",
+        "LocationID": "BIGINT",
+        "RootBeerID": "BIGINT",
+        "PurchasePrice": "DOUBLE"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "insight_id": "TASK",
+      "sql_file": "queries_v2/task_032/task_032_customer_lifecycle_loyalty_evidence.sql",
+      "file": "outputs/TASK__task_032_customer_lifecycle_loyalty_evidence.csv",
+      "rows": 2219
+    }
+  ],
+  "qa_outputs": []
+}

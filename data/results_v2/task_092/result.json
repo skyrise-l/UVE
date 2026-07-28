@@ -1,0 +1,220 @@
+{
+  "task_id": "092",
+  "db_id": "books",
+  "engine": "DuckDB",
+  "data_source": "CSV",
+  "schema_source": "database_description",
+  "status": "success",
+  "elapsed_seconds": 0.083,
+  "tables": [
+    {
+      "table": "address",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/books/tables/address.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/books/database_description/address.csv",
+      "size_bytes": 36724,
+      "modified_time_ns": 1782118967267055362,
+      "row_count": 1000,
+      "column_types": {
+        "address_id": "BIGINT",
+        "street_number": "VARCHAR",
+        "street_name": "VARCHAR",
+        "city": "VARCHAR",
+        "country_id": "BIGINT"
+      }
+    },
+    {
+      "table": "address_status",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/books/tables/address_status.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/books/database_description/address_status.csv",
+      "size_bytes": 48,
+      "modified_time_ns": 1782118967267929959,
+      "row_count": 2,
+      "column_types": {
+        "status_id": "BIGINT",
+        "address_status": "VARCHAR"
+      }
+    },
+    {
+      "table": "author",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/books/tables/author.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/books/database_description/author.csv",
+      "size_bytes": 193137,
+      "modified_time_ns": 1782118967279125039,
+      "row_count": 9235,
+      "column_types": {
+        "author_id": "BIGINT",
+        "author_name": "VARCHAR"
+      }
+    },
+    {
+      "table": "book",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/books/tables/book.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/books/database_description/book.csv",
+      "size_bytes": 871501,
+      "modified_time_ns": 1782118967309774405,
+      "row_count": 11127,
+      "column_types": {
+        "book_id": "BIGINT",
+        "title": "VARCHAR",
+        "isbn13": "VARCHAR",
+        "language_id": "BIGINT",
+        "num_pages": "BIGINT",
+        "publication_date": "DATE",
+        "publisher_id": "BIGINT"
+      }
+    },
+    {
+      "table": "book_author",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/books/tables/book_author.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/books/database_description/book_author.csv",
+      "size_bytes": 192259,
+      "modified_time_ns": 1782118967323334729,
+      "row_count": 17642,
+      "column_types": {
+        "book_id": "BIGINT",
+        "author_id": "BIGINT"
+      }
+    },
+    {
+      "table": "book_language",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/books/tables/book_language.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/books/database_description/book_language.csv",
+      "size_bytes": 513,
+      "modified_time_ns": 1782118967323874904,
+      "row_count": 27,
+      "column_types": {
+        "language_id": "BIGINT",
+        "language_code": "VARCHAR",
+        "language_name": "VARCHAR"
+      }
+    },
+    {
+      "table": "country",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/books/tables/country.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/books/database_description/country.csv",
+      "size_bytes": 3431,
+      "modified_time_ns": 1782118967324384995,
+      "row_count": 232,
+      "column_types": {
+        "country_id": "BIGINT",
+        "country_name": "VARCHAR"
+      }
+    },
+    {
+      "table": "cust_order",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/books/tables/cust_order.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/books/database_description/cust_order.csv",
+      "size_bytes": 272133,
+      "modified_time_ns": 1782118967459429766,
+      "row_count": 7550,
+      "column_types": {
+        "order_id": "BIGINT",
+        "order_date": "TIMESTAMP",
+        "customer_id": "BIGINT",
+        "shipping_method_id": "BIGINT",
+        "dest_address_id": "BIGINT"
+      }
+    },
+    {
+      "table": "customer",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/books/tables/customer.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/books/database_description/customer.csv",
+      "size_bytes": 86391,
+      "modified_time_ns": 1782118967463827539,
+      "row_count": 2000,
+      "column_types": {
+        "customer_id": "BIGINT",
+        "first_name": "VARCHAR",
+        "last_name": "VARCHAR",
+        "email": "VARCHAR"
+      }
+    },
+    {
+      "table": "customer_address",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/books/tables/customer_address.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/books/database_description/customer_address.csv",
+      "size_bytes": 38011,
+      "modified_time_ns": 1782118967468250770,
+      "row_count": 3350,
+      "column_types": {
+        "customer_id": "BIGINT",
+        "address_id": "BIGINT",
+        "status_id": "BIGINT"
+      }
+    },
+    {
+      "table": "order_history",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/books/tables/order_history.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/books/database_description/order_history.csv",
+      "size_bytes": 748712,
+      "modified_time_ns": 1782118967523974046,
+      "row_count": 22348,
+      "column_types": {
+        "history_id": "BIGINT",
+        "order_id": "BIGINT",
+        "status_id": "BIGINT",
+        "status_date": "TIMESTAMP"
+      }
+    },
+    {
+      "table": "order_line",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/books/tables/order_line.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/books/database_description/order_line.csv",
+      "size_bytes": 161335,
+      "modified_time_ns": 1782118967534543492,
+      "row_count": 7550,
+      "column_types": {
+        "line_id": "BIGINT",
+        "order_id": "BIGINT",
+        "book_id": "BIGINT",
+        "price": "DOUBLE"
+      }
+    },
+    {
+      "table": "order_status",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/books/tables/order_status.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/books/database_description/order_status.csv",
+      "size_bytes": 124,
+      "modified_time_ns": 1782118967535317420,
+      "row_count": 6,
+      "column_types": {
+        "status_id": "BIGINT",
+        "status_value": "VARCHAR"
+      }
+    },
+    {
+      "table": "publisher",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/books/tables/publisher.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/books/database_description/publisher.csv",
+      "size_bytes": 54922,
+      "modified_time_ns": 1782118967537488619,
+      "row_count": 2264,
+      "column_types": {
+        "publisher_id": "BIGINT",
+        "publisher_name": "VARCHAR"
+      }
+    },
+    {
+      "table": "shipping_method",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/books/tables/shipping_method.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/books/database_description/shipping_method.csv",
+      "size_bytes": 98,
+      "modified_time_ns": 1782118967538190129,
+      "row_count": 4,
+      "column_types": {
+        "method_id": "BIGINT",
+        "method_name": "VARCHAR",
+        "cost": "DOUBLE"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "insight_id": "TASK",
+      "sql_file": "queries_v2/task_092/task_092_catalog_demand_structure_evidence.sql",
+      "file": "outputs/TASK__task_092_catalog_demand_structure_evidence.csv",
+      "rows": 7790
+    }
+  ],
+  "qa_outputs": []
+}

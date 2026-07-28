@@ -1,0 +1,17 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,transactions,customers,brands,reviews,revenue,gross_margin_proxy,gross_margin_proxy_rate_pct,avg_rating,transaction_share_pct,review_share_pct,notes
+container_location_quality_mismatch,location_container,Sac State American River Courtyard,Can,,margin_proxy_rate_pct,72.90983000739116,471,,,,1353.0,986.47,72.9098,1.913,,,Find container-location cells where quality differs from simple transaction volume.
+container_location_quality_mismatch,location_container,Sac State Union,Can,,margin_proxy_rate_pct,72.79805690492731,499,,,,1441.0,1049.02,72.7981,1.9098,,,Find container-location cells where quality differs from simple transaction volume.
+container_location_quality_mismatch,location_container,Sac State Union,Bottle,,margin_proxy_rate_pct,62.77964191811748,2717,,,,7987.0,5014.21,62.7796,1.0685,,,Find container-location cells where quality differs from simple transaction volume.
+container_location_quality_mismatch,location_container,Sac State American River Courtyard,Bottle,,margin_proxy_rate_pct,62.67569669475102,2625,,,,7715.0,4835.43,62.6757,1.0429,,,Find container-location cells where quality differs from simple transaction volume.
+container_margin_proxy_quality,container,Bottle,1,2,margin_rate_rank,2.0,5342,554,22,,15702.0,9849.64,62.7286,1.0559,84.6324,,"Compare packaging on margin proxy, not only volume."
+container_margin_proxy_quality,container,Can,2,1,margin_rate_rank,1.0,970,435,6,,2794.0,2035.49,72.8522,1.9113,15.3676,,"Compare packaging on margin proxy, not only volume."
+container_transaction_baseline,container,Can,,,transaction_rank,2.0,970,435,6,,2794.0,2035.49,72.8522,1.9113,15.3676,,Establish packaging demand baseline.
+container_transaction_baseline,container,Bottle,,,transaction_rank,1.0,5342,554,22,,15702.0,9849.64,62.7286,1.0559,84.6324,,Establish packaging demand baseline.
+location_container_mix,location_container,Sac State Union,Bottle,,transactions,2717.0,2717,,,,7987.0,5014.21,62.7796,1.0685,,,Inspect whether container patterns are location mix effects.
+location_container_mix,location_container,Sac State American River Courtyard,Bottle,,transactions,2625.0,2625,,,,7715.0,4835.43,62.6757,1.0429,,,Inspect whether container patterns are location mix effects.
+location_container_mix,location_container,Sac State Union,Can,,transactions,499.0,499,,,,1441.0,1049.02,72.7981,1.9098,,,Inspect whether container patterns are location mix effects.
+location_container_mix,location_container,Sac State American River Courtyard,Can,,transactions,471.0,471,,,,1353.0,986.47,72.9098,1.913,,,Inspect whether container patterns are location mix effects.
+location_margin_proxy_quality,location,Sac State American River Courtyard,2,2,location_margin_rate_rank,2.0,3096,538,20,,9068.0,5821.9,64.2027,1.1753,49.0494,,Separate location business quality from volume.
+location_margin_proxy_quality,location,Sac State Union,1,1,location_margin_rate_rank,1.0,3216,541,22,,9428.0,6063.23,64.3109,1.199,50.9506,,Separate location business quality from volume.
+price_realization_baseline,container,Can,,,avg_price_realization,1.911340206185567,970,435,6,,2794.0,2035.49,72.8522,1.9113,15.3676,,Check whether realized purchase price aligns with listed retail price.
+price_realization_baseline,container,Bottle,,,avg_price_realization,1.0559091476350935,5342,554,22,,15702.0,9849.64,62.7286,1.0559,84.6324,,Check whether realized purchase price aligns with listed retail price.

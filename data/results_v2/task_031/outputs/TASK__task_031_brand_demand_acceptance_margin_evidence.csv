@@ -1,0 +1,115 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,transactions,customers,brands,reviews,revenue,gross_margin_proxy,gross_margin_proxy_rate_pct,avg_rating,transaction_share_pct,review_share_pct,notes
+brand_demand_baseline,brand,Frostie,,,transaction_rank,23.0,1,1,1,86,3.0,1.91,63.6667,3.0349,0.0158,12.0617,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,Diet Stewarts,,,transaction_rank,22.0,1,1,1,0,3.0,1.72,57.3333,,0.0158,0.0,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,Virgil's,,,transaction_rank,21.0,2,2,1,57,6.0,3.48,58.0,3.0877,0.0317,7.9944,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,River City,,,transaction_rank,20.0,2,2,1,132,6.0,3.82,63.6667,3.1515,0.0317,18.5133,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,Thomas Kemper,,,transaction_rank,19.0,7,7,1,55,21.0,13.37,63.6667,3.2182,0.1109,7.7139,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,Sprecher,,,transaction_rank,18.0,19,19,1,52,57.0,36.29,63.6667,3.2115,0.301,7.2931,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,A&W,,,transaction_rank,17.0,147,129,1,8,411.0,349.26,84.9781,3.25,2.3289,1.122,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,A.J. Stephans,,,transaction_rank,16.0,274,220,1,20,764.0,495.48,64.8534,3.2,4.3409,2.805,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,Mug,,,transaction_rank,15.0,283,224,1,17,785.0,671.8,85.5796,2.8824,4.4835,2.3843,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,Barq's,,,transaction_rank,14.0,284,221,1,19,798.0,684.4,85.7644,2.5789,4.4994,2.6648,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,Bulldog,,,transaction_rank,13.0,307,236,1,25,921.0,607.86,66.0,3.0,4.8638,3.5063,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,Bundaberg,,,transaction_rank,12.0,333,241,1,15,999.0,616.05,61.6667,2.8,5.2757,2.1038,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,Abita,,,transaction_rank,11.0,334,252,1,18,1002.0,624.58,62.3333,2.8333,5.2915,2.5245,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,Bedfords,,,transaction_rank,10.0,352,264,1,17,1056.0,668.8,63.3333,3.1176,5.5767,2.3843,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,Dad's,,,transaction_rank,9.0,359,249,1,20,1077.0,624.66,58.0,2.75,5.6876,2.805,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,Henry Weinhard's,,,transaction_rank,8.0,385,279,1,18,1155.0,716.1,62.0,3.1111,6.0995,2.5245,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,Dominion,,,transaction_rank,7.0,394,298,1,17,1182.0,669.8,56.6667,3.7059,6.2421,2.3843,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,Dog n Suds,,,transaction_rank,6.0,410,297,1,17,1120.0,746.9,66.6875,3.1176,6.4956,2.3843,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,Captain Eli's,,,transaction_rank,5.0,419,293,1,22,1257.0,800.29,63.6667,3.0,6.6381,3.0856,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,Sparky's Fresh Draft,,,transaction_rank,4.0,453,316,1,20,1359.0,629.67,46.3333,3.05,7.1768,2.805,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,Fitz's,,,transaction_rank,3.0,486,326,1,24,1458.0,928.26,63.6667,3.0417,7.6996,3.3661,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,Gales,,,transaction_rank,2.0,523,337,1,22,1445.0,922.0,63.8062,2.7727,8.2858,3.0856,Establish brand demand scale before judging brand quality.
+brand_demand_baseline,brand,IBC,,,transaction_rank,1.0,537,333,1,32,1611.0,1068.63,66.3333,3.0938,8.5076,4.4881,Establish brand demand scale before judging brand quality.
+brand_demand_concentration,portfolio,top_10_brands_by_transactions,,,top10_transaction_share,,4318,,10,,,,,,68.4094,,Check whether demand is broad or concentrated in the head.
+brand_margin_proxy_quality,brand,Sparky's Fresh Draft,4,23,margin_rate_rank,23.0,453,316,1,20,1359.0,629.67,46.3333,3.05,7.1768,2.805,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,Dominion,7,22,margin_rate_rank,22.0,394,298,1,17,1182.0,669.8,56.6667,3.7059,6.2421,2.3843,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,Diet Stewarts,22,21,margin_rate_rank,21.0,1,1,1,0,3.0,1.72,57.3333,,0.0158,0.0,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,Virgil's,21,20,margin_rate_rank,20.0,2,2,1,57,6.0,3.48,58.0,3.0877,0.0317,7.9944,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,Dad's,9,19,margin_rate_rank,19.0,359,249,1,20,1077.0,624.66,58.0,2.75,5.6876,2.805,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,Bundaberg,12,18,margin_rate_rank,18.0,333,241,1,15,999.0,616.05,61.6667,2.8,5.2757,2.1038,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,Henry Weinhard's,8,17,margin_rate_rank,17.0,385,279,1,18,1155.0,716.1,62.0,3.1111,6.0995,2.5245,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,Abita,11,16,margin_rate_rank,16.0,334,252,1,18,1002.0,624.58,62.3333,2.8333,5.2915,2.5245,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,Bedfords,10,15,margin_rate_rank,15.0,352,264,1,17,1056.0,668.8,63.3333,3.1176,5.5767,2.3843,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,Fitz's,3,14,margin_rate_rank,14.0,486,326,1,24,1458.0,928.26,63.6667,3.0417,7.6996,3.3661,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,Captain Eli's,5,13,margin_rate_rank,13.0,419,293,1,22,1257.0,800.29,63.6667,3.0,6.6381,3.0856,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,Sprecher,18,12,margin_rate_rank,12.0,19,19,1,52,57.0,36.29,63.6667,3.2115,0.301,7.2931,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,Frostie,23,11,margin_rate_rank,11.0,1,1,1,86,3.0,1.91,63.6667,3.0349,0.0158,12.0617,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,River City,20,10,margin_rate_rank,10.0,2,2,1,132,6.0,3.82,63.6667,3.1515,0.0317,18.5133,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,Thomas Kemper,19,9,margin_rate_rank,9.0,7,7,1,55,21.0,13.37,63.6667,3.2182,0.1109,7.7139,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,Gales,2,8,margin_rate_rank,8.0,523,337,1,22,1445.0,922.0,63.8062,2.7727,8.2858,3.0856,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,A.J. Stephans,16,7,margin_rate_rank,7.0,274,220,1,20,764.0,495.48,64.8534,3.2,4.3409,2.805,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,Bulldog,13,6,margin_rate_rank,6.0,307,236,1,25,921.0,607.86,66.0,3.0,4.8638,3.5063,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,IBC,1,5,margin_rate_rank,5.0,537,333,1,32,1611.0,1068.63,66.3333,3.0938,8.5076,4.4881,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,Dog n Suds,6,4,margin_rate_rank,4.0,410,297,1,17,1120.0,746.9,66.6875,3.1176,6.4956,2.3843,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,A&W,17,3,margin_rate_rank,3.0,147,129,1,8,411.0,349.26,84.9781,3.25,2.3289,1.122,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,Mug,15,2,margin_rate_rank,2.0,283,224,1,17,785.0,671.8,85.5796,2.8824,4.4835,2.3843,Separate revenue scale from gross-margin proxy quality.
+brand_margin_proxy_quality,brand,Barq's,14,1,margin_rate_rank,1.0,284,221,1,19,798.0,684.4,85.7644,2.5789,4.4994,2.6648,Separate revenue scale from gross-margin proxy quality.
+brand_quality_mismatch,brand,Gales,2,20/8,absolute_rank_gap,18.0,523,337,1,22,1445.0,922.0,63.8062,2.7727,8.2858,3.0856,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,Thomas Kemper,19,3/9,absolute_rank_gap,16.0,7,7,1,55,21.0,13.37,63.6667,3.2182,0.1109,7.7139,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,A&W,17,2/3,absolute_rank_gap,15.0,147,129,1,8,411.0,349.26,84.9781,3.25,2.3289,1.122,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,River City,20,6/10,absolute_rank_gap,14.0,2,2,1,132,6.0,3.82,63.6667,3.1515,0.0317,18.5133,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,Sprecher,18,4/12,absolute_rank_gap,14.0,19,19,1,52,57.0,36.29,63.6667,3.2115,0.301,7.2931,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,Dad's,9,21/19,absolute_rank_gap,12.0,359,249,1,20,1077.0,624.66,58.0,2.75,5.6876,2.805,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,A.J. Stephans,16,5/7,absolute_rank_gap,11.0,274,220,1,20,764.0,495.48,64.8534,3.2,4.3409,2.805,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,Captain Eli's,5,16/13,absolute_rank_gap,11.0,419,293,1,22,1257.0,800.29,63.6667,3.0,6.6381,3.0856,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,Fitz's,3,13/14,absolute_rank_gap,10.0,486,326,1,24,1458.0,928.26,63.6667,3.0417,7.6996,3.3661,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,Virgil's,21,11/20,absolute_rank_gap,10.0,2,2,1,57,6.0,3.48,58.0,3.0877,0.0317,7.9944,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,Frostie,23,14/11,absolute_rank_gap,9.0,1,1,1,86,3.0,1.91,63.6667,3.0349,0.0158,12.0617,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,IBC,1,10/5,absolute_rank_gap,9.0,537,333,1,32,1611.0,1068.63,66.3333,3.0938,8.5076,4.4881,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,Barq's,14,22/1,absolute_rank_gap,8.0,284,221,1,19,798.0,684.4,85.7644,2.5789,4.4994,2.6648,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,Sparky's Fresh Draft,4,12/23,absolute_rank_gap,8.0,453,316,1,20,1359.0,629.67,46.3333,3.05,7.1768,2.805,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,Abita,11,18/16,absolute_rank_gap,7.0,334,252,1,18,1002.0,624.58,62.3333,2.8333,5.2915,2.5245,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,Bundaberg,12,19/18,absolute_rank_gap,7.0,333,241,1,15,999.0,616.05,61.6667,2.8,5.2757,2.1038,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,Dominion,7,1/22,absolute_rank_gap,6.0,394,298,1,17,1182.0,669.8,56.6667,3.7059,6.2421,2.3843,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,Bedfords,10,7/15,absolute_rank_gap,3.0,352,264,1,17,1056.0,668.8,63.3333,3.1176,5.5767,2.3843,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,Bulldog,13,15/6,absolute_rank_gap,2.0,307,236,1,25,921.0,607.86,66.0,3.0,4.8638,3.5063,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,Dog n Suds,6,8/4,absolute_rank_gap,2.0,410,297,1,17,1120.0,746.9,66.6875,3.1176,6.4956,2.3843,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,Mug,15,17/2,absolute_rank_gap,2.0,283,224,1,17,785.0,671.8,85.5796,2.8824,4.4835,2.3843,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_quality_mismatch,brand,Henry Weinhard's,8,9/17,absolute_rank_gap,1.0,385,279,1,18,1155.0,716.1,62.0,3.1111,6.0995,2.5245,"Find demand, rating, and margin-proxy mismatches for candidate insights."
+brand_sales_rating_alignment,brand,Thomas Kemper,19,3,sales_rank_vs_rating_rank,16.0,7,7,1,55,21.0,13.37,63.6667,3.2182,0.1109,7.7139,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,A&W,17,2,sales_rank_vs_rating_rank,15.0,147,129,1,8,411.0,349.26,84.9781,3.25,2.3289,1.122,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,River City,20,6,sales_rank_vs_rating_rank,14.0,2,2,1,132,6.0,3.82,63.6667,3.1515,0.0317,18.5133,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,Sprecher,18,4,sales_rank_vs_rating_rank,14.0,19,19,1,52,57.0,36.29,63.6667,3.2115,0.301,7.2931,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,A.J. Stephans,16,5,sales_rank_vs_rating_rank,11.0,274,220,1,20,764.0,495.48,64.8534,3.2,4.3409,2.805,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,Virgil's,21,11,sales_rank_vs_rating_rank,10.0,2,2,1,57,6.0,3.48,58.0,3.0877,0.0317,7.9944,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,Frostie,23,14,sales_rank_vs_rating_rank,9.0,1,1,1,86,3.0,1.91,63.6667,3.0349,0.0158,12.0617,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,Dominion,7,1,sales_rank_vs_rating_rank,6.0,394,298,1,17,1182.0,669.8,56.6667,3.7059,6.2421,2.3843,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,Bedfords,10,7,sales_rank_vs_rating_rank,3.0,352,264,1,17,1056.0,668.8,63.3333,3.1176,5.5767,2.3843,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,Henry Weinhard's,8,9,sales_rank_vs_rating_rank,-1.0,385,279,1,18,1155.0,716.1,62.0,3.1111,6.0995,2.5245,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,Bulldog,13,15,sales_rank_vs_rating_rank,-2.0,307,236,1,25,921.0,607.86,66.0,3.0,4.8638,3.5063,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,Dog n Suds,6,8,sales_rank_vs_rating_rank,-2.0,410,297,1,17,1120.0,746.9,66.6875,3.1176,6.4956,2.3843,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,Mug,15,17,sales_rank_vs_rating_rank,-2.0,283,224,1,17,785.0,671.8,85.5796,2.8824,4.4835,2.3843,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,Abita,11,18,sales_rank_vs_rating_rank,-7.0,334,252,1,18,1002.0,624.58,62.3333,2.8333,5.2915,2.5245,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,Bundaberg,12,19,sales_rank_vs_rating_rank,-7.0,333,241,1,15,999.0,616.05,61.6667,2.8,5.2757,2.1038,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,Barq's,14,22,sales_rank_vs_rating_rank,-8.0,284,221,1,19,798.0,684.4,85.7644,2.5789,4.4994,2.6648,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,Sparky's Fresh Draft,4,12,sales_rank_vs_rating_rank,-8.0,453,316,1,20,1359.0,629.67,46.3333,3.05,7.1768,2.805,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,IBC,1,10,sales_rank_vs_rating_rank,-9.0,537,333,1,32,1611.0,1068.63,66.3333,3.0938,8.5076,4.4881,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,Fitz's,3,13,sales_rank_vs_rating_rank,-10.0,486,326,1,24,1458.0,928.26,63.6667,3.0417,7.6996,3.3661,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,Captain Eli's,5,16,sales_rank_vs_rating_rank,-11.0,419,293,1,22,1257.0,800.29,63.6667,3.0,6.6381,3.0856,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,Dad's,9,21,sales_rank_vs_rating_rank,-12.0,359,249,1,20,1077.0,624.66,58.0,2.75,5.6876,2.805,Compare transaction strength with review acceptance.
+brand_sales_rating_alignment,brand,Gales,2,20,sales_rank_vs_rating_rank,-18.0,523,337,1,22,1445.0,922.0,63.8062,2.7727,8.2858,3.0856,Compare transaction strength with review acceptance.
+review_coverage_baseline,brand,River City,20,,review_count,132.0,2,2,1,132,6.0,3.82,63.6667,3.1515,0.0317,18.5133,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Frostie,23,,review_count,86.0,1,1,1,86,3.0,1.91,63.6667,3.0349,0.0158,12.0617,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Virgil's,21,,review_count,57.0,2,2,1,57,6.0,3.48,58.0,3.0877,0.0317,7.9944,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Thomas Kemper,19,,review_count,55.0,7,7,1,55,21.0,13.37,63.6667,3.2182,0.1109,7.7139,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Sprecher,18,,review_count,52.0,19,19,1,52,57.0,36.29,63.6667,3.2115,0.301,7.2931,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,IBC,1,,review_count,32.0,537,333,1,32,1611.0,1068.63,66.3333,3.0938,8.5076,4.4881,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Bulldog,13,,review_count,25.0,307,236,1,25,921.0,607.86,66.0,3.0,4.8638,3.5063,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Fitz's,3,,review_count,24.0,486,326,1,24,1458.0,928.26,63.6667,3.0417,7.6996,3.3661,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Captain Eli's,5,,review_count,22.0,419,293,1,22,1257.0,800.29,63.6667,3.0,6.6381,3.0856,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Gales,2,,review_count,22.0,523,337,1,22,1445.0,922.0,63.8062,2.7727,8.2858,3.0856,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,A.J. Stephans,16,,review_count,20.0,274,220,1,20,764.0,495.48,64.8534,3.2,4.3409,2.805,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Dad's,9,,review_count,20.0,359,249,1,20,1077.0,624.66,58.0,2.75,5.6876,2.805,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Sparky's Fresh Draft,4,,review_count,20.0,453,316,1,20,1359.0,629.67,46.3333,3.05,7.1768,2.805,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Barq's,14,,review_count,19.0,284,221,1,19,798.0,684.4,85.7644,2.5789,4.4994,2.6648,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Abita,11,,review_count,18.0,334,252,1,18,1002.0,624.58,62.3333,2.8333,5.2915,2.5245,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Henry Weinhard's,8,,review_count,18.0,385,279,1,18,1155.0,716.1,62.0,3.1111,6.0995,2.5245,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Bedfords,10,,review_count,17.0,352,264,1,17,1056.0,668.8,63.3333,3.1176,5.5767,2.3843,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Dog n Suds,6,,review_count,17.0,410,297,1,17,1120.0,746.9,66.6875,3.1176,6.4956,2.3843,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Dominion,7,,review_count,17.0,394,298,1,17,1182.0,669.8,56.6667,3.7059,6.2421,2.3843,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Mug,15,,review_count,17.0,283,224,1,17,785.0,671.8,85.5796,2.8824,4.4835,2.3843,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Bundaberg,12,,review_count,15.0,333,241,1,15,999.0,616.05,61.6667,2.8,5.2757,2.1038,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,A&W,17,,review_count,8.0,147,129,1,8,411.0,349.26,84.9781,3.25,2.3289,1.122,Audit whether brand acceptance evidence is well covered by reviews.
+review_coverage_baseline,brand,Diet Stewarts,22,,review_count,0.0,1,1,1,0,3.0,1.72,57.3333,,0.0158,0.0,Audit whether brand acceptance evidence is well covered by reviews.

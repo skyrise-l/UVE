@@ -1,0 +1,4791 @@
+{
+  "dataset": "bird",
+  "model": "gpt-5-2025-08-07",
+  "tasks": {
+    "001": {
+      "tables": [
+        {
+          "table": "central_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "east_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "south_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "west_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "product",
+          "columns": [
+            "Product ID",
+            "Product Name",
+            "Category",
+            "Sub-Category",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 8506,
+        "completion_tokens": 1996,
+        "total_tokens": 10502
+      }
+    },
+    "002": {
+      "tables": [
+        {
+          "table": "central_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "east_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "south_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "west_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 7016,
+        "completion_tokens": 1698,
+        "total_tokens": 8714
+      }
+    },
+    "003": {
+      "tables": [
+        {
+          "table": "central_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "east_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "south_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "west_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 7020,
+        "completion_tokens": 1442,
+        "total_tokens": 8462
+      }
+    },
+    "004": {
+      "tables": [
+        {
+          "table": "central_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "east_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "south_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "west_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "people",
+          "columns": [
+            "Customer ID",
+            "Customer Name",
+            "Segment",
+            "Country",
+            "City",
+            "State",
+            "Postal Code",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 8817,
+        "completion_tokens": 2199,
+        "total_tokens": 11016
+      }
+    },
+    "005": {
+      "tables": [
+        {
+          "table": "central_superstore",
+          "columns": [
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID",
+            "Order ID"
+          ]
+        },
+        {
+          "table": "east_superstore",
+          "columns": [
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID",
+            "Order ID"
+          ]
+        },
+        {
+          "table": "south_superstore",
+          "columns": [
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID",
+            "Order ID"
+          ]
+        },
+        {
+          "table": "west_superstore",
+          "columns": [
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID",
+            "Order ID"
+          ]
+        },
+        {
+          "table": "product",
+          "columns": [
+            "Product ID",
+            "Product Name",
+            "Category",
+            "Sub-Category",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 8510,
+        "completion_tokens": 2124,
+        "total_tokens": 10634
+      }
+    },
+    "006": {
+      "tables": [
+        {
+          "table": "central_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "east_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "south_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "west_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "product",
+          "columns": [
+            "Product Name",
+            "Category",
+            "Sub-Category",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 8509,
+        "completion_tokens": 2695,
+        "total_tokens": 11204
+      }
+    },
+    "007": {
+      "tables": [
+        {
+          "table": "central_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "east_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "south_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "west_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "people",
+          "columns": [
+            "Customer ID",
+            "Customer Name",
+            "Segment",
+            "Country",
+            "City",
+            "State",
+            "Postal Code",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 8793,
+        "completion_tokens": 1879,
+        "total_tokens": 10672
+      }
+    },
+    "008": {
+      "tables": [
+        {
+          "table": "central_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "east_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "south_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "west_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "people",
+          "columns": [
+            "Customer ID",
+            "Customer Name",
+            "Segment",
+            "Country",
+            "City",
+            "State",
+            "Postal Code",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 8793,
+        "completion_tokens": 2263,
+        "total_tokens": 11056
+      }
+    },
+    "009": {
+      "tables": [
+        {
+          "table": "central_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "east_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "south_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "west_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "product",
+          "columns": [
+            "Product ID",
+            "Product Name",
+            "Category",
+            "Sub-Category",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 8510,
+        "completion_tokens": 2060,
+        "total_tokens": 10570
+      }
+    },
+    "010": {
+      "tables": [
+        {
+          "table": "central_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "east_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "south_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "west_superstore",
+          "columns": [
+            "Order ID",
+            "Order Date",
+            "Ship Date",
+            "Ship Mode",
+            "Customer ID",
+            "Region",
+            "Product ID",
+            "Sales",
+            "Quantity",
+            "Discount",
+            "Profit",
+            "Row ID"
+          ]
+        },
+        {
+          "table": "product",
+          "columns": [
+            "Product ID",
+            "Product Name",
+            "Category",
+            "Sub-Category",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 8510,
+        "completion_tokens": 1804,
+        "total_tokens": 10314
+      }
+    },
+    "011": {
+      "tables": [
+        {
+          "table": "orderdetails",
+          "columns": [
+            "orderNumber",
+            "productCode",
+            "quantityOrdered",
+            "priceEach",
+            "orderLineNumber"
+          ]
+        },
+        {
+          "table": "orders",
+          "columns": [
+            "orderNumber",
+            "orderDate",
+            "requiredDate",
+            "shippedDate",
+            "status",
+            "comments",
+            "customerNumber"
+          ]
+        },
+        {
+          "table": "products",
+          "columns": [
+            "productCode",
+            "productName",
+            "productLine",
+            "productScale",
+            "productVendor",
+            "productDescription",
+            "quantityInStock",
+            "buyPrice",
+            "MSRP"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 3233,
+        "completion_tokens": 1690,
+        "total_tokens": 4923
+      }
+    },
+    "045": {
+      "tables": [
+        {
+          "table": "inspection",
+          "columns": [
+            "inspection_date",
+            "inspection_type",
+            "results",
+            "employee_id",
+            "license_no",
+            "followup_to"
+          ]
+        },
+        {
+          "table": "establishment",
+          "columns": [
+            "license_no",
+            "dba_name",
+            "aka_name",
+            "facility_type",
+            "risk_level",
+            "address",
+            "city",
+            "state",
+            "zip",
+            "latitude",
+            "longitude",
+            "ward"
+          ]
+        },
+        {
+          "table": "violation",
+          "columns": [
+            "point_id",
+            "fine",
+            "inspector_comment"
+          ]
+        },
+        {
+          "table": "inspection_point",
+          "columns": [
+            "point_id",
+            "Description",
+            "category",
+            "code",
+            "fine",
+            "point_level"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5748,
+        "completion_tokens": 2028,
+        "total_tokens": 7776
+      }
+    },
+    "046": {
+      "tables": [
+        {
+          "table": "inspection",
+          "columns": [
+            "inspection_date",
+            "inspection_type",
+            "results",
+            "employee_id",
+            "license_no",
+            "followup_to"
+          ]
+        },
+        {
+          "table": "establishment",
+          "columns": [
+            "license_no",
+            "dba_name",
+            "aka_name",
+            "facility_type",
+            "risk_level",
+            "address",
+            "city",
+            "state",
+            "zip",
+            "latitude",
+            "longitude",
+            "ward"
+          ]
+        },
+        {
+          "table": "violation",
+          "columns": [
+            "point_id",
+            "fine",
+            "inspector_comment"
+          ]
+        },
+        {
+          "table": "inspection_point",
+          "columns": [
+            "point_id",
+            "Description",
+            "category",
+            "code",
+            "fine",
+            "point_level"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5744,
+        "completion_tokens": 3372,
+        "total_tokens": 9116
+      }
+    },
+    "047": {
+      "tables": [
+        {
+          "table": "inspection",
+          "columns": [
+            "inspection_date",
+            "inspection_type",
+            "results",
+            "employee_id",
+            "license_no",
+            "followup_to"
+          ]
+        },
+        {
+          "table": "establishment",
+          "columns": [
+            "license_no",
+            "dba_name",
+            "aka_name",
+            "facility_type",
+            "risk_level",
+            "address",
+            "city",
+            "state",
+            "zip",
+            "latitude",
+            "longitude",
+            "ward"
+          ]
+        },
+        {
+          "table": "violation",
+          "columns": [
+            "fine",
+            "inspector_comment"
+          ]
+        },
+        {
+          "table": "inspection_point",
+          "columns": [
+            "Description",
+            "category",
+            "code",
+            "fine",
+            "point_level"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5736,
+        "completion_tokens": 3042,
+        "total_tokens": 8778
+      }
+    },
+    "048": {
+      "tables": [
+        {
+          "table": "inspection",
+          "columns": [
+            "inspection_id",
+            "inspection_date",
+            "inspection_type",
+            "results",
+            "employee_id",
+            "license_no",
+            "followup_to"
+          ]
+        },
+        {
+          "table": "establishment",
+          "columns": [
+            "license_no",
+            "dba_name",
+            "aka_name",
+            "facility_type",
+            "risk_level",
+            "address",
+            "city",
+            "state",
+            "zip",
+            "latitude",
+            "longitude",
+            "ward"
+          ]
+        },
+        {
+          "table": "violation",
+          "columns": [
+            "inspection_id",
+            "point_id",
+            "fine",
+            "inspector_comment"
+          ]
+        },
+        {
+          "table": "inspection_point",
+          "columns": [
+            "point_id",
+            "Description",
+            "category",
+            "code",
+            "fine",
+            "point_level"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5748,
+        "completion_tokens": 1782,
+        "total_tokens": 7530
+      }
+    },
+    "049": {
+      "tables": [
+        {
+          "table": "inspection",
+          "columns": [
+            "inspection_date",
+            "inspection_type",
+            "results",
+            "followup_to",
+            "employee_id"
+          ]
+        },
+        {
+          "table": "establishment",
+          "columns": [
+            "dba_name",
+            "aka_name",
+            "facility_type",
+            "risk_level",
+            "address",
+            "city",
+            "state",
+            "zip",
+            "latitude",
+            "longitude",
+            "ward"
+          ]
+        },
+        {
+          "table": "violation",
+          "columns": [
+            "fine",
+            "inspector_comment"
+          ]
+        },
+        {
+          "table": "inspection_point",
+          "columns": [
+            "Description",
+            "category",
+            "code",
+            "fine",
+            "point_level"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5730,
+        "completion_tokens": 2584,
+        "total_tokens": 8314
+      }
+    },
+    "050": {
+      "tables": [
+        {
+          "table": "inspection",
+          "columns": [
+            "inspection_date",
+            "inspection_type",
+            "results",
+            "employee_id",
+            "followup_to"
+          ]
+        },
+        {
+          "table": "employee",
+          "columns": [
+            "first_name",
+            "last_name",
+            "address",
+            "city",
+            "state",
+            "zip",
+            "title",
+            "salary",
+            "supervisor",
+            "phone"
+          ]
+        },
+        {
+          "table": "establishment",
+          "columns": [
+            "dba_name",
+            "aka_name",
+            "facility_type",
+            "risk_level",
+            "city",
+            "state",
+            "zip",
+            "latitude",
+            "longitude",
+            "ward",
+            "address"
+          ]
+        },
+        {
+          "table": "violation",
+          "columns": [
+            "fine",
+            "inspector_comment"
+          ]
+        },
+        {
+          "table": "inspection_point",
+          "columns": [
+            "Description",
+            "category",
+            "code",
+            "fine",
+            "point_level"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 7223,
+        "completion_tokens": 3644,
+        "total_tokens": 10867
+      }
+    },
+    "051": {
+      "tables": [
+        {
+          "table": "Sales_Orders",
+          "columns": [
+            "Sales Channel",
+            "WarehouseCode",
+            "ProcuredDate",
+            "OrderDate",
+            "ShipDate",
+            "DeliveryDate",
+            "CurrencyCode",
+            "Order Quantity",
+            "Discount Applied",
+            "Unit Price",
+            "Unit Cost",
+            "OrderNumber",
+            "_CustomerID"
+          ]
+        },
+        {
+          "table": "Store_Locations",
+          "columns": [
+            "City Name",
+            "County",
+            "StateCode",
+            "State",
+            "Type",
+            "Latitude",
+            "Longitude",
+            "AreaCode",
+            "Population",
+            "Household Income",
+            "Median Income",
+            "Land Area",
+            "Water Area",
+            "Time Zone"
+          ]
+        },
+        {
+          "table": "Regions",
+          "columns": [
+            "StateCode",
+            "State",
+            "Region"
+          ]
+        },
+        {
+          "table": "Products",
+          "columns": [
+            "Product Name"
+          ]
+        },
+        {
+          "table": "Sales_Team",
+          "columns": [
+            "Sales Team",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 6074,
+        "completion_tokens": 4088,
+        "total_tokens": 10162
+      }
+    },
+    "052": {
+      "tables": [
+        {
+          "table": "Sales_Orders",
+          "columns": [
+            "OrderNumber",
+            "Sales Channel",
+            "WarehouseCode",
+            "ProcuredDate",
+            "OrderDate",
+            "ShipDate",
+            "DeliveryDate",
+            "CurrencyCode",
+            "_SalesTeamID",
+            "_CustomerID",
+            "_StoreID",
+            "_ProductID",
+            "Order Quantity",
+            "Discount Applied",
+            "Unit Price",
+            "Unit Cost"
+          ]
+        },
+        {
+          "table": "Store_Locations",
+          "columns": [
+            "StoreID",
+            "City Name",
+            "County",
+            "StateCode",
+            "State",
+            "Type",
+            "Latitude",
+            "Longitude",
+            "AreaCode",
+            "Population",
+            "Household Income",
+            "Median Income",
+            "Land Area",
+            "Water Area",
+            "Time Zone"
+          ]
+        },
+        {
+          "table": "Regions",
+          "columns": [
+            "StateCode",
+            "State",
+            "Region"
+          ]
+        },
+        {
+          "table": "Products",
+          "columns": [
+            "ProductID",
+            "Product Name"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5537,
+        "completion_tokens": 2399,
+        "total_tokens": 7936
+      }
+    },
+    "053": {
+      "tables": [
+        {
+          "table": "Sales_Orders",
+          "columns": [
+            "OrderNumber",
+            "Sales Channel",
+            "WarehouseCode",
+            "ProcuredDate",
+            "OrderDate",
+            "ShipDate",
+            "DeliveryDate",
+            "CurrencyCode",
+            "Order Quantity",
+            "Discount Applied",
+            "Unit Price",
+            "Unit Cost"
+          ]
+        },
+        {
+          "table": "Sales_Team",
+          "columns": [
+            "Sales Team",
+            "Region"
+          ]
+        },
+        {
+          "table": "Customers",
+          "columns": [
+            "Customer Names"
+          ]
+        },
+        {
+          "table": "Products",
+          "columns": [
+            "Product Name"
+          ]
+        },
+        {
+          "table": "Store_Locations",
+          "columns": [
+            "City Name",
+            "County",
+            "StateCode",
+            "State",
+            "Type",
+            "Latitude",
+            "Longitude",
+            "AreaCode",
+            "Population",
+            "Household Income",
+            "Median Income",
+            "Land Area",
+            "Water Area",
+            "Time Zone"
+          ]
+        },
+        {
+          "table": "Regions",
+          "columns": [
+            "StateCode",
+            "State",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 6480,
+        "completion_tokens": 3252,
+        "total_tokens": 9732
+      }
+    },
+    "054": {
+      "tables": [
+        {
+          "table": "Sales_Orders",
+          "columns": [
+            "OrderNumber",
+            "Sales Channel",
+            "WarehouseCode",
+            "ProcuredDate",
+            "OrderDate",
+            "ShipDate",
+            "DeliveryDate",
+            "CurrencyCode",
+            "Order Quantity",
+            "Discount Applied",
+            "Unit Price",
+            "Unit Cost"
+          ]
+        },
+        {
+          "table": "Store_Locations",
+          "columns": [
+            "City Name",
+            "County",
+            "StateCode",
+            "State",
+            "Type",
+            "Latitude",
+            "Longitude",
+            "AreaCode",
+            "Population",
+            "Household Income",
+            "Median Income",
+            "Land Area",
+            "Water Area",
+            "Time Zone"
+          ]
+        },
+        {
+          "table": "Regions",
+          "columns": [
+            "StateCode",
+            "State",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5117,
+        "completion_tokens": 3241,
+        "total_tokens": 8358
+      }
+    },
+    "055": {
+      "tables": [
+        {
+          "table": "Sales_Orders",
+          "columns": [
+            "Sales Channel",
+            "WarehouseCode",
+            "ProcuredDate",
+            "OrderDate",
+            "ShipDate",
+            "DeliveryDate",
+            "CurrencyCode",
+            "_SalesTeamID",
+            "Order Quantity",
+            "Discount Applied",
+            "Unit Price",
+            "Unit Cost",
+            "OrderNumber"
+          ]
+        },
+        {
+          "table": "Customers",
+          "columns": [
+            "Customer Names"
+          ]
+        },
+        {
+          "table": "Products",
+          "columns": [
+            "Product Name"
+          ]
+        },
+        {
+          "table": "Store_Locations",
+          "columns": [
+            "City Name",
+            "County",
+            "StateCode",
+            "State",
+            "Type",
+            "Latitude",
+            "Longitude",
+            "AreaCode",
+            "Population",
+            "Household Income",
+            "Median Income",
+            "Land Area",
+            "Water Area",
+            "Time Zone"
+          ]
+        },
+        {
+          "table": "Regions",
+          "columns": [
+            "StateCode",
+            "State",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5908,
+        "completion_tokens": 3507,
+        "total_tokens": 9415
+      }
+    },
+    "056": {
+      "tables": [
+        {
+          "table": "Sales_Orders",
+          "columns": [
+            "Sales Channel",
+            "WarehouseCode",
+            "ProcuredDate",
+            "OrderDate",
+            "ShipDate",
+            "DeliveryDate",
+            "CurrencyCode",
+            "Order Quantity",
+            "Discount Applied",
+            "Unit Price",
+            "Unit Cost",
+            "OrderNumber",
+            "_SalesTeamID",
+            "_CustomerID"
+          ]
+        },
+        {
+          "table": "Store_Locations",
+          "columns": [
+            "City Name",
+            "County",
+            "StateCode",
+            "State",
+            "Type",
+            "Latitude",
+            "Longitude",
+            "AreaCode",
+            "Population",
+            "Household Income",
+            "Median Income",
+            "Land Area",
+            "Water Area",
+            "Time Zone"
+          ]
+        },
+        {
+          "table": "Regions",
+          "columns": [
+            "StateCode",
+            "State",
+            "Region"
+          ]
+        },
+        {
+          "table": "Products",
+          "columns": [
+            "Product Name"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5501,
+        "completion_tokens": 2785,
+        "total_tokens": 8286
+      }
+    },
+    "057": {
+      "tables": [
+        {
+          "table": "Sales_Orders",
+          "columns": [
+            "Sales Channel",
+            "WarehouseCode",
+            "ProcuredDate",
+            "OrderDate",
+            "ShipDate",
+            "DeliveryDate",
+            "CurrencyCode",
+            "_SalesTeamID",
+            "_CustomerID",
+            "Order Quantity",
+            "Discount Applied",
+            "Unit Price",
+            "Unit Cost",
+            "OrderNumber"
+          ]
+        },
+        {
+          "table": "Store_Locations",
+          "columns": [
+            "City Name",
+            "County",
+            "StateCode",
+            "State",
+            "Type",
+            "Latitude",
+            "Longitude",
+            "AreaCode",
+            "Population",
+            "Household Income",
+            "Median Income",
+            "Land Area",
+            "Water Area",
+            "Time Zone"
+          ]
+        },
+        {
+          "table": "Regions",
+          "columns": [
+            "Region",
+            "State"
+          ]
+        },
+        {
+          "table": "Products",
+          "columns": [
+            "Product Name"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5505,
+        "completion_tokens": 3758,
+        "total_tokens": 9263
+      }
+    },
+    "058": {
+      "tables": [
+        {
+          "table": "Sales_Orders",
+          "columns": [
+            "OrderNumber",
+            "Sales Channel",
+            "WarehouseCode",
+            "ProcuredDate",
+            "OrderDate",
+            "ShipDate",
+            "DeliveryDate",
+            "CurrencyCode",
+            "_CustomerID",
+            "_StoreID",
+            "_ProductID",
+            "Order Quantity",
+            "Discount Applied",
+            "Unit Price",
+            "Unit Cost",
+            "_SalesTeamID"
+          ]
+        },
+        {
+          "table": "Store_Locations",
+          "columns": [
+            "StoreID",
+            "City Name",
+            "County",
+            "StateCode",
+            "State",
+            "Type",
+            "Latitude",
+            "Longitude",
+            "Population",
+            "Household Income",
+            "Median Income",
+            "Land Area",
+            "Water Area",
+            "Time Zone",
+            "AreaCode"
+          ]
+        },
+        {
+          "table": "Regions",
+          "columns": [
+            "StateCode",
+            "State",
+            "Region"
+          ]
+        },
+        {
+          "table": "Products",
+          "columns": [
+            "ProductID",
+            "Product Name"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5526,
+        "completion_tokens": 3778,
+        "total_tokens": 9304
+      }
+    },
+    "059": {
+      "tables": [
+        {
+          "table": "Sales_Orders",
+          "columns": [
+            "OrderNumber",
+            "Sales Channel",
+            "WarehouseCode",
+            "ProcuredDate",
+            "OrderDate",
+            "ShipDate",
+            "DeliveryDate",
+            "CurrencyCode",
+            "_SalesTeamID",
+            "Order Quantity",
+            "Discount Applied",
+            "Unit Price",
+            "Unit Cost"
+          ]
+        },
+        {
+          "table": "Customers",
+          "columns": [
+            "Customer Names"
+          ]
+        },
+        {
+          "table": "Products",
+          "columns": [
+            "Product Name"
+          ]
+        },
+        {
+          "table": "Store_Locations",
+          "columns": [
+            "StoreID",
+            "City Name",
+            "County",
+            "StateCode",
+            "State",
+            "Type",
+            "Latitude",
+            "Longitude",
+            "AreaCode",
+            "Population",
+            "Household Income",
+            "Median Income",
+            "Land Area",
+            "Water Area",
+            "Time Zone"
+          ]
+        },
+        {
+          "table": "Regions",
+          "columns": [
+            "StateCode",
+            "State",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5912,
+        "completion_tokens": 3618,
+        "total_tokens": 9530
+      }
+    },
+    "060": {
+      "tables": [
+        {
+          "table": "Sales_Orders",
+          "columns": [
+            "Sales Channel",
+            "WarehouseCode",
+            "ProcuredDate",
+            "OrderDate",
+            "ShipDate",
+            "DeliveryDate",
+            "CurrencyCode",
+            "Order Quantity",
+            "Discount Applied",
+            "Unit Price",
+            "Unit Cost",
+            "OrderNumber"
+          ]
+        },
+        {
+          "table": "Customers",
+          "columns": [
+            "Customer Names"
+          ]
+        },
+        {
+          "table": "Products",
+          "columns": [
+            "Product Name"
+          ]
+        },
+        {
+          "table": "Store_Locations",
+          "columns": [
+            "City Name",
+            "County",
+            "StateCode",
+            "State",
+            "Type",
+            "Latitude",
+            "Longitude",
+            "AreaCode",
+            "Population",
+            "Household Income",
+            "Median Income",
+            "Land Area",
+            "Water Area",
+            "Time Zone"
+          ]
+        },
+        {
+          "table": "Regions",
+          "columns": [
+            "StateCode",
+            "State",
+            "Region"
+          ]
+        },
+        {
+          "table": "Sales_Team",
+          "columns": [
+            "Sales Team",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 6475,
+        "completion_tokens": 3210,
+        "total_tokens": 9685
+      }
+    },
+    "061": {
+      "tables": [
+        {
+          "table": "events",
+          "columns": [
+            "Date received",
+            "Product",
+            "Sub-product",
+            "Issue",
+            "Sub-issue",
+            "Consumer complaint narrative",
+            "Tags",
+            "Consumer consent provided?",
+            "Submitted via",
+            "Date sent to company",
+            "Company response to consumer",
+            "Timely response?",
+            "Consumer disputed?"
+          ]
+        },
+        {
+          "table": "callcenterlogs",
+          "columns": [
+            "Date received",
+            "vru+line",
+            "priority",
+            "type",
+            "outcome",
+            "server",
+            "ser_start",
+            "ser_exit",
+            "ser_time"
+          ]
+        },
+        {
+          "table": "client",
+          "columns": [
+            "sex",
+            "age",
+            "city",
+            "state",
+            "zipcode"
+          ]
+        },
+        {
+          "table": "district",
+          "columns": [
+            "city",
+            "state_abbrev",
+            "division"
+          ]
+        },
+        {
+          "table": "state",
+          "columns": [
+            "StateCode",
+            "State",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 7773,
+        "completion_tokens": 4577,
+        "total_tokens": 12350
+      }
+    },
+    "062": {
+      "tables": [
+        {
+          "table": "events",
+          "columns": [
+            "Date received",
+            "Product",
+            "Sub-product",
+            "Issue",
+            "Sub-issue",
+            "Consumer complaint narrative",
+            "Tags",
+            "Consumer consent provided?",
+            "Submitted via",
+            "Date sent to company",
+            "Company response to consumer",
+            "Timely response?",
+            "Consumer disputed?",
+            "Complaint ID",
+            "Client_ID"
+          ]
+        },
+        {
+          "table": "client",
+          "columns": [
+            "client_id",
+            "sex",
+            "age",
+            "city",
+            "state",
+            "zipcode",
+            "district_id",
+            "day",
+            "month",
+            "year",
+            "social",
+            "first",
+            "middle",
+            "last",
+            "phone",
+            "email",
+            "address_1",
+            "address_2"
+          ]
+        },
+        {
+          "table": "district",
+          "columns": [
+            "district_id",
+            "city",
+            "state_abbrev",
+            "division"
+          ]
+        },
+        {
+          "table": "state",
+          "columns": [
+            "StateCode",
+            "State",
+            "Region"
+          ]
+        },
+        {
+          "table": "callcenterlogs",
+          "columns": [
+            "Date received",
+            "Complaint ID",
+            "phonefinal",
+            "priority",
+            "type",
+            "outcome",
+            "ser_start",
+            "ser_exit",
+            "ser_time",
+            "rand client",
+            "vru+line",
+            "call_id",
+            "server"
+          ]
+        },
+        {
+          "table": "reviews",
+          "columns": [
+            "Date",
+            "Stars",
+            "Reviews",
+            "Product",
+            "district_id"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 8458,
+        "completion_tokens": 4045,
+        "total_tokens": 12503
+      }
+    },
+    "063": {
+      "tables": [
+        {
+          "table": "events",
+          "columns": [
+            "Date received",
+            "Product",
+            "Sub-product",
+            "Issue",
+            "Sub-issue",
+            "Consumer complaint narrative",
+            "Tags",
+            "Consumer consent provided?",
+            "Submitted via",
+            "Date sent to company",
+            "Company response to consumer",
+            "Timely response?",
+            "Consumer disputed?",
+            "Client_ID"
+          ]
+        },
+        {
+          "table": "callcenterlogs",
+          "columns": [
+            "Date received",
+            "rand client",
+            "vru+line",
+            "priority",
+            "type",
+            "outcome",
+            "server",
+            "ser_start",
+            "ser_exit",
+            "ser_time",
+            "phonefinal",
+            "call_id"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 4748,
+        "completion_tokens": 4262,
+        "total_tokens": 9010
+      }
+    },
+    "064": {
+      "tables": [
+        {
+          "table": "events",
+          "columns": [
+            "Date received",
+            "Product",
+            "Sub-product",
+            "Issue",
+            "Sub-issue",
+            "Consumer complaint narrative",
+            "Tags",
+            "Consumer consent provided?",
+            "Submitted via",
+            "Date sent to company",
+            "Company response to consumer",
+            "Timely response?",
+            "Consumer disputed?",
+            "Client_ID",
+            "Complaint ID"
+          ]
+        },
+        {
+          "table": "client",
+          "columns": [
+            "client_id",
+            "sex",
+            "age",
+            "year",
+            "city",
+            "state",
+            "zipcode",
+            "district_id",
+            "day",
+            "month",
+            "social",
+            "first",
+            "middle",
+            "last",
+            "phone",
+            "email",
+            "address_1",
+            "address_2"
+          ]
+        },
+        {
+          "table": "district",
+          "columns": [
+            "district_id",
+            "city",
+            "state_abbrev",
+            "division"
+          ]
+        },
+        {
+          "table": "state",
+          "columns": [
+            "StateCode",
+            "State",
+            "Region"
+          ]
+        },
+        {
+          "table": "callcenterlogs",
+          "columns": [
+            "Date received",
+            "Complaint ID",
+            "rand client",
+            "vru+line",
+            "priority",
+            "type",
+            "outcome",
+            "server",
+            "ser_start",
+            "ser_exit",
+            "ser_time",
+            "phonefinal",
+            "call_id"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 7803,
+        "completion_tokens": 4024,
+        "total_tokens": 11827
+      }
+    },
+    "065": {
+      "tables": [
+        {
+          "table": "reviews",
+          "columns": [
+            "Date",
+            "Stars",
+            "Reviews",
+            "Product"
+          ]
+        },
+        {
+          "table": "district",
+          "columns": [
+            "city",
+            "state_abbrev",
+            "division"
+          ]
+        },
+        {
+          "table": "state",
+          "columns": [
+            "StateCode",
+            "State",
+            "Region"
+          ]
+        },
+        {
+          "table": "events",
+          "columns": [
+            "Date received",
+            "Product",
+            "Sub-product",
+            "Issue",
+            "Sub-issue",
+            "Consumer complaint narrative",
+            "Tags",
+            "Consumer consent provided?",
+            "Submitted via",
+            "Date sent to company",
+            "Company response to consumer",
+            "Timely response?",
+            "Consumer disputed?",
+            "Complaint ID"
+          ]
+        },
+        {
+          "table": "client",
+          "columns": [
+            "sex",
+            "age",
+            "city",
+            "state",
+            "zipcode"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 6727,
+        "completion_tokens": 4444,
+        "total_tokens": 11171
+      }
+    },
+    "066": {
+      "tables": [
+        {
+          "table": "events",
+          "columns": [
+            "Date received",
+            "Product",
+            "Sub-product",
+            "Issue",
+            "Sub-issue",
+            "Consumer complaint narrative",
+            "Tags",
+            "Consumer consent provided?",
+            "Submitted via",
+            "Date sent to company",
+            "Company response to consumer",
+            "Timely response?",
+            "Consumer disputed?",
+            "Client_ID"
+          ]
+        },
+        {
+          "table": "callcenterlogs",
+          "columns": [
+            "Date received",
+            "vru+line",
+            "priority",
+            "type",
+            "outcome",
+            "server",
+            "ser_start",
+            "ser_exit",
+            "ser_time",
+            "rand client",
+            "phonefinal",
+            "call_id"
+          ]
+        },
+        {
+          "table": "reviews",
+          "columns": [
+            "Date",
+            "Stars",
+            "Reviews",
+            "Product",
+            "district_id"
+          ]
+        },
+        {
+          "table": "district",
+          "columns": [
+            "district_id",
+            "city",
+            "state_abbrev",
+            "division"
+          ]
+        },
+        {
+          "table": "state",
+          "columns": [
+            "StateCode",
+            "State",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 6464,
+        "completion_tokens": 4433,
+        "total_tokens": 10897
+      }
+    },
+    "067": {
+      "tables": [
+        {
+          "table": "events",
+          "columns": [
+            "Date received",
+            "Product",
+            "Sub-product",
+            "Issue",
+            "Sub-issue",
+            "Consumer complaint narrative",
+            "Tags",
+            "Consumer consent provided?",
+            "Submitted via",
+            "Date sent to company",
+            "Company response to consumer",
+            "Timely response?",
+            "Consumer disputed?",
+            "Complaint ID",
+            "Client_ID"
+          ]
+        },
+        {
+          "table": "callcenterlogs",
+          "columns": [
+            "Date received",
+            "Complaint ID",
+            "rand client",
+            "phonefinal",
+            "vru+line",
+            "call_id",
+            "priority",
+            "type",
+            "outcome",
+            "server",
+            "ser_start",
+            "ser_exit",
+            "ser_time"
+          ]
+        },
+        {
+          "table": "client",
+          "columns": [
+            "client_id",
+            "sex",
+            "day",
+            "month",
+            "year",
+            "age",
+            "phone",
+            "email",
+            "city",
+            "state",
+            "zipcode",
+            "district_id",
+            "social",
+            "first",
+            "middle",
+            "last",
+            "address_1",
+            "address_2"
+          ]
+        },
+        {
+          "table": "district",
+          "columns": [
+            "district_id",
+            "city",
+            "state_abbrev",
+            "division"
+          ]
+        },
+        {
+          "table": "state",
+          "columns": [
+            "StateCode",
+            "State",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 7834,
+        "completion_tokens": 3538,
+        "total_tokens": 11372
+      }
+    },
+    "068": {
+      "tables": [
+        {
+          "table": "events",
+          "columns": [
+            "Date received",
+            "Product",
+            "Sub-product",
+            "Issue",
+            "Sub-issue",
+            "Consumer complaint narrative",
+            "Tags",
+            "Consumer consent provided?",
+            "Submitted via",
+            "Date sent to company",
+            "Company response to consumer",
+            "Timely response?",
+            "Consumer disputed?",
+            "Complaint ID",
+            "Client_ID"
+          ]
+        },
+        {
+          "table": "client",
+          "columns": [
+            "client_id",
+            "sex",
+            "age",
+            "phone",
+            "email",
+            "city",
+            "state",
+            "zipcode",
+            "district_id",
+            "day",
+            "month",
+            "year",
+            "social",
+            "first",
+            "middle",
+            "last",
+            "address_1",
+            "address_2"
+          ]
+        },
+        {
+          "table": "district",
+          "columns": [
+            "district_id",
+            "city",
+            "state_abbrev",
+            "division"
+          ]
+        },
+        {
+          "table": "state",
+          "columns": [
+            "StateCode",
+            "State",
+            "Region"
+          ]
+        },
+        {
+          "table": "callcenterlogs",
+          "columns": [
+            "Date received",
+            "Complaint ID",
+            "rand client",
+            "phonefinal",
+            "vru+line",
+            "call_id",
+            "priority",
+            "type",
+            "outcome",
+            "server",
+            "ser_start",
+            "ser_exit",
+            "ser_time"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 7802,
+        "completion_tokens": 2962,
+        "total_tokens": 10764
+      }
+    },
+    "069": {
+      "tables": [
+        {
+          "table": "events",
+          "columns": [
+            "Date received",
+            "Product",
+            "Sub-product",
+            "Issue",
+            "Sub-issue",
+            "Consumer complaint narrative",
+            "Tags",
+            "Consumer consent provided?",
+            "Submitted via",
+            "Date sent to company",
+            "Company response to consumer",
+            "Timely response?",
+            "Consumer disputed?"
+          ]
+        },
+        {
+          "table": "callcenterlogs",
+          "columns": [
+            "Date received",
+            "vru+line",
+            "priority",
+            "type",
+            "outcome",
+            "server",
+            "ser_start",
+            "ser_exit",
+            "ser_time",
+            "phonefinal",
+            "call_id"
+          ]
+        },
+        {
+          "table": "client",
+          "columns": [
+            "sex",
+            "day",
+            "month",
+            "year",
+            "age",
+            "city",
+            "state",
+            "zipcode",
+            "social",
+            "first",
+            "middle",
+            "last",
+            "phone",
+            "email",
+            "address_1",
+            "address_2"
+          ]
+        },
+        {
+          "table": "district",
+          "columns": [
+            "city",
+            "state_abbrev",
+            "division"
+          ]
+        },
+        {
+          "table": "state",
+          "columns": [
+            "StateCode",
+            "State",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 7773,
+        "completion_tokens": 4355,
+        "total_tokens": 12128
+      }
+    },
+    "070": {
+      "tables": [
+        {
+          "table": "callcenterlogs",
+          "columns": [
+            "Date received",
+            "Complaint ID",
+            "rand client",
+            "phonefinal",
+            "vru+line",
+            "call_id",
+            "priority",
+            "type",
+            "outcome",
+            "server",
+            "ser_start",
+            "ser_exit",
+            "ser_time"
+          ]
+        },
+        {
+          "table": "events",
+          "columns": [
+            "Date received",
+            "Product",
+            "Sub-product",
+            "Issue",
+            "Sub-issue",
+            "Consumer complaint narrative",
+            "Tags",
+            "Consumer consent provided?",
+            "Submitted via",
+            "Date sent to company",
+            "Company response to consumer",
+            "Timely response?",
+            "Consumer disputed?",
+            "Complaint ID",
+            "Client_ID"
+          ]
+        },
+        {
+          "table": "client",
+          "columns": [
+            "client_id",
+            "sex",
+            "age",
+            "phone",
+            "email",
+            "city",
+            "state",
+            "zipcode",
+            "district_id",
+            "day",
+            "month",
+            "year",
+            "social",
+            "first",
+            "middle",
+            "last",
+            "address_1",
+            "address_2"
+          ]
+        },
+        {
+          "table": "district",
+          "columns": [
+            "district_id",
+            "city",
+            "state_abbrev",
+            "division"
+          ]
+        },
+        {
+          "table": "state",
+          "columns": [
+            "StateCode",
+            "State",
+            "Region"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 7822,
+        "completion_tokens": 2642,
+        "total_tokens": 10464
+      }
+    },
+    "071": {
+      "tables": [
+        {
+          "table": "publishers",
+          "columns": [
+            "pub_name",
+            "city",
+            "state",
+            "country"
+          ]
+        },
+        {
+          "table": "titles",
+          "columns": [
+            "title",
+            "type",
+            "price",
+            "advance",
+            "royalty",
+            "ytd_sales",
+            "notes",
+            "pubdate"
+          ]
+        },
+        {
+          "table": "sales",
+          "columns": [
+            "ord_date",
+            "qty",
+            "stor_id",
+            "ord_num",
+            "payterms"
+          ]
+        },
+        {
+          "table": "employee",
+          "columns": [
+            "job_id",
+            "job_lvl",
+            "hire_date",
+            "emp_id",
+            "fname",
+            "minit",
+            "lname"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 4822,
+        "completion_tokens": 3329,
+        "total_tokens": 8151
+      }
+    },
+    "072": {
+      "tables": [
+        {
+          "table": "titles",
+          "columns": [
+            "title_id",
+            "title",
+            "type",
+            "price",
+            "advance",
+            "royalty",
+            "ytd_sales",
+            "notes",
+            "pubdate"
+          ]
+        },
+        {
+          "table": "sales",
+          "columns": [
+            "stor_id",
+            "ord_num",
+            "ord_date",
+            "qty",
+            "payterms",
+            "title_id"
+          ]
+        },
+        {
+          "table": "publishers",
+          "columns": [
+            "pub_name",
+            "city",
+            "state",
+            "country"
+          ]
+        },
+        {
+          "table": "roysched",
+          "columns": [
+            "title_id",
+            "lorange",
+            "hirange",
+            "royalty"
+          ]
+        },
+        {
+          "table": "titleauthor",
+          "columns": [
+            "au_id",
+            "title_id",
+            "au_ord",
+            "royaltyper"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5177,
+        "completion_tokens": 2625,
+        "total_tokens": 7802
+      }
+    },
+    "073": {
+      "tables": [
+        {
+          "table": "sales",
+          "columns": [
+            "stor_id",
+            "ord_num",
+            "ord_date",
+            "qty",
+            "payterms",
+            "title_id"
+          ]
+        },
+        {
+          "table": "stores",
+          "columns": [
+            "stor_id",
+            "stor_name",
+            "stor_address",
+            "city",
+            "state",
+            "zip"
+          ]
+        },
+        {
+          "table": "titles",
+          "columns": [
+            "title_id",
+            "title",
+            "type",
+            "pub_id",
+            "price",
+            "advance",
+            "royalty",
+            "ytd_sales",
+            "notes",
+            "pubdate"
+          ]
+        },
+        {
+          "table": "discounts",
+          "columns": [
+            "discounttype",
+            "stor_id",
+            "lowqty",
+            "highqty",
+            "discount"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 4721,
+        "completion_tokens": 1323,
+        "total_tokens": 6044
+      }
+    },
+    "074": {
+      "tables": [
+        {
+          "table": "authors",
+          "columns": [
+            "au_id",
+            "au_lname",
+            "au_fname",
+            "phone",
+            "address",
+            "city",
+            "state",
+            "zip",
+            "contract"
+          ]
+        },
+        {
+          "table": "titleauthor",
+          "columns": [
+            "au_id",
+            "title_id",
+            "au_ord",
+            "royaltyper"
+          ]
+        },
+        {
+          "table": "titles",
+          "columns": [
+            "title",
+            "type",
+            "price",
+            "advance",
+            "royalty",
+            "ytd_sales",
+            "notes",
+            "pubdate"
+          ]
+        },
+        {
+          "table": "sales",
+          "columns": [
+            "stor_id",
+            "ord_date",
+            "qty",
+            "payterms",
+            "title_id",
+            "ord_num"
+          ]
+        },
+        {
+          "table": "publishers",
+          "columns": [
+            "pub_name",
+            "city",
+            "state",
+            "country"
+          ]
+        },
+        {
+          "table": "roysched",
+          "columns": [
+            "title_id",
+            "lorange",
+            "hirange",
+            "royalty"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 6495,
+        "completion_tokens": 2762,
+        "total_tokens": 9257
+      }
+    },
+    "075": {
+      "tables": [
+        {
+          "table": "employee",
+          "columns": [
+            "emp_id",
+            "job_id",
+            "job_lvl",
+            "pub_id",
+            "hire_date",
+            "fname",
+            "minit",
+            "lname"
+          ]
+        },
+        {
+          "table": "jobs",
+          "columns": [
+            "job_id",
+            "job_desc",
+            "min_lvl",
+            "max_lvl"
+          ]
+        },
+        {
+          "table": "publishers",
+          "columns": [
+            "pub_id",
+            "pub_name",
+            "city",
+            "state",
+            "country"
+          ]
+        },
+        {
+          "table": "titles",
+          "columns": [
+            "title_id",
+            "title",
+            "type",
+            "pub_id",
+            "price",
+            "advance",
+            "royalty",
+            "ytd_sales",
+            "notes",
+            "pubdate"
+          ]
+        },
+        {
+          "table": "sales",
+          "columns": [
+            "qty",
+            "ord_date",
+            "payterms",
+            "stor_id",
+            "title_id",
+            "ord_num"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5522,
+        "completion_tokens": 2432,
+        "total_tokens": 7954
+      }
+    },
+    "076": {
+      "tables": [
+        {
+          "table": "titles",
+          "columns": [
+            "title",
+            "type",
+            "price",
+            "advance",
+            "royalty",
+            "ytd_sales",
+            "notes",
+            "pubdate"
+          ]
+        },
+        {
+          "table": "sales",
+          "columns": [
+            "ord_date",
+            "qty",
+            "stor_id",
+            "ord_num",
+            "payterms"
+          ]
+        },
+        {
+          "table": "publishers",
+          "columns": [
+            "pub_name",
+            "city",
+            "state",
+            "country"
+          ]
+        },
+        {
+          "table": "roysched",
+          "columns": [
+            "lorange",
+            "hirange",
+            "royalty"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 4456,
+        "completion_tokens": 3679,
+        "total_tokens": 8135
+      }
+    },
+    "077": {
+      "tables": [
+        {
+          "table": "sales",
+          "columns": [
+            "ord_date",
+            "qty",
+            "payterms",
+            "ord_num"
+          ]
+        },
+        {
+          "table": "stores",
+          "columns": [
+            "stor_name",
+            "stor_address",
+            "city",
+            "state",
+            "zip"
+          ]
+        },
+        {
+          "table": "titles",
+          "columns": [
+            "title",
+            "type",
+            "price",
+            "advance",
+            "royalty",
+            "ytd_sales",
+            "notes",
+            "pubdate",
+            "pub_id"
+          ]
+        },
+        {
+          "table": "discounts",
+          "columns": [
+            "discounttype",
+            "lowqty",
+            "highqty",
+            "discount"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 4685,
+        "completion_tokens": 2534,
+        "total_tokens": 7219
+      }
+    },
+    "078": {
+      "tables": [
+        {
+          "table": "authors",
+          "columns": [
+            "au_id",
+            "au_lname",
+            "au_fname",
+            "city",
+            "state",
+            "zip",
+            "contract",
+            "phone",
+            "address"
+          ]
+        },
+        {
+          "table": "titleauthor",
+          "columns": [
+            "au_id",
+            "title_id",
+            "au_ord",
+            "royaltyper"
+          ]
+        },
+        {
+          "table": "titles",
+          "columns": [
+            "title_id",
+            "title",
+            "type",
+            "pub_id",
+            "price",
+            "advance",
+            "royalty",
+            "ytd_sales",
+            "notes",
+            "pubdate"
+          ]
+        },
+        {
+          "table": "sales",
+          "columns": [
+            "ord_date",
+            "qty",
+            "payterms",
+            "title_id",
+            "stor_id",
+            "ord_num"
+          ]
+        },
+        {
+          "table": "roysched",
+          "columns": [
+            "title_id",
+            "lorange",
+            "hirange",
+            "royalty"
+          ]
+        },
+        {
+          "table": "publishers",
+          "columns": [
+            "pub_id",
+            "pub_name",
+            "city",
+            "state",
+            "country"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 6495,
+        "completion_tokens": 2795,
+        "total_tokens": 9290
+      }
+    },
+    "079": {
+      "tables": [
+        {
+          "table": "publishers",
+          "columns": [
+            "pub_id",
+            "pub_name",
+            "city",
+            "state",
+            "country"
+          ]
+        },
+        {
+          "table": "pub_info",
+          "columns": [
+            "pub_id",
+            "logo",
+            "pr_info"
+          ]
+        },
+        {
+          "table": "titles",
+          "columns": [
+            "pub_id",
+            "title_id",
+            "title",
+            "type",
+            "price",
+            "advance",
+            "royalty",
+            "ytd_sales",
+            "notes",
+            "pubdate"
+          ]
+        },
+        {
+          "table": "sales",
+          "columns": [
+            "title_id",
+            "stor_id",
+            "ord_num",
+            "ord_date",
+            "qty",
+            "payterms"
+          ]
+        },
+        {
+          "table": "employee",
+          "columns": [
+            "pub_id",
+            "job_id",
+            "job_lvl",
+            "hire_date",
+            "emp_id",
+            "fname",
+            "minit",
+            "lname"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5561,
+        "completion_tokens": 2409,
+        "total_tokens": 7970
+      }
+    },
+    "080": {
+      "tables": [
+        {
+          "table": "employee",
+          "columns": [
+            "emp_id",
+            "job_id",
+            "job_lvl",
+            "pub_id",
+            "hire_date",
+            "fname",
+            "minit",
+            "lname"
+          ]
+        },
+        {
+          "table": "jobs",
+          "columns": [
+            "job_desc",
+            "min_lvl",
+            "max_lvl"
+          ]
+        },
+        {
+          "table": "publishers",
+          "columns": [
+            "pub_id",
+            "pub_name",
+            "city",
+            "state",
+            "country"
+          ]
+        },
+        {
+          "table": "titles",
+          "columns": [
+            "title_id",
+            "title",
+            "type",
+            "pub_id",
+            "price",
+            "advance",
+            "royalty",
+            "ytd_sales",
+            "notes",
+            "pubdate"
+          ]
+        },
+        {
+          "table": "sales",
+          "columns": [
+            "stor_id",
+            "ord_num",
+            "ord_date",
+            "qty",
+            "payterms",
+            "title_id"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5516,
+        "completion_tokens": 2665,
+        "total_tokens": 8181
+      }
+    },
+    "081": {
+      "tables": [
+        {
+          "table": "Business",
+          "columns": [
+            "active",
+            "city",
+            "state",
+            "stars",
+            "review_count"
+          ]
+        },
+        {
+          "table": "Reviews",
+          "columns": [
+            "business_id",
+            "user_id",
+            "review_stars",
+            "review_votes_funny",
+            "review_votes_useful",
+            "review_votes_cool",
+            "review_length"
+          ]
+        },
+        {
+          "table": "Tips",
+          "columns": [
+            "business_id",
+            "user_id",
+            "likes",
+            "tip_length"
+          ]
+        },
+        {
+          "table": "Checkins",
+          "columns": [
+            "business_id",
+            "day_id",
+            "label_time_0",
+            "label_time_1",
+            "label_time_2",
+            "label_time_3",
+            "label_time_4",
+            "label_time_5",
+            "label_time_6",
+            "label_time_7",
+            "label_time_8",
+            "label_time_9",
+            "label_time_10",
+            "label_time_11",
+            "label_time_12",
+            "label_time_13",
+            "label_time_14",
+            "label_time_15",
+            "label_time_16",
+            "label_time_17",
+            "label_time_18",
+            "label_time_19",
+            "label_time_20",
+            "label_time_21",
+            "label_time_22",
+            "label_time_23"
+          ]
+        },
+        {
+          "table": "Business_Categories",
+          "columns": [
+            "business_id",
+            "category_id"
+          ]
+        },
+        {
+          "table": "Categories",
+          "columns": [
+            "category_name"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 7244,
+        "completion_tokens": 4838,
+        "total_tokens": 12082
+      }
+    },
+    "082": {
+      "tables": [
+        {
+          "table": "Business",
+          "columns": [
+            "active",
+            "city",
+            "state",
+            "stars",
+            "review_count"
+          ]
+        },
+        {
+          "table": "Reviews",
+          "columns": [
+            "review_stars",
+            "review_votes_funny",
+            "review_votes_useful",
+            "review_votes_cool",
+            "review_length"
+          ]
+        },
+        {
+          "table": "Tips",
+          "columns": [
+            "likes",
+            "tip_length"
+          ]
+        },
+        {
+          "table": "Checkins",
+          "columns": [
+            "label_time_0",
+            "label_time_1",
+            "label_time_2",
+            "label_time_3",
+            "label_time_4",
+            "label_time_5",
+            "label_time_6",
+            "label_time_7",
+            "label_time_8",
+            "label_time_9",
+            "label_time_10",
+            "label_time_11",
+            "label_time_12",
+            "label_time_13",
+            "label_time_14",
+            "label_time_15",
+            "label_time_16",
+            "label_time_17",
+            "label_time_18",
+            "label_time_19",
+            "label_time_20",
+            "label_time_21",
+            "label_time_22",
+            "label_time_23"
+          ]
+        },
+        {
+          "table": "Days",
+          "columns": [
+            "day_of_week"
+          ]
+        },
+        {
+          "table": "Users",
+          "columns": [
+            "user_yelping_since_year",
+            "user_average_stars",
+            "user_votes_funny",
+            "user_votes_useful",
+            "user_votes_cool",
+            "user_review_count",
+            "user_fans"
+          ]
+        },
+        {
+          "table": "Categories",
+          "columns": [
+            "category_name"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 8847,
+        "completion_tokens": 2693,
+        "total_tokens": 11540
+      }
+    },
+    "083": {
+      "tables": [
+        {
+          "table": "Business",
+          "columns": [
+            "active",
+            "city",
+            "state",
+            "stars",
+            "review_count"
+          ]
+        },
+        {
+          "table": "Reviews",
+          "columns": [
+            "review_stars",
+            "review_votes_funny",
+            "review_votes_useful",
+            "review_votes_cool",
+            "review_length"
+          ]
+        },
+        {
+          "table": "Tips",
+          "columns": [
+            "likes",
+            "tip_length"
+          ]
+        },
+        {
+          "table": "Categories",
+          "columns": [
+            "category_name"
+          ]
+        },
+        {
+          "table": "Business_Attributes",
+          "columns": [
+            "attribute_value"
+          ]
+        },
+        {
+          "table": "Attributes",
+          "columns": [
+            "attribute_name"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 4729,
+        "completion_tokens": 1567,
+        "total_tokens": 6296
+      }
+    },
+    "084": {
+      "tables": [
+        {
+          "table": "Business",
+          "columns": [
+            "active",
+            "city",
+            "state",
+            "stars",
+            "review_count"
+          ]
+        },
+        {
+          "table": "Business_Hours",
+          "columns": [
+            "opening_time",
+            "closing_time"
+          ]
+        },
+        {
+          "table": "Days",
+          "columns": [
+            "day_of_week"
+          ]
+        },
+        {
+          "table": "Checkins",
+          "columns": [
+            "label_time_0",
+            "label_time_1",
+            "label_time_2",
+            "label_time_3",
+            "label_time_4",
+            "label_time_5",
+            "label_time_6",
+            "label_time_7",
+            "label_time_8",
+            "label_time_9",
+            "label_time_10",
+            "label_time_11",
+            "label_time_12",
+            "label_time_13",
+            "label_time_14",
+            "label_time_15",
+            "label_time_16",
+            "label_time_17",
+            "label_time_18",
+            "label_time_19",
+            "label_time_20",
+            "label_time_21",
+            "label_time_22",
+            "label_time_23"
+          ]
+        },
+        {
+          "table": "Reviews",
+          "columns": [
+            "review_stars",
+            "review_votes_funny",
+            "review_votes_useful",
+            "review_votes_cool",
+            "review_length"
+          ]
+        },
+        {
+          "table": "Tips",
+          "columns": [
+            "likes",
+            "tip_length"
+          ]
+        },
+        {
+          "table": "Categories",
+          "columns": [
+            "category_name"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 8166,
+        "completion_tokens": 4030,
+        "total_tokens": 12196
+      }
+    },
+    "085": {
+      "tables": [
+        {
+          "table": "Users",
+          "columns": [
+            "user_yelping_since_year",
+            "user_average_stars",
+            "user_votes_funny",
+            "user_votes_useful",
+            "user_votes_cool",
+            "user_review_count",
+            "user_fans"
+          ]
+        },
+        {
+          "table": "Reviews",
+          "columns": [
+            "review_stars",
+            "review_votes_funny",
+            "review_votes_useful",
+            "review_votes_cool",
+            "review_length"
+          ]
+        },
+        {
+          "table": "Elite",
+          "columns": [
+            "year_id"
+          ]
+        },
+        {
+          "table": "Years",
+          "columns": [
+            "actual_year"
+          ]
+        },
+        {
+          "table": "Users_Compliments",
+          "columns": [
+            "number_of_compliments"
+          ]
+        },
+        {
+          "table": "Compliments",
+          "columns": [
+            "compliment_type"
+          ]
+        },
+        {
+          "table": "Business",
+          "columns": [
+            "stars",
+            "review_count",
+            "active",
+            "city",
+            "state"
+          ]
+        },
+        {
+          "table": "Business_Categories",
+          "columns": [
+            "category_id"
+          ]
+        },
+        {
+          "table": "Categories",
+          "columns": [
+            "category_name"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 6076,
+        "completion_tokens": 4692,
+        "total_tokens": 10768
+      }
+    },
+    "086": {
+      "tables": [
+        {
+          "table": "Business",
+          "columns": [
+            "active",
+            "city",
+            "state",
+            "stars",
+            "review_count"
+          ]
+        },
+        {
+          "table": "Reviews",
+          "columns": [
+            "review_stars",
+            "review_votes_funny",
+            "review_votes_useful",
+            "review_votes_cool",
+            "review_length"
+          ]
+        },
+        {
+          "table": "Users",
+          "columns": [
+            "user_yelping_since_year",
+            "user_average_stars",
+            "user_votes_funny",
+            "user_votes_useful",
+            "user_votes_cool",
+            "user_review_count",
+            "user_fans"
+          ]
+        },
+        {
+          "table": "Categories",
+          "columns": [
+            "category_name"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 4681,
+        "completion_tokens": 2327,
+        "total_tokens": 7008
+      }
+    },
+    "087": {
+      "tables": [
+        {
+          "table": "Business",
+          "columns": [
+            "active",
+            "city",
+            "state",
+            "stars",
+            "review_count"
+          ]
+        },
+        {
+          "table": "Business_Attributes",
+          "columns": [
+            "attribute_value"
+          ]
+        },
+        {
+          "table": "Attributes",
+          "columns": [
+            "attribute_name"
+          ]
+        },
+        {
+          "table": "Reviews",
+          "columns": [
+            "review_stars",
+            "review_votes_funny",
+            "review_votes_useful",
+            "review_votes_cool",
+            "review_length"
+          ]
+        },
+        {
+          "table": "Tips",
+          "columns": [
+            "likes",
+            "tip_length"
+          ]
+        },
+        {
+          "table": "Checkins",
+          "columns": [
+            "day_id",
+            "label_time_0",
+            "label_time_1",
+            "label_time_2",
+            "label_time_3",
+            "label_time_4",
+            "label_time_5",
+            "label_time_6",
+            "label_time_7",
+            "label_time_8",
+            "label_time_9",
+            "label_time_10",
+            "label_time_11",
+            "label_time_12",
+            "label_time_13",
+            "label_time_14",
+            "label_time_15",
+            "label_time_16",
+            "label_time_17",
+            "label_time_18",
+            "label_time_19",
+            "label_time_20",
+            "label_time_21",
+            "label_time_22",
+            "label_time_23"
+          ]
+        },
+        {
+          "table": "Categories",
+          "columns": [
+            "category_name"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 8007,
+        "completion_tokens": 2911,
+        "total_tokens": 10918
+      }
+    },
+    "088": {
+      "tables": [
+        {
+          "table": "Business",
+          "columns": [
+            "business_id",
+            "active",
+            "city",
+            "state",
+            "stars",
+            "review_count"
+          ]
+        },
+        {
+          "table": "Business_Hours",
+          "columns": [
+            "business_id",
+            "day_id",
+            "opening_time",
+            "closing_time"
+          ]
+        },
+        {
+          "table": "Days",
+          "columns": [
+            "day_id",
+            "day_of_week"
+          ]
+        },
+        {
+          "table": "Checkins",
+          "columns": [
+            "business_id",
+            "day_id",
+            "label_time_0",
+            "label_time_1",
+            "label_time_2",
+            "label_time_3",
+            "label_time_4",
+            "label_time_5",
+            "label_time_6",
+            "label_time_7",
+            "label_time_8",
+            "label_time_9",
+            "label_time_10",
+            "label_time_11",
+            "label_time_12",
+            "label_time_13",
+            "label_time_14",
+            "label_time_15",
+            "label_time_16",
+            "label_time_17",
+            "label_time_18",
+            "label_time_19",
+            "label_time_20",
+            "label_time_21",
+            "label_time_22",
+            "label_time_23"
+          ]
+        },
+        {
+          "table": "Reviews",
+          "columns": [
+            "business_id",
+            "review_stars",
+            "review_votes_funny",
+            "review_votes_useful",
+            "review_votes_cool",
+            "review_length"
+          ]
+        },
+        {
+          "table": "Tips",
+          "columns": [
+            "business_id",
+            "likes",
+            "tip_length"
+          ]
+        },
+        {
+          "table": "Business_Categories",
+          "columns": [
+            "business_id",
+            "category_id"
+          ]
+        },
+        {
+          "table": "Categories",
+          "columns": [
+            "category_name"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 8252,
+        "completion_tokens": 3430,
+        "total_tokens": 11682
+      }
+    },
+    "089": {
+      "tables": [
+        {
+          "table": "Users",
+          "columns": [
+            "user_yelping_since_year",
+            "user_average_stars",
+            "user_votes_funny",
+            "user_votes_useful",
+            "user_votes_cool",
+            "user_review_count",
+            "user_fans"
+          ]
+        },
+        {
+          "table": "Reviews",
+          "columns": [
+            "review_stars",
+            "review_votes_funny",
+            "review_votes_useful",
+            "review_votes_cool",
+            "review_length"
+          ]
+        },
+        {
+          "table": "Business",
+          "columns": [
+            "active",
+            "city",
+            "state",
+            "stars",
+            "review_count"
+          ]
+        },
+        {
+          "table": "Elite",
+          "columns": [
+            "user_id",
+            "year_id"
+          ]
+        },
+        {
+          "table": "Years",
+          "columns": [
+            "actual_year"
+          ]
+        },
+        {
+          "table": "Users_Compliments",
+          "columns": [
+            "number_of_compliments"
+          ]
+        },
+        {
+          "table": "Compliments",
+          "columns": [
+            "compliment_type"
+          ]
+        },
+        {
+          "table": "Categories",
+          "columns": [
+            "category_name"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 6060,
+        "completion_tokens": 3840,
+        "total_tokens": 9900
+      }
+    },
+    "090": {
+      "tables": [
+        {
+          "table": "Business",
+          "columns": [
+            "active",
+            "city",
+            "state",
+            "stars",
+            "review_count"
+          ]
+        },
+        {
+          "table": "Reviews",
+          "columns": [
+            "review_stars",
+            "review_votes_funny",
+            "review_votes_useful",
+            "review_votes_cool",
+            "review_length"
+          ]
+        },
+        {
+          "table": "Tips",
+          "columns": [
+            "likes",
+            "tip_length"
+          ]
+        },
+        {
+          "table": "Users",
+          "columns": [
+            "user_yelping_since_year",
+            "user_average_stars",
+            "user_votes_funny",
+            "user_votes_useful",
+            "user_votes_cool",
+            "user_review_count",
+            "user_fans"
+          ]
+        },
+        {
+          "table": "Checkins",
+          "columns": [
+            "day_id",
+            "label_time_0",
+            "label_time_1",
+            "label_time_2",
+            "label_time_3",
+            "label_time_4",
+            "label_time_5",
+            "label_time_6",
+            "label_time_7",
+            "label_time_8",
+            "label_time_9",
+            "label_time_10",
+            "label_time_11",
+            "label_time_12",
+            "label_time_13",
+            "label_time_14",
+            "label_time_15",
+            "label_time_16",
+            "label_time_17",
+            "label_time_18",
+            "label_time_19",
+            "label_time_20",
+            "label_time_21",
+            "label_time_22",
+            "label_time_23"
+          ]
+        },
+        {
+          "table": "Categories",
+          "columns": [
+            "category_name"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 8486,
+        "completion_tokens": 3826,
+        "total_tokens": 12312
+      }
+    },
+    "091": {
+      "tables": [
+        {
+          "table": "cust_order",
+          "columns": [
+            "order_date",
+            "customer_id",
+            "shipping_method_id"
+          ]
+        },
+        {
+          "table": "order_line",
+          "columns": [
+            "book_id",
+            "price"
+          ]
+        },
+        {
+          "table": "shipping_method",
+          "columns": [
+            "method_name",
+            "cost"
+          ]
+        },
+        {
+          "table": "order_history",
+          "columns": [
+            "status_id",
+            "status_date"
+          ]
+        },
+        {
+          "table": "order_status",
+          "columns": [
+            "status_value"
+          ]
+        },
+        {
+          "table": "address",
+          "columns": [
+            "street_number",
+            "street_name",
+            "city",
+            "country_id"
+          ]
+        },
+        {
+          "table": "country",
+          "columns": [
+            "country_name"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 4580,
+        "completion_tokens": 5424,
+        "total_tokens": 10004
+      }
+    },
+    "092": {
+      "tables": [
+        {
+          "table": "book",
+          "columns": [
+            "title",
+            "isbn13",
+            "num_pages",
+            "publication_date"
+          ]
+        },
+        {
+          "table": "order_line",
+          "columns": [
+            "order_id",
+            "price",
+            "line_id"
+          ]
+        },
+        {
+          "table": "publisher",
+          "columns": [
+            "publisher_name"
+          ]
+        },
+        {
+          "table": "book_language",
+          "columns": [
+            "language_code",
+            "language_name"
+          ]
+        },
+        {
+          "table": "book_author",
+          "columns": [
+            "author_id"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 3703,
+        "completion_tokens": 3890,
+        "total_tokens": 7593
+      }
+    },
+    "093": {
+      "tables": [
+        {
+          "table": "customer",
+          "columns": [
+            "customer_id",
+            "first_name",
+            "last_name",
+            "email"
+          ]
+        },
+        {
+          "table": "customer_address",
+          "columns": [
+            "customer_id",
+            "address_id",
+            "status_id"
+          ]
+        },
+        {
+          "table": "address_status",
+          "columns": [
+            "status_id",
+            "address_status"
+          ]
+        },
+        {
+          "table": "address",
+          "columns": [
+            "address_id",
+            "street_number",
+            "street_name",
+            "city",
+            "country_id"
+          ]
+        },
+        {
+          "table": "country",
+          "columns": [
+            "country_id",
+            "country_name"
+          ]
+        },
+        {
+          "table": "cust_order",
+          "columns": [
+            "order_id",
+            "order_date",
+            "customer_id",
+            "shipping_method_id",
+            "dest_address_id"
+          ]
+        },
+        {
+          "table": "shipping_method",
+          "columns": [
+            "method_id",
+            "method_name",
+            "cost"
+          ]
+        },
+        {
+          "table": "order_line",
+          "columns": [
+            "line_id",
+            "order_id",
+            "book_id",
+            "price"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5205,
+        "completion_tokens": 4055,
+        "total_tokens": 9260
+      }
+    },
+    "094": {
+      "tables": [
+        {
+          "table": "cust_order",
+          "columns": [
+            "order_id",
+            "order_date",
+            "shipping_method_id",
+            "dest_address_id",
+            "customer_id"
+          ]
+        },
+        {
+          "table": "order_history",
+          "columns": [
+            "order_id",
+            "status_id",
+            "status_date",
+            "history_id"
+          ]
+        },
+        {
+          "table": "order_status",
+          "columns": [
+            "status_id",
+            "status_value"
+          ]
+        },
+        {
+          "table": "order_line",
+          "columns": [
+            "order_id",
+            "price",
+            "line_id",
+            "book_id"
+          ]
+        },
+        {
+          "table": "shipping_method",
+          "columns": [
+            "method_name",
+            "cost"
+          ]
+        },
+        {
+          "table": "address",
+          "columns": [
+            "city",
+            "country_id",
+            "street_number",
+            "street_name"
+          ]
+        },
+        {
+          "table": "country",
+          "columns": [
+            "country_name"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 4606,
+        "completion_tokens": 6433,
+        "total_tokens": 11039
+      }
+    },
+    "095": {
+      "tables": [
+        {
+          "table": "publisher",
+          "columns": [
+            "publisher_name"
+          ]
+        },
+        {
+          "table": "book",
+          "columns": [
+            "title",
+            "isbn13",
+            "num_pages",
+            "publication_date"
+          ]
+        },
+        {
+          "table": "book_language",
+          "columns": [
+            "language_code",
+            "language_name"
+          ]
+        },
+        {
+          "table": "book_author",
+          "columns": [
+            "author_id",
+            "book_id"
+          ]
+        },
+        {
+          "table": "order_line",
+          "columns": [
+            "order_id",
+            "book_id",
+            "price",
+            "line_id"
+          ]
+        },
+        {
+          "table": "cust_order",
+          "columns": [
+            "order_date",
+            "customer_id",
+            "shipping_method_id",
+            "dest_address_id"
+          ]
+        },
+        {
+          "table": "shipping_method",
+          "columns": [
+            "method_name",
+            "cost"
+          ]
+        },
+        {
+          "table": "order_history",
+          "columns": [
+            "status_date",
+            "history_id"
+          ]
+        },
+        {
+          "table": "order_status",
+          "columns": [
+            "status_value"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5880,
+        "completion_tokens": 8802,
+        "total_tokens": 14682
+      }
+    },
+    "096": {
+      "tables": [
+        {
+          "table": "customer",
+          "columns": [
+            "customer_id",
+            "email",
+            "first_name",
+            "last_name"
+          ]
+        },
+        {
+          "table": "cust_order",
+          "columns": [
+            "order_id",
+            "order_date",
+            "customer_id",
+            "shipping_method_id",
+            "dest_address_id"
+          ]
+        },
+        {
+          "table": "order_line",
+          "columns": [
+            "book_id",
+            "price",
+            "line_id"
+          ]
+        },
+        {
+          "table": "book",
+          "columns": [
+            "book_id",
+            "title",
+            "isbn13",
+            "num_pages",
+            "publication_date"
+          ]
+        },
+        {
+          "table": "book_language",
+          "columns": [
+            "language_code",
+            "language_name"
+          ]
+        },
+        {
+          "table": "publisher",
+          "columns": [
+            "publisher_name"
+          ]
+        },
+        {
+          "table": "shipping_method",
+          "columns": [
+            "method_name",
+            "cost"
+          ]
+        },
+        {
+          "table": "order_history",
+          "columns": [
+            "status_id",
+            "status_date",
+            "history_id"
+          ]
+        },
+        {
+          "table": "order_status",
+          "columns": [
+            "status_value"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 6078,
+        "completion_tokens": 5232,
+        "total_tokens": 11310
+      }
+    },
+    "097": {
+      "tables": [
+        {
+          "table": "author",
+          "columns": [
+            "author_id",
+            "author_name"
+          ]
+        },
+        {
+          "table": "book",
+          "columns": [
+            "book_id",
+            "title",
+            "isbn13",
+            "num_pages",
+            "publication_date"
+          ]
+        },
+        {
+          "table": "book_language",
+          "columns": [
+            "language_code",
+            "language_name"
+          ]
+        },
+        {
+          "table": "publisher",
+          "columns": [
+            "publisher_name"
+          ]
+        },
+        {
+          "table": "order_line",
+          "columns": [
+            "price",
+            "line_id"
+          ]
+        },
+        {
+          "table": "cust_order",
+          "columns": [
+            "order_id",
+            "order_date",
+            "customer_id",
+            "shipping_method_id",
+            "dest_address_id"
+          ]
+        },
+        {
+          "table": "order_history",
+          "columns": [
+            "order_id",
+            "status_id",
+            "status_date",
+            "history_id"
+          ]
+        },
+        {
+          "table": "order_status",
+          "columns": [
+            "status_value"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 5679,
+        "completion_tokens": 6607,
+        "total_tokens": 12286
+      }
+    },
+    "098": {
+      "tables": [
+        {
+          "table": "book",
+          "columns": [
+            "publication_date",
+            "num_pages",
+            "title",
+            "isbn13"
+          ]
+        },
+        {
+          "table": "book_language",
+          "columns": [
+            "language_name",
+            "language_code"
+          ]
+        },
+        {
+          "table": "publisher",
+          "columns": [
+            "publisher_name"
+          ]
+        },
+        {
+          "table": "order_line",
+          "columns": [
+            "price"
+          ]
+        },
+        {
+          "table": "cust_order",
+          "columns": [
+            "order_date"
+          ]
+        },
+        {
+          "table": "shipping_method",
+          "columns": [
+            "method_name",
+            "cost"
+          ]
+        },
+        {
+          "table": "address",
+          "columns": [
+            "city"
+          ]
+        },
+        {
+          "table": "country",
+          "columns": [
+            "country_name"
+          ]
+        },
+        {
+          "table": "order_history",
+          "columns": [
+            "status_date"
+          ]
+        },
+        {
+          "table": "order_status",
+          "columns": [
+            "status_value"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 6672,
+        "completion_tokens": 6073,
+        "total_tokens": 12745
+      }
+    },
+    "099": {
+      "tables": [
+        {
+          "table": "customer",
+          "columns": [
+            "customer_id",
+            "first_name",
+            "last_name",
+            "email"
+          ]
+        },
+        {
+          "table": "customer_address",
+          "columns": [
+            "customer_id",
+            "address_id",
+            "status_id"
+          ]
+        },
+        {
+          "table": "address_status",
+          "columns": [
+            "status_id",
+            "address_status"
+          ]
+        },
+        {
+          "table": "address",
+          "columns": [
+            "address_id",
+            "street_number",
+            "street_name",
+            "city",
+            "country_id"
+          ]
+        },
+        {
+          "table": "country",
+          "columns": [
+            "country_name"
+          ]
+        },
+        {
+          "table": "cust_order",
+          "columns": [
+            "order_date",
+            "customer_id",
+            "shipping_method_id",
+            "dest_address_id",
+            "order_id"
+          ]
+        },
+        {
+          "table": "order_line",
+          "columns": [
+            "book_id",
+            "price"
+          ]
+        },
+        {
+          "table": "shipping_method",
+          "columns": [
+            "method_name",
+            "cost"
+          ]
+        },
+        {
+          "table": "order_history",
+          "columns": [
+            "status_id",
+            "status_date",
+            "order_id"
+          ]
+        },
+        {
+          "table": "order_status",
+          "columns": [
+            "status_id",
+            "status_value"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 6170,
+        "completion_tokens": 5608,
+        "total_tokens": 11778
+      }
+    },
+    "100": {
+      "tables": [
+        {
+          "table": "book",
+          "columns": [
+            "book_id",
+            "title",
+            "isbn13",
+            "num_pages",
+            "publication_date"
+          ]
+        },
+        {
+          "table": "book_language",
+          "columns": [
+            "language_name",
+            "language_code"
+          ]
+        },
+        {
+          "table": "publisher",
+          "columns": [
+            "publisher_name"
+          ]
+        },
+        {
+          "table": "book_author",
+          "columns": [
+            "author_id",
+            "book_id"
+          ]
+        },
+        {
+          "table": "order_line",
+          "columns": [
+            "book_id",
+            "order_id",
+            "price",
+            "line_id"
+          ]
+        },
+        {
+          "table": "cust_order",
+          "columns": [
+            "order_date",
+            "customer_id"
+          ]
+        },
+        {
+          "table": "shipping_method",
+          "columns": [
+            "method_name",
+            "cost"
+          ]
+        },
+        {
+          "table": "address",
+          "columns": [
+            "city",
+            "street_number",
+            "street_name"
+          ]
+        },
+        {
+          "table": "country",
+          "columns": [
+            "country_name"
+          ]
+        },
+        {
+          "table": "order_history",
+          "columns": [
+            "status_date",
+            "history_id"
+          ]
+        },
+        {
+          "table": "order_status",
+          "columns": [
+            "status_value"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 7120,
+        "completion_tokens": 7140,
+        "total_tokens": 14260
+      }
+    }
+  }
+}

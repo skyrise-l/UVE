@@ -1,0 +1,194 @@
+{
+  "task_id": "076",
+  "db_id": "book_publishing_company",
+  "engine": "DuckDB",
+  "data_source": "CSV",
+  "schema_source": "database_description",
+  "status": "success",
+  "elapsed_seconds": 0.015,
+  "tables": [
+    {
+      "table": "authors",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/book_publishing_company/tables/authors.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/book_publishing_company/database_description/authors.csv",
+      "size_bytes": 1873,
+      "modified_time_ns": 1782118967226781522,
+      "row_count": 23,
+      "column_types": {
+        "au_id": "VARCHAR",
+        "au_lname": "VARCHAR",
+        "au_fname": "VARCHAR",
+        "phone": "VARCHAR",
+        "address": "VARCHAR",
+        "city": "VARCHAR",
+        "state": "VARCHAR",
+        "zip": "VARCHAR",
+        "contract": "VARCHAR"
+      }
+    },
+    {
+      "table": "discounts",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/book_publishing_company/tables/discounts.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/book_publishing_company/database_description/discounts.csv",
+      "size_bytes": 133,
+      "modified_time_ns": 1782118967227066943,
+      "row_count": 3,
+      "column_types": {
+        "discounttype": "VARCHAR",
+        "stor_id": "VARCHAR",
+        "lowqty": "BIGINT",
+        "highqty": "BIGINT",
+        "discount": "DOUBLE"
+      }
+    },
+    {
+      "table": "employee",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/book_publishing_company/tables/employee.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/book_publishing_company/database_description/employee.csv",
+      "size_bytes": 2649,
+      "modified_time_ns": 1782118967227520866,
+      "row_count": 43,
+      "column_types": {
+        "emp_id": "VARCHAR",
+        "fname": "VARCHAR",
+        "minit": "VARCHAR",
+        "lname": "VARCHAR",
+        "job_id": "BIGINT",
+        "job_lvl": "BIGINT",
+        "pub_id": "VARCHAR",
+        "hire_date": "TIMESTAMP"
+      }
+    },
+    {
+      "table": "jobs",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/book_publishing_company/tables/jobs.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/book_publishing_company/database_description/jobs.csv",
+      "size_bytes": 456,
+      "modified_time_ns": 1782118967227838204,
+      "row_count": 14,
+      "column_types": {
+        "job_id": "BIGINT",
+        "job_desc": "VARCHAR",
+        "min_lvl": "BIGINT",
+        "max_lvl": "BIGINT"
+      }
+    },
+    {
+      "table": "pub_info",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/book_publishing_company/tables/pub_info.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/book_publishing_company/database_description/pub_info.csv",
+      "size_bytes": 30555,
+      "modified_time_ns": 1782118967229115098,
+      "row_count": 7,
+      "column_types": {
+        "pub_id": "VARCHAR",
+        "logo": "VARCHAR",
+        "pr_info": "VARCHAR"
+      }
+    },
+    {
+      "table": "publishers",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/book_publishing_company/tables/publishers.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/book_publishing_company/database_description/publishers.csv",
+      "size_bytes": 342,
+      "modified_time_ns": 1782118967229639189,
+      "row_count": 8,
+      "column_types": {
+        "pub_id": "VARCHAR",
+        "pub_name": "VARCHAR",
+        "city": "VARCHAR",
+        "state": "VARCHAR",
+        "country": "VARCHAR"
+      }
+    },
+    {
+      "table": "roysched",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/book_publishing_company/tables/roysched.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/book_publishing_company/database_description/roysched.csv",
+      "size_bytes": 1882,
+      "modified_time_ns": 1782118967229980569,
+      "row_count": 86,
+      "column_types": {
+        "title_id": "VARCHAR",
+        "lorange": "BIGINT",
+        "hirange": "BIGINT",
+        "royalty": "BIGINT"
+      }
+    },
+    {
+      "table": "sales",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/book_publishing_company/tables/sales.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/book_publishing_company/database_description/sales.csv",
+      "size_bytes": 1149,
+      "modified_time_ns": 1782118967230407117,
+      "row_count": 21,
+      "column_types": {
+        "stor_id": "VARCHAR",
+        "ord_num": "VARCHAR",
+        "ord_date": "TIMESTAMP",
+        "qty": "BIGINT",
+        "payterms": "VARCHAR",
+        "title_id": "VARCHAR"
+      }
+    },
+    {
+      "table": "stores",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/book_publishing_company/tables/stores.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/book_publishing_company/database_description/stores.csv",
+      "size_bytes": 395,
+      "modified_time_ns": 1782118967230867248,
+      "row_count": 6,
+      "column_types": {
+        "stor_id": "VARCHAR",
+        "stor_name": "VARCHAR",
+        "stor_address": "VARCHAR",
+        "city": "VARCHAR",
+        "state": "VARCHAR",
+        "zip": "VARCHAR"
+      }
+    },
+    {
+      "table": "titleauthor",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/book_publishing_company/tables/titleauthor.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/book_publishing_company/database_description/titleauthor.csv",
+      "size_bytes": 669,
+      "modified_time_ns": 1782118967231191587,
+      "row_count": 25,
+      "column_types": {
+        "au_id": "VARCHAR",
+        "title_id": "VARCHAR",
+        "au_ord": "BIGINT",
+        "royaltyper": "BIGINT"
+      }
+    },
+    {
+      "table": "titles",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/book_publishing_company/tables/titles.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/book_publishing_company/database_description/titles.csv",
+      "size_bytes": 3523,
+      "modified_time_ns": 1782118967231630718,
+      "row_count": 18,
+      "column_types": {
+        "title_id": "VARCHAR",
+        "title": "VARCHAR",
+        "type": "VARCHAR",
+        "pub_id": "VARCHAR",
+        "price": "DOUBLE",
+        "advance": "DOUBLE",
+        "royalty": "BIGINT",
+        "ytd_sales": "BIGINT",
+        "notes": "VARCHAR",
+        "pubdate": "TIMESTAMP"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "insight_id": "TASK",
+      "sql_file": "queries_v2/task_076/task_076_title_lifecycle_momentum_evidence.sql",
+      "file": "outputs/TASK__task_076_title_lifecycle_momentum_evidence.csv",
+      "rows": 56
+    }
+  ],
+  "qa_outputs": []
+}

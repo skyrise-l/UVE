@@ -1,0 +1,74 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,transactions,customers,brands,reviews,revenue,gross_margin_proxy,gross_margin_proxy_rate_pct,avg_rating,transaction_share_pct,review_share_pct,notes
+brand_age_demand_comparison,brand_age_group,heritage_pre_1950,,,transactions,2756.0,2756,1982,9,244,8062.0,5540.5,68.7236,3.0,,,Test whether older brand groups actually carry more demand.
+brand_age_demand_comparison,brand_age_group,mid_age_1950_1989,,,transactions,1844.0,1844,1373,7,193,5422.0,3365.9,62.0786,3.1347,,,Test whether older brand groups actually carry more demand.
+brand_age_demand_comparison,brand_age_group,newer_1990_plus,,,transactions,1712.0,1712,1192,7,276,5012.0,2978.73,59.432,3.1014,,,Test whether older brand groups actually carry more demand.
+brand_age_group_baseline,brand_age_group,heritage_pre_1950,,,brands_in_group,9.0,2756,1982,9,244,8062.0,5540.5,68.7236,3.0,,,Establish brand-age groups before interpreting heritage.
+brand_age_group_baseline,brand_age_group,mid_age_1950_1989,,,brands_in_group,7.0,1844,1373,7,193,5422.0,3365.9,62.0786,3.1347,,,Establish brand-age groups before interpreting heritage.
+brand_age_group_baseline,brand_age_group,newer_1990_plus,,,brands_in_group,7.0,1712,1192,7,276,5012.0,2978.73,59.432,3.1014,,,Establish brand-age groups before interpreting heritage.
+brand_age_rating_comparison,brand_age_group,mid_age_1950_1989,,,weighted_avg_rating,3.134715025906736,1844,1373,7,193,5422.0,3365.9,62.0786,3.1347,,,Test whether older brand groups also have stronger review acceptance.
+brand_age_rating_comparison,brand_age_group,newer_1990_plus,,,weighted_avg_rating,3.101449275362319,1712,1192,7,276,5012.0,2978.73,59.432,3.1014,,,Test whether older brand groups also have stronger review acceptance.
+brand_age_rating_comparison,brand_age_group,heritage_pre_1950,,,weighted_avg_rating,3.0,2756,1982,9,244,8062.0,5540.5,68.7236,3.0,,,Test whether older brand groups also have stronger review acceptance.
+brand_lifecycle_exception,brand,Frostie,heritage_pre_1950,1939,transaction_rank,23.0,1,1,1,86,3.0,1.91,63.6667,3.0349,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,Diet Stewarts,newer_1990_plus,1990,transaction_rank,22.0,1,1,1,0,3.0,1.72,57.3333,,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,Virgil's,mid_age_1950_1989,1989,transaction_rank,21.0,2,2,1,57,6.0,3.48,58.0,3.0877,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,River City,newer_1990_plus,2009,transaction_rank,20.0,2,2,1,132,6.0,3.82,63.6667,3.1515,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,Thomas Kemper,newer_1990_plus,1990,transaction_rank,19.0,7,7,1,55,21.0,13.37,63.6667,3.2182,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,Sprecher,mid_age_1950_1989,1985,transaction_rank,18.0,19,19,1,52,57.0,36.29,63.6667,3.2115,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,A&W,heritage_pre_1950,1919,transaction_rank,17.0,147,129,1,8,411.0,349.26,84.9781,3.25,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,A.J. Stephans,heritage_pre_1950,1926,transaction_rank,16.0,274,220,1,20,764.0,495.48,64.8534,3.2,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,Mug,heritage_pre_1950,1947,transaction_rank,15.0,283,224,1,17,785.0,671.8,85.5796,2.8824,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,Barq's,heritage_pre_1950,1898,transaction_rank,14.0,284,221,1,19,798.0,684.4,85.7644,2.5789,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,Bulldog,newer_1990_plus,1997,transaction_rank,13.0,307,236,1,25,921.0,607.86,66.0,3.0,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,Bundaberg,mid_age_1950_1989,1960,transaction_rank,12.0,333,241,1,15,999.0,616.05,61.6667,2.8,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,Abita,mid_age_1950_1989,1986,transaction_rank,11.0,334,252,1,18,1002.0,624.58,62.3333,2.8333,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,Bedfords,mid_age_1950_1989,1984,transaction_rank,10.0,352,264,1,17,1056.0,668.8,63.3333,3.1176,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,Dad's,heritage_pre_1950,1937,transaction_rank,9.0,359,249,1,20,1077.0,624.66,58.0,2.75,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,Henry Weinhard's,heritage_pre_1950,1914,transaction_rank,8.0,385,279,1,18,1155.0,716.1,62.0,3.1111,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,Dominion,mid_age_1950_1989,1989,transaction_rank,7.0,394,298,1,17,1182.0,669.8,56.6667,3.7059,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,Dog n Suds,mid_age_1950_1989,1953,transaction_rank,6.0,410,297,1,17,1120.0,746.9,66.6875,3.1176,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,Captain Eli's,newer_1990_plus,1996,transaction_rank,5.0,419,293,1,22,1257.0,800.29,63.6667,3.0,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,Sparky's Fresh Draft,newer_1990_plus,2000,transaction_rank,4.0,453,316,1,20,1359.0,629.67,46.3333,3.05,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,Fitz's,heritage_pre_1950,1947,transaction_rank,3.0,486,326,1,24,1458.0,928.26,63.6667,3.0417,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,Gales,newer_1990_plus,1993,transaction_rank,2.0,523,337,1,22,1445.0,922.0,63.8062,2.7727,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_exception,brand,IBC,heritage_pre_1950,1919,transaction_rank,1.0,537,333,1,32,1611.0,1068.63,66.3333,3.0938,,,Identify brands that contradict broad age-group averages.
+brand_lifecycle_signal_alignment,brand,Thomas Kemper,newer_1990_plus,19/3,transaction_rank_minus_rating_rank,16.0,7,7,1,55,21.0,13.37,63.6667,3.2182,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,A&W,heritage_pre_1950,17/2,transaction_rank_minus_rating_rank,15.0,147,129,1,8,411.0,349.26,84.9781,3.25,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,River City,newer_1990_plus,20/6,transaction_rank_minus_rating_rank,14.0,2,2,1,132,6.0,3.82,63.6667,3.1515,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,Sprecher,mid_age_1950_1989,18/4,transaction_rank_minus_rating_rank,14.0,19,19,1,52,57.0,36.29,63.6667,3.2115,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,A.J. Stephans,heritage_pre_1950,16/5,transaction_rank_minus_rating_rank,11.0,274,220,1,20,764.0,495.48,64.8534,3.2,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,Virgil's,mid_age_1950_1989,21/11,transaction_rank_minus_rating_rank,10.0,2,2,1,57,6.0,3.48,58.0,3.0877,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,Frostie,heritage_pre_1950,23/14,transaction_rank_minus_rating_rank,9.0,1,1,1,86,3.0,1.91,63.6667,3.0349,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,Dominion,mid_age_1950_1989,7/1,transaction_rank_minus_rating_rank,6.0,394,298,1,17,1182.0,669.8,56.6667,3.7059,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,Bedfords,mid_age_1950_1989,10/7,transaction_rank_minus_rating_rank,3.0,352,264,1,17,1056.0,668.8,63.3333,3.1176,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,Diet Stewarts,newer_1990_plus,22/23,transaction_rank_minus_rating_rank,-1.0,1,1,1,0,3.0,1.72,57.3333,,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,Henry Weinhard's,heritage_pre_1950,8/9,transaction_rank_minus_rating_rank,-1.0,385,279,1,18,1155.0,716.1,62.0,3.1111,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,Bulldog,newer_1990_plus,13/15,transaction_rank_minus_rating_rank,-2.0,307,236,1,25,921.0,607.86,66.0,3.0,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,Dog n Suds,mid_age_1950_1989,6/8,transaction_rank_minus_rating_rank,-2.0,410,297,1,17,1120.0,746.9,66.6875,3.1176,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,Mug,heritage_pre_1950,15/17,transaction_rank_minus_rating_rank,-2.0,283,224,1,17,785.0,671.8,85.5796,2.8824,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,Abita,mid_age_1950_1989,11/18,transaction_rank_minus_rating_rank,-7.0,334,252,1,18,1002.0,624.58,62.3333,2.8333,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,Bundaberg,mid_age_1950_1989,12/19,transaction_rank_minus_rating_rank,-7.0,333,241,1,15,999.0,616.05,61.6667,2.8,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,Barq's,heritage_pre_1950,14/22,transaction_rank_minus_rating_rank,-8.0,284,221,1,19,798.0,684.4,85.7644,2.5789,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,Sparky's Fresh Draft,newer_1990_plus,4/12,transaction_rank_minus_rating_rank,-8.0,453,316,1,20,1359.0,629.67,46.3333,3.05,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,IBC,heritage_pre_1950,1/10,transaction_rank_minus_rating_rank,-9.0,537,333,1,32,1611.0,1068.63,66.3333,3.0938,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,Fitz's,heritage_pre_1950,3/13,transaction_rank_minus_rating_rank,-10.0,486,326,1,24,1458.0,928.26,63.6667,3.0417,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,Captain Eli's,newer_1990_plus,5/16,transaction_rank_minus_rating_rank,-11.0,419,293,1,22,1257.0,800.29,63.6667,3.0,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,Dad's,heritage_pre_1950,9/21,transaction_rank_minus_rating_rank,-12.0,359,249,1,20,1077.0,624.66,58.0,2.75,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+brand_lifecycle_signal_alignment,brand,Gales,newer_1990_plus,2/20,transaction_rank_minus_rating_rank,-18.0,523,337,1,22,1445.0,922.0,63.8062,2.7727,,,"Compare whether heritage, demand, rating, and margin-proxy signals align by brand."
+purchase_review_time_alignment,purchase_year,heritage_pre_1950,2015,,transactions_by_year,1855.0,1855,,8,,5415.0,3727.63,68.839,,,,Track whether purchase timing differs by brand-age group.
+purchase_review_time_alignment,purchase_year,mid_age_1950_1989,2015,,transactions_by_year,1259.0,1259,,7,,3699.0,2293.77,62.0105,,,,Track whether purchase timing differs by brand-age group.
+purchase_review_time_alignment,purchase_year,newer_1990_plus,2015,,transactions_by_year,1171.0,1171,,6,,3419.0,2026.46,59.2705,,,,Track whether purchase timing differs by brand-age group.
+purchase_review_time_alignment,purchase_year,heritage_pre_1950,2016,,transactions_by_year,745.0,745,,9,,2185.0,1500.23,68.6604,,,,Track whether purchase timing differs by brand-age group.
+purchase_review_time_alignment,purchase_year,mid_age_1950_1989,2016,,transactions_by_year,484.0,484,,6,,1422.0,882.83,62.0837,,,,Track whether purchase timing differs by brand-age group.
+purchase_review_time_alignment,purchase_year,newer_1990_plus,2016,,transactions_by_year,434.0,434,,5,,1278.0,758.06,59.3161,,,,Track whether purchase timing differs by brand-age group.
+purchase_review_time_alignment,purchase_year,heritage_pre_1950,2014,,transactions_by_year,156.0,156,,8,,462.0,312.64,67.671,,,,Track whether purchase timing differs by brand-age group.
+purchase_review_time_alignment,purchase_year,newer_1990_plus,2014,,transactions_by_year,107.0,107,,4,,315.0,194.21,61.654,,,,Track whether purchase timing differs by brand-age group.
+purchase_review_time_alignment,purchase_year,mid_age_1950_1989,2014,,transactions_by_year,101.0,101,,6,,301.0,189.3,62.8904,,,,Track whether purchase timing differs by brand-age group.
+review_time_alignment,review_year,heritage_pre_1950,2013,,reviews_by_year,163.0,,,,163,,,,2.9448,,,Track whether review timing and rating evidence differ by brand-age group.
+review_time_alignment,review_year,newer_1990_plus,2014,,reviews_by_year,143.0,,,,143,,,,3.1818,,,Track whether review timing and rating evidence differ by brand-age group.
+review_time_alignment,review_year,newer_1990_plus,2013,,reviews_by_year,120.0,,,,120,,,,3.025,,,Track whether review timing and rating evidence differ by brand-age group.
+review_time_alignment,review_year,mid_age_1950_1989,2013,,reviews_by_year,99.0,,,,99,,,,3.0909,,,Track whether review timing and rating evidence differ by brand-age group.
+review_time_alignment,review_year,mid_age_1950_1989,2014,,reviews_by_year,83.0,,,,83,,,,3.0964,,,Track whether review timing and rating evidence differ by brand-age group.
+review_time_alignment,review_year,heritage_pre_1950,2014,,reviews_by_year,65.0,,,,65,,,,3.1077,,,Track whether review timing and rating evidence differ by brand-age group.
+review_time_alignment,review_year,heritage_pre_1950,2012,,reviews_by_year,16.0,,,,16,,,,3.125,,,Track whether review timing and rating evidence differ by brand-age group.
+review_time_alignment,review_year,newer_1990_plus,2012,,reviews_by_year,13.0,,,,13,,,,2.9231,,,Track whether review timing and rating evidence differ by brand-age group.
+review_time_alignment,review_year,mid_age_1950_1989,2012,,reviews_by_year,11.0,,,,11,,,,3.8182,,,Track whether review timing and rating evidence differ by brand-age group.

@@ -1,0 +1,245 @@
+{
+  "task_id": "087",
+  "db_id": "public_review_platform",
+  "engine": "DuckDB",
+  "data_source": "CSV",
+  "schema_source": "database_description",
+  "status": "success",
+  "elapsed_seconds": 0.113,
+  "tables": [
+    {
+      "table": "Attributes",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/public_review_platform/tables/Attributes.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/public_review_platform/database_description/Attributes.csv",
+      "size_bytes": 1777,
+      "modified_time_ns": 1782119362371679776,
+      "row_count": 80,
+      "column_types": {
+        "attribute_id": "BIGINT",
+        "attribute_name": "VARCHAR"
+      }
+    },
+    {
+      "table": "Business",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/public_review_platform/tables/Business.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/public_review_platform/database_description/Business.csv",
+      "size_bytes": 489731,
+      "modified_time_ns": 1782119362396362013,
+      "row_count": 15585,
+      "column_types": {
+        "business_id": "BIGINT",
+        "active": "VARCHAR",
+        "city": "VARCHAR",
+        "state": "VARCHAR",
+        "stars": "DOUBLE",
+        "review_count": "VARCHAR"
+      }
+    },
+    {
+      "table": "Business_Attributes",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/public_review_platform/tables/Business_Attributes.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/public_review_platform/database_description/Business_Attributes.csv",
+      "size_bytes": 3023045,
+      "modified_time_ns": 1782119362618115598,
+      "row_count": 206934,
+      "column_types": {
+        "attribute_id": "BIGINT",
+        "business_id": "BIGINT",
+        "attribute_value": "VARCHAR"
+      }
+    },
+    {
+      "table": "Business_Categories",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/public_review_platform/tables/Business_Categories.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/public_review_platform/database_description/Business_Categories.csv",
+      "size_bytes": 413725,
+      "modified_time_ns": 1782119362653177862,
+      "row_count": 43703,
+      "column_types": {
+        "business_id": "BIGINT",
+        "category_id": "BIGINT"
+      }
+    },
+    {
+      "table": "Business_Hours",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/public_review_platform/tables/Business_Hours.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/public_review_platform/database_description/Business_Hours.csv",
+      "size_bytes": 812880,
+      "modified_time_ns": 1782119362704392654,
+      "row_count": 47831,
+      "column_types": {
+        "business_id": "BIGINT",
+        "day_id": "BIGINT",
+        "opening_time": "VARCHAR",
+        "closing_time": "VARCHAR"
+      }
+    },
+    {
+      "table": "Categories",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/public_review_platform/tables/Categories.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/public_review_platform/database_description/Categories.csv",
+      "size_bytes": 11188,
+      "modified_time_ns": 1782119362708535715,
+      "row_count": 591,
+      "column_types": {
+        "category_id": "BIGINT",
+        "category_name": "VARCHAR"
+      }
+    },
+    {
+      "table": "Checkins",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/public_review_platform/tables/Checkins.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/public_review_platform/database_description/Checkins.csv",
+      "size_bytes": 9935524,
+      "modified_time_ns": 1782119363123950639,
+      "row_count": 80038,
+      "column_types": {
+        "business_id": "BIGINT",
+        "day_id": "BIGINT",
+        "label_time_0": "VARCHAR",
+        "label_time_1": "VARCHAR",
+        "label_time_2": "VARCHAR",
+        "label_time_3": "VARCHAR",
+        "label_time_4": "VARCHAR",
+        "label_time_5": "VARCHAR",
+        "label_time_6": "VARCHAR",
+        "label_time_7": "VARCHAR",
+        "label_time_8": "VARCHAR",
+        "label_time_9": "VARCHAR",
+        "label_time_10": "VARCHAR",
+        "label_time_11": "VARCHAR",
+        "label_time_12": "VARCHAR",
+        "label_time_13": "VARCHAR",
+        "label_time_14": "VARCHAR",
+        "label_time_15": "VARCHAR",
+        "label_time_16": "VARCHAR",
+        "label_time_17": "VARCHAR",
+        "label_time_18": "VARCHAR",
+        "label_time_19": "VARCHAR",
+        "label_time_20": "VARCHAR",
+        "label_time_21": "VARCHAR",
+        "label_time_22": "VARCHAR",
+        "label_time_23": "VARCHAR"
+      }
+    },
+    {
+      "table": "Compliments",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/public_review_platform/tables/Compliments.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/public_review_platform/database_description/Compliments.csv",
+      "size_bytes": 129,
+      "modified_time_ns": 1782119363126762763,
+      "row_count": 11,
+      "column_types": {
+        "compliment_id": "BIGINT",
+        "compliment_type": "VARCHAR"
+      }
+    },
+    {
+      "table": "Days",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/public_review_platform/tables/Days.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/public_review_platform/database_description/Days.csv",
+      "size_bytes": 98,
+      "modified_time_ns": 1782119363127130477,
+      "row_count": 7,
+      "column_types": {
+        "day_id": "BIGINT",
+        "day_of_week": "VARCHAR"
+      }
+    },
+    {
+      "table": "Elite",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/public_review_platform/tables/Elite.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/public_review_platform/database_description/Elite.csv",
+      "size_bytes": 193821,
+      "modified_time_ns": 1782119363139682536,
+      "row_count": 16366,
+      "column_types": {
+        "user_id": "BIGINT",
+        "year_id": "BIGINT"
+      }
+    },
+    {
+      "table": "Reviews",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/public_review_platform/tables/Reviews.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/public_review_platform/database_description/Reviews.csv",
+      "size_bytes": 11148269,
+      "modified_time_ns": 1782119363668642708,
+      "row_count": 322906,
+      "column_types": {
+        "business_id": "BIGINT",
+        "user_id": "BIGINT",
+        "review_stars": "BIGINT",
+        "review_votes_funny": "VARCHAR",
+        "review_votes_useful": "VARCHAR",
+        "review_votes_cool": "VARCHAR",
+        "review_length": "VARCHAR"
+      }
+    },
+    {
+      "table": "Tips",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/public_review_platform/tables/Tips.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/public_review_platform/database_description/Tips.csv",
+      "size_bytes": 1813860,
+      "modified_time_ns": 1782119363777042964,
+      "row_count": 87157,
+      "column_types": {
+        "business_id": "BIGINT",
+        "user_id": "BIGINT",
+        "likes": "BIGINT",
+        "tip_length": "VARCHAR"
+      }
+    },
+    {
+      "table": "Users",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/public_review_platform/tables/Users.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/public_review_platform/database_description/Users.csv",
+      "size_bytes": 2832655,
+      "modified_time_ns": 1782119363910948510,
+      "row_count": 70817,
+      "column_types": {
+        "user_id": "BIGINT",
+        "user_yelping_since_year": "BIGINT",
+        "user_average_stars": "VARCHAR",
+        "user_votes_funny": "VARCHAR",
+        "user_votes_useful": "VARCHAR",
+        "user_votes_cool": "VARCHAR",
+        "user_review_count": "VARCHAR",
+        "user_fans": "VARCHAR"
+      }
+    },
+    {
+      "table": "Users_Compliments",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/public_review_platform/tables/Users_Compliments.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/public_review_platform/database_description/Users_Compliments.csv",
+      "size_bytes": 1316324,
+      "modified_time_ns": 1782119363993883518,
+      "row_count": 98810,
+      "column_types": {
+        "compliment_id": "BIGINT",
+        "user_id": "BIGINT",
+        "number_of_compliments": "VARCHAR"
+      }
+    },
+    {
+      "table": "Years",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/public_review_platform/tables/Years.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/public_review_platform/database_description/Years.csv",
+      "size_bytes": 131,
+      "modified_time_ns": 1782119363995792587,
+      "row_count": 10,
+      "column_types": {
+        "year_id": "BIGINT",
+        "actual_year": "BIGINT"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "insight_id": "TASK",
+      "sql_file": "queries_v2/task_087/task_087_service_feature_reliability_evidence.sql",
+      "file": "outputs/TASK__task_087_service_feature_reliability_evidence.csv",
+      "rows": 126
+    }
+  ],
+  "qa_outputs": []
+}

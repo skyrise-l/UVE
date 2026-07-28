@@ -1,0 +1,69 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,release_year,start_year,end_year,games,game_platforms,platforms,publishers,genres,regions,reported_sales_volume,sales_share,avg_sales_per_game_platform,secondary_value,secondary_label,notes
+era_sales_release_baseline,release_era,2000s,,,era_sales_share,,,2000,2009,6521,9208,15,,13,,4642.17,0.5264,0.5041,,not_applicable,Establish whether era shifts are driven by release supply or sales conversion.
+era_sales_release_baseline,release_era,pre_1990,,,era_sales_share,,,1980,1989,193,205,5,,12,,376.48,0.0427,1.8365,,not_applicable,Establish whether era shifts are driven by release supply or sales conversion.
+era_sales_release_baseline,release_era,2010s_plus,,,era_sales_share,,,2010,2020,3209,5144,12,,13,,2521.72,0.2859,0.4902,,not_applicable,Establish whether era shifts are driven by release supply or sales conversion.
+era_sales_release_baseline,release_era,1990s,,,era_sales_share,,,1990,1999,1636,1769,16,,13,,1278.73,0.145,0.7229,,not_applicable,Establish whether era shifts are driven by release supply or sales conversion.
+era_genre_leaders,era_genre,2000s,Action,,rank_within_era,1.0,,,,940,1576,,,1,,849.9,0.1831,0.5393,,not_applicable,Identify the leading genres within each release era.
+era_genre_leaders,era_genre,2000s,Sports,,rank_within_era,2.0,,,,820,1407,,,1,,805.31,0.1735,0.5724,,not_applicable,Identify the leading genres within each release era.
+era_genre_leaders,era_genre,2000s,Misc,,rank_within_era,3.0,,,,793,1019,,,1,,484.25,0.1043,0.4752,,not_applicable,Identify the leading genres within each release era.
+era_genre_leaders,era_genre,pre_1990,Platform,,rank_within_era,1.0,,,,29,33,,,1,,122.26,0.3247,3.7048,,not_applicable,Identify the leading genres within each release era.
+era_genre_leaders,era_genre,pre_1990,Puzzle,,rank_within_era,2.0,,,,16,19,,,1,,62.75,0.1667,3.3026,,not_applicable,Identify the leading genres within each release era.
+era_genre_leaders,era_genre,pre_1990,Shooter,,rank_within_era,3.0,,,,29,29,,,1,,58.77,0.1561,2.0266,,not_applicable,Identify the leading genres within each release era.
+era_genre_leaders,era_genre,2010s_plus,Action,,rank_within_era,1.0,,,,776,1441,,,1,,672.97,0.2669,0.467,,not_applicable,Identify the leading genres within each release era.
+era_genre_leaders,era_genre,2010s_plus,Shooter,,rank_within_era,2.0,,,,188,395,,,1,,462.64,0.1835,1.1712,,not_applicable,Identify the leading genres within each release era.
+era_genre_leaders,era_genre,2010s_plus,Sports,,rank_within_era,3.0,,,,258,566,,,1,,324.58,0.1287,0.5735,,not_applicable,Identify the leading genres within each release era.
+era_genre_leaders,era_genre,1990s,Platform,,rank_within_era,1.0,,,,119,125,,,1,,208.87,0.1633,1.671,,not_applicable,Identify the leading genres within each release era.
+era_genre_leaders,era_genre,1990s,Role-Playing,,rank_within_era,2.0,,,,164,172,,,1,,184.62,0.1444,1.0734,,not_applicable,Identify the leading genres within each release era.
+era_genre_leaders,era_genre,1990s,Racing,,rank_within_era,3.0,,,,174,183,,,1,,150.33,0.1176,0.8215,,not_applicable,Identify the leading genres within each release era.
+genre_dominant_era,genre,Shooter,2010s_plus,,dominant_era_share_within_genre,,,,,188,,,,1,,462.64,0.4529,,,not_applicable,Show whether each genre is concentrated in one era or spread across time.
+genre_dominant_era,genre,Platform,2000s,,dominant_era_share_within_genre,,,,,358,,,,1,,376.94,0.4548,,,not_applicable,Show whether each genre is concentrated in one era or spread across time.
+genre_dominant_era,genre,Simulation,2000s,,dominant_era_share_within_genre,,,,,466,,,,1,,265.72,0.6821,,,not_applicable,Show whether each genre is concentrated in one era or spread across time.
+genre_dominant_era,genre,Fighting,2000s,,dominant_era_share_within_genre,,,,,330,,,,1,,231.26,0.5208,,,not_applicable,Show whether each genre is concentrated in one era or spread across time.
+genre_dominant_era,genre,Unknown Genre,2000s,,dominant_era_share_within_genre,,,,,27,,,,1,,16.95,0.6893,,,not_applicable,Show whether each genre is concentrated in one era or spread across time.
+genre_dominant_era,genre,Puzzle,2000s,,dominant_era_share_within_genre,,,,,315,,,,1,,118.1,0.4901,,,not_applicable,Show whether each genre is concentrated in one era or spread across time.
+genre_dominant_era,genre,Adventure,2000s,,dominant_era_share_within_genre,,,,,533,,,,1,,123.85,0.5289,,,not_applicable,Show whether each genre is concentrated in one era or spread across time.
+genre_dominant_era,genre,Strategy,2000s,,dominant_era_share_within_genre,,,,,329,,,,1,,79.84,0.4608,,,not_applicable,Show whether each genre is concentrated in one era or spread across time.
+genre_dominant_era,genre,Role-Playing,2000s,,dominant_era_share_within_genre,,,,,654,,,,1,,414.93,0.4509,,,not_applicable,Show whether each genre is concentrated in one era or spread across time.
+genre_dominant_era,genre,Racing,2000s,,dominant_era_share_within_genre,,,,,481,,,,1,,440.73,0.6052,,,not_applicable,Show whether each genre is concentrated in one era or spread across time.
+genre_dominant_era,genre,Misc,2000s,,dominant_era_share_within_genre,,,,,793,,,,1,,484.25,0.6098,,,not_applicable,Show whether each genre is concentrated in one era or spread across time.
+genre_dominant_era,genre,Action,2000s,,dominant_era_share_within_genre,,,,,940,,,,1,,849.9,0.4961,,,not_applicable,Show whether each genre is concentrated in one era or spread across time.
+genre_dominant_era,genre,Sports,2000s,,dominant_era_share_within_genre,,,,,820,,,,1,,805.31,0.6165,,,not_applicable,Show whether each genre is concentrated in one era or spread across time.
+year_release_sales_alignment,release_year,2008,,,sales_rank_minus_release_rank,-1.0,2008,,,1039,1428,,,,,678.49,,0.4751,2.0,release_count_rank,Compare release supply and reported sales quality by year.
+year_release_sales_alignment,release_year,2009,,,sales_rank_minus_release_rank,1.0,2009,,,1003,1431,,,,,667.1,,0.4662,1.0,release_count_rank,Compare release supply and reported sales quality by year.
+year_release_sales_alignment,release_year,2007,,,sales_rank_minus_release_rank,-1.0,2007,,,887,1202,,,,,610.44,,0.5079,4.0,release_count_rank,Compare release supply and reported sales quality by year.
+year_release_sales_alignment,release_year,2010,,,sales_rank_minus_release_rank,1.0,2010,,,903,1259,,,,,600.36,,0.4769,3.0,release_count_rank,Compare release supply and reported sales quality by year.
+year_release_sales_alignment,release_year,2006,,,sales_rank_minus_release_rank,-1.0,2006,,,775,1008,,,,,520.52,,0.5164,6.0,release_count_rank,Compare release supply and reported sales quality by year.
+year_release_sales_alignment,release_year,2011,,,sales_rank_minus_release_rank,1.0,2011,,,782,1139,,,,,515.93,,0.453,5.0,release_count_rank,Compare release supply and reported sales quality by year.
+year_release_sales_alignment,release_year,2005,,,sales_rank_minus_release_rank,0.0,2005,,,659,941,,,,,461.07,,0.49,7.0,release_count_rank,Compare release supply and reported sales quality by year.
+year_release_sales_alignment,release_year,2004,,,sales_rank_minus_release_rank,-2.0,2004,,,551,763,,,,,418.85,,0.549,10.0,release_count_rank,Compare release supply and reported sales quality by year.
+year_release_sales_alignment,release_year,2002,,,sales_rank_minus_release_rank,1.0,2002,,,631,829,,,,,394.97,,0.4764,8.0,release_count_rank,Compare release supply and reported sales quality by year.
+year_release_sales_alignment,release_year,2013,,,sales_rank_minus_release_rank,-4.0,2013,,,336,546,,,,,367.98,,0.674,14.0,release_count_rank,Compare release supply and reported sales quality by year.
+year_release_sales_alignment,release_year,2003,,,sales_rank_minus_release_rank,3.0,2003,,,546,775,,,,,357.61,,0.4614,9.0,release_count_rank,Compare release supply and reported sales quality by year.
+region_era_genre_leaders,region_era_genre,Other,pre_1990,Platform,rank_within_region_era,1.0,,,,,,,,1,1,2.23,0.3128,,,not_applicable,Check whether genre migration differs by region.
+region_era_genre_leaders,region_era_genre,Europe,pre_1990,Platform,rank_within_region_era,1.0,,,,,,,,1,1,13.24,0.4244,,,not_applicable,Check whether genre migration differs by region.
+region_era_genre_leaders,region_era_genre,North America,pre_1990,Platform,rank_within_region_era,1.0,,,,,,,,1,1,74.34,0.3155,,,not_applicable,Check whether genre migration differs by region.
+region_era_genre_leaders,region_era_genre,Japan,1990s,Role-Playing,rank_within_region_era,1.0,,,,,,,,1,1,99.0,0.2659,,,not_applicable,Check whether genre migration differs by region.
+region_era_genre_leaders,region_era_genre,Europe,2000s,Action,rank_within_region_era,1.0,,,,,,,,1,1,233.17,0.1855,,,not_applicable,Check whether genre migration differs by region.
+region_era_genre_leaders,region_era_genre,North America,2000s,Action,rank_within_region_era,1.0,,,,,,,,1,1,458.16,0.1901,,,not_applicable,Check whether genre migration differs by region.
+region_era_genre_leaders,region_era_genre,Other,1990s,Platform,rank_within_region_era,1.0,,,,,,,,1,1,7.18,0.1514,,,not_applicable,Check whether genre migration differs by region.
+region_era_genre_leaders,region_era_genre,Japan,pre_1990,Platform,rank_within_region_era,1.0,,,,,,,,1,1,32.45,0.3166,,,not_applicable,Check whether genre migration differs by region.
+region_era_genre_leaders,region_era_genre,Other,2010s_plus,Action,rank_within_region_era,1.0,,,,,,,,1,1,78.37,0.2904,,,not_applicable,Check whether genre migration differs by region.
+region_era_genre_leaders,region_era_genre,Europe,2010s_plus,Action,rank_within_region_era,1.0,,,,,,,,1,1,236.1,0.2813,,,not_applicable,Check whether genre migration differs by region.
+region_era_genre_leaders,region_era_genre,North America,2010s_plus,Action,rank_within_region_era,1.0,,,,,,,,1,1,287.66,0.2583,,,not_applicable,Check whether genre migration differs by region.
+region_era_genre_leaders,region_era_genre,Japan,2010s_plus,Role-Playing,rank_within_region_era,1.0,,,,,,,,1,1,100.3,0.3357,,,not_applicable,Check whether genre migration differs by region.
+region_era_genre_leaders,region_era_genre,Japan,2000s,Role-Playing,rank_within_region_era,1.0,,,,,,,,1,1,137.04,0.2683,,,not_applicable,Check whether genre migration differs by region.
+region_era_genre_leaders,region_era_genre,Europe,1990s,Platform,rank_within_region_era,1.0,,,,,,,,1,1,46.15,0.1631,,,not_applicable,Check whether genre migration differs by region.
+region_era_genre_leaders,region_era_genre,North America,1990s,Platform,rank_within_region_era,1.0,,,,,,,,1,1,112.55,0.1954,,,not_applicable,Check whether genre migration differs by region.
+region_era_genre_leaders,region_era_genre,Other,2000s,Action,rank_within_region_era,1.0,,,,,,,,1,1,98.56,0.212,,,not_applicable,Check whether genre migration differs by region.
+era_platform_leaders,era_platform,2010s_plus,PS3,,rank_within_era,1.0,,,,885,,1,,,,602.3,0.2388,,,not_applicable,Use platform leadership to separate genre changes from hardware-cycle effects.
+era_platform_leaders,era_platform,2010s_plus,X360,,rank_within_era,2.0,,,,682,,1,,,,557.98,0.2213,,,not_applicable,Use platform leadership to separate genre changes from hardware-cycle effects.
+era_platform_leaders,era_platform,2010s_plus,PS4,,rank_within_era,3.0,,,,336,,1,,,,278.16,0.1103,,,not_applicable,Use platform leadership to separate genre changes from hardware-cycle effects.
+era_platform_leaders,era_platform,1990s,PS,,rank_within_era,1.0,,,,916,,1,,,,586.88,0.459,,,not_applicable,Use platform leadership to separate genre changes from hardware-cycle effects.
+era_platform_leaders,era_platform,1990s,SNES,,rank_within_era,2.0,,,,239,,1,,,,200.04,0.1564,,,not_applicable,Use platform leadership to separate genre changes from hardware-cycle effects.
+era_platform_leaders,era_platform,1990s,N64,,rank_within_era,3.0,,,,246,,1,,,,180.71,0.1413,,,not_applicable,Use platform leadership to separate genre changes from hardware-cycle effects.
+era_platform_leaders,era_platform,pre_1990,NES,,rank_within_era,1.0,,,,75,,1,,,,223.51,0.5937,,,not_applicable,Use platform leadership to separate genre changes from hardware-cycle effects.
+era_platform_leaders,era_platform,pre_1990,2600,,rank_within_era,2.0,,,,116,,1,,,,86.48,0.2297,,,not_applicable,Use platform leadership to separate genre changes from hardware-cycle effects.
+era_platform_leaders,era_platform,pre_1990,GB,,rank_within_era,3.0,,,,11,,1,,,,66.4,0.1764,,,not_applicable,Use platform leadership to separate genre changes from hardware-cycle effects.
+era_platform_leaders,era_platform,2000s,PS2,,rank_within_era,1.0,,,,2082,,1,,,,1227.47,0.2644,,,not_applicable,Use platform leadership to separate genre changes from hardware-cycle effects.
+era_platform_leaders,era_platform,2000s,DS,,rank_within_era,2.0,,,,1617,,1,,,,688.22,0.1483,,,not_applicable,Use platform leadership to separate genre changes from hardware-cycle effects.
+era_platform_leaders,era_platform,2000s,Wii,,rank_within_era,3.0,,,,838,,1,,,,676.95,0.1458,,,not_applicable,Use platform leadership to separate genre changes from hardware-cycle effects.

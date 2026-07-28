@@ -1,0 +1,23 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,has_pub_info,profile_length,employee_count,title_count,missing_econ_titles,order_count,sale_lines,sample_qty,revenue_proxy,ytd_revenue_proxy,share_pct,secondary_value,notes
+active_profile_gap,publisher,New Moon Books,USA,0,has_pub_info,0.0,0,,10,5,0,8,8,208.0,1961.85,187202.45,29.3826,2.0,Commercially active publishers checked for pub_info coverage.
+active_profile_gap,publisher,Algodata Infosystems,USA,1,has_pub_info,1.0,1,1458,10,6,1,6,6,135.0,2586.95,493437.3,38.7448,2.0,Commercially active publishers checked for pub_info coverage.
+active_profile_gap,publisher,Binnet & Hardley,USA,1,has_pub_info,1.0,1,663,10,7,1,7,7,150.0,2128.1,364868.97,31.8726,4.0,Commercially active publishers checked for pub_info coverage.
+country_profile_output,country,USA,5,6,country_revenue_rank,1.0,5,,35,18,2,21,21,493.0,6676.9,1045508.72,100.0,6.0,Country-level contrast between profile coverage and active publishing output.
+country_profile_output,country,France,1,1,country_revenue_rank,2.0,1,,7,0,0,0,0,0.0,0.0,0.0,0.0,1.0,Country-level contrast between profile coverage and active publishing output.
+country_profile_output,country,Germany,1,1,country_revenue_rank,3.0,1,,1,0,0,0,0,0.0,0.0,0.0,0.0,1.0,Country-level contrast between profile coverage and active publishing output.
+inactive_profile_assets,publisher,Five Lakes Publishing,USA,1,profile_length_rank,1.0,1,18268,1,0,0,0,0,0.0,0.0,0.0,0.0,0.0,Profile assets that do not currently connect to catalog or sales output.
+inactive_profile_assets,publisher,Lucerne Publishing,France,1,profile_length_rank,4.0,1,538,7,0,0,0,0,0.0,0.0,0.0,0.0,0.0,Profile assets that do not currently connect to catalog or sales output.
+inactive_profile_assets,publisher,Scootney Books,USA,1,profile_length_rank,5.0,1,135,3,0,0,0,0,0.0,0.0,0.0,0.0,0.0,Profile assets that do not currently connect to catalog or sales output.
+inactive_profile_assets,publisher,Ramona Publishers,USA,1,profile_length_rank,6.0,1,131,1,0,0,0,0,0.0,0.0,0.0,0.0,0.0,Profile assets that do not currently connect to catalog or sales output.
+inactive_profile_assets,publisher,GGG&G,Germany,1,profile_length_rank,7.0,1,110,1,0,0,0,0,0.0,0.0,0.0,0.0,0.0,Profile assets that do not currently connect to catalog or sales output.
+metadata_completion_by_publisher,publisher,New Moon Books,USA,0,missing_econ_titles,0.0,0,,10,5,0,8,8,208.0,1961.85,187202.45,29.3826,2.0,Publisher-level title metadata completion and sales readiness.
+metadata_completion_by_publisher,publisher,Algodata Infosystems,USA,1,missing_econ_titles,1.0,1,1458,10,6,1,6,6,135.0,2586.95,493437.3,38.7448,2.0,Publisher-level title metadata completion and sales readiness.
+metadata_completion_by_publisher,publisher,Binnet & Hardley,USA,1,missing_econ_titles,1.0,1,663,10,7,1,7,7,150.0,2128.1,364868.97,31.8726,4.0,Publisher-level title metadata completion and sales readiness.
+publisher_profile_baseline,publisher,Algodata Infosystems,USA,1,revenue_rank,1.0,1,1458,10,6,1,6,6,135.0,2586.95,493437.3,38.7448,2.0,"Publisher profile, catalog, staff, and sales readiness baseline."
+publisher_profile_baseline,publisher,Binnet & Hardley,USA,1,revenue_rank,2.0,1,663,10,7,1,7,7,150.0,2128.1,364868.97,31.8726,4.0,"Publisher profile, catalog, staff, and sales readiness baseline."
+publisher_profile_baseline,publisher,New Moon Books,USA,0,revenue_rank,3.0,0,,10,5,0,8,8,208.0,1961.85,187202.45,29.3826,2.0,"Publisher profile, catalog, staff, and sales readiness baseline."
+publisher_profile_baseline,publisher,Five Lakes Publishing,USA,1,revenue_rank,4.0,1,18268,1,0,0,0,0,0.0,0.0,0.0,0.0,0.0,"Publisher profile, catalog, staff, and sales readiness baseline."
+publisher_profile_baseline,publisher,GGG&G,Germany,1,revenue_rank,5.0,1,110,1,0,0,0,0,0.0,0.0,0.0,0.0,0.0,"Publisher profile, catalog, staff, and sales readiness baseline."
+publisher_profile_baseline,publisher,Lucerne Publishing,France,1,revenue_rank,6.0,1,538,7,0,0,0,0,0.0,0.0,0.0,0.0,0.0,"Publisher profile, catalog, staff, and sales readiness baseline."
+publisher_profile_baseline,publisher,Ramona Publishers,USA,1,revenue_rank,7.0,1,131,1,0,0,0,0,0.0,0.0,0.0,0.0,0.0,"Publisher profile, catalog, staff, and sales readiness baseline."
+publisher_profile_baseline,publisher,Scootney Books,USA,1,revenue_rank,8.0,1,135,3,0,0,0,0,0.0,0.0,0.0,0.0,0.0,"Publisher profile, catalog, staff, and sales readiness baseline."

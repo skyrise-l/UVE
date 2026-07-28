@@ -1,0 +1,41 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,store_count,title_count,type_count,order_count,sale_lines,sample_qty,revenue_proxy,share_pct,secondary_value,notes
+store_demand_concentration,store,Barnum's,CA,Tustin,store_revenue_rank,1.0,,2,2,2,2,125.0,1821.25,27.2769,,"Store-level concentration of order, title breadth, and revenue proxy."
+store_demand_concentration,store,News & Brews,CA,Los Gatos,store_revenue_rank,2.0,,4,2,2,4,90.0,1486.3,22.2603,,"Store-level concentration of order, title breadth, and revenue proxy."
+store_demand_concentration,store,Doc-U-Mat: Quality Laundry and Books,WA,Remulade,store_revenue_rank,3.0,,6,2,3,6,130.0,1400.15,20.9701,,"Store-level concentration of order, title breadth, and revenue proxy."
+store_demand_concentration,store,Bookbeat,OR,Portland,store_revenue_rank,4.0,,4,3,4,4,80.0,1232.0,18.4517,,"Store-level concentration of order, title breadth, and revenue proxy."
+store_demand_concentration,store,Fricative Bookshop,CA,Fremont,store_revenue_rank,5.0,,3,2,3,3,60.0,604.4,9.0521,,"Store-level concentration of order, title breadth, and revenue proxy."
+store_demand_concentration,store,Eric the Read Books,WA,Seattle,store_revenue_rank,6.0,,2,2,2,2,8.0,132.8,1.9889,,"Store-level concentration of order, title breadth, and revenue proxy."
+state_store_rollup,state,CA,3,,state_revenue_rank,1.0,3,8,5,7,9,275.0,3911.95,58.5893,,Roll up store demand by state.
+state_store_rollup,state,WA,2,,state_revenue_rank,2.0,2,7,3,5,8,138.0,1532.95,22.959,,Roll up store demand by state.
+state_store_rollup,state,OR,1,,state_revenue_rank,3.0,1,4,3,4,4,80.0,1232.0,18.4517,,Roll up store demand by state.
+store_mix_breadth,store,Barnum's,CA,Tustin,type_count,2.0,,2,2,2,2,125.0,1821.25,27.2769,,Compare store demand with title and type breadth.
+store_mix_breadth,store,News & Brews,CA,Los Gatos,type_count,2.0,,4,2,2,4,90.0,1486.3,22.2603,,Compare store demand with title and type breadth.
+store_mix_breadth,store,Doc-U-Mat: Quality Laundry and Books,WA,Remulade,type_count,2.0,,6,2,3,6,130.0,1400.15,20.9701,,Compare store demand with title and type breadth.
+store_mix_breadth,store,Bookbeat,OR,Portland,type_count,3.0,,4,3,4,4,80.0,1232.0,18.4517,,Compare store demand with title and type breadth.
+store_mix_breadth,store,Fricative Bookshop,CA,Fremont,type_count,2.0,,3,2,3,3,60.0,604.4,9.0521,,Compare store demand with title and type breadth.
+store_mix_breadth,store,Eric the Read Books,WA,Seattle,type_count,2.0,,2,2,2,2,8.0,132.8,1.9889,,Compare store demand with title and type breadth.
+payterms_demand_quality,payterms,Net 30,4,5,payterms_revenue_rank,1.0,4,8,5,6,8,230.0,3657.8,54.7829,,Payment terms as a channel-like demand and mix signal.
+payterms_demand_quality,payterms,Net 60,4,3,payterms_revenue_rank,2.0,4,8,3,6,9,128.0,1848.45,27.6843,,Payment terms as a channel-like demand and mix signal.
+payterms_demand_quality,payterms,ON invoice,3,3,payterms_revenue_rank,3.0,3,4,3,4,4,135.0,1170.65,17.5328,,Payment terms as a channel-like demand and mix signal.
+order_size_concentration,qty_bucket,mid_10_39,4,5,bucket_revenue_rank,1.0,4,14,5,12,16,320.0,3884.85,58.1834,,Check whether larger order lines drive a disproportionate share of revenue proxy.
+order_size_concentration,qty_bucket,large_40_plus,2,3,bucket_revenue_rank,2.0,2,3,3,3,3,165.0,2659.25,39.8276,,Check whether larger order lines drive a disproportionate share of revenue proxy.
+order_size_concentration,qty_bucket,small_<10,1,2,bucket_revenue_rank,3.0,1,2,2,2,2,8.0,132.8,1.9889,,Check whether larger order lines drive a disproportionate share of revenue proxy.
+store_title_dependence,store_title,News & Brews,"Onions, Leeks, and Garlic: Cooking Secrets of the Mediterranean",trad_cook,title_rank_in_store,1.0,,1,,,,40.0,838.0,56.3816,1486.3,Top title dependence within each store.
+store_title_dependence,store_title,News & Brews,"Sushi, Anyone?",trad_cook,title_rank_in_store,2.0,,1,,,,20.0,299.8,20.1709,1486.3,Top title dependence within each store.
+store_title_dependence,store_title,News & Brews,Fifty Years in Buckingham Palace Kitchens,trad_cook,title_rank_in_store,3.0,,1,,,,20.0,239.0,16.0802,1486.3,Top title dependence within each store.
+store_title_dependence,store_title,Fricative Bookshop,Straight Talk About Computers,business,title_rank_in_store,1.0,,1,,,,15.0,299.85,49.6112,604.4,Top title dependence within each store.
+store_title_dependence,store_title,Fricative Bookshop,Silicon Valley Gastronomic Treats,mod_cook,title_rank_in_store,2.0,,1,,,,10.0,199.9,33.0741,604.4,Top title dependence within each store.
+store_title_dependence,store_title,Fricative Bookshop,You Can Combat Computer Stress!,business,title_rank_in_store,3.0,,1,,,,35.0,104.65,17.3147,604.4,Top title dependence within each store.
+store_title_dependence,store_title,Doc-U-Mat: Quality Laundry and Books,Computer Phobic AND Non-Phobic Individuals: Behavior Variations,psychology,title_rank_in_store,1.0,,1,,,,20.0,431.8,30.8396,1400.15,Top title dependence within each store.
+store_title_dependence,store_title,Doc-U-Mat: Quality Laundry and Books,Prolonged Data Deprivation: Four Case Studies,psychology,title_rank_in_store,2.0,,1,,,,15.0,299.85,21.4156,1400.15,Top title dependence within each store.
+store_title_dependence,store_title,Doc-U-Mat: Quality Laundry and Books,Is Anger the Enemy?,psychology,title_rank_in_store,3.0,,1,,,,20.0,219.0,15.6412,1400.15,Top title dependence within each store.
+store_title_dependence,store_title,Eric the Read Books,The Busy Executive's Database Guide,business,title_rank_in_store,1.0,,1,,,,5.0,99.95,75.2636,132.8,Top title dependence within each store.
+store_title_dependence,store_title,Eric the Read Books,Is Anger the Enemy?,psychology,title_rank_in_store,2.0,,1,,,,3.0,32.85,24.7364,132.8,Top title dependence within each store.
+store_title_dependence,store_title,Barnum's,Secrets of Silicon Valley,popular_comp,title_rank_in_store,1.0,,1,,,,50.0,1000.0,54.9073,1821.25,Top title dependence within each store.
+store_title_dependence,store_title,Barnum's,Is Anger the Enemy?,psychology,title_rank_in_store,2.0,,1,,,,75.0,821.25,45.0927,1821.25,Top title dependence within each store.
+store_title_dependence,store_title,Bookbeat,But Is It User Friendly?,popular_comp,title_rank_in_store,1.0,,1,,,,30.0,688.5,55.8847,1232.0,Top title dependence within each store.
+store_title_dependence,store_title,Bookbeat,Cooking with Computers: Surreptitious Balance Sheets,business,title_rank_in_store,2.0,,1,,,,25.0,298.75,24.2492,1232.0,Top title dependence within each store.
+store_title_dependence,store_title,Bookbeat,The Busy Executive's Database Guide,business,title_rank_in_store,3.0,,1,,,,10.0,199.9,16.2256,1232.0,Top title dependence within each store.
+discount_rule_context,discount_rule,Customer Discount,Bookbeat,OR,discount_pct,5.0,,,,,,,,,0.0,Discount rules are sparse and should be checked against store and order-size patterns.
+discount_rule_context,discount_rule,Initial Customer,ALL_STORES,ALL,discount_pct,10.5,,,,,,,,,0.0,Discount rules are sparse and should be checked against store and order-size patterns.
+discount_rule_context,discount_rule,Volume Discount,ALL_STORES,ALL,discount_pct,6.7,,,,,,,,,100.0,Discount rules are sparse and should be checked against store and order-size patterns.

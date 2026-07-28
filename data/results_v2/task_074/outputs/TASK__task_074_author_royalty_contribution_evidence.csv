@@ -1,0 +1,85 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,title_count,author_count,royaltyper_sum,sample_qty,revenue_proxy,share_pct,secondary_value,notes
+author_contribution_rank,author,"Panteley, Sylvia",MD,0,author_revenue_rank,1.0,1,,100.0,40.0,838.0,12.5507,0.0,Author-level attributed revenue proxy based on title sales and royalty share.
+author_contribution_rank,author,"Ringer, Albert",UT,0,author_revenue_rank,2.0,2,,150.0,133.0,766.3,11.4769,0.0,Author-level attributed revenue proxy based on title sales and royalty share.
+author_contribution_rank,author,"Carson, Cheryl",CA,0,author_revenue_rank,3.0,1,,100.0,30.0,688.5,10.3117,0.0,Author-level attributed revenue proxy based on title sales and royalty share.
+author_contribution_rank,author,"Ringer, Anne",UT,0,author_revenue_rank,4.0,2,,75.0,148.0,621.2,9.3037,0.0,Author-level attributed revenue proxy based on title sales and royalty share.
+author_contribution_rank,author,"Dull, Ann",CA,0,author_revenue_rank,5.0,1,,50.0,50.0,500.0,7.4885,0.0,Author-level attributed revenue proxy based on title sales and royalty share.
+author_contribution_rank,author,"Hunter, Sheryl",CA,0,author_revenue_rank,6.0,1,,50.0,50.0,500.0,7.4885,0.0,Author-level attributed revenue proxy based on title sales and royalty share.
+author_contribution_rank,author,"Karsen, Livia",CA,0,author_revenue_rank,7.0,1,,75.0,20.0,323.85,4.8503,0.0,Author-level attributed revenue proxy based on title sales and royalty share.
+author_contribution_rank,author,"Straight, Dean",CA,0,author_revenue_rank,8.0,1,,100.0,15.0,299.85,4.4909,0.0,Author-level attributed revenue proxy based on title sales and royalty share.
+author_contribution_rank,author,"White, Johnson",CA,0,author_revenue_rank,9.0,1,,100.0,15.0,299.85,4.4909,0.0,Author-level attributed revenue proxy based on title sales and royalty share.
+author_contribution_rank,author,"MacFeather, Stearns",CA,0,author_revenue_rank,10.0,2,,85.0,45.0,287.2,4.3014,0.0,Author-level attributed revenue proxy based on title sales and royalty share.
+author_contribution_rank,author,"Blotchet-Halls, Reginald",OR,0,author_revenue_rank,11.0,1,,100.0,20.0,239.0,3.5795,0.0,Author-level attributed revenue proxy based on title sales and royalty share.
+author_contribution_rank,author,"Green, Marjorie",CA,0,author_revenue_rank,12.0,2,,140.0,50.0,224.59,3.3637,0.0,Author-level attributed revenue proxy based on title sales and royalty share.
+author_contribution_rank,author,"O'Leary, Michael",CA,0,author_revenue_rank,13.0,2,,70.0,45.0,209.44,3.1368,0.0,Author-level attributed revenue proxy based on title sales and royalty share.
+author_contribution_rank,author,"del Castillo, Innes",MI,0,author_revenue_rank,14.0,1,,100.0,10.0,199.9,2.9939,0.0,Author-level attributed revenue proxy based on title sales and royalty share.
+author_contribution_rank,author,"Locksley, Charlene",CA,0,author_revenue_rank,15.0,2,,200.0,25.0,199.75,2.9917,1.0,Author-level attributed revenue proxy based on title sales and royalty share.
+author_contribution_rank,author,"Bennet, Abraham",CA,0,author_revenue_rank,16.0,1,,60.0,15.0,179.91,2.6945,0.0,Author-level attributed revenue proxy based on title sales and royalty share.
+author_contribution_rank,author,"Yokomoto, Akiko",CA,0,author_revenue_rank,17.0,1,,40.0,20.0,119.92,1.796,0.0,Author-level attributed revenue proxy based on title sales and royalty share.
+author_contribution_rank,author,"Gringlesby, Burt",CA,0,author_revenue_rank,18.0,1,,30.0,20.0,89.94,1.347,0.0,Author-level attributed revenue proxy based on title sales and royalty share.
+author_contribution_rank,author,"DeFrance, Michel",IN,0,author_revenue_rank,19.0,1,,75.0,40.0,89.7,1.3434,0.0,Author-level attributed revenue proxy based on title sales and royalty share.
+multi_title_author_breadth,author,"Ringer, Albert",UT,0,title_count,2.0,2,,150.0,133.0,766.3,11.4769,0.0,Check whether broader author portfolios translate into stronger attributed demand.
+multi_title_author_breadth,author,"Ringer, Anne",UT,0,title_count,2.0,2,,75.0,148.0,621.2,9.3037,0.0,Check whether broader author portfolios translate into stronger attributed demand.
+multi_title_author_breadth,author,"MacFeather, Stearns",CA,0,title_count,2.0,2,,85.0,45.0,287.2,4.3014,0.0,Check whether broader author portfolios translate into stronger attributed demand.
+multi_title_author_breadth,author,"Green, Marjorie",CA,0,title_count,2.0,2,,140.0,50.0,224.59,3.3637,0.0,Check whether broader author portfolios translate into stronger attributed demand.
+multi_title_author_breadth,author,"O'Leary, Michael",CA,0,title_count,2.0,2,,70.0,45.0,209.44,3.1368,0.0,Check whether broader author portfolios translate into stronger attributed demand.
+multi_title_author_breadth,author,"Locksley, Charlene",CA,0,title_count,2.0,2,,200.0,25.0,199.75,2.9917,1.0,Check whether broader author portfolios translate into stronger attributed demand.
+title_author_split_integrity,title,Straight Talk About Computers,business,Algodata Infosystems,author_count,1.0,1,1,100.0,15.0,299.85,100.0,,Verify author count and royalty-share totals by title.
+title_author_split_integrity,title,The Psychology of Computer Cooking,UNDECIDED,Binnet & Hardley,author_count,0.0,1,0,,0.0,0.0,,,Verify author count and royalty-share totals by title.
+title_author_split_integrity,title,Emotional Security: A New Algorithm,psychology,New Moon Books,author_count,1.0,1,1,100.0,25.0,199.75,100.0,,Verify author count and royalty-share totals by title.
+title_author_split_integrity,title,Fifty Years in Buckingham Palace Kitchens,trad_cook,Binnet & Hardley,author_count,1.0,1,1,100.0,20.0,239.0,100.0,,Verify author count and royalty-share totals by title.
+title_author_split_integrity,title,You Can Combat Computer Stress!,business,New Moon Books,author_count,1.0,1,1,100.0,35.0,104.65,100.0,,Verify author count and royalty-share totals by title.
+title_author_split_integrity,title,The Gourmet Microwave,mod_cook,Binnet & Hardley,author_count,2.0,1,2,100.0,40.0,119.6,100.0,,Verify author count and royalty-share totals by title.
+title_author_split_integrity,title,Net Etiquette,popular_comp,Algodata Infosystems,author_count,1.0,1,1,100.0,0.0,0.0,100.0,,Verify author count and royalty-share totals by title.
+title_author_split_integrity,title,Silicon Valley Gastronomic Treats,mod_cook,Binnet & Hardley,author_count,1.0,1,1,100.0,10.0,199.9,100.0,,Verify author count and royalty-share totals by title.
+title_author_split_integrity,title,Is Anger the Enemy?,psychology,New Moon Books,author_count,2.0,1,2,100.0,108.0,1182.6,100.0,,Verify author count and royalty-share totals by title.
+title_author_split_integrity,title,Prolonged Data Deprivation: Four Case Studies,psychology,New Moon Books,author_count,1.0,1,1,100.0,15.0,299.85,100.0,,Verify author count and royalty-share totals by title.
+title_author_split_integrity,title,Cooking with Computers: Surreptitious Balance Sheets,business,Algodata Infosystems,author_count,2.0,1,2,100.0,25.0,298.75,100.0,,Verify author count and royalty-share totals by title.
+title_author_split_integrity,title,Secrets of Silicon Valley,popular_comp,Algodata Infosystems,author_count,2.0,1,2,100.0,50.0,1000.0,100.0,,Verify author count and royalty-share totals by title.
+title_author_split_integrity,title,Life Without Fear,psychology,New Moon Books,author_count,1.0,1,1,100.0,25.0,175.0,100.0,,Verify author count and royalty-share totals by title.
+title_author_split_integrity,title,"Onions, Leeks, and Garlic: Cooking Secrets of the Mediterranean",trad_cook,Binnet & Hardley,author_count,1.0,1,1,100.0,40.0,838.0,100.0,,Verify author count and royalty-share totals by title.
+title_author_split_integrity,title,"Sushi, Anyone?",trad_cook,Binnet & Hardley,author_count,3.0,1,3,100.0,20.0,299.8,100.0,,Verify author count and royalty-share totals by title.
+title_author_split_integrity,title,But Is It User Friendly?,popular_comp,Algodata Infosystems,author_count,1.0,1,1,100.0,30.0,688.5,100.0,,Verify author count and royalty-share totals by title.
+title_author_split_integrity,title,Computer Phobic AND Non-Phobic Individuals: Behavior Variations,psychology,Binnet & Hardley,author_count,2.0,1,2,100.0,20.0,431.8,100.0,,Verify author count and royalty-share totals by title.
+title_author_split_integrity,title,The Busy Executive's Database Guide,business,Algodata Infosystems,author_count,2.0,1,2,100.0,15.0,299.85,100.0,,Verify author count and royalty-share totals by title.
+author_state_concentration,author_state,CA,13,17,state_revenue_rank,1.0,17,13,,400.0,3922.8,58.7518,,Geographic concentration of authors and attributed demand.
+author_state_concentration,author_state,UT,2,4,state_revenue_rank,2.0,4,2,,281.0,1387.5,20.7806,,Geographic concentration of authors and attributed demand.
+author_state_concentration,author_state,MD,1,1,state_revenue_rank,3.0,1,1,,40.0,838.0,12.5507,,Geographic concentration of authors and attributed demand.
+author_state_concentration,author_state,OR,1,1,state_revenue_rank,4.0,1,1,,20.0,239.0,3.5795,,Geographic concentration of authors and attributed demand.
+author_state_concentration,author_state,MI,1,1,state_revenue_rank,5.0,1,1,,10.0,199.9,2.9939,,Geographic concentration of authors and attributed demand.
+author_state_concentration,author_state,IN,1,1,state_revenue_rank,6.0,1,1,,40.0,89.7,1.3434,,Geographic concentration of authors and attributed demand.
+collaboration_vs_sales,title,Straight Talk About Computers,business,Algodata Infosystems,author_count,1.0,1,1,100.0,15.0,299.85,,,Compare multi-author and single-author titles against sample sales proxy.
+collaboration_vs_sales,title,Emotional Security: A New Algorithm,psychology,New Moon Books,author_count,1.0,1,1,100.0,25.0,199.75,,,Compare multi-author and single-author titles against sample sales proxy.
+collaboration_vs_sales,title,Fifty Years in Buckingham Palace Kitchens,trad_cook,Binnet & Hardley,author_count,1.0,1,1,100.0,20.0,239.0,,,Compare multi-author and single-author titles against sample sales proxy.
+collaboration_vs_sales,title,You Can Combat Computer Stress!,business,New Moon Books,author_count,1.0,1,1,100.0,35.0,104.65,,,Compare multi-author and single-author titles against sample sales proxy.
+collaboration_vs_sales,title,The Gourmet Microwave,mod_cook,Binnet & Hardley,author_count,2.0,1,2,100.0,40.0,119.6,,,Compare multi-author and single-author titles against sample sales proxy.
+collaboration_vs_sales,title,Silicon Valley Gastronomic Treats,mod_cook,Binnet & Hardley,author_count,1.0,1,1,100.0,10.0,199.9,,,Compare multi-author and single-author titles against sample sales proxy.
+collaboration_vs_sales,title,Is Anger the Enemy?,psychology,New Moon Books,author_count,2.0,1,2,100.0,108.0,1182.6,,,Compare multi-author and single-author titles against sample sales proxy.
+collaboration_vs_sales,title,Prolonged Data Deprivation: Four Case Studies,psychology,New Moon Books,author_count,1.0,1,1,100.0,15.0,299.85,,,Compare multi-author and single-author titles against sample sales proxy.
+collaboration_vs_sales,title,Cooking with Computers: Surreptitious Balance Sheets,business,Algodata Infosystems,author_count,2.0,1,2,100.0,25.0,298.75,,,Compare multi-author and single-author titles against sample sales proxy.
+collaboration_vs_sales,title,Secrets of Silicon Valley,popular_comp,Algodata Infosystems,author_count,2.0,1,2,100.0,50.0,1000.0,,,Compare multi-author and single-author titles against sample sales proxy.
+collaboration_vs_sales,title,Life Without Fear,psychology,New Moon Books,author_count,1.0,1,1,100.0,25.0,175.0,,,Compare multi-author and single-author titles against sample sales proxy.
+collaboration_vs_sales,title,"Onions, Leeks, and Garlic: Cooking Secrets of the Mediterranean",trad_cook,Binnet & Hardley,author_count,1.0,1,1,100.0,40.0,838.0,,,Compare multi-author and single-author titles against sample sales proxy.
+collaboration_vs_sales,title,"Sushi, Anyone?",trad_cook,Binnet & Hardley,author_count,3.0,1,3,100.0,20.0,299.8,,,Compare multi-author and single-author titles against sample sales proxy.
+collaboration_vs_sales,title,But Is It User Friendly?,popular_comp,Algodata Infosystems,author_count,1.0,1,1,100.0,30.0,688.5,,,Compare multi-author and single-author titles against sample sales proxy.
+collaboration_vs_sales,title,Computer Phobic AND Non-Phobic Individuals: Behavior Variations,psychology,Binnet & Hardley,author_count,2.0,1,2,100.0,20.0,431.8,,,Compare multi-author and single-author titles against sample sales proxy.
+collaboration_vs_sales,title,The Busy Executive's Database Guide,business,Algodata Infosystems,author_count,2.0,1,2,100.0,15.0,299.85,,,Compare multi-author and single-author titles against sample sales proxy.
+author_royalty_schedule_exposure,author,"Panteley, Sylvia",1,,avg_royalty_tiers,8.0,1,,,,,24.0,8.0,Author exposure to deeper title royalty schedules.
+author_royalty_schedule_exposure,author,"Hunter, Sheryl",1,,avg_royalty_tiers,4.0,1,,,,,16.0,4.0,Author exposure to deeper title royalty schedules.
+author_royalty_schedule_exposure,author,"Dull, Ann",1,,avg_royalty_tiers,4.0,1,,,,,16.0,4.0,Author exposure to deeper title royalty schedules.
+author_royalty_schedule_exposure,author,"O'Leary, Michael",2,,avg_royalty_tiers,5.5,2,,,,,24.0,5.5,Author exposure to deeper title royalty schedules.
+author_royalty_schedule_exposure,author,"Karsen, Livia",1,,avg_royalty_tiers,5.0,1,,,,,18.0,5.0,Author exposure to deeper title royalty schedules.
+author_royalty_schedule_exposure,author,"Ringer, Albert",2,,avg_royalty_tiers,4.0,2,,,,,16.0,4.0,Author exposure to deeper title royalty schedules.
+author_royalty_schedule_exposure,author,"Yokomoto, Akiko",1,,avg_royalty_tiers,3.0,1,,,,,14.0,3.0,Author exposure to deeper title royalty schedules.
+author_royalty_schedule_exposure,author,"Green, Marjorie",2,,avg_royalty_tiers,5.0,2,,,,,24.0,5.0,Author exposure to deeper title royalty schedules.
+author_royalty_schedule_exposure,author,"Bennet, Abraham",1,,avg_royalty_tiers,2.0,1,,,,,12.0,2.0,Author exposure to deeper title royalty schedules.
+author_royalty_schedule_exposure,author,"MacFeather, Stearns",2,,avg_royalty_tiers,6.5,2,,,,,24.0,6.5,Author exposure to deeper title royalty schedules.
+author_royalty_schedule_exposure,author,"Straight, Dean",1,,avg_royalty_tiers,8.0,1,,,,,24.0,8.0,Author exposure to deeper title royalty schedules.
+author_royalty_schedule_exposure,author,"Blotchet-Halls, Reginald",1,,avg_royalty_tiers,7.0,1,,,,,22.0,7.0,Author exposure to deeper title royalty schedules.
+author_royalty_schedule_exposure,author,"White, Johnson",1,,avg_royalty_tiers,4.0,1,,,,,16.0,4.0,Author exposure to deeper title royalty schedules.
+author_royalty_schedule_exposure,author,"Carson, Cheryl",1,,avg_royalty_tiers,5.0,1,,,,,18.0,5.0,Author exposure to deeper title royalty schedules.
+author_royalty_schedule_exposure,author,"Gringlesby, Burt",1,,avg_royalty_tiers,3.0,1,,,,,14.0,3.0,Author exposure to deeper title royalty schedules.
+author_royalty_schedule_exposure,author,"Ringer, Anne",2,,avg_royalty_tiers,6.0,2,,,,,24.0,6.0,Author exposure to deeper title royalty schedules.
+author_royalty_schedule_exposure,author,"Locksley, Charlene",1,,avg_royalty_tiers,2.0,1,,,,,12.0,2.0,Author exposure to deeper title royalty schedules.
+author_royalty_schedule_exposure,author,"del Castillo, Innes",1,,avg_royalty_tiers,6.0,1,,,,,20.0,6.0,Author exposure to deeper title royalty schedules.
+author_royalty_schedule_exposure,author,"DeFrance, Michel",1,,avg_royalty_tiers,8.0,1,,,,,24.0,8.0,Author exposure to deeper title royalty schedules.

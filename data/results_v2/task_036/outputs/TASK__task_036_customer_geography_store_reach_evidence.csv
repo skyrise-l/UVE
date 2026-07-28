@@ -1,0 +1,178 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,transactions,customers,brands,reviews,revenue,gross_margin_proxy,gross_margin_proxy_rate_pct,avg_rating,transaction_share_pct,review_share_pct,notes
+city_market_baseline,customer_city,Galt,,,transaction_rank,22.0,9,1,6,3,27.0,18.55,68.7037,3.3333,0.1426,0.4208,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Elverta,,,transaction_rank,14.0,48,5,17,7,144.0,96.63,67.1042,3.1429,0.7605,0.9818,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Orangevale,,,transaction_rank,9.0,74,7,18,7,218.0,143.39,65.7752,2.2857,1.1724,0.9818,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Rancho Cordova,,,transaction_rank,3.0,131,10,20,6,373.0,244.72,65.6086,3.0,2.0754,0.8415,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Rancho Murieta,,,transaction_rank,12.0,59,4,16,5,175.0,114.7,65.5429,3.6,0.9347,0.7013,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,McClellan,,,transaction_rank,15.0,46,4,14,3,134.0,87.72,65.4627,3.3333,0.7288,0.4208,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Carmichael,,,transaction_rank,6.0,112,10,18,16,334.0,217.83,65.2186,3.4375,1.7744,2.244,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Mather,,,transaction_rank,13.0,52,3,17,3,152.0,98.66,64.9079,3.3333,0.8238,0.4208,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Folsom,,,transaction_rank,5.0,127,12,17,9,369.0,239.38,64.8726,3.2222,2.012,1.2623,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Walnut Grove,,,transaction_rank,21.0,33,2,14,5,99.0,63.9,64.5455,2.4,0.5228,0.7013,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Courtland,,,transaction_rank,20.0,35,3,14,2,101.0,65.12,64.4752,3.0,0.5545,0.2805,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Elk Grove,,,transaction_rank,2.0,184,18,18,12,536.0,344.48,64.2687,3.0833,2.9151,1.683,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Sacramento,,,transaction_rank,1.0,4797,423,23,564,14049.0,9021.15,64.212,3.0762,75.9981,79.1024,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Ryde,,,transaction_rank,7.0,96,8,17,9,284.0,181.81,64.0176,4.1111,1.5209,1.2623,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,North Highlands,,,transaction_rank,8.0,84,6,16,16,246.0,156.78,63.7317,2.75,1.3308,2.244,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Herald,,,transaction_rank,18.0,38,4,14,2,114.0,72.29,63.4123,3.0,0.602,0.2805,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Citrus Heights,,,transaction_rank,4.0,130,11,18,12,380.0,240.6,63.3158,3.3333,2.0596,1.683,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Fair Oaks,,,transaction_rank,11.0,64,5,16,4,192.0,121.18,63.1146,3.25,1.0139,0.561,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Wilton,,,transaction_rank,19.0,37,4,16,1,109.0,68.56,62.8991,1.0,0.5862,0.1403,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Isleton,,,transaction_rank,17.0,43,4,14,8,127.0,79.5,62.5984,2.625,0.6812,1.122,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Antelope,,,transaction_rank,10.0,69,6,15,12,201.0,125.73,62.5522,2.8333,1.0932,1.683,Establish customer geography scale before interpreting local reach.
+city_market_baseline,customer_city,Rio Linda,,,transaction_rank,16.0,44,4,14,7,132.0,82.45,62.4621,2.7143,0.6971,0.9818,Establish customer geography scale before interpreting local reach.
+city_transaction_concentration,portfolio,top_5_customer_cities_by_transactions,22,,top5_city_transaction_share,,5369,,22,,,,,,85.0602,,Check whether customer geography is broad or concentrated in a few cities.
+city_location_affinity,customer_city_location,Courtland,Sac State American River Courtyard,1,location_rank_in_city,1.0,24,3,11,,68.0,44.11,64.8676,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Courtland,Sac State Union,2,location_rank_in_city,2.0,11,3,8,,33.0,21.01,63.6667,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Sacramento,Sac State Union,1,location_rank_in_city,1.0,2425,412,22,,7101.0,4566.65,64.31,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Sacramento,Sac State American River Courtyard,2,location_rank_in_city,2.0,2372,414,20,,6948.0,4454.5,64.112,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Orangevale,Sac State American River Courtyard,1,location_rank_in_city,1.0,45,7,18,,131.0,85.19,65.0305,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Orangevale,Sac State Union,2,location_rank_in_city,2.0,29,7,14,,87.0,58.2,66.8966,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Herald,Sac State Union,1,location_rank_in_city,1.0,25,4,13,,75.0,47.98,63.9733,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Herald,Sac State American River Courtyard,2,location_rank_in_city,2.0,13,3,10,,39.0,24.31,62.3333,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Isleton,Sac State American River Courtyard,1,location_rank_in_city,1.0,28,4,12,,82.0,51.79,63.1585,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Isleton,Sac State Union,2,location_rank_in_city,2.0,15,4,10,,45.0,27.71,61.5778,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Mather,Sac State American River Courtyard,1,location_rank_in_city,1.0,26,3,14,,74.0,48.51,65.5541,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Mather,Sac State Union,2,location_rank_in_city,2.0,26,3,14,,78.0,50.15,64.2949,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Galt,Sac State Union,1,location_rank_in_city,1.0,5,1,4,,15.0,9.6,64.0,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Galt,Sac State American River Courtyard,2,location_rank_in_city,2.0,4,1,3,,12.0,8.95,74.5833,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Ryde,Sac State Union,1,location_rank_in_city,1.0,56,8,16,,166.0,104.57,62.994,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Ryde,Sac State American River Courtyard,2,location_rank_in_city,2.0,40,7,17,,118.0,77.24,65.4576,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Wilton,Sac State Union,1,location_rank_in_city,1.0,23,4,14,,69.0,43.4,62.8986,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Wilton,Sac State American River Courtyard,2,location_rank_in_city,2.0,14,2,6,,40.0,25.16,62.9,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Folsom,Sac State American River Courtyard,1,location_rank_in_city,1.0,65,11,15,,191.0,124.89,65.3874,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Folsom,Sac State Union,2,location_rank_in_city,2.0,62,11,17,,178.0,114.49,64.3202,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,McClellan,Sac State American River Courtyard,1,location_rank_in_city,1.0,23,4,13,,65.0,41.76,64.2462,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,McClellan,Sac State Union,2,location_rank_in_city,2.0,23,4,12,,69.0,45.96,66.6087,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Rancho Cordova,Sac State Union,1,location_rank_in_city,1.0,73,9,19,,209.0,139.28,66.6411,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Rancho Cordova,Sac State American River Courtyard,2,location_rank_in_city,2.0,58,10,18,,164.0,105.44,64.2927,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Rancho Murieta,Sac State Union,1,location_rank_in_city,1.0,30,4,13,,90.0,60.31,67.0111,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Rancho Murieta,Sac State American River Courtyard,2,location_rank_in_city,2.0,29,3,13,,85.0,54.39,63.9882,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Elk Grove,Sac State American River Courtyard,1,location_rank_in_city,1.0,96,18,16,,284.0,184.79,65.0669,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Elk Grove,Sac State Union,2,location_rank_in_city,2.0,88,18,18,,252.0,159.69,63.369,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Antelope,Sac State Union,1,location_rank_in_city,1.0,36,6,14,,104.0,65.63,63.1058,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Antelope,Sac State American River Courtyard,2,location_rank_in_city,2.0,33,6,14,,97.0,60.1,61.9588,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Rio Linda,Sac State Union,1,location_rank_in_city,1.0,23,4,12,,69.0,44.82,64.9565,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Rio Linda,Sac State American River Courtyard,2,location_rank_in_city,2.0,21,4,11,,63.0,37.63,59.7302,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Carmichael,Sac State American River Courtyard,1,location_rank_in_city,1.0,61,10,17,,181.0,115.59,63.8619,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Carmichael,Sac State Union,2,location_rank_in_city,2.0,51,10,17,,153.0,102.24,66.8235,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Citrus Heights,Sac State Union,1,location_rank_in_city,1.0,74,11,17,,214.0,134.72,62.9533,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Citrus Heights,Sac State American River Courtyard,2,location_rank_in_city,2.0,56,11,16,,166.0,105.88,63.7831,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Fair Oaks,Sac State Union,1,location_rank_in_city,1.0,39,5,16,,117.0,73.87,63.1368,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Fair Oaks,Sac State American River Courtyard,2,location_rank_in_city,2.0,25,5,11,,75.0,47.31,63.08,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,North Highlands,Sac State Union,1,location_rank_in_city,1.0,47,6,15,,139.0,86.53,62.2518,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,North Highlands,Sac State American River Courtyard,2,location_rank_in_city,2.0,37,6,14,,107.0,70.25,65.6542,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Walnut Grove,Sac State Union,1,location_rank_in_city,1.0,20,2,13,,60.0,37.67,62.7833,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Walnut Grove,Sac State American River Courtyard,2,location_rank_in_city,2.0,13,2,8,,39.0,26.23,67.2564,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Elverta,Sac State Union,1,location_rank_in_city,1.0,35,5,15,,105.0,68.75,65.4762,,,,Test whether customer cities lean toward different selling locations.
+city_location_affinity,customer_city_location,Elverta,Sac State American River Courtyard,2,location_rank_in_city,2.0,13,4,8,,39.0,27.88,71.4872,,,,Test whether customer cities lean toward different selling locations.
+city_brand_preference,customer_city_brand,Antelope,Sparky's Fresh Draft,1,brand_rank_in_city,1.0,10,4,1,,30.0,13.9,46.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Antelope,Bedfords,2,brand_rank_in_city,2.0,8,5,1,,24.0,15.2,63.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Antelope,Gales,3,brand_rank_in_city,3.0,7,4,1,,19.0,12.0,63.1579,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Rio Linda,A.J. Stephans,1,brand_rank_in_city,1.0,5,4,1,,15.0,10.1,67.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Rio Linda,Bulldog,2,brand_rank_in_city,2.0,5,3,1,,15.0,9.9,66.0,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Rio Linda,Bundaberg,3,brand_rank_in_city,3.0,4,4,1,,12.0,7.4,61.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Carmichael,Fitz's,1,brand_rank_in_city,1.0,11,7,1,,33.0,21.01,63.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Carmichael,Gales,2,brand_rank_in_city,2.0,11,7,1,,31.0,20.0,64.5161,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Carmichael,IBC,3,brand_rank_in_city,3.0,10,6,1,,30.0,19.9,66.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Galt,Bundaberg,1,brand_rank_in_city,1.0,3,1,1,,9.0,5.55,61.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Galt,Mug,2,brand_rank_in_city,2.0,2,1,1,,6.0,5.2,86.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Galt,Bedfords,3,brand_rank_in_city,3.0,1,1,1,,3.0,1.9,63.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Orangevale,Mug,1,brand_rank_in_city,1.0,8,4,1,,22.0,18.8,85.4545,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Orangevale,Sparky's Fresh Draft,2,brand_rank_in_city,2.0,7,5,1,,21.0,9.73,46.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Orangevale,Bedfords,3,brand_rank_in_city,3.0,6,5,1,,18.0,11.4,63.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Elverta,Barq's,1,brand_rank_in_city,1.0,6,3,1,,18.0,15.6,86.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Elverta,Bedfords,2,brand_rank_in_city,2.0,5,4,1,,15.0,9.5,63.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Elverta,Bulldog,3,brand_rank_in_city,3.0,5,3,1,,15.0,9.9,66.0,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,McClellan,Barq's,1,brand_rank_in_city,1.0,7,3,1,,21.0,18.2,86.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,McClellan,Dominion,2,brand_rank_in_city,2.0,6,3,1,,18.0,10.2,56.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,McClellan,Captain Eli's,3,brand_rank_in_city,3.0,4,3,1,,12.0,7.64,63.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Elk Grove,Dog n Suds,1,brand_rank_in_city,1.0,20,13,1,,52.0,33.8,65.0,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Elk Grove,IBC,2,brand_rank_in_city,2.0,19,10,1,,57.0,37.81,66.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Elk Grove,Bundaberg,3,brand_rank_in_city,3.0,18,11,1,,54.0,33.3,61.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Walnut Grove,Henry Weinhard's,1,brand_rank_in_city,1.0,5,2,1,,15.0,9.3,62.0,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Walnut Grove,Captain Eli's,2,brand_rank_in_city,2.0,4,2,1,,12.0,7.64,63.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Walnut Grove,Dad's,3,brand_rank_in_city,3.0,4,2,1,,12.0,6.96,58.0,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Courtland,Dog n Suds,1,brand_rank_in_city,1.0,8,3,1,,24.0,16.72,69.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Courtland,IBC,2,brand_rank_in_city,2.0,5,2,1,,15.0,9.95,66.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Courtland,Bedfords,3,brand_rank_in_city,3.0,3,2,1,,9.0,5.7,63.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Sacramento,IBC,1,brand_rank_in_city,1.0,413,253,1,,1239.0,821.87,66.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Sacramento,Gales,2,brand_rank_in_city,2.0,410,264,1,,1132.0,722.0,63.7809,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Sacramento,Fitz's,3,brand_rank_in_city,3.0,373,248,1,,1119.0,712.43,63.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Citrus Heights,Sparky's Fresh Draft,1,brand_rank_in_city,1.0,13,7,1,,39.0,18.07,46.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Citrus Heights,Bulldog,2,brand_rank_in_city,2.0,11,6,1,,33.0,21.78,66.0,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Citrus Heights,Captain Eli's,3,brand_rank_in_city,3.0,11,6,1,,33.0,21.01,63.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Fair Oaks,Dominion,1,brand_rank_in_city,1.0,8,4,1,,24.0,13.6,56.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Fair Oaks,Bedfords,2,brand_rank_in_city,2.0,6,5,1,,18.0,11.4,63.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Fair Oaks,Gales,3,brand_rank_in_city,3.0,6,4,1,,18.0,12.0,66.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,North Highlands,Henry Weinhard's,1,brand_rank_in_city,1.0,9,5,1,,27.0,16.74,62.0,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,North Highlands,Gales,2,brand_rank_in_city,2.0,8,5,1,,20.0,12.0,60.0,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,North Highlands,Bundaberg,3,brand_rank_in_city,3.0,7,4,1,,21.0,12.95,61.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Ryde,Gales,1,brand_rank_in_city,1.0,10,7,1,,28.0,18.0,64.2857,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Ryde,Sparky's Fresh Draft,2,brand_rank_in_city,2.0,10,7,1,,30.0,13.9,46.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Ryde,Bundaberg,3,brand_rank_in_city,3.0,9,6,1,,27.0,16.65,61.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Wilton,Gales,1,brand_rank_in_city,1.0,5,3,1,,13.0,8.0,61.5385,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Wilton,Bundaberg,2,brand_rank_in_city,2.0,4,2,1,,12.0,7.4,61.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Wilton,IBC,3,brand_rank_in_city,3.0,4,2,1,,12.0,7.96,66.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Folsom,Barq's,1,brand_rank_in_city,1.0,13,8,1,,37.0,31.8,85.9459,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Folsom,Dad's,2,brand_rank_in_city,2.0,12,7,1,,36.0,20.88,58.0,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Folsom,IBC,3,brand_rank_in_city,3.0,12,7,1,,36.0,23.88,66.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Herald,A.J. Stephans,1,brand_rank_in_city,1.0,5,3,1,,15.0,10.1,67.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Herald,Bundaberg,2,brand_rank_in_city,2.0,4,3,1,,12.0,7.4,61.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Herald,Fitz's,3,brand_rank_in_city,3.0,4,3,1,,12.0,7.64,63.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Rancho Cordova,Mug,1,brand_rank_in_city,1.0,13,6,1,,31.0,25.8,83.2258,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Rancho Cordova,IBC,2,brand_rank_in_city,2.0,12,8,1,,36.0,23.88,66.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Rancho Cordova,Captain Eli's,3,brand_rank_in_city,3.0,11,7,1,,33.0,21.01,63.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Rancho Murieta,Fitz's,1,brand_rank_in_city,1.0,8,3,1,,24.0,15.28,63.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Rancho Murieta,Gales,2,brand_rank_in_city,2.0,6,3,1,,18.0,12.0,66.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Rancho Murieta,Bulldog,3,brand_rank_in_city,3.0,5,3,1,,15.0,9.9,66.0,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Isleton,Bundaberg,1,brand_rank_in_city,1.0,6,3,1,,18.0,11.1,61.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Isleton,Captain Eli's,2,brand_rank_in_city,2.0,6,3,1,,18.0,11.46,63.6667,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Isleton,IBC,3,brand_rank_in_city,3.0,6,4,1,,18.0,11.94,66.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Mather,Dog n Suds,1,brand_rank_in_city,1.0,7,3,1,,17.0,10.63,62.5294,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Mather,Bedfords,2,brand_rank_in_city,2.0,5,3,1,,15.0,9.5,63.3333,,,,Identify whether city-level demand is driven by different leading brands.
+city_brand_preference,customer_city_brand,Mather,Henry Weinhard's,3,brand_rank_in_city,3.0,5,2,1,,15.0,9.3,62.0,,,,Identify whether city-level demand is driven by different leading brands.
+city_review_participation,customer_city,Galt,22,17,purchase_review_rank_gap,5.0,9,1,6,3,27.0,18.55,68.7037,3.3333,0.1426,0.4208,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Elverta,14,10,purchase_review_rank_gap,4.0,48,5,17,7,144.0,96.63,67.1042,3.1429,0.7605,0.9818,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Orangevale,9,11,purchase_review_rank_gap,2.0,74,7,18,7,218.0,143.39,65.7752,2.2857,1.1724,0.9818,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Rancho Cordova,3,13,purchase_review_rank_gap,10.0,131,10,20,6,373.0,244.72,65.6086,3.0,2.0754,0.8415,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Rancho Murieta,12,14,purchase_review_rank_gap,2.0,59,4,16,5,175.0,114.7,65.5429,3.6,0.9347,0.7013,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,McClellan,15,19,purchase_review_rank_gap,4.0,46,4,14,3,134.0,87.72,65.4627,3.3333,0.7288,0.4208,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Carmichael,6,2,purchase_review_rank_gap,4.0,112,10,18,16,334.0,217.83,65.2186,3.4375,1.7744,2.244,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Mather,13,18,purchase_review_rank_gap,5.0,52,3,17,3,152.0,98.66,64.9079,3.3333,0.8238,0.4208,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Folsom,5,7,purchase_review_rank_gap,2.0,127,12,17,9,369.0,239.38,64.8726,3.2222,2.012,1.2623,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Walnut Grove,21,15,purchase_review_rank_gap,6.0,33,2,14,5,99.0,63.9,64.5455,2.4,0.5228,0.7013,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Courtland,20,20,purchase_review_rank_gap,0.0,35,3,14,2,101.0,65.12,64.4752,3.0,0.5545,0.2805,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Elk Grove,2,6,purchase_review_rank_gap,4.0,184,18,18,12,536.0,344.48,64.2687,3.0833,2.9151,1.683,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Sacramento,1,1,purchase_review_rank_gap,0.0,4797,423,23,564,14049.0,9021.15,64.212,3.0762,75.9981,79.1024,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Ryde,7,8,purchase_review_rank_gap,1.0,96,8,17,9,284.0,181.81,64.0176,4.1111,1.5209,1.2623,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,North Highlands,8,3,purchase_review_rank_gap,5.0,84,6,16,16,246.0,156.78,63.7317,2.75,1.3308,2.244,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Herald,18,21,purchase_review_rank_gap,3.0,38,4,14,2,114.0,72.29,63.4123,3.0,0.602,0.2805,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Citrus Heights,4,5,purchase_review_rank_gap,1.0,130,11,18,12,380.0,240.6,63.3158,3.3333,2.0596,1.683,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Fair Oaks,11,16,purchase_review_rank_gap,5.0,64,5,16,4,192.0,121.18,63.1146,3.25,1.0139,0.561,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Wilton,19,22,purchase_review_rank_gap,3.0,37,4,16,1,109.0,68.56,62.8991,1.0,0.5862,0.1403,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Isleton,17,9,purchase_review_rank_gap,8.0,43,4,14,8,127.0,79.5,62.5984,2.625,0.6812,1.122,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Antelope,10,4,purchase_review_rank_gap,6.0,69,6,15,12,201.0,125.73,62.5522,2.8333,1.0932,1.683,Compare purchase scale with review participation by customer city.
+city_review_participation,customer_city,Rio Linda,16,12,purchase_review_rank_gap,4.0,44,4,14,7,132.0,82.45,62.4621,2.7143,0.6971,0.9818,Compare purchase scale with review participation by customer city.
+city_quality_mismatch,customer_city,Galt,22,5/1,max_purchase_quality_rank_gap,21.0,9,1,6,3,27.0,18.55,68.7037,3.3333,0.1426,0.4208,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Elverta,14,10/2,max_purchase_quality_rank_gap,12.0,48,5,17,7,144.0,96.63,67.1042,3.1429,0.7605,0.9818,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Orangevale,9,21/3,max_purchase_quality_rank_gap,12.0,74,7,18,7,218.0,143.39,65.7752,2.2857,1.1724,0.9818,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Rancho Cordova,3,13/4,max_purchase_quality_rank_gap,10.0,131,10,20,6,373.0,244.72,65.6086,3.0,2.0754,0.8415,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Rancho Murieta,12,2/5,max_purchase_quality_rank_gap,10.0,59,4,16,5,175.0,114.7,65.5429,3.6,0.9347,0.7013,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,McClellan,15,7/6,max_purchase_quality_rank_gap,9.0,46,4,14,3,134.0,87.72,65.4627,3.3333,0.7288,0.4208,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Carmichael,6,3/7,max_purchase_quality_rank_gap,3.0,112,10,18,16,334.0,217.83,65.2186,3.4375,1.7744,2.244,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Mather,13,6/8,max_purchase_quality_rank_gap,7.0,52,3,17,3,152.0,98.66,64.9079,3.3333,0.8238,0.4208,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Folsom,5,9/9,max_purchase_quality_rank_gap,4.0,127,12,17,9,369.0,239.38,64.8726,3.2222,2.012,1.2623,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Walnut Grove,21,20/10,max_purchase_quality_rank_gap,11.0,33,2,14,5,99.0,63.9,64.5455,2.4,0.5228,0.7013,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Courtland,20,14/11,max_purchase_quality_rank_gap,9.0,35,3,14,2,101.0,65.12,64.4752,3.0,0.5545,0.2805,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Elk Grove,2,11/12,max_purchase_quality_rank_gap,10.0,184,18,18,12,536.0,344.48,64.2687,3.0833,2.9151,1.683,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Sacramento,1,12/13,max_purchase_quality_rank_gap,12.0,4797,423,23,564,14049.0,9021.15,64.212,3.0762,75.9981,79.1024,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Ryde,7,1/14,max_purchase_quality_rank_gap,7.0,96,8,17,9,284.0,181.81,64.0176,4.1111,1.5209,1.2623,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,North Highlands,8,17/15,max_purchase_quality_rank_gap,9.0,84,6,16,16,246.0,156.78,63.7317,2.75,1.3308,2.244,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Herald,18,15/16,max_purchase_quality_rank_gap,3.0,38,4,14,2,114.0,72.29,63.4123,3.0,0.602,0.2805,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Citrus Heights,4,4/17,max_purchase_quality_rank_gap,13.0,130,11,18,12,380.0,240.6,63.3158,3.3333,2.0596,1.683,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Fair Oaks,11,8/18,max_purchase_quality_rank_gap,7.0,64,5,16,4,192.0,121.18,63.1146,3.25,1.0139,0.561,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Wilton,19,22/19,max_purchase_quality_rank_gap,3.0,37,4,16,1,109.0,68.56,62.8991,1.0,0.5862,0.1403,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Isleton,17,19/20,max_purchase_quality_rank_gap,3.0,43,4,14,8,127.0,79.5,62.5984,2.625,0.6812,1.122,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Antelope,10,16/21,max_purchase_quality_rank_gap,11.0,69,6,15,12,201.0,125.73,62.5522,2.8333,1.0932,1.683,"Find customer cities where purchase scale, ratings, and margin proxy diverge."
+city_quality_mismatch,customer_city,Rio Linda,16,18/22,max_purchase_quality_rank_gap,6.0,44,4,14,7,132.0,82.45,62.4621,2.7143,0.6971,0.9818,"Find customer cities where purchase scale, ratings, and margin proxy diverge."

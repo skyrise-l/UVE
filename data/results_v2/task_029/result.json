@@ -1,0 +1,121 @@
+{
+  "task_id": "029",
+  "db_id": "video_games",
+  "engine": "DuckDB",
+  "data_source": "CSV",
+  "schema_source": "database_description",
+  "status": "success",
+  "elapsed_seconds": 0.047,
+  "tables": [
+    {
+      "table": "game",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/video_games/tables/game.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/video_games/database_description/game.csv",
+      "size_bytes": 385658,
+      "modified_time_ns": 1782119475557857752,
+      "row_count": 11317,
+      "column_types": {
+        "id": "BIGINT",
+        "genre_id": "BIGINT",
+        "game_name": "VARCHAR"
+      }
+    },
+    {
+      "table": "game_platform",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/video_games/tables/game_platform.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/video_games/database_description/game_platform.csv",
+      "size_bytes": 305758,
+      "modified_time_ns": 1782119475575070871,
+      "row_count": 16326,
+      "column_types": {
+        "id": "BIGINT",
+        "game_publisher_id": "BIGINT",
+        "platform_id": "BIGINT",
+        "release_year": "BIGINT"
+      }
+    },
+    {
+      "table": "game_publisher",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/video_games/tables/game_publisher.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/video_games/database_description/game_publisher.csv",
+      "size_bytes": 174557,
+      "modified_time_ns": 1782119475585949732,
+      "row_count": 11732,
+      "column_types": {
+        "id": "BIGINT",
+        "game_id": "BIGINT",
+        "publisher_id": "BIGINT"
+      }
+    },
+    {
+      "table": "genre",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/video_games/tables/genre.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/video_games/database_description/genre.csv",
+      "size_bytes": 156,
+      "modified_time_ns": 1782119475586428604,
+      "row_count": 12,
+      "column_types": {
+        "id": "BIGINT",
+        "genre_name": "VARCHAR"
+      }
+    },
+    {
+      "table": "platform",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/video_games/tables/platform.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/video_games/database_description/platform.csv",
+      "size_bytes": 254,
+      "modified_time_ns": 1782119475586741145,
+      "row_count": 31,
+      "column_types": {
+        "id": "BIGINT",
+        "platform_name": "VARCHAR"
+      }
+    },
+    {
+      "table": "publisher",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/video_games/tables/publisher.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/video_games/database_description/publisher.csv",
+      "size_bytes": 10538,
+      "modified_time_ns": 1782119475587569390,
+      "row_count": 577,
+      "column_types": {
+        "id": "BIGINT",
+        "publisher_name": "VARCHAR"
+      }
+    },
+    {
+      "table": "region",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/video_games/tables/region.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/video_games/database_description/region.csv",
+      "size_bytes": 61,
+      "modified_time_ns": 1782119475587980555,
+      "row_count": 4,
+      "column_types": {
+        "id": "BIGINT",
+        "region_name": "VARCHAR"
+      }
+    },
+    {
+      "table": "region_sales",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/video_games/tables/region_sales.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/video_games/database_description/region_sales.csv",
+      "size_bytes": 841271,
+      "modified_time_ns": 1782119475644540220,
+      "row_count": 65320,
+      "column_types": {
+        "region_id": "BIGINT",
+        "game_platform_id": "BIGINT",
+        "num_sales": "DOUBLE"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "insight_id": "TASK",
+      "sql_file": "queries_v2/task_029/task_029_blockbuster_long_tail_structure_evidence.sql",
+      "file": "outputs/TASK__task_029_blockbuster_long_tail_structure_evidence.csv",
+      "rows": 78
+    }
+  ],
+  "qa_outputs": []
+}

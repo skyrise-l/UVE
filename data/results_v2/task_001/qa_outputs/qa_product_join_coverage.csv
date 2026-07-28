@@ -1,0 +1,6 @@
+Region,order_line_count,matched_order_lines,unmatched_order_lines,product_join_coverage_pct
+ALL,19988,19988,0,100.0
+Central,4646,4646,0,100.0
+East,5696,5696,0,100.0
+South,3240,3240,0,100.0
+West,6406,6406,0,100.0

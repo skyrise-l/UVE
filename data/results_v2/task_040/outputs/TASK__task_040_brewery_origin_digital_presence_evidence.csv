@@ -1,0 +1,54 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,transactions,customers,brands,reviews,revenue,gross_margin_proxy,gross_margin_proxy_rate_pct,avg_rating,transaction_share_pct,review_share_pct,notes
+origin_group_baseline,origin_group,california_brewery,,,transaction_rank,2.0,1192,491,5,202,3482.0,2262.41,64.9744,3.0668,1.0,,"Compare local, other-US, and non-US brewery origins on demand scale."
+origin_group_baseline,origin_group,other_us_brewery,,,transaction_rank,1.0,4787,554,17,496,14015.0,9006.67,64.2645,3.0547,1.0588,,"Compare local, other-US, and non-US brewery origins on demand scale."
+origin_group_baseline,origin_group,non_us_brewery,,,transaction_rank,3.0,333,241,1,15,999.0,616.05,61.6667,2.8,1.0,,"Compare local, other-US, and non-US brewery origins on demand scale."
+origin_quality_comparison,origin_group,california_brewery,2,1/1,origin_rating_margin_rank,1.0,1192,491,5,202,3482.0,2262.41,64.9744,3.0668,1.0,,"Check whether brewery origin strength is demand, rating, or margin-proxy strength."
+origin_quality_comparison,origin_group,other_us_brewery,1,2/2,origin_rating_margin_rank,1.0,4787,554,17,496,14015.0,9006.67,64.2645,3.0547,1.0588,,"Check whether brewery origin strength is demand, rating, or margin-proxy strength."
+origin_quality_comparison,origin_group,non_us_brewery,3,3/3,origin_rating_margin_rank,0.0,333,241,1,15,999.0,616.05,61.6667,2.8,1.0,,"Check whether brewery origin strength is demand, rating, or margin-proxy strength."
+brewery_state_concentration,brewery_state,IL,,,state_transaction_rank,1.0,1292,498,3,59,3642.0,2293.56,62.9753,2.8801,,,Inspect whether brewery state origin is concentrated in a few states.
+brewery_state_concentration,brewery_state,CA,,,state_transaction_rank,2.0,1192,491,5,202,3482.0,2262.41,64.9744,3.0668,,,Inspect whether brewery state origin is concentrated in a few states.
+brewery_state_concentration,brewery_state,MO,,,state_transaction_rank,3.0,1023,466,2,56,3069.0,1996.89,65.0665,3.0677,,,Inspect whether brewery state origin is concentrated in a few states.
+brewery_state_concentration,brewery_state,LA,,,state_transaction_rank,4.0,618,368,2,37,1800.0,1308.98,72.7211,2.7061,,,Inspect whether brewery state origin is concentrated in a few states.
+brewery_state_concentration,brewery_state,ME,,,state_transaction_rank,5.0,419,293,1,22,1257.0,800.29,63.6667,3.0,,,Inspect whether brewery state origin is concentrated in a few states.
+brewery_state_concentration,brewery_state,DE,,,state_transaction_rank,6.0,394,298,1,17,1182.0,669.8,56.6667,3.7059,,,Inspect whether brewery state origin is concentrated in a few states.
+brewery_state_concentration,brewery_state,OR,,,state_transaction_rank,7.0,385,279,1,18,1155.0,716.1,62.0,3.1111,,,Inspect whether brewery state origin is concentrated in a few states.
+brewery_state_concentration,brewery_state,WA,,,state_transaction_rank,8.0,354,264,2,74,1062.0,672.28,63.3032,3.1027,,,Inspect whether brewery state origin is concentrated in a few states.
+brewery_state_concentration,brewery_state,QLD,,,state_transaction_rank,9.0,333,241,1,15,999.0,616.05,61.6667,2.8,,,Inspect whether brewery state origin is concentrated in a few states.
+brewery_state_concentration,brewery_state,MA,,,state_transaction_rank,10.0,274,220,1,20,764.0,495.48,64.8534,3.2,,,Inspect whether brewery state origin is concentrated in a few states.
+brewery_state_concentration,brewery_state,WI,,,state_transaction_rank,11.0,19,19,1,52,57.0,36.29,63.6667,3.2115,,,Inspect whether brewery state origin is concentrated in a few states.
+brewery_state_concentration,brewery_state,unknown,,,state_transaction_rank,12.0,7,7,1,55,21.0,13.37,63.6667,3.2182,,,Inspect whether brewery state origin is concentrated in a few states.
+brewery_state_concentration,brewery_state,MI,,,state_transaction_rank,13.0,1,1,1,86,3.0,1.91,63.6667,3.0349,,,Inspect whether brewery state origin is concentrated in a few states.
+brewery_state_concentration,brewery_state,OH,,,state_transaction_rank,14.0,1,1,1,0,3.0,1.72,57.3333,,,,Inspect whether brewery state origin is concentrated in a few states.
+digital_presence_baseline,digital_presence_group,multi_channel_presence,,,transaction_rank,2.0,2061,540,5,100,5885.0,3893.62,66.1618,2.9129,2.2,,Compare demand by brand digital presence group.
+digital_presence_baseline,digital_presence_group,website_only_presence,,,transaction_rank,1.0,3865,553,16,509,11453.0,7273.5,63.5074,3.0866,1.0,,Compare demand by brand digital presence group.
+digital_presence_baseline,digital_presence_group,limited_or_no_presence,,,transaction_rank,3.0,386,280,2,104,1158.0,718.01,62.0043,3.073,0.0,,Compare demand by brand digital presence group.
+digital_presence_quality,digital_presence_group,multi_channel_presence,2,3/1,digital_rating_margin_rank,1.0,2061,540,5,100,5885.0,3893.62,66.1618,2.9129,2.2,,Check whether digital presence aligns with ratings or margin proxy quality.
+digital_presence_quality,digital_presence_group,website_only_presence,1,1/2,digital_rating_margin_rank,1.0,3865,553,16,509,11453.0,7273.5,63.5074,3.0866,1.0,,Check whether digital presence aligns with ratings or margin proxy quality.
+digital_presence_quality,digital_presence_group,limited_or_no_presence,3,2/3,digital_rating_margin_rank,1.0,386,280,2,104,1158.0,718.01,62.0043,3.073,0.0,,Check whether digital presence aligns with ratings or margin proxy quality.
+origin_package_mix,origin_package_options,california_brewery,1,,declared_package_options,1.0,1192,491,5,202,3482.0,2262.41,64.9744,3.0668,,,Separate origin effects from declared package breadth.
+origin_package_mix,origin_package_options,other_us_brewery,2,,declared_package_options,2.0,2,2,1,57,6.0,3.48,58.0,3.0877,,,Separate origin effects from declared package breadth.
+origin_package_mix,origin_package_options,other_us_brewery,1,,declared_package_options,1.0,4785,554,16,439,14009.0,9003.19,64.2672,3.0525,,,Separate origin effects from declared package breadth.
+origin_package_mix,origin_package_options,non_us_brewery,1,,declared_package_options,1.0,333,241,1,15,999.0,616.05,61.6667,2.8,,,Separate origin effects from declared package breadth.
+origin_brand_exception,brand,Barq's,other_us_brewery,14/22/1,transaction_rank,14.0,284,221,1,19,798.0,684.4,85.7644,2.5789,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,Mug,california_brewery,15/17/2,transaction_rank,15.0,283,224,1,17,785.0,671.8,85.5796,2.8824,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,A&W,california_brewery,17/2/3,transaction_rank,17.0,147,129,1,8,411.0,349.26,84.9781,3.25,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,Dog n Suds,other_us_brewery,6/8/4,transaction_rank,6.0,410,297,1,17,1120.0,746.9,66.6875,3.1176,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,IBC,other_us_brewery,1/10/5,transaction_rank,1.0,537,333,1,32,1611.0,1068.63,66.3333,3.0938,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,Bulldog,california_brewery,13/15/6,transaction_rank,13.0,307,236,1,25,921.0,607.86,66.0,3.0,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,A.J. Stephans,other_us_brewery,16/5/7,transaction_rank,16.0,274,220,1,20,764.0,495.48,64.8534,3.2,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,Gales,other_us_brewery,2/20/8,transaction_rank,2.0,523,337,1,22,1445.0,922.0,63.8062,2.7727,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,Fitz's,other_us_brewery,3/13/9,transaction_rank,3.0,486,326,1,24,1458.0,928.26,63.6667,3.0417,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,Thomas Kemper,other_us_brewery,19/3/10,transaction_rank,19.0,7,7,1,55,21.0,13.37,63.6667,3.2182,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,River City,california_brewery,20/6/11,transaction_rank,20.0,2,2,1,132,6.0,3.82,63.6667,3.1515,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,Frostie,other_us_brewery,23/14/12,transaction_rank,23.0,1,1,1,86,3.0,1.91,63.6667,3.0349,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,Sprecher,other_us_brewery,18/4/13,transaction_rank,18.0,19,19,1,52,57.0,36.29,63.6667,3.2115,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,Captain Eli's,other_us_brewery,5/16/14,transaction_rank,5.0,419,293,1,22,1257.0,800.29,63.6667,3.0,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,Bedfords,other_us_brewery,10/7/15,transaction_rank,10.0,352,264,1,17,1056.0,668.8,63.3333,3.1176,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,Abita,other_us_brewery,11/18/16,transaction_rank,11.0,334,252,1,18,1002.0,624.58,62.3333,2.8333,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,Henry Weinhard's,other_us_brewery,8/9/17,transaction_rank,8.0,385,279,1,18,1155.0,716.1,62.0,3.1111,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,Bundaberg,non_us_brewery,12/19/18,transaction_rank,12.0,333,241,1,15,999.0,616.05,61.6667,2.8,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,Dad's,other_us_brewery,9/21/19,transaction_rank,9.0,359,249,1,20,1077.0,624.66,58.0,2.75,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,Virgil's,other_us_brewery,21/11/20,transaction_rank,21.0,2,2,1,57,6.0,3.48,58.0,3.0877,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,Diet Stewarts,other_us_brewery,22/23/21,transaction_rank,22.0,1,1,1,0,3.0,1.72,57.3333,,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,Dominion,other_us_brewery,7/1/22,transaction_rank,7.0,394,298,1,17,1182.0,669.8,56.6667,3.7059,,,Retain brand-level exceptions when origin-group averages hide individual brands.
+origin_brand_exception,brand,Sparky's Fresh Draft,california_brewery,4/12/23,transaction_rank,4.0,453,316,1,20,1359.0,629.67,46.3333,3.05,,,Retain brand-level exceptions when origin-group averages hide individual brands.

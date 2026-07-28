@@ -1,0 +1,44 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,complaints,clients,districts,regions,calls,avg_sent_delay_days,narrative_count,tagged_count,consent_count,narrative_rate_pct,tagged_rate_pct,consent_rate_pct,dispute_rate_pct,untimely_rate_pct,no_relief_rate_pct,share_pct,notes
+narrative_coverage_baseline,narrative_bucket,no_narrative,,,bucket_volume_rank,1.0,18952,5217,77,5,2504,3.0041,0,2549,2405,0.0,13.4498,12.69,18.3305,1.9312,3.5458,80.9257,Compare complaints with and without written narratives.
+narrative_coverage_baseline,narrative_bucket,has_narrative,,,bucket_volume_rank,2.0,4467,3039,77,5,0,0.8592,4467,727,4467,100.0,16.2749,100.0,21.9387,0.1119,0.0,19.0743,Compare complaints with and without written narratives.
+product_visibility,product,Bank account or service,,,product_volume_rank,1.0,14091,4966,77,5,1805,2.4648,2691,1805,4049,19.0973,12.8096,28.7347,16.4786,1.0858,1.4335,60.1691,Compare visibility by product.
+product_visibility,product,Credit card,,,product_volume_rank,2.0,9328,4406,77,5,699,2.7916,1776,1471,2823,19.0395,15.7697,30.2637,22.8559,2.337,5.0386,39.8309,Compare visibility by product.
+issue_visibility,issue,"Account opening, closing, or management",,,issue_volume_rank,1.0,5884,3577,77,5,857,2.7039,977,813,1535,16.6044,13.8171,26.0877,18.1339,1.1047,1.3086,25.1249,Compare visibility by issue type.
+issue_visibility,issue,Deposits and withdrawals,,,issue_volume_rank,2.0,3788,2710,77,5,569,2.6183,619,503,958,16.3411,13.2788,25.2904,15.8923,1.32,1.7159,16.1749,Compare visibility by issue type.
+issue_visibility,issue,Problems caused by my funds being low,,,issue_volume_rank,3.0,2041,1689,77,5,161,1.8721,497,167,689,24.3508,8.1823,33.758,11.416,0.392,1.0779,8.7151,Compare visibility by issue type.
+issue_visibility,issue,Billing disputes,,,issue_volume_rank,4.0,1560,1351,77,5,138,2.9295,284,295,473,18.2051,18.9103,30.3205,26.5385,1.9231,4.359,6.6613,Compare visibility by issue type.
+issue_visibility,issue,"Making/receiving payments, sending money",,,issue_volume_rank,5.0,1246,1122,77,5,120,2.6581,263,180,399,21.1075,14.4462,32.0225,18.2183,1.8459,1.8459,5.3205,Compare visibility by issue type.
+issue_visibility,issue,Using a debit or ATM card,,,issue_volume_rank,6.0,1132,1028,77,5,98,1.5645,335,142,468,29.5936,12.5442,41.3428,17.0495,0.6184,1.3251,4.8337,Compare visibility by issue type.
+issue_visibility,issue,Other,,,issue_volume_rank,7.0,978,887,77,5,83,2.4898,175,152,336,17.8937,15.5419,34.3558,24.8466,1.5337,2.9652,4.1761,Compare visibility by issue type.
+issue_visibility,issue,Identity theft / Fraud / Embezzlement,,,issue_volume_rank,8.0,841,778,77,5,61,3.1986,161,149,273,19.1439,17.717,32.4614,23.5434,2.8537,4.5184,3.5911,Compare visibility by issue type.
+issue_visibility,issue,Closing/Cancelling account,,,issue_volume_rank,9.0,834,764,77,5,61,2.3046,169,120,228,20.2638,14.3885,27.3381,19.7842,2.7578,5.3957,3.5612,Compare visibility by issue type.
+issue_visibility,issue,APR or interest rate,,,issue_volume_rank,10.0,493,472,77,5,47,3.5112,76,68,113,15.4158,13.7931,22.9209,19.0669,2.6369,6.6937,2.1051,Compare visibility by issue type.
+issue_visibility,issue,Customer service / Customer relations,,,issue_volume_rank,11.0,373,363,76,5,37,3.5094,89,77,126,23.8606,20.6434,33.7802,21.7158,0.8043,2.4129,1.5927,Compare visibility by issue type.
+issue_visibility,issue,Other fee,,,issue_volume_rank,12.0,347,338,77,5,12,3.0605,69,37,94,19.8847,10.6628,27.0893,14.121,1.7291,4.0346,1.4817,Compare visibility by issue type.
+issue_visibility,issue,Transaction issue,,,issue_volume_rank,13.0,346,335,77,5,19,1.7312,85,70,134,24.5665,20.2312,38.7283,24.5665,1.1561,3.4682,1.4774,Compare visibility by issue type.
+issue_visibility,issue,Late fee,,,issue_volume_rank,14.0,344,330,75,5,19,2.4331,89,46,125,25.8721,13.3721,36.3372,15.1163,2.0349,1.7442,1.4689,Compare visibility by issue type.
+issue_visibility,issue,Credit card protection / Debt protection,,,issue_volume_rank,15.0,318,312,74,5,22,2.2421,67,62,101,21.0692,19.4969,31.761,30.8176,4.717,7.5472,1.3579,Compare visibility by issue type.
+issue_visibility,issue,Delinquent account,,,issue_volume_rank,16.0,314,304,72,5,11,1.7134,81,32,163,25.7962,10.1911,51.9108,22.6115,0.6369,1.5924,1.3408,Compare visibility by issue type.
+issue_visibility,issue,Rewards,,,issue_volume_rank,17.0,290,286,76,5,23,2.6345,56,34,75,19.3103,11.7241,25.8621,22.4138,2.7586,4.4828,1.2383,Compare visibility by issue type.
+issue_visibility,issue,Credit reporting,,,issue_volume_rank,18.0,270,265,72,5,19,3.5222,0,36,0,0.0,13.3333,0.0,25.9259,5.9259,16.6667,1.1529,Compare visibility by issue type.
+issue_visibility,issue,Billing statement,,,issue_volume_rank,19.0,262,258,72,5,17,2.2023,62,37,87,23.6641,14.1221,33.2061,19.084,0.7634,4.1985,1.1187,Compare visibility by issue type.
+issue_visibility,issue,Credit line increase/decrease,,,issue_volume_rank,20.0,253,249,71,5,21,2.083,43,42,68,16.996,16.6008,26.8775,23.3202,3.1621,8.6957,1.0803,Compare visibility by issue type.
+consent_status_visibility,consent_status,unknown,,,consent_volume_rank,1.0,16547,5119,77,5,2504,3.334,0,2247,0,0.0,13.5795,0.0,17.828,2.2058,4.0612,70.6563,Compare consent categories with narrative availability.
+consent_status_visibility,consent_status,Consent provided,,,consent_volume_rank,2.0,4467,3039,77,5,0,0.8592,4467,727,4467,100.0,16.2749,100.0,21.9387,0.1119,0.0,19.0743,Compare consent categories with narrative availability.
+consent_status_visibility,consent_status,Consent not provided,,,consent_volume_rank,3.0,2272,1864,77,5,0,0.6695,0,265,2272,0.0,11.6637,100.0,21.3028,0.044,0.0,9.7015,Compare consent categories with narrative availability.
+consent_status_visibility,consent_status,Other,,,consent_volume_rank,4.0,133,130,57,5,0,1.8421,0,37,133,0.0,27.8195,100.0,30.0752,0.0,0.0,0.5679,Compare consent categories with narrative availability.
+tag_visibility,tag,untagged,,,tag_volume_rank,1.0,20143,5238,77,5,1617,2.6539,3740,0,5843,18.5672,0.0,29.0076,18.5375,1.5936,2.8546,86.0114,Compare tag categories with complaint outcomes.
+tag_visibility,tag,Older American,,,tag_volume_rank,2.0,2378,1936,77,5,560,2.3692,549,2378,784,23.0866,100.0,32.9689,22.9605,1.598,3.238,10.1541,Compare tag categories with complaint outcomes.
+tag_visibility,tag,Servicemember,,,tag_volume_rank,3.0,659,622,77,5,202,1.7056,141,659,194,21.3961,100.0,29.4385,19.7269,1.3657,2.2762,2.814,Compare tag categories with complaint outcomes.
+tag_visibility,tag,"Older American, Servicemember",,,tag_volume_rank,4.0,239,234,74,5,125,2.3305,37,239,51,15.4812,100.0,21.3389,18.41,1.2552,2.0921,1.0205,Compare tag categories with complaint outcomes.
+channel_visibility,submitted_via,Web,,,channel_volume_rank,1.0,13235,4909,77,5,0,1.4472,4467,1996,6872,33.7514,15.0812,51.9229,21.0125,1.1938,2.3574,56.5139,Compare intake channels with narrative availability.
+channel_visibility,submitted_via,Referral,,,channel_volume_rank,2.0,6303,3690,77,5,0,4.3586,0,173,0,0.0,2.7447,0.0,15.215,2.364,4.0457,26.914,Compare intake channels with narrative availability.
+channel_visibility,submitted_via,Phone,,,channel_volume_rank,3.0,2504,2019,77,5,2504,3.1138,0,887,0,0.0,35.4233,0.0,16.4537,1.877,3.3546,10.6922,Compare intake channels with narrative availability.
+channel_visibility,submitted_via,Postal mail,,,channel_volume_rank,4.0,1071,979,77,5,0,4.3679,0,169,0,0.0,15.7796,0.0,19.7946,1.2138,1.5873,4.5732,Compare intake channels with narrative availability.
+channel_visibility,submitted_via,Fax,,,channel_volume_rank,5.0,298,291,75,5,0,5.2953,0,51,0,0.0,17.1141,0.0,30.2013,1.3423,0.3356,1.2725,Compare intake channels with narrative availability.
+channel_visibility,submitted_via,Email,,,channel_volume_rank,6.0,8,8,8,5,0,11.625,0,0,0,0.0,0.0,0.0,0.0,0.0,37.5,0.0342,Compare intake channels with narrative availability.
+region_visibility,region,Northeast,,,region_volume_rank,1.0,10957,2468,32,1,1200,2.5646,2107,1540,3227,19.2297,14.0549,29.4515,18.7916,1.7432,3.1943,46.7868,Compare visibility patterns across regions.
+region_visibility,region,South,,,region_volume_rank,2.0,4468,1005,17,1,460,2.5723,824,631,1282,18.4423,14.1226,28.6929,19.4942,1.2757,2.4396,19.0785,Compare visibility patterns across regions.
+region_visibility,region,West,,,region_volume_rank,3.0,3769,860,13,1,398,2.4062,699,502,1084,18.546,13.3192,28.7609,19.2624,1.6981,2.6798,16.0938,Compare visibility patterns across regions.
+region_visibility,region,Midwest,,,region_volume_rank,4.0,3490,788,12,1,360,2.9201,701,501,1065,20.086,14.3553,30.5158,18.4814,1.3181,2.6361,14.9024,Compare visibility patterns across regions.
+region_visibility,region,unknown,,,region_volume_rank,5.0,735,163,3,1,86,2.6109,136,102,214,18.5034,13.8776,29.1156,20.8163,1.7687,2.7211,3.1385,Compare visibility patterns across regions.

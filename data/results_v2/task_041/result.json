@@ -1,0 +1,110 @@
+{
+  "task_id": "041",
+  "db_id": "food_inspection_2",
+  "engine": "DuckDB",
+  "data_source": "CSV",
+  "schema_source": "database_description",
+  "status": "success",
+  "elapsed_seconds": 0.086,
+  "tables": [
+    {
+      "table": "employee",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/food_inspection_2/tables/employee.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/food_inspection_2/database_description/employee.csv",
+      "size_bytes": 7524,
+      "modified_time_ns": 1782119108602503750,
+      "row_count": 75,
+      "column_types": {
+        "employee_id": "BIGINT",
+        "first_name": "VARCHAR",
+        "last_name": "VARCHAR",
+        "address": "VARCHAR",
+        "city": "VARCHAR",
+        "state": "VARCHAR",
+        "zip": "BIGINT",
+        "phone": "VARCHAR",
+        "title": "VARCHAR",
+        "salary": "BIGINT",
+        "supervisor": "BIGINT"
+      }
+    },
+    {
+      "table": "establishment",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/food_inspection_2/tables/establishment.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/food_inspection_2/database_description/establishment.csv",
+      "size_bytes": 3796218,
+      "modified_time_ns": 1782119108731985940,
+      "row_count": 31642,
+      "column_types": {
+        "license_no": "BIGINT",
+        "dba_name": "VARCHAR",
+        "aka_name": "VARCHAR",
+        "facility_type": "VARCHAR",
+        "risk_level": "BIGINT",
+        "address": "VARCHAR",
+        "city": "VARCHAR",
+        "state": "VARCHAR",
+        "zip": "BIGINT",
+        "latitude": "DOUBLE",
+        "longitude": "DOUBLE",
+        "ward": "BIGINT"
+      }
+    },
+    {
+      "table": "inspection",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/food_inspection_2/tables/inspection.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/food_inspection_2/database_description/inspection.csv",
+      "size_bytes": 7986439,
+      "modified_time_ns": 1782119109008917583,
+      "row_count": 143870,
+      "column_types": {
+        "inspection_id": "BIGINT",
+        "inspection_date": "DATE",
+        "inspection_type": "VARCHAR",
+        "results": "VARCHAR",
+        "employee_id": "BIGINT",
+        "license_no": "BIGINT",
+        "followup_to": "BIGINT"
+      }
+    },
+    {
+      "table": "inspection_point",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/food_inspection_2/tables/inspection_point.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/food_inspection_2/database_description/inspection_point.csv",
+      "size_bytes": 6334,
+      "modified_time_ns": 1782119109012714514,
+      "row_count": 46,
+      "column_types": {
+        "point_id": "BIGINT",
+        "Description": "VARCHAR",
+        "category": "VARCHAR",
+        "code": "VARCHAR",
+        "fine": "BIGINT",
+        "point_level": "VARCHAR"
+      }
+    },
+    {
+      "table": "violation",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/food_inspection_2/tables/violation.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/food_inspection_2/database_description/violation.csv",
+      "size_bytes": 91238052,
+      "modified_time_ns": 1782119110745935341,
+      "row_count": 525709,
+      "column_types": {
+        "inspection_id": "BIGINT",
+        "point_id": "BIGINT",
+        "fine": "BIGINT",
+        "inspector_comment": "VARCHAR"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "insight_id": "TASK",
+      "sql_file": "queries_v2/task_041/task_041_inspection_outcome_structure_evidence.sql",
+      "file": "outputs/TASK__task_041_inspection_outcome_structure_evidence.csv",
+      "rows": 92
+    }
+  ],
+  "qa_outputs": []
+}

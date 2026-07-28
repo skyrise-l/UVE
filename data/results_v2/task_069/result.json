@@ -1,0 +1,138 @@
+{
+  "task_id": "069",
+  "db_id": "retail_complains",
+  "engine": "DuckDB",
+  "data_source": "CSV",
+  "schema_source": "database_description",
+  "status": "success",
+  "elapsed_seconds": 0.055,
+  "tables": [
+    {
+      "table": "callcenterlogs",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/retail_complains/tables/callcenterlogs.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/retail_complains/database_description/callcenterlogs.csv",
+      "size_bytes": 359041,
+      "modified_time_ns": 1782119364126070206,
+      "row_count": 3999,
+      "column_types": {
+        "Date received": "DATE",
+        "Complaint ID": "VARCHAR",
+        "rand client": "VARCHAR",
+        "phonefinal": "VARCHAR",
+        "vru+line": "VARCHAR",
+        "call_id": "BIGINT",
+        "priority": "BIGINT",
+        "type": "VARCHAR",
+        "outcome": "VARCHAR",
+        "server": "VARCHAR",
+        "ser_start": "VARCHAR",
+        "ser_exit": "VARCHAR",
+        "ser_time": "VARCHAR"
+      }
+    },
+    {
+      "table": "client",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/retail_complains/tables/client.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/retail_complains/database_description/client.csv",
+      "size_bytes": 765792,
+      "modified_time_ns": 1782119364153397815,
+      "row_count": 5369,
+      "column_types": {
+        "client_id": "VARCHAR",
+        "sex": "VARCHAR",
+        "day": "BIGINT",
+        "month": "BIGINT",
+        "year": "BIGINT",
+        "age": "BIGINT",
+        "social": "VARCHAR",
+        "first": "VARCHAR",
+        "middle": "VARCHAR",
+        "last": "VARCHAR",
+        "phone": "VARCHAR",
+        "email": "VARCHAR",
+        "address_1": "VARCHAR",
+        "address_2": "VARCHAR",
+        "city": "VARCHAR",
+        "state": "VARCHAR",
+        "zipcode": "BIGINT",
+        "district_id": "BIGINT"
+      }
+    },
+    {
+      "table": "district",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/retail_complains/tables/district.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/retail_complains/database_description/district.csv",
+      "size_bytes": 2405,
+      "modified_time_ns": 1782119364155129257,
+      "row_count": 77,
+      "column_types": {
+        "district_id": "BIGINT",
+        "city": "VARCHAR",
+        "state_abbrev": "VARCHAR",
+        "division": "VARCHAR"
+      }
+    },
+    {
+      "table": "events",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/retail_complains/tables/events.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/retail_complains/database_description/events.csv",
+      "size_bytes": 9128617,
+      "modified_time_ns": 1782119364327259114,
+      "row_count": 23419,
+      "column_types": {
+        "Date received": "DATE",
+        "Product": "VARCHAR",
+        "Sub-product": "VARCHAR",
+        "Issue": "VARCHAR",
+        "Sub-issue": "VARCHAR",
+        "Consumer complaint narrative": "VARCHAR",
+        "Tags": "VARCHAR",
+        "Consumer consent provided?": "VARCHAR",
+        "Submitted via": "VARCHAR",
+        "Date sent to company": "VARCHAR",
+        "Company response to consumer": "VARCHAR",
+        "Timely response?": "VARCHAR",
+        "Consumer disputed?": "VARCHAR",
+        "Complaint ID": "VARCHAR",
+        "Client_ID": "VARCHAR"
+      }
+    },
+    {
+      "table": "reviews",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/retail_complains/tables/reviews.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/retail_complains/database_description/reviews.csv",
+      "size_bytes": 33464,
+      "modified_time_ns": 1782119364331376549,
+      "row_count": 377,
+      "column_types": {
+        "Date": "DATE",
+        "Stars": "BIGINT",
+        "Reviews": "VARCHAR",
+        "Product": "VARCHAR",
+        "district_id": "BIGINT"
+      }
+    },
+    {
+      "table": "state",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/retail_complains/tables/state.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/retail_complains/database_description/state.csv",
+      "size_bytes": 1012,
+      "modified_time_ns": 1782119364332053809,
+      "row_count": 48,
+      "column_types": {
+        "StateCode": "VARCHAR",
+        "State": "VARCHAR",
+        "Region": "VARCHAR"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "insight_id": "TASK",
+      "sql_file": "queries_v2/task_069/task_069_intake_response_pathways_evidence.sql",
+      "file": "outputs/TASK__task_069_intake_response_pathways_evidence.csv",
+      "rows": 145
+    }
+  ],
+  "qa_outputs": []
+}

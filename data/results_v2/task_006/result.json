@@ -1,0 +1,141 @@
+{
+  "task_id": "006",
+  "db_id": "superstore",
+  "engine": "DuckDB",
+  "data_source": "CSV",
+  "schema_source": "database_description",
+  "status": "success",
+  "elapsed_seconds": 0.034,
+  "tables": [
+    {
+      "table": "central_superstore",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/superstore/tables/central_superstore.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/superstore/database_description/central_superstore.csv",
+      "size_bytes": 510764,
+      "modified_time_ns": 1782119413185954093,
+      "row_count": 4646,
+      "column_types": {
+        "Row ID": "BIGINT",
+        "Order ID": "VARCHAR",
+        "Order Date": "DATE",
+        "Ship Date": "DATE",
+        "Ship Mode": "VARCHAR",
+        "Customer ID": "VARCHAR",
+        "Region": "VARCHAR",
+        "Product ID": "VARCHAR",
+        "Sales": "DOUBLE",
+        "Quantity": "BIGINT",
+        "Discount": "DOUBLE",
+        "Profit": "DOUBLE"
+      }
+    },
+    {
+      "table": "east_superstore",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/superstore/tables/east_superstore.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/superstore/database_description/east_superstore.csv",
+      "size_bytes": 609170,
+      "modified_time_ns": 1782119413209524938,
+      "row_count": 5696,
+      "column_types": {
+        "Row ID": "BIGINT",
+        "Order ID": "VARCHAR",
+        "Order Date": "DATE",
+        "Ship Date": "DATE",
+        "Ship Mode": "VARCHAR",
+        "Customer ID": "VARCHAR",
+        "Region": "VARCHAR",
+        "Product ID": "VARCHAR",
+        "Sales": "DOUBLE",
+        "Quantity": "BIGINT",
+        "Discount": "DOUBLE",
+        "Profit": "DOUBLE"
+      }
+    },
+    {
+      "table": "people",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/superstore/tables/people.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/superstore/database_description/people.csv",
+      "size_bytes": 199029,
+      "modified_time_ns": 1782119413216122160,
+      "row_count": 2501,
+      "column_types": {
+        "Customer ID": "VARCHAR",
+        "Customer Name": "VARCHAR",
+        "Segment": "VARCHAR",
+        "Country": "VARCHAR",
+        "City": "VARCHAR",
+        "State": "VARCHAR",
+        "Postal Code": "BIGINT",
+        "Region": "VARCHAR"
+      }
+    },
+    {
+      "table": "product",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/superstore/tables/product.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/superstore/database_description/product.csv",
+      "size_bytes": 441113,
+      "modified_time_ns": 1782119413229486023,
+      "row_count": 5298,
+      "column_types": {
+        "Product ID": "VARCHAR",
+        "Product Name": "VARCHAR",
+        "Category": "VARCHAR",
+        "Sub-Category": "VARCHAR",
+        "Region": "VARCHAR"
+      }
+    },
+    {
+      "table": "south_superstore",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/superstore/tables/south_superstore.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/superstore/database_description/south_superstore.csv",
+      "size_bytes": 352875,
+      "modified_time_ns": 1782119413242605173,
+      "row_count": 3240,
+      "column_types": {
+        "Row ID": "BIGINT",
+        "Order ID": "VARCHAR",
+        "Order Date": "DATE",
+        "Ship Date": "DATE",
+        "Ship Mode": "VARCHAR",
+        "Customer ID": "VARCHAR",
+        "Region": "VARCHAR",
+        "Product ID": "VARCHAR",
+        "Sales": "DOUBLE",
+        "Quantity": "BIGINT",
+        "Discount": "DOUBLE",
+        "Profit": "DOUBLE"
+      }
+    },
+    {
+      "table": "west_superstore",
+      "csv_file": "/Users/skyrise/Desktop/vis/vis_expriment/data/bird/csv/superstore/tables/west_superstore.csv",
+      "description_file": "/Users/skyrise/Desktop/vis/vis_expriment/new_dataset/profiles/bird_train_profile_pack/candidate_dbs/superstore/database_description/west_superstore.csv",
+      "size_bytes": 690285,
+      "modified_time_ns": 1782119413267105324,
+      "row_count": 6406,
+      "column_types": {
+        "Row ID": "BIGINT",
+        "Order ID": "VARCHAR",
+        "Order Date": "DATE",
+        "Ship Date": "DATE",
+        "Ship Mode": "VARCHAR",
+        "Customer ID": "VARCHAR",
+        "Region": "VARCHAR",
+        "Product ID": "VARCHAR",
+        "Sales": "DOUBLE",
+        "Quantity": "BIGINT",
+        "Discount": "DOUBLE",
+        "Profit": "DOUBLE"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "insight_id": "TASK",
+      "sql_file": "queries_v2/task_006/task_006_order_basket_profit_quality_evidence.sql",
+      "file": "outputs/TASK__task_006_order_basket_profit_quality_evidence.csv",
+      "rows": 49
+    }
+  ],
+  "qa_outputs": []
+}

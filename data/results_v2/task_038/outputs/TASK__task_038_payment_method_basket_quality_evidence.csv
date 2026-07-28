@@ -1,0 +1,57 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,transactions,customers,brands,reviews,revenue,gross_margin_proxy,gross_margin_proxy_rate_pct,avg_rating,transaction_share_pct,review_share_pct,notes
+payment_method_baseline,credit_card_type,Discover,,,transaction_rank,3.0,1108,97,19,,3256.0,2089.3,64.1677,3.0227,17.5539,,Establish payment-method transaction scale before interpreting behavior.
+payment_method_baseline,credit_card_type,American Express,,,transaction_rank,4.0,965,91,19,,2829.0,1809.64,63.9675,3.0211,15.2883,,Establish payment-method transaction scale before interpreting behavior.
+payment_method_baseline,credit_card_type,Visa,,,transaction_rank,1.0,2152,189,20,,6304.0,4051.14,64.263,3.0173,34.0938,,Establish payment-method transaction scale before interpreting behavior.
+payment_method_baseline,credit_card_type,MasterCard,,,transaction_rank,2.0,2087,177,23,,6107.0,3935.05,64.4351,3.0168,33.064,,Establish payment-method transaction scale before interpreting behavior.
+payment_repeat_intensity,credit_card_type,Discover,3,2,transactions_per_customer_rank,2.0,1108,97,19,,3256.0,2089.3,64.1677,3.0227,11.4227,,Check whether high-volume payment methods also represent repeat-heavy customers.
+payment_repeat_intensity,credit_card_type,American Express,4,4,transactions_per_customer_rank,4.0,965,91,19,,2829.0,1809.64,63.9675,3.0211,10.6044,,Check whether high-volume payment methods also represent repeat-heavy customers.
+payment_repeat_intensity,credit_card_type,Visa,1,3,transactions_per_customer_rank,3.0,2152,189,20,,6304.0,4051.14,64.263,3.0173,11.3862,,Check whether high-volume payment methods also represent repeat-heavy customers.
+payment_repeat_intensity,credit_card_type,MasterCard,2,1,transactions_per_customer_rank,1.0,2087,177,23,,6107.0,3935.05,64.4351,3.0168,11.791,,Check whether high-volume payment methods also represent repeat-heavy customers.
+payment_location_mix,card_location,American Express,Sac State Union,1,location_rank_in_card,1.0,513,88,19,,1505.0,963.62,64.0279,,,,Test whether payment-method differences are partly location mix.
+payment_location_mix,card_location,American Express,Sac State American River Courtyard,2,location_rank_in_card,2.0,452,86,19,,1324.0,846.02,63.8988,,,,Test whether payment-method differences are partly location mix.
+payment_location_mix,card_location,MasterCard,Sac State Union,1,location_rank_in_card,1.0,1050,173,22,,3066.0,1975.3,64.426,,,,Test whether payment-method differences are partly location mix.
+payment_location_mix,card_location,MasterCard,Sac State American River Courtyard,2,location_rank_in_card,2.0,1037,174,20,,3041.0,1959.75,64.4443,,,,Test whether payment-method differences are partly location mix.
+payment_location_mix,card_location,Discover,Sac State Union,1,location_rank_in_card,1.0,584,94,18,,1714.0,1093.51,63.7987,,,,Test whether payment-method differences are partly location mix.
+payment_location_mix,card_location,Discover,Sac State American River Courtyard,2,location_rank_in_card,2.0,524,94,19,,1542.0,995.79,64.5778,,,,Test whether payment-method differences are partly location mix.
+payment_location_mix,card_location,Visa,Sac State American River Courtyard,1,location_rank_in_card,1.0,1083,184,19,,3161.0,2020.34,63.9146,,,,Test whether payment-method differences are partly location mix.
+payment_location_mix,card_location,Visa,Sac State Union,2,location_rank_in_card,2.0,1069,186,20,,3143.0,2030.8,64.6134,,,,Test whether payment-method differences are partly location mix.
+payment_container_mix,card_container,MasterCard,Bottle,,avg_purchase_price,2.9424379232505644,1772,177,22,,5214.0,3272.75,62.7685,,,,Separate payment behavior from can/bottle and price mix.
+payment_container_mix,card_container,American Express,Bottle,,avg_purchase_price,2.9284833538840935,811,91,17,,2375.0,1482.89,62.4375,,,,Separate payment behavior from can/bottle and price mix.
+payment_container_mix,card_container,Discover,Bottle,,avg_purchase_price,2.949313621964097,947,97,18,,2793.0,1754.42,62.8149,,,,Separate payment behavior from can/bottle and price mix.
+payment_container_mix,card_container,Visa,Can,,avg_purchase_price,2.8941176470588235,340,148,6,,984.0,711.56,72.313,,,,Separate payment behavior from can/bottle and price mix.
+payment_container_mix,card_container,MasterCard,Can,,avg_purchase_price,2.834920634920635,315,144,6,,893.0,662.3,74.1657,,,,Separate payment behavior from can/bottle and price mix.
+payment_container_mix,card_container,Discover,Can,,avg_purchase_price,2.875776397515528,161,76,6,,463.0,334.88,72.3283,,,,Separate payment behavior from can/bottle and price mix.
+payment_container_mix,card_container,Visa,Bottle,,avg_purchase_price,2.93598233995585,1812,189,19,,5320.0,3339.58,62.7741,,,,Separate payment behavior from can/bottle and price mix.
+payment_container_mix,card_container,American Express,Can,,avg_purchase_price,2.948051948051948,154,67,6,,454.0,326.75,71.9714,,,,Separate payment behavior from can/bottle and price mix.
+payment_brand_preference,card_brand,MasterCard,IBC,1,brand_rank_in_card,1.0,180,109,1,,540.0,358.2,66.3333,3.0938,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,MasterCard,Fitz's,2,brand_rank_in_card,2.0,178,117,1,,534.0,339.98,63.6667,3.0417,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,MasterCard,Gales,3,brand_rank_in_card,3.0,174,111,1,,478.0,304.0,63.5983,2.7727,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,MasterCard,Sparky's Fresh Draft,4,brand_rank_in_card,4.0,152,102,1,,456.0,211.28,46.3333,3.05,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,MasterCard,Henry Weinhard's,5,brand_rank_in_card,5.0,135,92,1,,405.0,251.1,62.0,3.1111,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,Discover,IBC,1,brand_rank_in_card,1.0,99,62,1,,297.0,197.01,66.3333,3.0938,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,Discover,Fitz's,2,brand_rank_in_card,2.0,91,60,1,,273.0,173.81,63.6667,3.0417,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,Discover,Gales,3,brand_rank_in_card,3.0,80,50,1,,222.0,142.0,63.964,2.7727,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,Discover,Captain Eli's,4,brand_rank_in_card,4.0,75,50,1,,225.0,143.25,63.6667,3.0,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,Discover,Dominion,5,brand_rank_in_card,5.0,75,52,1,,225.0,127.5,56.6667,3.7059,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,Visa,IBC,1,brand_rank_in_card,1.0,184,110,1,,552.0,366.16,66.3333,3.0938,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,Visa,Gales,2,brand_rank_in_card,2.0,173,115,1,,485.0,312.0,64.3299,2.7727,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,Visa,Captain Eli's,3,brand_rank_in_card,3.0,156,105,1,,468.0,297.96,63.6667,3.0,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,Visa,Fitz's,4,brand_rank_in_card,4.0,156,104,1,,468.0,297.96,63.6667,3.0417,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,Visa,Sparky's Fresh Draft,5,brand_rank_in_card,5.0,156,106,1,,468.0,216.84,46.3333,3.05,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,American Express,Gales,1,brand_rank_in_card,1.0,96,61,1,,260.0,164.0,63.0769,2.7727,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,American Express,IBC,2,brand_rank_in_card,2.0,74,52,1,,222.0,147.26,66.3333,3.0938,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,American Express,Sparky's Fresh Draft,3,brand_rank_in_card,3.0,74,56,1,,222.0,102.86,46.3333,3.05,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,American Express,Dominion,4,brand_rank_in_card,4.0,66,51,1,,198.0,112.2,56.6667,3.7059,,,Identify leading brands within each payment method.
+payment_brand_preference,card_brand,American Express,Dog n Suds,5,brand_rank_in_card,5.0,64,44,1,,174.0,115.76,66.5287,3.1176,,,Identify leading brands within each payment method.
+payment_price_band_mix,card_price_band,American Express,low_price,,transactions,33.0,33,24,5,,33.0,4.49,13.6061,,,,Check whether payment method differences are driven by price bands.
+payment_price_band_mix,card_price_band,Discover,low_price,,transactions,34.0,34,27,6,,34.0,9.22,27.1176,,,,Check whether payment method differences are driven by price bands.
+payment_price_band_mix,card_price_band,Visa,premium_price,,transactions,2076.0,2076,189,20,,6228.0,4034.04,64.7726,,,,Check whether payment method differences are driven by price bands.
+payment_price_band_mix,card_price_band,MasterCard,low_price,,transactions,77.0,77,62,6,,77.0,18.82,24.4416,,,,Check whether payment method differences are driven by price bands.
+payment_price_band_mix,card_price_band,American Express,premium_price,,transactions,932.0,932,91,19,,2796.0,1805.15,64.5619,,,,Check whether payment method differences are driven by price bands.
+payment_price_band_mix,card_price_band,Discover,premium_price,,transactions,1074.0,1074,97,19,,3222.0,2080.08,64.5587,,,,Check whether payment method differences are driven by price bands.
+payment_price_band_mix,card_price_band,Visa,low_price,,transactions,76.0,76,65,6,,76.0,17.1,22.5,,,,Check whether payment method differences are driven by price bands.
+payment_price_band_mix,card_price_band,MasterCard,premium_price,,transactions,2010.0,2010,177,23,,6030.0,3916.23,64.9458,,,,Check whether payment method differences are driven by price bands.
+payment_quality_mismatch,credit_card_type,Discover,3,1/3,max_volume_quality_rank_gap,2.0,1108,97,19,,3256.0,2089.3,64.1677,3.0227,17.5539,,Find whether payment-method volume diverges from margin proxy or rating quality.
+payment_quality_mismatch,credit_card_type,American Express,4,2/4,max_volume_quality_rank_gap,2.0,965,91,19,,2829.0,1809.64,63.9675,3.0211,15.2883,,Find whether payment-method volume diverges from margin proxy or rating quality.
+payment_quality_mismatch,credit_card_type,Visa,1,3/2,max_volume_quality_rank_gap,2.0,2152,189,20,,6304.0,4051.14,64.263,3.0173,34.0938,,Find whether payment-method volume diverges from margin proxy or rating quality.
+payment_quality_mismatch,credit_card_type,MasterCard,2,4/1,max_volume_quality_rank_gap,2.0,2087,177,23,,6107.0,3935.05,64.4351,3.0168,33.064,,Find whether payment-method volume diverges from margin proxy or rating quality.

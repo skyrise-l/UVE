@@ -1,0 +1,120 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,complaints,clients,calls,reviews,avg_stars,avg_sent_delay_days,avg_service_seconds,dispute_rate_pct,untimely_rate_pct,no_relief_rate_pct,narrative_rate_pct,share_pct,notes
+yearly_complaint_baseline,year,2011,,,year_order,1.0,164,161,8,,,8.8537,738.125,20.7317,16.4634,42.6829,0.0,0.7003,Track complaint volume and outcome rates by year.
+yearly_complaint_baseline,year,2012,,,year_order,2.0,4122,2915,522,,,4.9694,695.0517,19.2625,7.2052,14.6046,0.0,17.6011,Track complaint volume and outcome rates by year.
+yearly_complaint_baseline,year,2013,,,year_order,3.0,3693,2659,492,,,2.6231,681.8699,18.4944,0.5416,0.0,0.0,15.7692,Track complaint volume and outcome rates by year.
+yearly_complaint_baseline,year,2014,,,year_order,4.0,3760,2695,411,,,2.7364,726.3698,18.3245,0.3723,0.0,0.0,16.0553,Track complaint volume and outcome rates by year.
+yearly_complaint_baseline,year,2015,,,year_order,5.0,4871,3208,472,,,1.7748,698.5445,20.6528,0.0821,0.0,35.1878,20.7994,Track complaint volume and outcome rates by year.
+yearly_complaint_baseline,year,2016,,,year_order,6.0,5432,3482,478,,,1.5477,692.3828,19.919,0.1657,0.0,41.4948,23.1948,Track complaint volume and outcome rates by year.
+yearly_complaint_baseline,year,2017,,,year_order,7.0,1377,1203,121,,,1.313,710.7851,12.0552,0.0,0.0,36.2382,5.8798,Track complaint volume and outcome rates by year.
+yearly_product_mix,year_product,2013,Bank account or service,,product_rank_in_year,1.0,2195,1797,362,,,2.7449,693.1188,15.4442,0.6378,0.0,0.0,9.3727,Show whether product mix changes over time.
+yearly_product_mix,year_product,2013,Credit card,,product_rank_in_year,2.0,1498,1293,130,,,2.4446,650.5462,22.964,0.4005,0.0,0.0,6.3965,Show whether product mix changes over time.
+yearly_product_mix,year_product,2017,Bank account or service,,product_rank_in_year,1.0,885,819,88,,,1.3537,693.7727,11.6384,0.0,0.0,36.1582,3.779,Show whether product mix changes over time.
+yearly_product_mix,year_product,2017,Credit card,,product_rank_in_year,2.0,492,473,33,,,1.2398,756.1515,12.8049,0.0,0.0,36.3821,2.1009,Show whether product mix changes over time.
+yearly_product_mix,year_product,2015,Bank account or service,,product_rank_in_year,1.0,3087,2367,367,,,1.6874,676.5313,17.9786,0.1296,0.0,32.815,13.1816,Show whether product mix changes over time.
+yearly_product_mix,year_product,2015,Credit card,,product_rank_in_year,2.0,1784,1517,105,,,1.926,775.4857,25.2803,0.0,0.0,39.2937,7.6177,Show whether product mix changes over time.
+yearly_product_mix,year_product,2014,Bank account or service,,product_rank_in_year,1.0,2427,1943,309,,,2.7623,718.767,14.8331,0.5768,0.0,0.0,10.3634,Show whether product mix changes over time.
+yearly_product_mix,year_product,2014,Credit card,,product_rank_in_year,2.0,1333,1192,102,,,2.6894,749.402,24.6812,0.0,0.0,0.0,5.692,Show whether product mix changes over time.
+yearly_product_mix,year_product,2011,Credit card,,product_rank_in_year,1.0,164,161,8,,,8.8537,738.125,20.7317,16.4634,42.6829,0.0,0.7003,Show whether product mix changes over time.
+yearly_product_mix,year_product,2012,Credit card,,product_rank_in_year,1.0,2085,1732,197,,,4.799,692.533,20.9592,8.729,19.1847,0.0,8.903,Show whether product mix changes over time.
+yearly_product_mix,year_product,2012,Bank account or service,,product_rank_in_year,2.0,2037,1712,325,,,5.1438,696.5785,17.5258,5.6456,9.9165,0.0,8.6981,Show whether product mix changes over time.
+yearly_product_mix,year_product,2016,Bank account or service,,product_rank_in_year,1.0,3460,2605,354,,,1.4792,711.6723,17.5723,0.1734,0.0,39.2486,14.7743,Show whether product mix changes over time.
+yearly_product_mix,year_product,2016,Credit card,,product_rank_in_year,2.0,1972,1673,124,,,1.6678,637.3145,24.0365,0.1521,0.0,45.4361,8.4205,Show whether product mix changes over time.
+yearly_issue_mix,year_issue,2013,"Account opening, closing, or management",,issue_rank_in_year,1.0,962,876,172,,,3.4678,680.8372,16.736,0.8316,0.0,0.0,4.1078,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2013,Deposits and withdrawals,,issue_rank_in_year,2.0,602,572,114,,,2.2375,717.2719,16.4452,0.3322,0.0,0.0,2.5706,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2013,Problems caused by my funds being low,,issue_rank_in_year,3.0,287,280,35,,,2.1289,686.3714,11.4983,0.6969,0.0,0.0,1.2255,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2013,Billing disputes,,issue_rank_in_year,4.0,277,268,30,,,3.5054,664.4667,22.3827,0.361,0.0,0.0,1.1828,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2013,"Making/receiving payments, sending money",,issue_rank_in_year,5.0,186,180,24,,,2.4247,725.7083,12.3656,0.5376,0.0,0.0,0.7942,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2017,"Account opening, closing, or management",,issue_rank_in_year,1.0,368,357,46,,,1.3505,747.8043,13.3152,0.0,0.0,30.4348,1.5714,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2017,Deposits and withdrawals,,issue_rank_in_year,2.0,224,221,23,,,1.4464,669.7826,8.9286,0.0,0.0,35.2679,0.9565,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2017,Problems caused by my funds being low,,issue_rank_in_year,3.0,122,120,6,,,1.5902,705.8333,9.8361,0.0,0.0,42.623,0.5209,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2017,Billing disputes,,issue_rank_in_year,4.0,96,96,5,,,0.9896,998.2,18.75,0.0,0.0,41.6667,0.4099,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2017,"Making/receiving payments, sending money",,issue_rank_in_year,5.0,87,87,6,,,1.5747,680.5,12.6437,0.0,0.0,36.7816,0.3715,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2015,"Account opening, closing, or management",,issue_rank_in_year,1.0,1245,1116,171,,,1.7952,669.6082,19.2771,0.1606,0.0,29.0763,5.3162,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2015,Deposits and withdrawals,,issue_rank_in_year,2.0,779,730,101,,,1.8549,673.8614,17.0732,0.1284,0.0,29.525,3.3264,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2015,Problems caused by my funds being low,,issue_rank_in_year,3.0,487,462,40,,,1.3901,721.75,14.3737,0.0,0.0,42.9158,2.0795,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2015,"Making/receiving payments, sending money",,issue_rank_in_year,4.0,295,286,31,,,1.5492,634.1613,20.0,0.339,0.0,30.5085,1.2597,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2015,Using a debit or ATM card,,issue_rank_in_year,5.0,281,278,24,,,1.4057,716.4583,18.8612,0.0,0.0,43.4164,1.1999,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2014,"Account opening, closing, or management",,issue_rank_in_year,1.0,1021,940,137,,,2.9922,722.7007,18.1195,0.7835,0.0,0.0,4.3597,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2014,Deposits and withdrawals,,issue_rank_in_year,2.0,687,642,107,,,3.0946,734.5234,13.8282,0.5822,0.0,0.0,2.9335,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2014,Problems caused by my funds being low,,issue_rank_in_year,3.0,360,348,21,,,1.8028,738.5714,7.2222,0.0,0.0,0.0,1.5372,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2014,Billing disputes,,issue_rank_in_year,4.0,210,202,17,,,3.1857,704.9412,30.9524,0.0,0.0,0.0,0.8967,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2014,Other,,issue_rank_in_year,5.0,183,182,19,,,3.4426,809.0,29.5082,0.0,0.0,0.0,0.7814,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2011,Billing disputes,,issue_rank_in_year,1.0,24,24,2,,,3.625,822.0,29.1667,16.6667,58.3333,0.0,0.1025,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2011,Other,,issue_rank_in_year,2.0,13,13,2,,,16.2308,651.5,38.4615,15.3846,38.4615,0.0,0.0555,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2011,APR or interest rate,,issue_rank_in_year,3.0,12,12,1,,,6.5833,121.0,16.6667,0.0,50.0,0.0,0.0512,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2011,Identity theft / Fraud / Embezzlement,,issue_rank_in_year,4.0,12,12,0,,,22.5,,0.0,33.3333,58.3333,0.0,0.0512,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2011,Credit reporting,,issue_rank_in_year,5.0,11,11,0,,,2.3636,,27.2727,18.1818,45.4545,0.0,0.047,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2012,"Account opening, closing, or management",,issue_rank_in_year,1.0,834,767,140,,,5.0024,696.5429,18.8249,5.3957,9.2326,0.0,3.5612,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2012,Deposits and withdrawals,,issue_rank_in_year,2.0,589,564,116,,,5.7063,687.0776,17.8268,7.1307,11.0357,0.0,2.5151,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2012,Billing disputes,,issue_rank_in_year,3.0,308,299,38,,,5.0519,660.6579,21.4286,8.1169,17.5325,0.0,1.3152,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2012,Problems caused by my funds being low,,issue_rank_in_year,4.0,292,284,35,,,4.0137,747.8286,11.6438,1.7123,7.5342,0.0,1.2469,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2012,"Making/receiving payments, sending money",,issue_rank_in_year,5.0,193,189,21,,,6.9378,743.1905,19.171,9.8446,11.9171,0.0,0.8241,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2016,"Account opening, closing, or management",,issue_rank_in_year,1.0,1454,1284,191,,,1.7985,699.7173,18.9133,0.1376,0.0,34.5942,6.2086,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2016,Deposits and withdrawals,,issue_rank_in_year,2.0,907,842,108,,,1.4498,710.3426,16.538,0.1103,0.0,34.1786,3.8729,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2016,Problems caused by my funds being low,,issue_rank_in_year,3.0,493,474,24,,,1.0507,747.8333,11.7647,0.2028,0.0,47.8702,2.1051,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2016,Billing disputes,,issue_rank_in_year,4.0,365,356,29,,,1.8438,618.8966,30.137,0.0,0.0,39.726,1.5586,Show leading issue types in each year.
+yearly_issue_mix,year_issue,2016,"Making/receiving payments, sending money",,issue_rank_in_year,5.0,305,300,17,,,1.341,736.0588,22.9508,0.3279,0.0,46.2295,1.3024,Show leading issue types in each year.
+yearly_channel_mix,year_channel,2013,Web,,channel_rank_in_year,1.0,1823,1554,0,,,1.8738,,19.4734,0.768,0.0,0.0,7.7843,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2013,Referral,,channel_rank_in_year,2.0,1066,971,0,,,3.3246,,15.3846,0.469,0.0,0.0,4.5519,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2013,Phone,,channel_rank_in_year,3.0,492,471,492,,,2.8313,681.8699,17.4797,0.0,0.0,0.0,2.1009,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2013,Postal mail,,channel_rank_in_year,4.0,243,236,0,,,3.3951,,21.8107,0.4115,0.0,0.0,1.0376,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2013,Fax,,channel_rank_in_year,5.0,69,68,0,,,7.3768,,36.2319,0.0,0.0,0.0,0.2946,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2017,Web,,channel_rank_in_year,1.0,885,814,0,,,0.6056,,14.0113,0.0,0.0,56.3842,3.779,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2017,Referral,,channel_rank_in_year,2.0,308,306,0,,,3.0195,,10.0649,0.0,0.0,0.0,1.3152,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2017,Phone,,channel_rank_in_year,3.0,121,121,121,,,1.0248,710.7851,7.438,0.0,0.0,0.0,0.5167,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2017,Postal mail,,channel_rank_in_year,4.0,51,51,0,,,3.6471,,1.9608,0.0,0.0,0.0,0.2178,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2017,Fax,,channel_rank_in_year,5.0,12,12,0,,,2.6667,,8.3333,0.0,0.0,0.0,0.0512,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2015,Web,,channel_rank_in_year,1.0,3062,2343,0,,,0.839,,23.6447,0.1306,0.0,55.9765,13.0749,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2015,Referral,,channel_rank_in_year,2.0,1102,996,0,,,3.5871,,14.4283,0.0,0.0,0.0,4.7056,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2015,Phone,,channel_rank_in_year,3.0,472,453,472,,,1.7119,698.5445,14.6186,0.0,0.0,0.0,2.0155,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2015,Postal mail,,channel_rank_in_year,4.0,180,179,0,,,5.7111,,22.2222,0.0,0.0,0.0,0.7686,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2015,Fax,,channel_rank_in_year,5.0,55,55,0,,,5.2182,,25.4545,0.0,0.0,0.0,0.2349,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2014,Web,,channel_rank_in_year,1.0,2117,1761,0,,,1.1757,,20.0283,0.2834,0.0,0.0,9.0397,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2014,Referral,,channel_rank_in_year,2.0,947,855,0,,,4.6484,,14.2555,0.3168,0.0,0.0,4.0437,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2014,Phone,,channel_rank_in_year,3.0,411,396,411,,,4.4818,726.3698,14.8418,0.9732,0.0,0.0,1.755,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2014,Postal mail,,channel_rank_in_year,4.0,223,218,0,,,5.4888,,22.4215,0.4484,0.0,0.0,0.9522,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2014,Fax,,channel_rank_in_year,5.0,61,61,0,,,5.3443,,31.1475,0.0,0.0,0.0,0.2605,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2011,Referral,,channel_rank_in_year,1.0,76,75,0,,,10.8816,,14.4737,21.0526,40.7895,0.0,0.3245,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2011,Web,,channel_rank_in_year,2.0,74,73,0,,,6.5,,25.6757,10.8108,47.2973,0.0,0.316,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2011,Phone,,channel_rank_in_year,3.0,8,8,8,,,4.25,738.125,25.0,25.0,12.5,0.0,0.0342,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2011,Postal mail,,channel_rank_in_year,4.0,5,5,0,,,5.2,,40.0,20.0,40.0,0.0,0.0214,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2011,Email,,channel_rank_in_year,5.0,1,1,0,,,84.0,,0.0,0.0,100.0,0.0,0.0043,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2012,Web,,channel_rank_in_year,1.0,1747,1501,0,,,3.7602,,20.664,6.9834,15.8558,0.0,7.4598,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2012,Referral,,channel_rank_in_year,2.0,1652,1425,0,,,6.2409,,15.4964,7.4455,13.5593,0.0,7.0541,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2012,Phone,,channel_rank_in_year,3.0,522,500,522,,,5.6992,695.0517,23.3716,7.2797,15.9004,0.0,2.229,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2012,Postal mail,,channel_rank_in_year,4.0,162,160,0,,,3.0617,,24.6914,6.1728,9.2593,0.0,0.6917,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2012,Fax,,channel_rank_in_year,5.0,33,33,0,,,3.9697,,45.4545,12.1212,3.0303,0.0,0.1409,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2016,Web,,channel_rank_in_year,1.0,3527,2623,0,,,0.8772,,21.945,0.1134,0.0,63.907,15.0604,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2016,Referral,,channel_rank_in_year,2.0,1152,1056,0,,,3.0434,,17.6215,0.1736,0.0,0.0,4.9191,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2016,Phone,,channel_rank_in_year,3.0,478,458,478,,,1.2992,692.3828,13.1799,0.6276,0.0,0.0,2.0411,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2016,Postal mail,,channel_rank_in_year,4.0,207,203,0,,,4.314,,12.5604,0.0,0.0,0.0,0.8839,Show intake channel mix by year.
+yearly_channel_mix,year_channel,2016,Fax,,channel_rank_in_year,5.0,68,68,0,,,4.3088,,23.5294,0.0,0.0,0.0,0.2904,Show intake channel mix by year.
+monthly_seasonality,month,3,,,month_volume_rank,1.0,2242,1832,246,,,2.5415,704.7236,17.0384,0.8475,6.5566,15.7003,9.5734,Compare month-level complaint seasonality.
+monthly_seasonality,month,1,,,month_volume_rank,2.0,2095,1756,171,,,2.5652,673.2398,17.0406,1.2888,4.0573,19.6659,8.9457,Compare month-level complaint seasonality.
+monthly_seasonality,month,10,,,month_volume_rank,3.0,1986,1657,197,,,2.148,725.1066,20.3927,1.0574,0.0,19.7885,8.4803,Compare month-level complaint seasonality.
+monthly_seasonality,month,5,,,month_volume_rank,4.0,1981,1643,210,,,3.32,728.1381,18.1222,4.4422,5.9566,17.3145,8.4589,Compare month-level complaint seasonality.
+monthly_seasonality,month,6,,,month_volume_rank,5.0,1967,1661,214,,,2.6782,697.3551,20.8948,0.7626,0.0,19.2171,8.3992,Compare month-level complaint seasonality.
+monthly_seasonality,month,2,,,month_volume_rank,6.0,1958,1630,208,,,2.2988,692.6106,17.5689,0.8172,4.0858,16.8539,8.3607,Compare month-level complaint seasonality.
+monthly_seasonality,month,8,,,month_volume_rank,7.0,1941,1615,211,,,2.8114,717.6445,19.3199,1.7517,0.0,20.0412,8.2881,Compare month-level complaint seasonality.
+monthly_seasonality,month,7,,,month_volume_rank,8.0,1916,1608,236,,,2.8038,639.7246,19.3111,1.0438,0.0,17.9541,8.1814,Compare month-level complaint seasonality.
+monthly_seasonality,month,9,,,month_volume_rank,9.0,1916,1639,201,,,2.453,708.3284,20.7203,0.5741,0.0522,21.7641,8.1814,Compare month-level complaint seasonality.
+monthly_seasonality,month,4,,,month_volume_rank,10.0,1889,1569,242,,,2.6887,697.595,19.9047,2.541,9.0524,19.2165,8.0661,Compare month-level complaint seasonality.
+monthly_seasonality,month,12,,,month_volume_rank,11.0,1860,1589,199,,,2.6414,709.794,18.9247,3.2258,3.7634,19.6237,7.9423,Compare month-level complaint seasonality.
+monthly_seasonality,month,11,,,month_volume_rank,12.0,1668,1431,169,,,2.1385,692.5444,19.5444,0.7194,0.0,22.8417,7.1224,Compare month-level complaint seasonality.
+yearly_review_signal,year_review_product,2013,Eagle National Mortgage,,review_product_rank_in_year,1.0,,,,23,4.4783,,,,,,,,Compare public review timing with complaint timing.
+yearly_review_signal,year_review_product,2013,Eagle National Bank,,review_product_rank_in_year,2.0,,,,9,3.2222,,,,,,,,Compare public review timing with complaint timing.
+yearly_review_signal,year_review_product,2013,Eagle Capital,,review_product_rank_in_year,3.0,,,,3,5.0,,,,,,,,Compare public review timing with complaint timing.
+yearly_review_signal,year_review_product,2019,Eagle National Bank,,review_product_rank_in_year,1.0,,,,20,4.2,,,,,,,,Compare public review timing with complaint timing.
+yearly_review_signal,year_review_product,2019,Eagle Capital,,review_product_rank_in_year,2.0,,,,1,5.0,,,,,,,,Compare public review timing with complaint timing.
+yearly_review_signal,year_review_product,2017,Eagle National Bank,,review_product_rank_in_year,1.0,,,,35,4.5429,,,,,,,,Compare public review timing with complaint timing.
+yearly_review_signal,year_review_product,2017,Eagle National Mortgage,,review_product_rank_in_year,2.0,,,,34,4.6471,,,,,,,,Compare public review timing with complaint timing.
+yearly_review_signal,year_review_product,2017,Eagle Capital,,review_product_rank_in_year,3.0,,,,5,5.0,,,,,,,,Compare public review timing with complaint timing.
+yearly_review_signal,year_review_product,2015,Eagle National Mortgage,,review_product_rank_in_year,1.0,,,,33,4.3939,,,,,,,,Compare public review timing with complaint timing.
+yearly_review_signal,year_review_product,2015,Eagle National Bank,,review_product_rank_in_year,2.0,,,,18,3.4444,,,,,,,,Compare public review timing with complaint timing.
+yearly_review_signal,year_review_product,2014,Eagle National Mortgage,,review_product_rank_in_year,1.0,,,,48,4.3333,,,,,,,,Compare public review timing with complaint timing.
+yearly_review_signal,year_review_product,2014,Eagle National Bank,,review_product_rank_in_year,2.0,,,,12,3.3333,,,,,,,,Compare public review timing with complaint timing.
+yearly_review_signal,year_review_product,2018,Eagle National Mortgage,,review_product_rank_in_year,1.0,,,,30,4.6333,,,,,,,,Compare public review timing with complaint timing.
+yearly_review_signal,year_review_product,2018,Eagle National Bank,,review_product_rank_in_year,2.0,,,,26,4.3846,,,,,,,,Compare public review timing with complaint timing.
+yearly_review_signal,year_review_product,2016,Eagle National Mortgage,,review_product_rank_in_year,1.0,,,,44,4.7273,,,,,,,,Compare public review timing with complaint timing.
+yearly_review_signal,year_review_product,2016,Eagle National Bank,,review_product_rank_in_year,2.0,,,,33,4.0606,,,,,,,,Compare public review timing with complaint timing.
+yearly_review_signal,year_review_product,2016,Eagle Capital,,review_product_rank_in_year,3.0,,,,3,5.0,,,,,,,,Compare public review timing with complaint timing.

@@ -1,0 +1,45 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,businesses,reviews,tips,checkin_slots,avg_business_stars,avg_review_stars,useful_vote_rate_pct,long_review_rate_pct,long_tip_rate_pct,share_pct,notes
+engagement_coverage_baseline,engagement_bucket,reviews_tips_checkins,,,engagement_bucket_rank,1,9603,294755,86142,383063,3.6317,3.6289,50.9779,16.9956,6.7057,61.6169,"coverage of review, tip, and check-in signals at business level"
+engagement_coverage_baseline,engagement_bucket,reviews_only,,,engagement_bucket_rank,2,3276,14408,0,0,3.8129,3.807,45.6647,19.328,0.0,21.0202,"coverage of review, tip, and check-in signals at business level"
+engagement_coverage_baseline,engagement_bucket,reviews_and_checkins,,,engagement_bucket_rank,3,1831,9261,0,20638,3.6374,3.6068,48.1762,17.7993,0.0,11.7485,"coverage of review, tip, and check-in signals at business level"
+engagement_coverage_baseline,engagement_bucket,reviews_and_tips,,,engagement_bucket_rank,4,869,4482,1014,0,3.7071,3.693,49.6146,17.8455,11.2198,5.5759,"coverage of review, tip, and check-in signals at business level"
+engagement_coverage_baseline,engagement_bucket,no_linked_activity,,,engagement_bucket_rank,5,5,0,0,0,4.9,,0.0,0.0,0.0,0.0321,"coverage of review, tip, and check-in signals at business level"
+engagement_coverage_baseline,engagement_bucket,non_review_activity_only,,,engagement_bucket_rank,6,1,0,1,0,5.0,,0.0,0.0,0.0,0.0064,"coverage of review, tip, and check-in signals at business level"
+star_engagement_gradient,star_bucket,4.5_to_5_star,,,star_bucket_rank,1,4322,59211,13960,68070,4.7313,4.6922,45.6078,14.1518,4.1305,27.7318,whether higher star buckets also carry more engagement signals
+star_engagement_gradient,star_bucket,4.0_to_4.49_star,,,star_bucket_rank,2,3425,126718,34180,125904,4.0,3.9899,50.9208,16.9419,4.9131,21.9763,whether higher star buckets also carry more engagement signals
+star_engagement_gradient,star_bucket,3.0_to_3.99_star,,,star_bucket_rank,3,5427,119849,34400,171334,3.3122,3.3282,50.2564,18.7495,5.0325,34.8219,whether higher star buckets also carry more engagement signals
+star_engagement_gradient,star_bucket,below_3_star,,,star_bucket_rank,4,2411,17128,4617,38393,2.1373,2.1379,52.3441,22.2658,5.0411,15.47,whether higher star buckets also carry more engagement signals
+category_engagement,category,Restaurants,,,category_business_rank,1,5556,224732,58465,202016,3.4591,3.4522,51.303,17.2717,5.4741,35.6497,category-level engagement and rating comparison
+category_engagement,category,Shopping,,,category_business_rank,2,2499,20492,6015,55892,3.6897,3.6689,50.8237,15.9771,3.7823,16.0346,category-level engagement and rating comparison
+category_engagement,category,Food,,,category_business_rank,3,2091,46292,15356,86150,3.7637,3.7586,51.6093,14.2899,4.6282,13.4167,category-level engagement and rating comparison
+category_engagement,category,Beauty & Spas,,,category_business_rank,4,1109,8719,1780,14316,3.9504,3.9461,43.0796,14.8529,5.7841,7.1158,category-level engagement and rating comparison
+category_engagement,category,Automotive,,,category_business_rank,5,859,5361,1338,11942,3.7806,3.7811,42.6812,14.8337,7.4751,5.5117,category-level engagement and rating comparison
+category_engagement,category,Mexican,,,category_business_rank,6,822,28201,7141,29787,3.5146,3.5165,49.9067,15.9705,5.18,5.2743,category-level engagement and rating comparison
+category_engagement,category,Health & Medical,,,category_business_rank,7,815,3783,541,4880,3.9417,3.9375,41.3207,22.5253,4.6454,5.2294,category-level engagement and rating comparison
+category_engagement,category,Home Services,,,category_business_rank,8,761,3497,291,4179,3.6439,3.6228,47.0092,22.9416,3.5525,4.8829,category-level engagement and rating comparison
+category_engagement,category,Nightlife,,,category_business_rank,9,752,42268,12135,33401,3.5419,3.5333,57.3153,21.506,4.7256,4.8252,category-level engagement and rating comparison
+category_engagement,category,Fashion,,,category_business_rank,10,701,5901,1875,18931,3.674,3.6623,53.1775,15.2532,2.7876,4.4979,category-level engagement and rating comparison
+category_engagement,category,Active Life,,,category_business_rank,11,695,7958,2356,21992,4.0719,4.0671,52.9388,22.1695,4.2203,4.4594,category-level engagement and rating comparison
+category_engagement,category,Bars,,,category_business_rank,12,628,38294,10887,30212,3.5295,3.5189,56.4899,21.0647,5.1307,4.0295,category-level engagement and rating comparison
+category_engagement,category,Sandwiches,,,category_business_rank,13,609,21543,5587,21786,3.5624,3.547,48.5342,14.5708,4.8622,3.9076,category-level engagement and rating comparison
+category_engagement,category,American (Traditional),,,category_business_rank,14,607,26792,8338,29049,3.3517,3.3434,50.9603,18.4909,5.6311,3.8948,category-level engagement and rating comparison
+category_engagement,category,Fast Food,,,category_business_rank,15,599,6680,2764,19069,3.0726,3.0442,46.9221,11.2131,4.6645,3.8434,category-level engagement and rating comparison
+category_engagement,category,Pizza,,,category_business_rank,16,589,23544,5515,17866,3.3956,3.3887,48.9184,14.6935,6.1551,3.7793,category-level engagement and rating comparison
+category_engagement,category,Event Planning & Services,,,category_business_rank,17,588,9597,2292,15552,3.6726,3.648,47.417,23.6312,5.8485,3.7729,category-level engagement and rating comparison
+category_engagement,category,Local Services,,,category_business_rank,18,540,3051,520,4289,3.8463,3.8419,43.661,14.9567,3.8553,3.4649,category-level engagement and rating comparison
+category_engagement,category,Hotels & Travel,,,category_business_rank,19,495,10197,2724,14940,3.403,3.3899,49.818,24.7161,7.1245,3.1761,category-level engagement and rating comparison
+category_engagement,category,American (New),,,category_business_rank,20,441,34085,9032,21011,3.6383,3.627,53.773,22.3897,6.0098,2.8296,category-level engagement and rating comparison
+user_activity_overlay,reviewer_review_count_label,Medium,,,reviewer_label_order,2,12305,97176,,,3.7887,3.8151,47.804,17.3561,,30.0942,reviewer activity label compared with review stars and review vote signals
+user_activity_overlay,reviewer_review_count_label,Uber,,,reviewer_label_order,4,10107,57263,,,3.7278,3.7241,74.0042,30.6027,,17.7336,reviewer activity label compared with review stars and review vote signals
+user_activity_overlay,reviewer_review_count_label,High,,,reviewer_label_order,3,11337,84983,,,3.7598,3.7832,60.7404,23.3376,,26.3182,reviewer activity label compared with review stars and review vote signals
+user_activity_overlay,reviewer_review_count_label,Low,,,reviewer_label_order,1,12660,83484,,,3.8161,3.777,38.175,13.6361,,25.854,reviewer activity label compared with review stars and review vote signals
+tip_like_signal,tip_length_likes,Medium,zero_likes,,tip_group_rank,1,9632,,65744,,3.7486,,,,0.0,75.4317,tip length and like presence as lightweight engagement signal
+tip_like_signal,tip_length_likes,Short,zero_likes,,tip_group_rank,2,5103,,15967,,3.7288,,,,0.0,18.3198,tip length and like presence as lightweight engagement signal
+tip_like_signal,tip_length_likes,Long,zero_likes,,tip_group_rank,3,2885,,4724,,3.7188,,,,100.0,5.4201,tip length and like presence as lightweight engagement signal
+tip_like_signal,tip_length_likes,Medium,has_likes,,tip_group_rank,4,496,,558,,3.7697,,,,0.0,0.6402,tip length and like presence as lightweight engagement signal
+tip_like_signal,tip_length_likes,Long,has_likes,,tip_group_rank,5,108,,112,,3.7455,,,,100.0,0.1285,tip length and like presence as lightweight engagement signal
+tip_like_signal,tip_length_likes,Short,has_likes,,tip_group_rank,6,51,,52,,3.7212,,,,0.0,0.0597,tip length and like presence as lightweight engagement signal
+checkin_daypart_signal,daypart,afternoon,,,daypart_rank,1,11262,,,187469,3.6633,,,,,43.6322,check-in timing intensity by broad daypart
+checkin_daypart_signal,daypart,evening,,,daypart_rank,2,10198,,,136611,3.6431,,,,,31.7954,check-in timing intensity by broad daypart
+checkin_daypart_signal,daypart,morning,,,daypart_rank,3,9577,,,76659,3.6641,,,,,17.8419,check-in timing intensity by broad daypart
+checkin_daypart_signal,daypart,late_night,,,daypart_rank,4,5458,,,28918,3.5746,,,,,6.7305,check-in timing intensity by broad daypart

@@ -1,0 +1,359 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,order_count,line_count,total_order_value,avg_order_value,history_rows,status_count,min_status_id,max_status_id,delivered_orders,cancelled_orders,returned_orders,share_pct,secondary_value,notes
+latest_status_profile,latest_status,Delivered,,,latest_status_order_rank,1.0,3433,3433,34481.85,10.0442,4.0387,4.0387,,,3433,0,133,45.4702,,Latest observed status distribution.
+latest_status_profile,latest_status,Pending Delivery,,,latest_status_order_rank,2.0,2800,2800,27908.5,9.9673,2.0,2.0,,,0,0,0,37.0861,,Latest observed status distribution.
+latest_status_profile,latest_status,Delivery In Progress,,,latest_status_order_rank,3.0,500,500,4728.7,9.4574,3.0,3.0,,,0,0,0,6.6225,,Latest observed status distribution.
+latest_status_profile,latest_status,Order Received,,,latest_status_order_rank,4.0,448,448,4546.75,10.149,1.0,1.0,,,0,0,0,5.9338,,Latest observed status distribution.
+latest_status_profile,latest_status,Cancelled,,,latest_status_order_rank,5.0,300,300,3018.07,10.0602,2.0,2.0,,,0,300,0,3.9735,,Latest observed status distribution.
+latest_status_profile,latest_status,Returned,,,latest_status_order_rank,6.0,67,67,754.67,11.2637,5.0,5.0,,,67,0,67,0.8874,,Latest observed status distribution.
+latest_status_profile,latest_status,no_history,,,latest_status_order_rank,7.0,2,2,11.68,5.84,0.0,0.0,,,0,0,0,0.0265,,Latest observed status distribution.
+lifecycle_by_country,country_lifecycle,Afghanistan,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,31,31,321.74,10.3787,2.0645,2.0645,,,0,0,0,57.4074,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Albania,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,12,12,137.46,11.455,2.3333,2.3333,,,0,0,0,54.5455,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Argentina,delivered_path,,lifecycle_rank_within_country,1.0,12,12,155.61,12.9675,4.0,4.0,,,12,0,0,48.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Armenia,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,45,45,476.34,10.5853,1.8889,1.8889,,,0,0,0,48.3871,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Australia,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,6,6,28.61,4.7683,2.0,2.0,,,0,0,0,66.6667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Azerbaijan,delivered_path,,lifecycle_rank_within_country,1.0,19,19,166.34,8.7547,4.0,4.0,,,19,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Bangladesh,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,13,13,160.02,12.3092,2.0,2.0,,,0,0,0,61.9048,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Belarus,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,22,22,257.1,11.6864,2.0,2.0,,,0,0,0,44.898,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Bhutan,delivered_path,,lifecycle_rank_within_country,1.0,16,16,181.22,11.3263,4.0,4.0,,,16,0,0,53.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Brazil,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,165,165,1673.67,10.1435,2.0182,2.0182,,,0,0,0,49.5495,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Bulgaria,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,1,1,7.38,7.38,2.0,2.0,,,0,0,0,100.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Burkina Faso,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,10,10,111.22,11.122,2.2,2.2,,,0,0,0,71.4286,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Cameroon,delivered_path,,lifecycle_rank_within_country,1.0,18,18,167.02,9.2789,4.0,4.0,,,18,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Canada,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,44,44,502.57,11.422,2.0455,2.0455,,,0,0,0,48.8889,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,China,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,586,586,5842.84,9.9707,2.029,2.029,,,0,0,0,49.8299,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Colombia,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,66,66,652.6,9.8879,2.0303,2.0303,,,0,0,0,50.3817,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Comoros,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,11,11,111.23,10.1118,2.0909,2.0909,,,0,0,0,84.6154,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Costa Rica,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,32,32,306.66,9.5831,1.8438,1.8438,,,0,0,0,53.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Croatia,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,9,9,96.97,10.7744,2.0,2.0,,,0,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Cuba,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,2,2,30.47,15.235,2.0,2.0,,,0,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Cyprus,delivered_path,,lifecycle_rank_within_country,1.0,3,3,15.79,5.2633,4.0,4.0,,,3,0,0,75.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Czech Republic,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,63,63,657.7,10.4397,2.0317,2.0317,,,0,0,0,48.0916,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Democratic Republic of the Congo,delivered_path,,lifecycle_rank_within_country,1.0,23,23,266.81,11.6004,4.0,4.0,,,23,0,0,54.7619,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Denmark,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,1,1,14.5,14.5,1.0,1.0,,,0,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ecuador,delivered_path,,lifecycle_rank_within_country,1.0,36,36,379.64,10.5456,4.0,4.0,,,36,0,0,57.1429,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Egypt,delivered_path,,lifecycle_rank_within_country,1.0,3,3,32.31,10.77,4.0,4.0,,,3,0,0,60.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ethiopia,delivered_path,,lifecycle_rank_within_country,1.0,3,3,18.86,6.2867,4.0,4.0,,,3,0,0,75.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Finland,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,9,9,78.37,8.7078,1.8889,1.8889,,,0,0,0,64.2857,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,France,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,105,105,996.07,9.4864,2.0286,2.0286,,,0,0,0,50.2392,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Georgia,delivered_path,,lifecycle_rank_within_country,1.0,4,4,32.75,8.1875,4.0,4.0,,,4,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Germany,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,10,10,131.48,13.148,1.8,1.8,,,0,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ghana,delivered_path,,lifecycle_rank_within_country,1.0,12,12,149.59,12.4658,4.0,4.0,,,12,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Greece,delivered_path,,lifecycle_rank_within_country,1.0,17,17,175.3,10.3118,4.0,4.0,,,17,0,0,47.2222,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Guatemala,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,53,53,576.93,10.8855,1.9434,1.9434,,,0,0,0,45.6897,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Guinea,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,16,16,157.49,9.8431,2.0,2.0,,,0,0,0,66.6667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Haiti,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,41,41,475.65,11.6012,1.9756,1.9756,,,0,0,0,46.5909,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Honduras,delivered_path,,lifecycle_rank_within_country,1.0,14,14,131.54,9.3957,4.0,4.0,,,14,0,0,46.6667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Hungary,delivered_path,,lifecycle_rank_within_country,1.0,9,9,90.46,10.0511,4.0,4.0,,,9,0,0,52.9412,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Indonesia,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,480,480,4777.76,9.9537,2.0104,2.0104,,,0,0,0,48.2412,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Iran,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,43,43,397.61,9.2467,2.0233,2.0233,,,0,0,0,52.439,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ireland,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,13,13,106.68,8.2062,2.0769,2.0769,,,0,0,0,48.1481,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ivory Coast,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,1,1,14.52,14.52,2.0,2.0,,,0,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Japan,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,63,63,563.0,8.9365,2.0159,2.0159,,,0,0,0,52.9412,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Kazakhstan,delivered_path,,lifecycle_rank_within_country,1.0,3,3,26.26,8.7533,4.0,4.0,,,3,0,0,75.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Kenya,delivered_path,,lifecycle_rank_within_country,1.0,21,21,197.83,9.4205,4.0,4.0,,,21,0,0,53.8462,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Kosovo,delivered_path,,lifecycle_rank_within_country,1.0,1,1,17.06,17.06,4.0,4.0,,,1,0,0,100.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Kyrgyzstan,delivered_path,,lifecycle_rank_within_country,1.0,2,2,12.78,6.39,4.0,4.0,,,2,0,0,66.6667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Latvia,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,2,2,16.37,8.185,2.0,2.0,,,0,0,0,66.6667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Lesotho,delivered_path,,lifecycle_rank_within_country,1.0,1,1,13.05,13.05,4.0,4.0,,,1,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Libya,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,12,12,152.84,12.7367,2.0,2.0,,,0,0,0,48.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Luxembourg,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,2,2,10.16,5.08,2.5,2.5,,,0,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Macedonia,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,16,16,133.54,8.3463,1.9375,1.9375,,,0,0,0,57.1429,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Madagascar,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,22,22,191.67,8.7123,1.9091,1.9091,,,0,0,0,48.8889,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Malaysia,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,10,10,73.23,7.323,2.1,2.1,,,0,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Mali,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,14,14,135.66,9.69,1.8571,1.8571,,,0,0,0,48.2759,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Malta,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,2,2,18.99,9.495,2.5,2.5,,,0,0,0,66.6667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Mexico,delivered_path,,lifecycle_rank_within_country,1.0,30,30,337.71,11.257,4.0,4.0,,,30,0,0,47.619,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Micronesia,delivered_path,,lifecycle_rank_within_country,1.0,5,5,54.4,10.88,4.0,4.0,,,5,0,0,62.5,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Moldova,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,3,3,30.09,10.03,1.6667,1.6667,,,0,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Mongolia,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,2,2,18.73,9.365,2.0,2.0,,,0,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Montenegro,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,4,4,36.35,9.0875,2.0,2.0,,,0,0,0,66.6667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Morocco,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,17,17,125.05,7.3559,2.1765,2.1765,,,0,0,0,47.2222,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Myanmar,delivered_path,,lifecycle_rank_within_country,1.0,25,25,251.57,10.0628,4.0,4.0,,,25,0,0,59.5238,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Nepal,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,7,7,48.85,6.9786,1.7143,1.7143,,,0,0,0,58.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Netherlands,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,20,20,204.6,10.23,1.9,1.9,,,0,0,0,52.6316,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,New Zealand,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,12,12,129.91,10.8258,2.1667,2.1667,,,0,0,0,66.6667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Nigeria,delivered_path,,lifecycle_rank_within_country,1.0,33,33,337.61,10.2306,4.0,4.0,,,33,0,0,58.9286,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Norway,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,24,24,201.78,8.4075,1.9583,1.9583,,,0,0,0,55.814,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Pakistan,delivered_path,,lifecycle_rank_within_country,1.0,51,51,538.02,10.5494,4.0,4.0,,,51,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Palestine,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,1,1,0.84,0.84,1.0,1.0,,,0,0,0,100.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Panama,delivered_path,,lifecycle_rank_within_country,1.0,4,4,37.95,9.4875,4.0,4.0,,,4,0,0,33.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Peru,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,126,126,1349.63,10.7113,1.9444,1.9444,,,0,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Philippines,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,172,172,1746.44,10.1537,2.0058,2.0058,,,0,0,0,51.497,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Poland,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,164,164,1623.43,9.899,2.0488,2.0488,,,0,0,0,50.6173,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Portugal,delivered_path,,lifecycle_rank_within_country,1.0,122,122,1162.78,9.531,4.0,4.0,,,122,0,0,47.1042,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Russia,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,269,269,2553.75,9.4935,2.0112,2.0112,,,0,0,0,52.7451,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Rwanda,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,4,4,55.66,13.915,2.25,2.25,,,0,0,0,66.6667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Samoa,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,6,6,62.97,10.495,2.3333,2.3333,,,0,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Serbia,delivered_path,,lifecycle_rank_within_country,1.0,19,19,237.92,12.5221,4.0,4.0,,,19,0,0,52.7778,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Sierra Leone,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,15,15,153.12,10.208,2.0667,2.0667,,,0,0,0,62.5,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Slovakia,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,6,6,39.28,6.5467,2.3333,2.3333,,,0,0,0,75.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Slovenia,delivered_path,,lifecycle_rank_within_country,1.0,11,11,74.44,6.7673,4.0,4.0,,,11,0,0,52.381,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,South Africa,delivered_path,,lifecycle_rank_within_country,1.0,16,16,113.97,7.1231,4.0,4.0,,,16,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,South Korea,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,6,6,50.94,8.49,2.1667,2.1667,,,0,0,0,60.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Sweden,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,77,77,863.26,11.2112,2.0,2.0,,,0,0,0,52.027,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Syria,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,35,35,333.67,9.5334,1.9714,1.9714,,,0,0,0,52.2388,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Taiwan,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,6,6,83.19,13.865,2.3333,2.3333,,,0,0,0,75.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Tajikistan,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,12,12,137.44,11.4533,1.9167,1.9167,,,0,0,0,57.1429,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Tanzania,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,5,5,61.76,12.352,2.2,2.2,,,0,0,0,62.5,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Thailand,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,31,31,332.36,10.7213,2.0323,2.0323,,,0,0,0,50.8197,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Tunisia,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,8,8,73.24,9.155,1.875,1.875,,,0,0,0,61.5385,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Uganda,delivered_path,,lifecycle_rank_within_country,1.0,3,3,38.14,12.7133,4.0,4.0,,,3,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ukraine,delivered_path,,lifecycle_rank_within_country,1.0,46,46,390.52,8.4896,4.0,4.0,,,46,0,0,49.4624,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,United Kingdom,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,11,11,105.07,9.5518,2.0,2.0,,,0,0,0,55.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,United States of America,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,126,126,1115.85,8.856,1.9683,1.9683,,,0,0,0,56.5022,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Uzbekistan,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,18,18,187.24,10.4022,2.0556,2.0556,,,0,0,0,51.4286,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Venezuela,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,15,15,171.86,11.4573,1.9333,1.9333,,,0,0,0,53.5714,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Vietnam,delivered_path,,lifecycle_rank_within_country,1.0,28,28,277.17,9.8989,4.0,4.0,,,28,0,0,51.8519,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Yemen,incomplete_or_in_progress,,lifecycle_rank_within_country,1.0,3,3,20.13,6.71,1.6667,1.6667,,,0,0,0,60.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Afghanistan,delivered_path,,lifecycle_rank_within_country,2.0,21,21,240.87,11.47,4.0,4.0,,,21,0,0,38.8889,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Albania,delivered_path,,lifecycle_rank_within_country,2.0,8,8,45.36,5.67,4.0,4.0,,,8,0,0,36.3636,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Argentina,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,11,11,161.93,14.7209,1.8182,1.8182,,,0,0,0,44.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Armenia,delivered_path,,lifecycle_rank_within_country,2.0,45,45,413.04,9.1787,4.0,4.0,,,45,0,0,48.3871,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Australia,delivered_path,,lifecycle_rank_within_country,2.0,3,3,35.56,11.8533,4.0,4.0,,,3,0,0,33.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Azerbaijan,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,18,18,166.08,9.2267,2.1111,2.1111,,,0,0,0,47.3684,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Bangladesh,delivered_path,,lifecycle_rank_within_country,2.0,8,8,78.42,9.8025,4.0,4.0,,,8,0,0,38.0952,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Belarus,delivered_path,,lifecycle_rank_within_country,2.0,21,21,205.3,9.7762,4.0,4.0,,,21,0,0,42.8571,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Bhutan,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,11,11,102.48,9.3164,2.3636,2.3636,,,0,0,0,36.6667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Brazil,delivered_path,,lifecycle_rank_within_country,2.0,146,146,1499.71,10.272,4.0,4.0,,,146,0,0,43.8438,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Burkina Faso,delivered_path,,lifecycle_rank_within_country,2.0,4,4,16.24,4.06,4.0,4.0,,,4,0,0,28.5714,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Cameroon,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,15,15,152.9,10.1933,2.0,2.0,,,0,0,0,41.6667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Canada,delivered_path,,lifecycle_rank_within_country,2.0,42,42,414.91,9.8788,4.0,4.0,,,42,0,0,46.6667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,China,delivered_path,,lifecycle_rank_within_country,2.0,519,519,5236.68,10.0899,4.0,4.0,,,519,0,0,44.1327,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Colombia,delivered_path,,lifecycle_rank_within_country,2.0,57,57,609.27,10.6889,4.0,4.0,,,57,0,0,43.5115,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Comoros,delivered_path,,lifecycle_rank_within_country,2.0,2,2,17.76,8.88,4.0,4.0,,,2,0,0,15.3846,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Costa Rica,delivered_path,,lifecycle_rank_within_country,2.0,24,24,288.98,12.0408,4.0,4.0,,,24,0,0,40.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Croatia,delivered_path,,lifecycle_rank_within_country,2.0,8,8,83.72,10.465,4.0,4.0,,,8,0,0,44.4444,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Cuba,delivered_path,,lifecycle_rank_within_country,2.0,2,2,21.8,10.9,4.0,4.0,,,2,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Cyprus,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,1,1,7.39,7.39,2.0,2.0,,,0,0,0,25.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Czech Republic,delivered_path,,lifecycle_rank_within_country,2.0,49,49,505.99,10.3263,4.0,4.0,,,49,0,0,37.4046,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Democratic Republic of the Congo,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,15,15,168.19,11.2127,1.7333,1.7333,,,0,0,0,35.7143,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Denmark,delivered_path,,lifecycle_rank_within_country,2.0,1,1,1.31,1.31,4.0,4.0,,,1,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ecuador,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,23,23,265.84,11.5583,2.087,2.087,,,0,0,0,36.5079,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Egypt,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,1,1,4.75,4.75,3.0,3.0,,,0,0,0,20.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ethiopia,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,1,1,13.45,13.45,2.0,2.0,,,0,0,0,25.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Finland,delivered_path,,lifecycle_rank_within_country,2.0,3,3,21.27,7.09,4.0,4.0,,,3,0,0,21.4286,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,France,delivered_path,,lifecycle_rank_within_country,2.0,84,84,810.34,9.6469,4.0,4.0,,,84,0,0,40.1914,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Georgia,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,3,3,43.44,14.48,2.3333,2.3333,,,0,0,0,37.5,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Germany,delivered_path,,lifecycle_rank_within_country,2.0,9,9,109.9,12.2111,4.0,4.0,,,9,0,0,45.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ghana,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,11,11,91.04,8.2764,2.2727,2.2727,,,0,0,0,45.8333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Greece,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,16,16,123.16,7.6975,2.1875,2.1875,,,0,0,0,44.4444,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Guatemala,delivered_path,,lifecycle_rank_within_country,2.0,52,52,560.71,10.7829,4.0,4.0,,,52,0,0,44.8276,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Guinea,delivered_path,,lifecycle_rank_within_country,2.0,6,6,67.14,11.19,4.0,4.0,,,6,0,0,25.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Haiti,delivered_path,,lifecycle_rank_within_country,2.0,39,39,295.63,7.5803,4.0,4.0,,,39,0,0,44.3182,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Honduras,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,13,13,116.39,8.9531,1.9231,1.9231,,,0,0,0,43.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Hungary,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,7,7,78.13,11.1614,1.5714,1.5714,,,0,0,0,41.1765,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Indonesia,delivered_path,,lifecycle_rank_within_country,2.0,442,442,4267.76,9.6556,4.0,4.0,,,442,0,0,44.4221,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Iran,delivered_path,,lifecycle_rank_within_country,2.0,31,31,326.67,10.5377,4.0,4.0,,,31,0,0,37.8049,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ireland,delivered_path,,lifecycle_rank_within_country,2.0,12,12,149.28,12.44,4.0,4.0,,,12,0,0,44.4444,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ivory Coast,delivered_path,,lifecycle_rank_within_country,2.0,1,1,9.94,9.94,4.0,4.0,,,1,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Japan,delivered_path,,lifecycle_rank_within_country,2.0,50,50,562.98,11.2596,4.0,4.0,,,50,0,0,42.0168,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Kazakhstan,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,1,1,14.19,14.19,2.0,2.0,,,0,0,0,25.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Kenya,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,17,17,131.11,7.7124,2.0588,2.0588,,,0,0,0,43.5897,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Kyrgyzstan,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,1,1,2.11,2.11,3.0,3.0,,,0,0,0,33.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Latvia,delivered_path,,lifecycle_rank_within_country,2.0,1,1,13.88,13.88,4.0,4.0,,,1,0,0,33.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Lesotho,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,1,1,4.39,4.39,2.0,2.0,,,0,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Libya,delivered_path,,lifecycle_rank_within_country,2.0,12,12,100.32,8.36,4.0,4.0,,,12,0,0,48.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Luxembourg,cancelled_path,,lifecycle_rank_within_country,2.0,1,1,11.43,11.43,2.0,2.0,,,0,1,0,25.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Macedonia,delivered_path,,lifecycle_rank_within_country,2.0,8,8,79.5,9.9375,4.0,4.0,,,8,0,0,28.5714,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Madagascar,delivered_path,,lifecycle_rank_within_country,2.0,19,19,231.55,12.1868,4.0,4.0,,,19,0,0,42.2222,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Malaysia,delivered_path,,lifecycle_rank_within_country,2.0,9,9,92.47,10.2744,4.0,4.0,,,9,0,0,45.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Mali,delivered_path,,lifecycle_rank_within_country,2.0,12,12,165.24,13.77,4.0,4.0,,,12,0,0,41.3793,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Malta,delivered_path,,lifecycle_rank_within_country,2.0,1,1,2.91,2.91,4.0,4.0,,,1,0,0,33.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Mexico,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,29,29,250.0,8.6207,2.2759,2.2759,,,0,0,0,46.0317,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Micronesia,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,3,3,35.51,11.8367,2.3333,2.3333,,,0,0,0,37.5,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Moldova,delivered_path,,lifecycle_rank_within_country,2.0,3,3,26.56,8.8533,4.0,4.0,,,3,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Mongolia,delivered_path,,lifecycle_rank_within_country,2.0,1,1,17.34,17.34,4.0,4.0,,,1,0,0,25.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Montenegro,delivered_path,,lifecycle_rank_within_country,2.0,2,2,12.14,6.07,4.0,4.0,,,2,0,0,33.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Morocco,delivered_path,,lifecycle_rank_within_country,2.0,15,15,155.89,10.3927,4.0,4.0,,,15,0,0,41.6667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Myanmar,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,16,16,172.09,10.7556,1.875,1.875,,,0,0,0,38.0952,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Nepal,delivered_path,,lifecycle_rank_within_country,2.0,4,4,41.43,10.3575,4.0,4.0,,,4,0,0,33.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Netherlands,delivered_path,,lifecycle_rank_within_country,2.0,18,18,222.95,12.3861,4.0,4.0,,,18,0,0,47.3684,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,New Zealand,delivered_path,,lifecycle_rank_within_country,2.0,3,3,47.24,15.7467,4.0,4.0,,,3,0,0,16.6667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Nigeria,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,19,19,158.53,8.3437,2.1579,2.1579,,,0,0,0,33.9286,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Norway,delivered_path,,lifecycle_rank_within_country,2.0,16,16,175.93,10.9956,4.0,4.0,,,16,0,0,37.2093,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Pakistan,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,46,46,406.72,8.8417,2.0,2.0,,,0,0,0,45.098,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Panama,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,4,4,32.09,8.0225,2.0,2.0,,,0,0,0,33.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Peru,delivered_path,,lifecycle_rank_within_country,2.0,112,112,1102.89,9.8472,4.0,4.0,,,112,0,0,44.4444,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Philippines,delivered_path,,lifecycle_rank_within_country,2.0,142,142,1475.26,10.3892,4.0,4.0,,,142,0,0,42.515,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Poland,delivered_path,,lifecycle_rank_within_country,2.0,149,149,1588.64,10.662,4.0,4.0,,,149,0,0,45.9877,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Portugal,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,121,121,1144.56,9.4592,2.0,2.0,,,0,0,0,46.7181,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Russia,delivered_path,,lifecycle_rank_within_country,2.0,205,205,1884.25,9.1915,4.0,4.0,,,205,0,0,40.1961,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Rwanda,delivered_path,,lifecycle_rank_within_country,2.0,2,2,28.86,14.43,4.0,4.0,,,2,0,0,33.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Samoa,delivered_path,,lifecycle_rank_within_country,2.0,5,5,44.61,8.922,4.0,4.0,,,5,0,0,41.6667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Serbia,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,16,16,110.73,6.9206,2.0,2.0,,,0,0,0,44.4444,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Sierra Leone,delivered_path,,lifecycle_rank_within_country,2.0,8,8,78.34,9.7925,4.0,4.0,,,8,0,0,33.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Slovakia,delivered_path,,lifecycle_rank_within_country,2.0,2,2,17.62,8.81,4.0,4.0,,,2,0,0,25.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Slovenia,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,9,9,108.57,12.0633,1.8889,1.8889,,,0,0,0,42.8571,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,South Africa,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,13,13,88.66,6.82,1.9231,1.9231,,,0,0,0,40.625,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,South Korea,delivered_path,,lifecycle_rank_within_country,2.0,3,3,51.93,17.31,4.0,4.0,,,3,0,0,30.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Sweden,delivered_path,,lifecycle_rank_within_country,2.0,62,62,668.23,10.7779,4.0,4.0,,,62,0,0,41.8919,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Syria,delivered_path,,lifecycle_rank_within_country,2.0,28,28,287.67,10.2739,4.0,4.0,,,28,0,0,41.791,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Taiwan,delivered_path,,lifecycle_rank_within_country,2.0,2,2,19.9,9.95,4.0,4.0,,,2,0,0,25.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Tajikistan,delivered_path,,lifecycle_rank_within_country,2.0,8,8,58.58,7.3225,4.0,4.0,,,8,0,0,38.0952,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Tanzania,delivered_path,,lifecycle_rank_within_country,2.0,3,3,38.19,12.73,4.0,4.0,,,3,0,0,37.5,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Thailand,delivered_path,,lifecycle_rank_within_country,2.0,23,23,206.99,8.9996,4.0,4.0,,,23,0,0,37.7049,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Tunisia,delivered_path,,lifecycle_rank_within_country,2.0,5,5,55.82,11.164,4.0,4.0,,,5,0,0,38.4615,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Uganda,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,3,3,26.26,8.7533,2.0,2.0,,,0,0,0,50.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ukraine,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,40,40,439.51,10.9878,2.05,2.05,,,0,0,0,43.0108,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,United Kingdom,delivered_path,,lifecycle_rank_within_country,2.0,9,9,102.62,11.4022,4.0,4.0,,,9,0,0,45.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,United States of America,delivered_path,,lifecycle_rank_within_country,2.0,83,83,904.5,10.8976,4.0,4.0,,,83,0,0,37.2197,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Uzbekistan,delivered_path,,lifecycle_rank_within_country,2.0,11,11,119.64,10.8764,4.0,4.0,,,11,0,0,31.4286,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Venezuela,delivered_path,,lifecycle_rank_within_country,2.0,12,12,106.53,8.8775,4.0,4.0,,,12,0,0,42.8571,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Vietnam,incomplete_or_in_progress,,lifecycle_rank_within_country,2.0,25,25,250.16,10.0064,2.08,2.08,,,0,0,0,46.2963,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Yemen,delivered_path,,lifecycle_rank_within_country,2.0,2,2,10.94,5.47,4.0,4.0,,,2,0,0,40.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Afghanistan,cancelled_path,,lifecycle_rank_within_country,3.0,2,2,31.61,15.805,2.0,2.0,,,0,2,0,3.7037,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Albania,cancelled_path,,lifecycle_rank_within_country,3.0,2,2,20.18,10.09,2.0,2.0,,,0,2,0,9.0909,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Argentina,cancelled_path,,lifecycle_rank_within_country,3.0,1,1,8.83,8.83,2.0,2.0,,,0,1,0,4.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Armenia,cancelled_path,,lifecycle_rank_within_country,3.0,2,2,11.94,5.97,2.0,2.0,,,0,2,0,2.1505,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Azerbaijan,returned_path,,lifecycle_rank_within_country,3.0,1,1,0.34,0.34,5.0,5.0,,,1,0,1,2.6316,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Belarus,cancelled_path,,lifecycle_rank_within_country,3.0,4,4,24.66,6.165,2.0,2.0,,,0,4,0,8.1633,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Bhutan,cancelled_path,,lifecycle_rank_within_country,3.0,3,3,34.29,11.43,2.0,2.0,,,0,3,0,10.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Brazil,cancelled_path,,lifecycle_rank_within_country,3.0,14,14,126.93,9.0664,2.0,2.0,,,0,14,0,4.2042,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Cameroon,returned_path,,lifecycle_rank_within_country,3.0,2,2,18.05,9.025,5.0,5.0,,,2,0,2,5.5556,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Canada,cancelled_path,,lifecycle_rank_within_country,3.0,2,2,29.93,14.965,2.0,2.0,,,0,2,0,2.2222,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,China,cancelled_path,,lifecycle_rank_within_country,3.0,38,38,418.59,11.0155,2.0,2.0,,,0,38,0,3.2313,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Colombia,returned_path,,lifecycle_rank_within_country,3.0,7,7,90.89,12.9843,5.0,5.0,,,7,0,7,5.3435,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Costa Rica,returned_path,,lifecycle_rank_within_country,3.0,2,2,32.12,16.06,5.0,5.0,,,2,0,2,3.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Croatia,returned_path,,lifecycle_rank_within_country,3.0,1,1,7.81,7.81,5.0,5.0,,,1,0,1,5.5556,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Czech Republic,cancelled_path,,lifecycle_rank_within_country,3.0,10,10,61.65,6.165,2.0,2.0,,,0,10,0,7.6336,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Democratic Republic of the Congo,returned_path,,lifecycle_rank_within_country,3.0,3,3,42.51,14.17,5.0,5.0,,,3,0,3,7.1429,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ecuador,cancelled_path,,lifecycle_rank_within_country,3.0,3,3,31.87,10.6233,2.0,2.0,,,0,3,0,4.7619,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Egypt,returned_path,,lifecycle_rank_within_country,3.0,1,1,1.88,1.88,5.0,5.0,,,1,0,1,20.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Finland,returned_path,,lifecycle_rank_within_country,3.0,1,1,11.69,11.69,5.0,5.0,,,1,0,1,7.1429,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,France,cancelled_path,,lifecycle_rank_within_country,3.0,14,14,148.62,10.6157,2.0,2.0,,,0,14,0,6.6986,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Georgia,returned_path,,lifecycle_rank_within_country,3.0,1,1,7.45,7.45,5.0,5.0,,,1,0,1,12.5,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Germany,cancelled_path,,lifecycle_rank_within_country,3.0,1,1,19.74,19.74,2.0,2.0,,,0,1,0,5.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ghana,cancelled_path,,lifecycle_rank_within_country,3.0,1,1,8.38,8.38,2.0,2.0,,,0,1,0,4.1667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Greece,cancelled_path,,lifecycle_rank_within_country,3.0,2,2,17.03,8.515,2.0,2.0,,,0,2,0,5.5556,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Guatemala,cancelled_path,,lifecycle_rank_within_country,3.0,6,6,76.13,12.6883,2.0,2.0,,,0,6,0,5.1724,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Guinea,returned_path,,lifecycle_rank_within_country,3.0,1,1,19.66,19.66,5.0,5.0,,,1,0,1,4.1667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Haiti,cancelled_path,,lifecycle_rank_within_country,3.0,6,6,40.22,6.7033,2.0,2.0,,,0,6,0,6.8182,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Honduras,cancelled_path,,lifecycle_rank_within_country,3.0,3,3,54.46,18.1533,2.0,2.0,,,0,3,0,10.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Hungary,cancelled_path,,lifecycle_rank_within_country,3.0,1,1,8.01,8.01,2.0,2.0,,,0,1,0,5.8824,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Indonesia,cancelled_path,,lifecycle_rank_within_country,3.0,47,47,518.39,11.0296,2.0,2.0,,,0,47,0,4.7236,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Iran,returned_path,,lifecycle_rank_within_country,3.0,4,4,52.92,13.23,5.0,5.0,,,4,0,4,4.878,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ireland,returned_path,,lifecycle_rank_within_country,3.0,1,1,19.61,19.61,5.0,5.0,,,1,0,1,3.7037,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Japan,returned_path,,lifecycle_rank_within_country,3.0,3,3,31.66,10.5533,5.0,5.0,,,3,0,3,2.521,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Kenya,cancelled_path,,lifecycle_rank_within_country,3.0,1,1,12.27,12.27,2.0,2.0,,,0,1,0,2.5641,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Libya,cancelled_path,,lifecycle_rank_within_country,3.0,1,1,18.51,18.51,2.0,2.0,,,0,1,0,4.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Luxembourg,delivered_path,,lifecycle_rank_within_country,3.0,1,1,2.07,2.07,4.0,4.0,,,1,0,0,25.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Macedonia,returned_path,,lifecycle_rank_within_country,3.0,2,2,34.57,17.285,5.0,5.0,,,2,0,2,7.1429,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Madagascar,returned_path,,lifecycle_rank_within_country,3.0,3,3,40.71,13.57,5.0,5.0,,,3,0,3,6.6667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Malaysia,cancelled_path,,lifecycle_rank_within_country,3.0,1,1,14.88,14.88,2.0,2.0,,,0,1,0,5.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Mali,cancelled_path,,lifecycle_rank_within_country,3.0,2,2,17.21,8.605,2.0,2.0,,,0,2,0,6.8966,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Mexico,cancelled_path,,lifecycle_rank_within_country,3.0,2,2,25.33,12.665,2.0,2.0,,,0,2,0,3.1746,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Mongolia,cancelled_path,,lifecycle_rank_within_country,3.0,1,1,2.28,2.28,2.0,2.0,,,0,1,0,25.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Morocco,returned_path,,lifecycle_rank_within_country,3.0,3,3,47.43,15.81,5.0,5.0,,,3,0,3,8.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Myanmar,returned_path,,lifecycle_rank_within_country,3.0,1,1,4.15,4.15,5.0,5.0,,,1,0,1,2.381,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Nepal,returned_path,,lifecycle_rank_within_country,3.0,1,1,19.04,19.04,5.0,5.0,,,1,0,1,8.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,New Zealand,cancelled_path,,lifecycle_rank_within_country,3.0,2,2,13.69,6.845,2.0,2.0,,,0,2,0,11.1111,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Nigeria,cancelled_path,,lifecycle_rank_within_country,3.0,3,3,18.17,6.0567,2.0,2.0,,,0,3,0,5.3571,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Norway,cancelled_path,,lifecycle_rank_within_country,3.0,3,3,24.6,8.2,2.0,2.0,,,0,3,0,6.9767,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Pakistan,cancelled_path,,lifecycle_rank_within_country,3.0,5,5,57.49,11.498,2.0,2.0,,,0,5,0,4.902,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Panama,cancelled_path,,lifecycle_rank_within_country,3.0,2,2,27.8,13.9,2.0,2.0,,,0,2,0,16.6667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Peru,cancelled_path,,lifecycle_rank_within_country,3.0,9,9,103.15,11.4611,2.0,2.0,,,0,9,0,3.5714,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Philippines,cancelled_path,,lifecycle_rank_within_country,3.0,13,13,95.34,7.3338,2.0,2.0,,,0,13,0,3.8922,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Poland,cancelled_path,,lifecycle_rank_within_country,3.0,9,9,64.97,7.2189,2.0,2.0,,,0,9,0,2.7778,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Portugal,cancelled_path,,lifecycle_rank_within_country,3.0,8,8,100.26,12.5325,2.0,2.0,,,0,8,0,3.0888,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Russia,cancelled_path,,lifecycle_rank_within_country,3.0,24,24,262.43,10.9346,2.0,2.0,,,0,24,0,4.7059,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Samoa,cancelled_path,,lifecycle_rank_within_country,3.0,1,1,13.52,13.52,2.0,2.0,,,0,1,0,8.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Serbia,cancelled_path,,lifecycle_rank_within_country,3.0,1,1,15.17,15.17,2.0,2.0,,,0,1,0,2.7778,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Sierra Leone,cancelled_path,,lifecycle_rank_within_country,3.0,1,1,4.32,4.32,2.0,2.0,,,0,1,0,4.1667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Slovenia,cancelled_path,,lifecycle_rank_within_country,3.0,1,1,2.31,2.31,2.0,2.0,,,0,1,0,4.7619,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,South Africa,cancelled_path,,lifecycle_rank_within_country,3.0,3,3,28.55,9.5167,2.0,2.0,,,0,3,0,9.375,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,South Korea,returned_path,,lifecycle_rank_within_country,3.0,1,1,1.59,1.59,5.0,5.0,,,1,0,1,10.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Sweden,returned_path,,lifecycle_rank_within_country,3.0,6,6,54.75,9.125,5.0,5.0,,,6,0,6,4.0541,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Syria,returned_path,,lifecycle_rank_within_country,3.0,3,3,26.5,8.8333,5.0,5.0,,,3,0,3,4.4776,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Tajikistan,cancelled_path,,lifecycle_rank_within_country,3.0,1,1,9.07,9.07,2.0,2.0,,,0,1,0,4.7619,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Thailand,cancelled_path,,lifecycle_rank_within_country,3.0,5,5,21.88,4.376,2.0,2.0,,,0,5,0,8.1967,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ukraine,returned_path,,lifecycle_rank_within_country,3.0,4,4,24.49,6.1225,5.0,5.0,,,4,0,4,4.3011,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,United States of America,cancelled_path,,lifecycle_rank_within_country,3.0,7,7,85.21,12.1729,2.0,2.0,,,0,7,0,3.139,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Uzbekistan,cancelled_path,,lifecycle_rank_within_country,3.0,4,4,34.17,8.5425,2.0,2.0,,,0,4,0,11.4286,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Venezuela,cancelled_path,,lifecycle_rank_within_country,3.0,1,1,9.39,9.39,2.0,2.0,,,0,1,0,3.5714,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Vietnam,returned_path,,lifecycle_rank_within_country,3.0,1,1,15.53,15.53,5.0,5.0,,,1,0,1,1.8519,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Argentina,returned_path,,lifecycle_rank_within_country,4.0,1,1,7.69,7.69,5.0,5.0,,,1,0,1,4.0,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Armenia,returned_path,,lifecycle_rank_within_country,4.0,1,1,12.68,12.68,5.0,5.0,,,1,0,1,1.0753,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Belarus,returned_path,,lifecycle_rank_within_country,4.0,2,2,16.0,8.0,5.0,5.0,,,2,0,2,4.0816,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Brazil,returned_path,,lifecycle_rank_within_country,4.0,8,8,81.53,10.1912,5.0,5.0,,,8,0,8,2.4024,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Cameroon,cancelled_path,,lifecycle_rank_within_country,4.0,1,1,7.71,7.71,2.0,2.0,,,0,1,0,2.7778,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Canada,returned_path,,lifecycle_rank_within_country,4.0,2,2,12.61,6.305,5.0,5.0,,,2,0,2,2.2222,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,China,returned_path,,lifecycle_rank_within_country,4.0,33,33,304.59,9.23,5.0,5.0,,,33,0,33,2.8061,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Colombia,cancelled_path,,lifecycle_rank_within_country,4.0,1,1,10.43,10.43,2.0,2.0,,,0,1,0,0.7634,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Costa Rica,cancelled_path,,lifecycle_rank_within_country,4.0,2,2,10.16,5.08,2.0,2.0,,,0,2,0,3.3333,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Czech Republic,returned_path,,lifecycle_rank_within_country,4.0,9,9,47.51,5.2789,5.0,5.0,,,9,0,9,6.8702,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Democratic Republic of the Congo,cancelled_path,,lifecycle_rank_within_country,4.0,1,1,7.6,7.6,2.0,2.0,,,0,1,0,2.381,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ecuador,returned_path,,lifecycle_rank_within_country,4.0,1,1,14.52,14.52,5.0,5.0,,,1,0,1,1.5873,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Finland,cancelled_path,,lifecycle_rank_within_country,4.0,1,1,2.43,2.43,2.0,2.0,,,0,1,0,7.1429,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,France,returned_path,,lifecycle_rank_within_country,4.0,6,6,64.77,10.795,5.0,5.0,,,6,0,6,2.8708,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Greece,returned_path,,lifecycle_rank_within_country,4.0,1,1,11.12,11.12,5.0,5.0,,,1,0,1,2.7778,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Guatemala,returned_path,,lifecycle_rank_within_country,4.0,5,5,66.21,13.242,5.0,5.0,,,5,0,5,4.3103,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Guinea,cancelled_path,,lifecycle_rank_within_country,4.0,1,1,16.07,16.07,2.0,2.0,,,0,1,0,4.1667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Haiti,returned_path,,lifecycle_rank_within_country,4.0,2,2,26.37,13.185,5.0,5.0,,,2,0,2,2.2727,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Indonesia,returned_path,,lifecycle_rank_within_country,4.0,26,26,236.25,9.0865,5.0,5.0,,,26,0,26,2.6131,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Iran,cancelled_path,,lifecycle_rank_within_country,4.0,4,4,45.33,11.3325,2.0,2.0,,,0,4,0,4.878,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ireland,cancelled_path,,lifecycle_rank_within_country,4.0,1,1,18.45,18.45,2.0,2.0,,,0,1,0,3.7037,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Japan,cancelled_path,,lifecycle_rank_within_country,4.0,3,3,25.61,8.5367,2.0,2.0,,,0,3,0,2.521,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Macedonia,cancelled_path,,lifecycle_rank_within_country,4.0,2,2,8.87,4.435,2.0,2.0,,,0,2,0,7.1429,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Madagascar,cancelled_path,,lifecycle_rank_within_country,4.0,1,1,16.64,16.64,2.0,2.0,,,0,1,0,2.2222,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Mali,returned_path,,lifecycle_rank_within_country,4.0,1,1,5.18,5.18,5.0,5.0,,,1,0,1,3.4483,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Mexico,returned_path,,lifecycle_rank_within_country,4.0,2,2,23.69,11.845,5.0,5.0,,,2,0,2,3.1746,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Morocco,cancelled_path,,lifecycle_rank_within_country,4.0,1,1,19.36,19.36,2.0,2.0,,,0,1,0,2.7778,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,New Zealand,returned_path,,lifecycle_rank_within_country,4.0,1,1,18.97,18.97,5.0,5.0,,,1,0,1,5.5556,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Nigeria,returned_path,,lifecycle_rank_within_country,4.0,1,1,11.84,11.84,5.0,5.0,,,1,0,1,1.7857,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Panama,returned_path,,lifecycle_rank_within_country,4.0,2,2,3.37,1.685,5.0,5.0,,,2,0,2,16.6667,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Peru,returned_path,,lifecycle_rank_within_country,4.0,4,4,30.06,7.515,5.0,5.0,,,4,0,4,1.5873,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Philippines,returned_path,,lifecycle_rank_within_country,4.0,7,7,88.13,12.59,5.0,5.0,,,7,0,7,2.0958,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Poland,returned_path,,lifecycle_rank_within_country,4.0,2,2,22.98,11.49,5.0,5.0,,,2,0,2,0.6173,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Portugal,returned_path,,lifecycle_rank_within_country,4.0,7,7,75.83,10.8329,5.0,5.0,,,7,0,7,2.7027,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Russia,returned_path,,lifecycle_rank_within_country,4.0,12,12,120.46,10.0383,5.0,5.0,,,12,0,12,2.3529,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Sweden,cancelled_path,,lifecycle_rank_within_country,4.0,3,3,12.42,4.14,2.0,2.0,,,0,3,0,2.027,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Syria,cancelled_path,,lifecycle_rank_within_country,4.0,1,1,1.37,1.37,2.0,2.0,,,0,1,0,1.4925,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Thailand,returned_path,,lifecycle_rank_within_country,4.0,2,2,16.26,8.13,5.0,5.0,,,2,0,2,3.2787,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Ukraine,cancelled_path,,lifecycle_rank_within_country,4.0,3,3,30.76,10.2533,2.0,2.0,,,0,3,0,3.2258,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,United States of America,returned_path,,lifecycle_rank_within_country,4.0,7,7,79.18,11.3114,5.0,5.0,,,7,0,7,3.139,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Uzbekistan,returned_path,,lifecycle_rank_within_country,4.0,2,2,14.98,7.49,5.0,5.0,,,2,0,2,5.7143,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Peru,no_history,,lifecycle_rank_within_country,5.0,1,1,2.42,2.42,0.0,0.0,,,0,0,0,0.3968,,Lifecycle buckets by destination country.
+lifecycle_by_country,country_lifecycle,Portugal,no_history,,lifecycle_rank_within_country,5.0,1,1,9.26,9.26,0.0,0.0,,,0,0,0,0.3861,,Lifecycle buckets by destination country.
+lifecycle_by_shipping,shipping_lifecycle,Express,incomplete_or_in_progress,,lifecycle_rank_within_shipping,1.0,944,944,9407.64,9.9657,2.0222,2.0222,,,0,0,0,49.3724,11.9,Lifecycle buckets compared across shipping methods.
+lifecycle_by_shipping,shipping_lifecycle,International,incomplete_or_in_progress,,lifecycle_rank_within_shipping,1.0,935,935,9203.73,9.8436,2.0118,2.0118,,,0,0,0,50.5405,24.5,Lifecycle buckets compared across shipping methods.
+lifecycle_by_shipping,shipping_lifecycle,Priority,incomplete_or_in_progress,,lifecycle_rank_within_shipping,1.0,964,964,9664.97,10.0259,2.0041,2.0041,,,0,0,0,50.2869,8.9,Lifecycle buckets compared across shipping methods.
+lifecycle_by_shipping,shipping_lifecycle,Standard,incomplete_or_in_progress,,lifecycle_rank_within_shipping,1.0,905,905,8907.61,9.8427,2.0177,2.0177,,,0,0,0,48.3699,5.9,Lifecycle buckets compared across shipping methods.
+lifecycle_by_shipping,shipping_lifecycle,Express,delivered_path,,lifecycle_rank_within_shipping,2.0,840,840,8401.4,10.0017,4.0,4.0,,,840,0,0,43.9331,11.9,Lifecycle buckets compared across shipping methods.
+lifecycle_by_shipping,shipping_lifecycle,International,delivered_path,,lifecycle_rank_within_shipping,2.0,803,803,8144.95,10.1432,4.0,4.0,,,803,0,0,43.4054,24.5,Lifecycle buckets compared across shipping methods.
+lifecycle_by_shipping,shipping_lifecycle,Priority,delivered_path,,lifecycle_rank_within_shipping,2.0,817,817,8188.5,10.0226,4.0,4.0,,,817,0,0,42.6187,8.9,Lifecycle buckets compared across shipping methods.
+lifecycle_by_shipping,shipping_lifecycle,Standard,delivered_path,,lifecycle_rank_within_shipping,2.0,840,840,8483.54,10.0995,4.0,4.0,,,840,0,0,44.8958,5.9,Lifecycle buckets compared across shipping methods.
+lifecycle_by_shipping,shipping_lifecycle,Express,cancelled_path,,lifecycle_rank_within_shipping,3.0,82,82,856.76,10.4483,2.0,2.0,,,0,82,0,4.2887,11.9,Lifecycle buckets compared across shipping methods.
+lifecycle_by_shipping,shipping_lifecycle,International,cancelled_path,,lifecycle_rank_within_shipping,3.0,66,66,632.8,9.5879,2.0,2.0,,,0,66,0,3.5676,24.5,Lifecycle buckets compared across shipping methods.
+lifecycle_by_shipping,shipping_lifecycle,Priority,cancelled_path,,lifecycle_rank_within_shipping,3.0,76,76,773.26,10.1745,2.0,2.0,,,0,76,0,3.9645,8.9,Lifecycle buckets compared across shipping methods.
+lifecycle_by_shipping,shipping_lifecycle,Standard,cancelled_path,,lifecycle_rank_within_shipping,3.0,76,76,755.25,9.9375,2.0,2.0,,,0,76,0,4.062,5.9,Lifecycle buckets compared across shipping methods.
+lifecycle_by_shipping,shipping_lifecycle,Express,returned_path,,lifecycle_rank_within_shipping,4.0,45,45,453.3,10.0733,5.0,5.0,,,45,0,45,2.3536,11.9,Lifecycle buckets compared across shipping methods.
+lifecycle_by_shipping,shipping_lifecycle,International,returned_path,,lifecycle_rank_within_shipping,4.0,46,46,431.47,9.3798,5.0,5.0,,,46,0,46,2.4865,24.5,Lifecycle buckets compared across shipping methods.
+lifecycle_by_shipping,shipping_lifecycle,Priority,returned_path,,lifecycle_rank_within_shipping,4.0,59,59,615.46,10.4315,5.0,5.0,,,59,0,59,3.0777,8.9,Lifecycle buckets compared across shipping methods.
+lifecycle_by_shipping,shipping_lifecycle,Standard,returned_path,,lifecycle_rank_within_shipping,4.0,50,50,517.9,10.358,5.0,5.0,,,50,0,50,2.6724,5.9,Lifecycle buckets compared across shipping methods.
+lifecycle_by_shipping,shipping_lifecycle,Express,no_history,,lifecycle_rank_within_shipping,5.0,1,1,9.26,9.26,0.0,0.0,,,0,0,0,0.0523,11.9,Lifecycle buckets compared across shipping methods.
+lifecycle_by_shipping,shipping_lifecycle,Priority,no_history,,lifecycle_rank_within_shipping,5.0,1,1,2.42,2.42,0.0,0.0,,,0,0,0,0.0522,8.9,Lifecycle buckets compared across shipping methods.
+lifecycle_by_value_bucket,value_lifecycle,high_value_tertile,incomplete_or_in_progress,,lifecycle_rank_within_value,1.0,1229,1229,20580.5,16.7457,1.9967,1.9967,,,0,0,0,48.828,,Lifecycle buckets checked separately for order-value tiers.
+lifecycle_by_value_bucket,value_lifecycle,low_value_tertile,incomplete_or_in_progress,,lifecycle_rank_within_value,1.0,1271,1271,4095.35,3.2221,2.033,2.033,,,0,0,0,50.5167,,Lifecycle buckets checked separately for order-value tiers.
+lifecycle_by_value_bucket,value_lifecycle,mid_value_tertile,incomplete_or_in_progress,,lifecycle_rank_within_value,1.0,1248,1248,12508.1,10.0225,2.0112,2.0112,,,0,0,0,49.5828,,Lifecycle buckets checked separately for order-value tiers.
+lifecycle_by_value_bucket,value_lifecycle,high_value_tertile,delivered_path,,lifecycle_rank_within_value,2.0,1118,1118,18735.8,16.7583,4.0,4.0,,,1118,0,0,44.418,,Lifecycle buckets checked separately for order-value tiers.
+lifecycle_by_value_bucket,value_lifecycle,low_value_tertile,delivered_path,,lifecycle_rank_within_value,2.0,1084,1084,3558.04,3.2823,4.0,4.0,,,1084,0,0,43.0843,,Lifecycle buckets checked separately for order-value tiers.
+lifecycle_by_value_bucket,value_lifecycle,mid_value_tertile,delivered_path,,lifecycle_rank_within_value,2.0,1098,1098,10924.55,9.9495,4.0,4.0,,,1098,0,0,43.6234,,Lifecycle buckets checked separately for order-value tiers.
+lifecycle_by_value_bucket,value_lifecycle,high_value_tertile,cancelled_path,,lifecycle_rank_within_value,3.0,99,99,1659.3,16.7606,2.0,2.0,,,0,99,0,3.9333,,Lifecycle buckets checked separately for order-value tiers.
+lifecycle_by_value_bucket,value_lifecycle,low_value_tertile,cancelled_path,,lifecycle_rank_within_value,3.0,96,96,304.92,3.1763,2.0,2.0,,,0,96,0,3.8156,,Lifecycle buckets checked separately for order-value tiers.
+lifecycle_by_value_bucket,value_lifecycle,mid_value_tertile,cancelled_path,,lifecycle_rank_within_value,3.0,105,105,1053.85,10.0367,2.0,2.0,,,0,105,0,4.1716,,Lifecycle buckets checked separately for order-value tiers.
+lifecycle_by_value_bucket,value_lifecycle,high_value_tertile,returned_path,,lifecycle_rank_within_value,4.0,71,71,1198.79,16.8844,5.0,5.0,,,71,0,71,2.8208,,Lifecycle buckets checked separately for order-value tiers.
+lifecycle_by_value_bucket,value_lifecycle,low_value_tertile,returned_path,,lifecycle_rank_within_value,4.0,64,64,193.59,3.0248,5.0,5.0,,,64,0,64,2.5437,,Lifecycle buckets checked separately for order-value tiers.
+lifecycle_by_value_bucket,value_lifecycle,mid_value_tertile,returned_path,,lifecycle_rank_within_value,4.0,65,65,625.75,9.6269,5.0,5.0,,,65,0,65,2.5824,,Lifecycle buckets checked separately for order-value tiers.
+lifecycle_by_value_bucket,value_lifecycle,low_value_tertile,no_history,,lifecycle_rank_within_value,5.0,1,1,2.42,2.42,0.0,0.0,,,0,0,0,0.0397,,Lifecycle buckets checked separately for order-value tiers.
+lifecycle_by_value_bucket,value_lifecycle,mid_value_tertile,no_history,,lifecycle_rank_within_value,5.0,1,1,9.26,9.26,0.0,0.0,,,0,0,0,0.0397,,Lifecycle buckets checked separately for order-value tiers.
+order_history_depth,status_count,4,,,status_count_order_rank,1.0,3300,3300,33218.39,10.0662,4.0,4.0,1.0,4.0,3300,0,0,43.7086,,History-depth coverage for order lifecycle analysis.
+order_history_depth,status_count,2,,,status_count_order_rank,2.0,3100,3100,30926.57,9.9763,2.0,2.0,1.0,2.2903,0,300,0,41.0596,,History-depth coverage for order lifecycle analysis.
+order_history_depth,status_count,3,,,status_count_order_rank,3.0,500,500,4728.7,9.4574,3.0,3.0,1.0,3.0,0,0,0,6.6225,,History-depth coverage for order lifecycle analysis.
+order_history_depth,status_count,1,,,status_count_order_rank,4.0,448,448,4546.75,10.149,1.0,1.0,1.0,1.0,0,0,0,5.9338,,History-depth coverage for order lifecycle analysis.
+order_history_depth,status_count,5,,,status_count_order_rank,5.0,200,200,2018.13,10.0906,5.0,5.0,1.0,6.0,200,0,200,2.649,,History-depth coverage for order lifecycle analysis.
+order_history_depth,status_count,0,,,status_count_order_rank,6.0,2,2,11.68,5.84,0.0,0.0,0.0,0.0,0,0,0,0.0265,,History-depth coverage for order lifecycle analysis.
+terminal_outcome_profile,lifecycle_bucket,incomplete_or_in_progress,,,lifecycle_order_rank,1.0,3748,3748,37183.95,9.921,2.0139,2.0139,,,0,0,0,49.6424,,"Delivered, cancelled, returned, incomplete, and no-history lifecycle buckets."
+terminal_outcome_profile,lifecycle_bucket,delivered_path,,,lifecycle_order_rank,2.0,3300,3300,33218.39,10.0662,4.0,4.0,,,3300,0,0,43.7086,,"Delivered, cancelled, returned, incomplete, and no-history lifecycle buckets."
+terminal_outcome_profile,lifecycle_bucket,cancelled_path,,,lifecycle_order_rank,3.0,300,300,3018.07,10.0602,2.0,2.0,,,0,300,0,3.9735,,"Delivered, cancelled, returned, incomplete, and no-history lifecycle buckets."
+terminal_outcome_profile,lifecycle_bucket,returned_path,,,lifecycle_order_rank,4.0,200,200,2018.13,10.0907,5.0,5.0,,,200,0,200,2.649,,"Delivered, cancelled, returned, incomplete, and no-history lifecycle buckets."
+terminal_outcome_profile,lifecycle_bucket,no_history,,,lifecycle_order_rank,5.0,2,2,11.68,5.84,0.0,0.0,,,0,0,0,0.0265,,"Delivered, cancelled, returned, incomplete, and no-history lifecycle buckets."

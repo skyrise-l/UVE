@@ -1,0 +1,46 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,businesses,reviews,tips,checkin_slots,avg_business_stars,avg_review_stars,avg_open_days,active_rate_pct,share_pct,notes
+hours_coverage_baseline,hours_presence,no_hours_listed,,,hours_presence_rank,1,8133,81134,24554,175797,3.5034,3.4901,0.0,86.315,52.1848,coverage of listed hours before using hours as operating evidence
+hours_coverage_baseline,hours_presence,has_hours_listed,,,hours_presence_rank,2,7452,241772,62603,253860,3.8626,3.8608,6.4185,90.0832,47.8152,coverage of listed hours before using hours as operating evidence
+open_days_profile,open_days_bucket,no_hours_listed,,,open_days_rank,1,8133,81134,24554,175797,3.5034,3.4901,0.0,86.315,52.1848,listed open-day breadth compared with rating and activity
+open_days_profile,open_days_bucket,seven_days,,,open_days_rank,2,4744,195557,52823,215936,3.7233,3.7223,7.0,89.7133,30.4395,listed open-day breadth compared with rating and activity
+open_days_profile,open_days_bucket,four_to_six_days,,,open_days_rank,3,2592,45126,9543,36909,4.1094,4.1058,5.5525,90.8951,16.6314,listed open-day breadth compared with rating and activity
+open_days_profile,open_days_bucket,one_to_three_days,,,open_days_rank,4,116,1089,237,1015,4.0431,4.0518,1.9914,87.069,0.7443,listed open-day breadth compared with rating and activity
+day_checkin_profile,day_of_week,Friday,,,day_checkin_rank,1,10300,,,73808,3.6569,,,93.6355,17.1784,check-in intensity by day of week
+day_checkin_profile,day_of_week,Thursday,,,day_checkin_rank,2,10196,,,67712,3.6545,,,93.7083,15.7595,check-in intensity by day of week
+day_checkin_profile,day_of_week,Wednesday,,,day_checkin_rank,3,9872,,,59673,3.6542,,,94.1562,13.8885,check-in intensity by day of week
+day_checkin_profile,day_of_week,Saturday,,,day_checkin_rank,4,9092,,,59241,3.6292,,,94.1992,13.788,check-in intensity by day of week
+day_checkin_profile,day_of_week,Tuesday,,,day_checkin_rank,5,9828,,,57729,3.6558,,,94.1701,13.4361,check-in intensity by day of week
+day_checkin_profile,day_of_week,Monday,,,day_checkin_rank,6,9746,,,56359,3.6585,,,94.4526,13.1172,check-in intensity by day of week
+day_checkin_profile,day_of_week,Sunday,,,day_checkin_rank,7,9623,,,55135,3.6465,,,94.7799,12.8323,check-in intensity by day of week
+daypart_checkin_profile,daypart,afternoon,,,daypart_rank,1,11262,,,187469,3.6633,,,94.0913,43.6322,check-in intensity by broad daypart
+daypart_checkin_profile,daypart,evening,,,daypart_rank,2,10198,,,136611,3.6431,,,93.196,31.7954,check-in intensity by broad daypart
+daypart_checkin_profile,daypart,morning,,,daypart_rank,3,9577,,,76659,3.6641,,,95.8117,17.8419,check-in intensity by broad daypart
+daypart_checkin_profile,daypart,late_night,,,daypart_rank,4,5458,,,28918,3.5746,,,94.1346,6.7305,check-in intensity by broad daypart
+category_hours_mix,category,Restaurants,,,category_business_rank,1,5556,224732,58465,218422,3.4591,3.4522,3.3047,80.0756,35.6497,category differences in listed hours and check-in activity
+category_hours_mix,category,Shopping,,,category_business_rank,2,2499,20492,6015,58213,3.6897,3.6689,3.0888,91.3565,16.0346,category differences in listed hours and check-in activity
+category_hours_mix,category,Food,,,category_business_rank,3,2091,46292,15356,91204,3.7637,3.7586,3.2209,84.8398,13.4167,category differences in listed hours and check-in activity
+category_hours_mix,category,Beauty & Spas,,,category_business_rank,4,1109,8719,1780,14459,3.9504,3.9461,3.4328,95.0406,7.1158,category differences in listed hours and check-in activity
+category_hours_mix,category,Automotive,,,category_business_rank,5,859,5361,1338,12078,3.7806,3.7811,3.0501,96.9732,5.5117,category differences in listed hours and check-in activity
+category_hours_mix,category,Mexican,,,category_business_rank,6,822,28201,7141,31130,3.5146,3.5165,2.9355,82.2384,5.2743,category differences in listed hours and check-in activity
+category_hours_mix,category,Health & Medical,,,category_business_rank,7,815,3783,541,4909,3.9417,3.9375,2.9681,97.6687,5.2294,category differences in listed hours and check-in activity
+category_hours_mix,category,Home Services,,,category_business_rank,8,761,3497,291,4200,3.6439,3.6228,3.9133,97.8975,4.8829,category differences in listed hours and check-in activity
+category_hours_mix,category,Nightlife,,,category_business_rank,9,752,42268,12135,39354,3.5419,3.5333,3.9282,71.4096,4.8252,category differences in listed hours and check-in activity
+category_hours_mix,category,Fashion,,,category_business_rank,10,701,5901,1875,19542,3.674,3.6623,2.8773,91.4408,4.4979,category differences in listed hours and check-in activity
+category_hours_mix,category,Active Life,,,category_business_rank,11,695,7958,2356,23590,4.0719,4.0671,3.0129,92.8058,4.4594,category differences in listed hours and check-in activity
+category_hours_mix,category,Bars,,,category_business_rank,12,628,38294,10887,35765,3.5295,3.5189,4.172,71.1783,4.0295,category differences in listed hours and check-in activity
+category_hours_mix,category,Sandwiches,,,category_business_rank,13,609,21543,5587,23314,3.5624,3.547,3.3596,87.8489,3.9076,category differences in listed hours and check-in activity
+category_hours_mix,category,American (Traditional),,,category_business_rank,14,607,26792,8338,31681,3.3517,3.3434,3.7891,79.9012,3.8948,category differences in listed hours and check-in activity
+category_hours_mix,category,Fast Food,,,category_business_rank,15,599,6680,2764,19310,3.0726,3.0442,1.6661,94.8247,3.8434,category differences in listed hours and check-in activity
+category_hours_mix,category,Pizza,,,category_business_rank,16,589,23544,5515,19492,3.3956,3.3887,3.5722,83.5314,3.7793,category differences in listed hours and check-in activity
+category_hours_mix,category,Event Planning & Services,,,category_business_rank,17,588,9597,2292,16044,3.6726,3.648,2.3997,91.8367,3.7729,category differences in listed hours and check-in activity
+category_hours_mix,category,Local Services,,,category_business_rank,18,540,3051,520,4385,3.8463,3.8419,3.5926,96.6667,3.4649,category differences in listed hours and check-in activity
+category_hours_mix,category,Hotels & Travel,,,category_business_rank,19,495,10197,2724,15757,3.403,3.3899,2.1535,95.3535,3.1761,category differences in listed hours and check-in activity
+category_hours_mix,category,American (New),,,category_business_rank,20,441,34085,9032,25297,3.6383,3.627,4.4671,73.0159,2.8296,category differences in listed hours and check-in activity
+active_hours_overlay,active_open_days_bucket,true,no_hours_listed,,active_hours_rank,1,7020,70630,22791,168057,3.5217,3.5066,0.0,100.0,45.0433,active status crossed with listed open-day breadth
+active_hours_overlay,active_open_days_bucket,true,seven_days,,active_hours_rank,2,4256,181074,49504,202503,3.7427,3.7419,7.0,100.0,27.3083,active status crossed with listed open-day breadth
+active_hours_overlay,active_open_days_bucket,true,four_to_six_days,,active_hours_rank,3,2356,39599,8429,33718,4.1242,4.119,5.5424,100.0,15.1171,active status crossed with listed open-day breadth
+active_hours_overlay,active_open_days_bucket,true,one_to_three_days,,active_hours_rank,4,101,913,219,914,4.0891,4.0927,2.0,100.0,0.6481,active status crossed with listed open-day breadth
+active_hours_overlay,active_open_days_bucket,false,no_hours_listed,,active_hours_rank,5,1113,10504,1763,7740,3.3881,3.3863,0.0,0.0,7.1415,active status crossed with listed open-day breadth
+active_hours_overlay,active_open_days_bucket,false,seven_days,,active_hours_rank,6,488,14483,3319,13433,3.5543,3.5513,7.0,0.0,3.1312,active status crossed with listed open-day breadth
+active_hours_overlay,active_open_days_bucket,false,four_to_six_days,,active_hours_rank,7,236,5527,1114,3191,3.9619,3.9738,5.6525,0.0,1.5143,active status crossed with listed open-day breadth
+active_hours_overlay,active_open_days_bucket,false,one_to_three_days,,active_hours_rank,8,15,176,18,101,3.7333,3.7789,1.9333,0.0,0.0962,active status crossed with listed open-day breadth

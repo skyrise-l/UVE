@@ -1,0 +1,79 @@
+{
+  "system_llm": {
+    "api_key": "",
+    "api_key_env": "OPENAI_API_KEY",
+    "base_url": "",
+    "model": "Qwen3-VL-235B-A22B-Instruct",
+    "temperature": 0,
+    "timeout_sec": 180,
+    "force_json_mode": true,
+    "max_retries": 100
+  },
+  "dataset": {
+    "benchmark": "insightbench",
+    "data_root": "./data",
+    "output_dir": "./results_qwen_test",
+    "limit": 200,
+    "metadata_cache_dir": "./cache/"
+  },
+  "agent": {
+    "max_questions": 3,
+    "root_candidate_count": 6,
+    "max_new_angle_candidates": 2,
+    "max_followup_choices": 2,
+    "question_retries": 3,
+    "dedupe_selected_questions": true,
+    "duplicate_similarity_threshold": 0.75,
+    "max_global_exploration_candidates": 4,
+    "max_rounds": 12
+  },
+  "execution": {
+    "max_code_repairs": 3,
+    "max_result_preview_rows": 20,
+    "max_result_preview_cols": 20,
+    "max_result_text_chars": 5000,
+    "max_trace_tables": 2000,
+    "max_trace_events": 5000,
+    "max_trace_columns": 200
+  },
+  "chart": {
+    "enabled": true,
+    "max_charts": 3,
+    "max_frontiers": 3,
+    "min_evidence_support": 0.54,
+    "representation_gate_threshold": 0.46,
+    "recall_enabled": true,
+    "recall_max_charts": 1,
+    "recall_evidence_relaxation": 0.12,
+    "recall_representation_relaxation": 0.12,
+    "recall_min_evidence_support": 0.32,
+    "recall_min_representation_threshold": 0.38,
+    "min_frontier_evidence_support": 0.4,
+    "max_result_cards": 2,
+    "save_veg": false
+  },
+  "evaluation": {
+    "enabled": true,
+    "insight_score_name": "llama3_eval",
+    "summary_score_name": "llama3_eval",
+    "judge_model": "Qwen3-30B-A3B-Instruct-2507",
+    "top_logprobs": 5,
+    "llm": {
+      "api_key": "",
+      "api_key_env": "LLAMA3_EVAL_API_KEY",
+      "base_url": "",
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "temperature": 0.0,
+      "timeout_sec": 180,
+      "force_json_mode": false,
+      "max_retries": 20
+    },
+    "official_insightbench_path": "/Users/skyrise/Desktop/vis/insight-bench",
+    "skip_healthcheck": false
+  },
+  "retrieval": {
+    "enabled": true,
+    "max_frontier_candidates": 6,
+    "results_dir": "./retrieval/results"
+  }
+}

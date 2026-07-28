@@ -1,0 +1,2794 @@
+{
+  "dataset": "insightbench",
+  "model": "gpt-5-2025-08-07",
+  "tasks": {
+    "flag-1": {
+      "tables": [
+        {
+          "table": "flag-1",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "assignment_group",
+            "priority"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1921,
+        "completion_tokens": 955,
+        "total_tokens": 2876
+      }
+    },
+    "flag-2": {
+      "tables": [
+        {
+          "table": "flag-2",
+          "columns": [
+            "caller_id",
+            "sys_updated_by",
+            "state",
+            "closed_at",
+            "closed_by",
+            "assigned_to",
+            "opened_at",
+            "number",
+            "sys_updated_on",
+            "short_description",
+            "assignment_group",
+            "priority",
+            "category"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1825,
+        "completion_tokens": 1143,
+        "total_tokens": 2968
+      }
+    },
+    "flag-3": {
+      "tables": [
+        {
+          "table": "flag-3",
+          "columns": [
+            "sys_updated_by",
+            "number",
+            "closed_by",
+            "state",
+            "caller_id",
+            "assigned_to",
+            "opened_at",
+            "sys_updated_on",
+            "closed_at",
+            "short_description",
+            "assignment_group",
+            "priority",
+            "category"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1837,
+        "completion_tokens": 951,
+        "total_tokens": 2788
+      }
+    },
+    "flag-4": {
+      "tables": [
+        {
+          "table": "flag-4",
+          "columns": [
+            "category",
+            "sys_updated_by",
+            "assigned_to",
+            "closed_at",
+            "closed_by",
+            "state",
+            "opened_at",
+            "sys_updated_on",
+            "number",
+            "caller_id",
+            "short_description",
+            "assignment_group",
+            "priority"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1833,
+        "completion_tokens": 951,
+        "total_tokens": 2784
+      }
+    },
+    "flag-5": {
+      "tables": [
+        {
+          "table": "flag-5",
+          "columns": [
+            "sys_updated_by",
+            "closed_by",
+            "state",
+            "caller_id",
+            "category",
+            "assigned_to",
+            "opened_at",
+            "sys_updated_on",
+            "closed_at",
+            "short_description",
+            "assignment_group",
+            "priority",
+            "number"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1847,
+        "completion_tokens": 1357,
+        "total_tokens": 3204
+      }
+    },
+    "flag-6": {
+      "tables": [
+        {
+          "table": "flag-6",
+          "columns": [
+            "sys_updated_by",
+            "number",
+            "closed_by",
+            "state",
+            "caller_id",
+            "assigned_to",
+            "opened_at",
+            "sys_updated_on",
+            "closed_at",
+            "short_description",
+            "assignment_group",
+            "priority",
+            "category"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1833,
+        "completion_tokens": 1079,
+        "total_tokens": 2912
+      }
+    },
+    "flag-7": {
+      "tables": [
+        {
+          "table": "flag-7",
+          "columns": [
+            "sys_updated_by",
+            "number",
+            "closed_by",
+            "state",
+            "caller_id",
+            "assigned_to",
+            "opened_at",
+            "sys_updated_on",
+            "closed_at",
+            "short_description",
+            "assignment_group",
+            "priority",
+            "category"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1827,
+        "completion_tokens": 1335,
+        "total_tokens": 3162
+      }
+    },
+    "flag-8": {
+      "tables": [
+        {
+          "table": "flag-8",
+          "columns": [
+            "sys_updated_on",
+            "assigned_to",
+            "caller_id",
+            "opened_at",
+            "closed_by",
+            "number",
+            "state",
+            "sys_updated_by",
+            "closed_at",
+            "short_description",
+            "assignment_group",
+            "priority",
+            "category"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1815,
+        "completion_tokens": 1141,
+        "total_tokens": 2956
+      }
+    },
+    "flag-9": {
+      "tables": [
+        {
+          "table": "flag-9",
+          "columns": [
+            "sys_updated_by",
+            "number",
+            "closed_by",
+            "state",
+            "caller_id",
+            "category",
+            "assigned_to",
+            "opened_at",
+            "sys_updated_on",
+            "closed_at",
+            "short_description",
+            "assignment_group",
+            "priority"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1831,
+        "completion_tokens": 1015,
+        "total_tokens": 2846
+      }
+    },
+    "flag-10": {
+      "tables": [
+        {
+          "table": "flag-10",
+          "columns": [
+            "sys_updated_on",
+            "assigned_to",
+            "caller_id",
+            "number",
+            "state",
+            "closed_by",
+            "opened_at",
+            "closed_at",
+            "sys_updated_by",
+            "short_description",
+            "assignment_group",
+            "priority",
+            "category"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1831,
+        "completion_tokens": 1141,
+        "total_tokens": 2972
+      }
+    },
+    "flag-11": {
+      "tables": [
+        {
+          "table": "flag-11",
+          "columns": [
+            "sys_updated_by",
+            "opened_at",
+            "location",
+            "category",
+            "closed_at",
+            "caller_id",
+            "state",
+            "number",
+            "assigned_to",
+            "sys_updated_on",
+            "closed_by",
+            "short_description",
+            "assignment_group",
+            "priority"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1919,
+        "completion_tokens": 955,
+        "total_tokens": 2874
+      }
+    },
+    "flag-12": {
+      "tables": [
+        {
+          "table": "flag-12",
+          "columns": [
+            "sys_updated_by",
+            "number",
+            "closed_by",
+            "state",
+            "caller_id",
+            "category",
+            "assigned_to",
+            "opened_at",
+            "sys_updated_on",
+            "closed_at",
+            "short_description",
+            "assignment_group",
+            "priority"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1805,
+        "completion_tokens": 823,
+        "total_tokens": 2628
+      }
+    },
+    "flag-13": {
+      "tables": [
+        {
+          "table": "flag-13",
+          "columns": [
+            "sys_updated_on",
+            "assigned_to",
+            "caller_id",
+            "state",
+            "closed_by",
+            "opened_at",
+            "closed_at",
+            "sys_updated_by",
+            "short_description",
+            "assignment_group",
+            "priority",
+            "category",
+            "number"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1815,
+        "completion_tokens": 1357,
+        "total_tokens": 3172
+      }
+    },
+    "flag-14": {
+      "tables": [
+        {
+          "table": "flag-14",
+          "columns": [
+            "closed_by",
+            "assigned_to",
+            "opened_at",
+            "caller_id",
+            "sys_updated_by",
+            "number",
+            "sys_updated_on",
+            "closed_at",
+            "state",
+            "short_description",
+            "assignment_group",
+            "priority",
+            "category"
+          ]
+        },
+        {
+          "table": "flag-14-sysuser",
+          "columns": [
+            "schedule",
+            "user_name",
+            "name",
+            "location",
+            "department",
+            "title",
+            "email"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2897,
+        "completion_tokens": 2795,
+        "total_tokens": 5692
+      }
+    },
+    "flag-15": {
+      "tables": [
+        {
+          "table": "flag-15",
+          "columns": [
+            "assigned_to",
+            "opened_at",
+            "closed_at",
+            "state",
+            "closed_by",
+            "assignment_group",
+            "priority",
+            "category",
+            "number",
+            "short_description",
+            "caller_id",
+            "sys_updated_on",
+            "sys_updated_by"
+          ]
+        },
+        {
+          "table": "flag-15-sysuser",
+          "columns": [
+            "name",
+            "user_name",
+            "schedule",
+            "department",
+            "location",
+            "title",
+            "email"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 3047,
+        "completion_tokens": 2411,
+        "total_tokens": 5458
+      }
+    },
+    "flag-16": {
+      "tables": [
+        {
+          "table": "flag-16",
+          "columns": [
+            "assigned_to",
+            "purchased_on",
+            "cost",
+            "serial_number",
+            "sys_updated_on",
+            "warranty_expiration",
+            "model_category",
+            "department",
+            "asset_tag",
+            "display_name",
+            "ci"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1564,
+        "completion_tokens": 880,
+        "total_tokens": 2444
+      }
+    },
+    "flag-17": {
+      "tables": [
+        {
+          "table": "flag-17",
+          "columns": [
+            "purchased_on",
+            "asset_tag",
+            "model_category",
+            "cost",
+            "serial_number",
+            "sys_updated_on",
+            "assigned_to",
+            "department",
+            "warranty_expiration",
+            "display_name",
+            "ci"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1574,
+        "completion_tokens": 942,
+        "total_tokens": 2516
+      }
+    },
+    "flag-57": {
+      "tables": [
+        {
+          "table": "flag-57",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group",
+            "number"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1884,
+        "completion_tokens": 978,
+        "total_tokens": 2862
+      }
+    },
+    "flag-58": {
+      "tables": [
+        {
+          "table": "flag-58",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group",
+            "number"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1896,
+        "completion_tokens": 1166,
+        "total_tokens": 3062
+      }
+    },
+    "flag-59": {
+      "tables": [
+        {
+          "table": "flag-59",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1878,
+        "completion_tokens": 1276,
+        "total_tokens": 3154
+      }
+    },
+    "flag-60": {
+      "tables": [
+        {
+          "table": "flag-60",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1892,
+        "completion_tokens": 956,
+        "total_tokens": 2848
+      }
+    },
+    "flag-61": {
+      "tables": [
+        {
+          "table": "flag-61",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        },
+        {
+          "table": "flag-61-sysuser",
+          "columns": [
+            "schedule",
+            "user_name",
+            "name",
+            "location",
+            "department",
+            "title",
+            "email",
+            "sys_id"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2950,
+        "completion_tokens": 1550,
+        "total_tokens": 4500
+      }
+    },
+    "flag-62": {
+      "tables": [
+        {
+          "table": "flag-62",
+          "columns": [
+            "assigned_to",
+            "opened_at",
+            "closed_at",
+            "state",
+            "priority",
+            "category",
+            "location",
+            "assignement_group",
+            "closed_by",
+            "sys_updated_on",
+            "sys_updated_by",
+            "caller_id",
+            "short_description",
+            "number"
+          ]
+        },
+        {
+          "table": "flag-62-sysuser",
+          "columns": [
+            "name",
+            "user_name",
+            "schedule",
+            "department",
+            "title",
+            "email",
+            "location"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 3130,
+        "completion_tokens": 2374,
+        "total_tokens": 5504
+      }
+    },
+    "flag-63": {
+      "tables": [
+        {
+          "table": "flag-63",
+          "columns": [
+            "assigned_to",
+            "purchased_on",
+            "cost",
+            "serial_number",
+            "sys_updated_on",
+            "warranty_expiration",
+            "model_category",
+            "department",
+            "asset_tag",
+            "display_name",
+            "ci"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1564,
+        "completion_tokens": 944,
+        "total_tokens": 2508
+      }
+    },
+    "flag-64": {
+      "tables": [
+        {
+          "table": "flag-64",
+          "columns": [
+            "purchased_on",
+            "asset_tag",
+            "model_category",
+            "cost",
+            "serial_number",
+            "sys_updated_on",
+            "assigned_to",
+            "department",
+            "warranty_expiration",
+            "display_name",
+            "ci"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1574,
+        "completion_tokens": 688,
+        "total_tokens": 2262
+      }
+    },
+    "flag-65": {
+      "tables": [
+        {
+          "table": "flag-65",
+          "columns": [
+            "sys_updated_on",
+            "serial_number",
+            "purchased_on",
+            "asset_tag",
+            "warranty_expiration",
+            "assigned_to",
+            "department",
+            "cost",
+            "model_category",
+            "display_name",
+            "ci"
+          ]
+        },
+        {
+          "table": "flag-65-sysuser",
+          "columns": [
+            "manager",
+            "user_name",
+            "name",
+            "location",
+            "department",
+            "title",
+            "email",
+            "start_date"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2569,
+        "completion_tokens": 1641,
+        "total_tokens": 4210
+      }
+    },
+    "flag-66": {
+      "tables": [
+        {
+          "table": "flag-66",
+          "columns": [
+            "number",
+            "source_id",
+            "user",
+            "amount",
+            "processed_date",
+            "opened_at",
+            "department",
+            "state",
+            "category",
+            "short_description",
+            "ci"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1648,
+        "completion_tokens": 680,
+        "total_tokens": 2328
+      }
+    },
+    "flag-67": {
+      "tables": [
+        {
+          "table": "flag-67",
+          "columns": [
+            "category",
+            "department",
+            "opened_at",
+            "source_id",
+            "number",
+            "processed_date",
+            "amount",
+            "state",
+            "user",
+            "short_description",
+            "ci"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1648,
+        "completion_tokens": 1128,
+        "total_tokens": 2776
+      }
+    },
+    "flag-68": {
+      "tables": [
+        {
+          "table": "flag-68",
+          "columns": [
+            "user",
+            "category",
+            "source_id",
+            "number",
+            "amount",
+            "opened_at",
+            "department",
+            "state",
+            "processed_date",
+            "short_description",
+            "ci"
+          ]
+        },
+        {
+          "table": "flag-68-sysuser",
+          "columns": [
+            "manager",
+            "user_name",
+            "name",
+            "location",
+            "department",
+            "email",
+            "start_date",
+            "sys_id"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2569,
+        "completion_tokens": 2235,
+        "total_tokens": 4804
+      }
+    },
+    "flag-69": {
+      "tables": [
+        {
+          "table": "flag-69",
+          "columns": [
+            "amount",
+            "opened_at",
+            "processed_date",
+            "state",
+            "department",
+            "user",
+            "category",
+            "ci",
+            "source_id",
+            "short_description",
+            "number"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1664,
+        "completion_tokens": 936,
+        "total_tokens": 2600
+      }
+    },
+    "flag-70": {
+      "tables": [
+        {
+          "table": "flag-70",
+          "columns": [
+            "source_id",
+            "department",
+            "number",
+            "amount",
+            "category",
+            "state",
+            "processed_date",
+            "user",
+            "opened_at",
+            "short_description",
+            "ci"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1674,
+        "completion_tokens": 936,
+        "total_tokens": 2610
+      }
+    },
+    "flag-71": {
+      "tables": [
+        {
+          "table": "flag-71",
+          "columns": [
+            "department",
+            "amount",
+            "user",
+            "category",
+            "opened_at",
+            "number",
+            "processed_date",
+            "state",
+            "short_description",
+            "ci"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1611,
+        "completion_tokens": 1059,
+        "total_tokens": 2670
+      }
+    },
+    "flag-72": {
+      "tables": [
+        {
+          "table": "flag-72",
+          "columns": [
+            "amount",
+            "opened_at",
+            "processed_date",
+            "state",
+            "department",
+            "category",
+            "user",
+            "ci",
+            "source_id",
+            "short_description",
+            "number"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1656,
+        "completion_tokens": 1150,
+        "total_tokens": 2806
+      }
+    },
+    "flag-73": {
+      "tables": [
+        {
+          "table": "flag-73",
+          "columns": [
+            "cost",
+            "warranty_expiration",
+            "model_category",
+            "serial_number",
+            "sys_updated_on",
+            "department",
+            "asset_tag",
+            "purchased_on",
+            "assigned_to",
+            "display_name",
+            "ci"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1554,
+        "completion_tokens": 752,
+        "total_tokens": 2306
+      }
+    },
+    "flag-74": {
+      "tables": [
+        {
+          "table": "flag-74",
+          "columns": [
+            "department",
+            "manager",
+            "title",
+            "employee_title",
+            "location",
+            "schedule",
+            "name",
+            "user_name",
+            "email",
+            "phone",
+            "sys_id"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1846,
+        "completion_tokens": 1662,
+        "total_tokens": 3508
+      }
+    },
+    "flag-75": {
+      "tables": [
+        {
+          "table": "flag-75",
+          "columns": [
+            "target_percentage",
+            "sys_updated_by",
+            "priority",
+            "metric",
+            "percent_complete",
+            "state",
+            "start_date",
+            "end_date",
+            "department",
+            "category",
+            "owner",
+            "description"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1884,
+        "completion_tokens": 1454,
+        "total_tokens": 3338
+      }
+    },
+    "flag-76": {
+      "tables": [
+        {
+          "table": "flag-76",
+          "columns": [
+            "department",
+            "state",
+            "percent_complete",
+            "priority",
+            "target_percentage",
+            "category",
+            "sys_updated_by",
+            "metric",
+            "end_date",
+            "start_date",
+            "owner",
+            "description",
+            "sys_id"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1870,
+        "completion_tokens": 905,
+        "total_tokens": 2775
+      }
+    },
+    "flag-77": {
+      "tables": [
+        {
+          "table": "flag-77",
+          "columns": [
+            "start_date",
+            "priority",
+            "metric",
+            "target_percentage",
+            "department",
+            "percent_complete",
+            "end_date",
+            "state",
+            "category",
+            "owner",
+            "sys_updated_by",
+            "description",
+            "sys_id"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1868,
+        "completion_tokens": 1097,
+        "total_tokens": 2965
+      }
+    },
+    "flag-78": {
+      "tables": [
+        {
+          "table": "flag-78",
+          "columns": [
+            "sys_updated_by",
+            "department",
+            "start_date",
+            "target_percentage",
+            "category",
+            "priority",
+            "state",
+            "metric",
+            "end_date",
+            "owner",
+            "percent_complete",
+            "description"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1844,
+        "completion_tokens": 1646,
+        "total_tokens": 3490
+      }
+    },
+    "flag-79": {
+      "tables": [
+        {
+          "table": "flag-79",
+          "columns": [
+            "sys_updated_by",
+            "department",
+            "start_date",
+            "target_percentage",
+            "category",
+            "priority",
+            "state",
+            "metric",
+            "end_date",
+            "owner",
+            "percent_complete",
+            "description",
+            "sys_id"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1866,
+        "completion_tokens": 1545,
+        "total_tokens": 3411
+      }
+    },
+    "flag-80": {
+      "tables": [
+        {
+          "table": "flag-80",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2002,
+        "completion_tokens": 1468,
+        "total_tokens": 3470
+      }
+    },
+    "flag-81": {
+      "tables": [
+        {
+          "table": "flag-81",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group",
+            "number"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1980,
+        "completion_tokens": 1362,
+        "total_tokens": 3342
+      }
+    },
+    "flag-82": {
+      "tables": [
+        {
+          "table": "flag-82",
+          "columns": [
+            "category",
+            "priority",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "assigned_to",
+            "assignement_group",
+            "location",
+            "caller_id",
+            "short_description",
+            "sys_updated_by",
+            "sys_updated_on",
+            "number"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1994,
+        "completion_tokens": 1810,
+        "total_tokens": 3804
+      }
+    },
+    "flag-83": {
+      "tables": [
+        {
+          "table": "flag-83",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2034,
+        "completion_tokens": 1340,
+        "total_tokens": 3374
+      }
+    },
+    "flag-84": {
+      "tables": [
+        {
+          "table": "flag-84",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1948,
+        "completion_tokens": 1404,
+        "total_tokens": 3352
+      }
+    },
+    "flag-85": {
+      "tables": [
+        {
+          "table": "flag-85",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1992,
+        "completion_tokens": 956,
+        "total_tokens": 2948
+      }
+    },
+    "flag-86": {
+      "tables": [
+        {
+          "table": "flag-86",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2000,
+        "completion_tokens": 1404,
+        "total_tokens": 3404
+      }
+    },
+    "flag-87": {
+      "tables": [
+        {
+          "table": "flag-87",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1988,
+        "completion_tokens": 1660,
+        "total_tokens": 3648
+      }
+    },
+    "flag-88": {
+      "tables": [
+        {
+          "table": "flag-88",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2040,
+        "completion_tokens": 1340,
+        "total_tokens": 3380
+      }
+    },
+    "flag-89": {
+      "tables": [
+        {
+          "table": "flag-89",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1952,
+        "completion_tokens": 1084,
+        "total_tokens": 3036
+      }
+    },
+    "flag-90": {
+      "tables": [
+        {
+          "table": "flag-90",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2040,
+        "completion_tokens": 1404,
+        "total_tokens": 3444
+      }
+    },
+    "flag-91": {
+      "tables": [
+        {
+          "table": "flag-91",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2078,
+        "completion_tokens": 1468,
+        "total_tokens": 3546
+      }
+    },
+    "flag-92": {
+      "tables": [
+        {
+          "table": "flag-92",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2008,
+        "completion_tokens": 1276,
+        "total_tokens": 3284
+      }
+    },
+    "flag-93": {
+      "tables": [
+        {
+          "table": "flag-93",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2062,
+        "completion_tokens": 1404,
+        "total_tokens": 3466
+      }
+    },
+    "flag-94": {
+      "tables": [
+        {
+          "table": "flag-94",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1888,
+        "completion_tokens": 956,
+        "total_tokens": 2844
+      }
+    },
+    "flag-95": {
+      "tables": [
+        {
+          "table": "flag-95",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1940,
+        "completion_tokens": 1468,
+        "total_tokens": 3408
+      }
+    },
+    "flag-96": {
+      "tables": [
+        {
+          "table": "flag-96",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1940,
+        "completion_tokens": 1212,
+        "total_tokens": 3152
+      }
+    },
+    "flag-97": {
+      "tables": [
+        {
+          "table": "flag-97",
+          "columns": [
+            "category",
+            "assigned_to",
+            "assignement_group",
+            "state",
+            "opened_at",
+            "closed_at",
+            "sys_updated_on",
+            "sys_updated_by",
+            "closed_by",
+            "priority",
+            "location",
+            "rca_category",
+            "users_affected",
+            "estimated_cost",
+            "user_satisfaction_score",
+            "resolution_method",
+            "short_description",
+            "caller_id",
+            "number"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2247,
+        "completion_tokens": 2095,
+        "total_tokens": 4342
+      }
+    },
+    "flag-98": {
+      "tables": [
+        {
+          "table": "flag-98",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group",
+            "user_satisfaction_score",
+            "rca_category",
+            "users_affected",
+            "estimated_cost",
+            "resolution_method"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2251,
+        "completion_tokens": 1753,
+        "total_tokens": 4004
+      }
+    },
+    "flag-99": {
+      "tables": [
+        {
+          "table": "flag-99",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group",
+            "user_satisfaction_score",
+            "rca_category",
+            "users_affected",
+            "estimated_cost",
+            "resolution_method"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2251,
+        "completion_tokens": 1561,
+        "total_tokens": 3812
+      }
+    },
+    "flag-100": {
+      "tables": [
+        {
+          "table": "flag-100",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group",
+            "user_satisfaction_score",
+            "rca_category",
+            "users_affected",
+            "estimated_cost",
+            "resolution_method"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2251,
+        "completion_tokens": 1305,
+        "total_tokens": 3556
+      }
+    },
+    "flag-18": {
+      "tables": [
+        {
+          "table": "flag-18",
+          "columns": [
+            "sys_updated_on",
+            "serial_number",
+            "purchased_on",
+            "asset_tag",
+            "warranty_expiration",
+            "assigned_to",
+            "department",
+            "cost",
+            "model_category",
+            "display_name",
+            "ci"
+          ]
+        },
+        {
+          "table": "flag-18-sysuser",
+          "columns": [
+            "manager",
+            "user_name",
+            "name",
+            "location",
+            "department",
+            "title",
+            "email",
+            "start_date",
+            "sys_id"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2569,
+        "completion_tokens": 1095,
+        "total_tokens": 3664
+      }
+    },
+    "flag-19": {
+      "tables": [
+        {
+          "table": "flag-19",
+          "columns": [
+            "number",
+            "source_id",
+            "user",
+            "amount",
+            "processed_date",
+            "opened_at",
+            "department",
+            "state",
+            "category",
+            "short_description",
+            "ci"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1648,
+        "completion_tokens": 808,
+        "total_tokens": 2456
+      }
+    },
+    "flag-20": {
+      "tables": [
+        {
+          "table": "flag-20",
+          "columns": [
+            "category",
+            "department",
+            "opened_at",
+            "source_id",
+            "number",
+            "processed_date",
+            "amount",
+            "state",
+            "user",
+            "short_description",
+            "ci"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1648,
+        "completion_tokens": 808,
+        "total_tokens": 2456
+      }
+    },
+    "flag-21": {
+      "tables": [
+        {
+          "table": "flag-21",
+          "columns": [
+            "user",
+            "category",
+            "source_id",
+            "number",
+            "amount",
+            "opened_at",
+            "department",
+            "state",
+            "processed_date",
+            "short_description",
+            "ci"
+          ]
+        },
+        {
+          "table": "flag-21-sysuser",
+          "columns": [
+            "manager",
+            "user_name",
+            "name",
+            "location",
+            "department",
+            "email",
+            "start_date"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2569,
+        "completion_tokens": 2525,
+        "total_tokens": 5094
+      }
+    },
+    "flag-22": {
+      "tables": [
+        {
+          "table": "flag-22",
+          "columns": [
+            "amount",
+            "opened_at",
+            "processed_date",
+            "state",
+            "department",
+            "category",
+            "user",
+            "ci",
+            "short_description",
+            "source_id",
+            "number"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1664,
+        "completion_tokens": 1768,
+        "total_tokens": 3432
+      }
+    },
+    "flag-23": {
+      "tables": [
+        {
+          "table": "flag-23",
+          "columns": [
+            "source_id",
+            "department",
+            "number",
+            "amount",
+            "category",
+            "state",
+            "processed_date",
+            "user",
+            "opened_at",
+            "short_description",
+            "ci"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1674,
+        "completion_tokens": 1128,
+        "total_tokens": 2802
+      }
+    },
+    "flag-24": {
+      "tables": [
+        {
+          "table": "flag-24",
+          "columns": [
+            "department",
+            "amount",
+            "user",
+            "category",
+            "opened_at",
+            "processed_date",
+            "state",
+            "short_description",
+            "ci",
+            "number"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1607,
+        "completion_tokens": 1721,
+        "total_tokens": 3328
+      }
+    },
+    "flag-25": {
+      "tables": [
+        {
+          "table": "flag-25",
+          "columns": [
+            "amount",
+            "opened_at",
+            "processed_date",
+            "state",
+            "department",
+            "user",
+            "category",
+            "short_description",
+            "ci",
+            "source_id",
+            "number"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1660,
+        "completion_tokens": 936,
+        "total_tokens": 2596
+      }
+    },
+    "flag-26": {
+      "tables": [
+        {
+          "table": "flag-26",
+          "columns": [
+            "cost",
+            "warranty_expiration",
+            "model_category",
+            "serial_number",
+            "sys_updated_on",
+            "department",
+            "asset_tag",
+            "purchased_on",
+            "assigned_to",
+            "display_name",
+            "ci"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1554,
+        "completion_tokens": 880,
+        "total_tokens": 2434
+      }
+    },
+    "flag-27": {
+      "tables": [
+        {
+          "table": "flag-27",
+          "columns": [
+            "name",
+            "email",
+            "phone",
+            "department",
+            "manager",
+            "location",
+            "user_name",
+            "title",
+            "schedule",
+            "employee_title"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1850,
+        "completion_tokens": 1122,
+        "total_tokens": 2972
+      }
+    },
+    "flag-28": {
+      "tables": [
+        {
+          "table": "flag-28",
+          "columns": [
+            "target_percentage",
+            "sys_updated_by",
+            "priority",
+            "metric",
+            "percent_complete",
+            "state",
+            "start_date",
+            "end_date",
+            "department",
+            "category",
+            "owner",
+            "description"
+          ]
+        },
+        {
+          "table": "flag-28-sysuser",
+          "columns": [
+            "manager",
+            "user_name",
+            "name",
+            "location",
+            "department",
+            "email",
+            "start_date",
+            "tenure",
+            "tenure_years",
+            "decline_rate_x",
+            "decline_rate_y",
+            "decline_rate"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2859,
+        "completion_tokens": 2115,
+        "total_tokens": 4974
+      }
+    },
+    "flag-29": {
+      "tables": [
+        {
+          "table": "flag-29",
+          "columns": [
+            "department",
+            "state",
+            "percent_complete",
+            "priority",
+            "target_percentage",
+            "category",
+            "sys_updated_by",
+            "metric",
+            "end_date",
+            "start_date",
+            "owner",
+            "description"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1870,
+        "completion_tokens": 1582,
+        "total_tokens": 3452
+      }
+    },
+    "flag-30": {
+      "tables": [
+        {
+          "table": "flag-30",
+          "columns": [
+            "start_date",
+            "priority",
+            "metric",
+            "target_percentage",
+            "department",
+            "percent_complete",
+            "end_date",
+            "state",
+            "category",
+            "owner",
+            "sys_updated_by",
+            "description"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1868,
+        "completion_tokens": 1774,
+        "total_tokens": 3642
+      }
+    },
+    "flag-31": {
+      "tables": [
+        {
+          "table": "flag-31",
+          "columns": [
+            "sys_updated_by",
+            "department",
+            "start_date",
+            "target_percentage",
+            "category",
+            "priority",
+            "state",
+            "metric",
+            "end_date",
+            "owner",
+            "percent_complete",
+            "sys_id",
+            "description"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1849,
+        "completion_tokens": 1331,
+        "total_tokens": 3180
+      }
+    },
+    "flag-32": {
+      "tables": [
+        {
+          "table": "flag-32",
+          "columns": [
+            "sys_updated_by",
+            "department",
+            "start_date",
+            "target_percentage",
+            "category",
+            "priority",
+            "state",
+            "metric",
+            "end_date",
+            "owner",
+            "percent_complete",
+            "description",
+            "sys_id"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1866,
+        "completion_tokens": 1097,
+        "total_tokens": 2963
+      }
+    },
+    "flag-33": {
+      "tables": [
+        {
+          "table": "flag-33",
+          "columns": [
+            "sys_updated_by",
+            "department",
+            "start_date",
+            "target_percentage",
+            "category",
+            "priority",
+            "state",
+            "metric",
+            "end_date",
+            "owner",
+            "percent_complete",
+            "sys_id",
+            "description",
+            "contains_keywords",
+            "goal_met"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1987,
+        "completion_tokens": 1853,
+        "total_tokens": 3840
+      }
+    },
+    "flag-34": {
+      "tables": [
+        {
+          "table": "flag-34",
+          "columns": [
+            "state",
+            "owner",
+            "department",
+            "start_date",
+            "end_date",
+            "description",
+            "priority",
+            "percent_complete",
+            "target_percentage",
+            "category",
+            "goal_met"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1691,
+        "completion_tokens": 1321,
+        "total_tokens": 3012
+      }
+    },
+    "flag-35": {
+      "tables": [
+        {
+          "table": "flag-35",
+          "columns": [
+            "goal_id",
+            "state",
+            "owner",
+            "department",
+            "start_date",
+            "end_date",
+            "description",
+            "priority",
+            "percent_complete",
+            "target_percentage",
+            "category",
+            "goal_met"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1708,
+        "completion_tokens": 1070,
+        "total_tokens": 2778
+      }
+    },
+    "flag-36": {
+      "tables": [
+        {
+          "table": "flag-36",
+          "columns": [
+            "state",
+            "owner",
+            "department",
+            "start_date",
+            "end_date",
+            "description",
+            "priority",
+            "percent_complete",
+            "target_percentage",
+            "category",
+            "quarter",
+            "goal_met"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1797,
+        "completion_tokens": 1773,
+        "total_tokens": 3570
+      }
+    },
+    "flag-37": {
+      "tables": [
+        {
+          "table": "flag-37",
+          "columns": [
+            "user_id",
+            "name",
+            "schedule",
+            "role",
+            "email",
+            "manager",
+            "department",
+            "location"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1387,
+        "completion_tokens": 1049,
+        "total_tokens": 2436
+      }
+    },
+    "flag-38": {
+      "tables": [
+        {
+          "table": "flag-38",
+          "columns": [
+            "status",
+            "owner",
+            "department",
+            "start_date",
+            "end_date",
+            "description",
+            "priority",
+            "percent_complete",
+            "target_percentage",
+            "goal_met",
+            "goal_id"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1555,
+        "completion_tokens": 1152,
+        "total_tokens": 2707
+      }
+    },
+    "flag-39": {
+      "tables": [
+        {
+          "table": "flag-39",
+          "columns": [
+            "opened_at",
+            "state",
+            "amount",
+            "short_description",
+            "department",
+            "location",
+            "processing_time",
+            "processed_date",
+            "user",
+            "number"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1564,
+        "completion_tokens": 1274,
+        "total_tokens": 2838
+      }
+    },
+    "flag-40": {
+      "tables": [
+        {
+          "table": "flag-40",
+          "columns": [
+            "opened_at",
+            "amount",
+            "state",
+            "short_description",
+            "ci",
+            "user",
+            "department",
+            "category",
+            "processed_date",
+            "source_id",
+            "type",
+            "location",
+            "processing_period",
+            "number"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1871,
+        "completion_tokens": 1099,
+        "total_tokens": 2970
+      }
+    },
+    "flag-41": {
+      "tables": [
+        {
+          "table": "flag-41",
+          "columns": [
+            "number",
+            "opened_at",
+            "amount",
+            "state",
+            "short_description",
+            "ci",
+            "user",
+            "department",
+            "category",
+            "processed_date",
+            "source_id",
+            "type",
+            "location",
+            "processing_time_hours"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1930,
+        "completion_tokens": 630,
+        "total_tokens": 2560
+      }
+    },
+    "flag-42": {
+      "tables": [
+        {
+          "table": "flag-42",
+          "columns": [
+            "number",
+            "opened_at",
+            "amount",
+            "state",
+            "short_description",
+            "ci",
+            "user",
+            "department",
+            "category",
+            "processed_date",
+            "source_id",
+            "type",
+            "location",
+            "processing_time_hours"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1830,
+        "completion_tokens": 1142,
+        "total_tokens": 2972
+      }
+    },
+    "flag-43": {
+      "tables": [
+        {
+          "table": "flag-43",
+          "columns": [
+            "opened_at",
+            "amount",
+            "state",
+            "short_description",
+            "ci",
+            "user",
+            "department",
+            "category",
+            "processed_date",
+            "source_id",
+            "type",
+            "location",
+            "processing_time_hours",
+            "number"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1912,
+        "completion_tokens": 1420,
+        "total_tokens": 3332
+      }
+    },
+    "flag-44": {
+      "tables": [
+        {
+          "table": "flag-44",
+          "columns": [
+            "number",
+            "opened_at",
+            "amount",
+            "state",
+            "short_description",
+            "ci",
+            "user",
+            "department",
+            "category",
+            "processed_date",
+            "source_id",
+            "type",
+            "location",
+            "processing_time_hours"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1968,
+        "completion_tokens": 1462,
+        "total_tokens": 3430
+      }
+    },
+    "flag-45": {
+      "tables": [
+        {
+          "table": "flag-45",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group",
+            "amount",
+            "processed_time",
+            "department"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 2189,
+        "completion_tokens": 1737,
+        "total_tokens": 3926
+      }
+    },
+    "flag-46": {
+      "tables": [
+        {
+          "table": "flag-46",
+          "columns": [
+            "category",
+            "department",
+            "opened_at",
+            "source_id",
+            "number",
+            "processed_date",
+            "amount",
+            "state",
+            "user",
+            "short_description",
+            "ci"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1736,
+        "completion_tokens": 1064,
+        "total_tokens": 2800
+      }
+    },
+    "flag-47": {
+      "tables": [
+        {
+          "table": "flag-47",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1888,
+        "completion_tokens": 1276,
+        "total_tokens": 3164
+      }
+    },
+    "flag-48": {
+      "tables": [
+        {
+          "table": "flag-48",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1892,
+        "completion_tokens": 1148,
+        "total_tokens": 3040
+      }
+    },
+    "flag-49": {
+      "tables": [
+        {
+          "table": "flag-49",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1922,
+        "completion_tokens": 1340,
+        "total_tokens": 3262
+      }
+    },
+    "flag-50": {
+      "tables": [
+        {
+          "table": "flag-50",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1906,
+        "completion_tokens": 956,
+        "total_tokens": 2862
+      }
+    },
+    "flag-51": {
+      "tables": [
+        {
+          "table": "flag-51",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1906,
+        "completion_tokens": 1212,
+        "total_tokens": 3118
+      }
+    },
+    "flag-52": {
+      "tables": [
+        {
+          "table": "flag-52",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group",
+            "number"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1896,
+        "completion_tokens": 1234,
+        "total_tokens": 3130
+      }
+    },
+    "flag-53": {
+      "tables": [
+        {
+          "table": "flag-53",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group",
+            "number"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1896,
+        "completion_tokens": 1682,
+        "total_tokens": 3578
+      }
+    },
+    "flag-54": {
+      "tables": [
+        {
+          "table": "flag-54",
+          "columns": [
+            "assigned_to",
+            "opened_at",
+            "sys_updated_on",
+            "state",
+            "priority",
+            "category",
+            "assignement_group",
+            "location",
+            "closed_at",
+            "closed_by",
+            "number",
+            "short_description",
+            "caller_id",
+            "sys_updated_by"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1900,
+        "completion_tokens": 1020,
+        "total_tokens": 2920
+      }
+    },
+    "flag-55": {
+      "tables": [
+        {
+          "table": "flag-55",
+          "columns": [
+            "category",
+            "state",
+            "closed_at",
+            "opened_at",
+            "closed_by",
+            "number",
+            "sys_updated_by",
+            "location",
+            "assigned_to",
+            "caller_id",
+            "sys_updated_on",
+            "short_description",
+            "priority",
+            "assignement_group"
+          ]
+        }
+      ],
+      "token_usage": {
+        "prompt_tokens": 1900,
+        "completion_tokens": 1020,
+        "total_tokens": 2920
+      }
+    }
+  }
+}

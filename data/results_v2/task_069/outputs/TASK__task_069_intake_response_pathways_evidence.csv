@@ -1,0 +1,146 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,complaints,clients,districts,regions,calls,avg_priority,avg_service_seconds,avg_sent_delay_days,dispute_rate_pct,untimely_rate_pct,no_relief_rate_pct,call_link_rate_pct,share_pct,notes
+channel_baseline,submitted_via,Web,,,channel_volume_rank,1.0,13235,4909,77,5,0,,,1.4472,21.0125,1.1938,2.3574,0.0,56.5139,Compare intake channels by scale and outcomes.
+channel_baseline,submitted_via,Referral,,,channel_volume_rank,2.0,6303,3690,77,5,0,,,4.3586,15.215,2.364,4.0457,0.0,26.914,Compare intake channels by scale and outcomes.
+channel_baseline,submitted_via,Phone,,,channel_volume_rank,3.0,2504,2019,77,5,2504,0.7971,698.649,3.1138,16.4537,1.877,3.3546,100.0,10.6922,Compare intake channels by scale and outcomes.
+channel_baseline,submitted_via,Postal mail,,,channel_volume_rank,4.0,1071,979,77,5,0,,,4.3679,19.7946,1.2138,1.5873,0.0,4.5732,Compare intake channels by scale and outcomes.
+channel_baseline,submitted_via,Fax,,,channel_volume_rank,5.0,298,291,75,5,0,,,5.2953,30.2013,1.3423,0.3356,0.0,1.2725,Compare intake channels by scale and outcomes.
+channel_baseline,submitted_via,Email,,,channel_volume_rank,6.0,8,8,8,5,0,,,11.625,0.0,0.0,37.5,0.0,0.0342,Compare intake channels by scale and outcomes.
+channel_product_mix,channel_product,Postal mail,Bank account or service,,product_rank_in_channel,1.0,566,544,77,5,0,,,4.1767,19.9647,0.7067,0.7067,0.0,2.4168,Show product mix inside each channel.
+channel_product_mix,channel_product,Postal mail,Credit card,,product_rank_in_channel,2.0,505,487,77,5,0,,,4.5822,19.604,1.7822,2.5743,0.0,2.1564,Show product mix inside each channel.
+channel_product_mix,channel_product,Phone,Bank account or service,,product_rank_in_channel,1.0,1805,1542,77,5,1805,0.8033,698.4305,2.7208,14.5152,1.2742,2.4377,100.0,7.7074,Show product mix inside each channel.
+channel_product_mix,channel_product,Phone,Credit card,,product_rank_in_channel,2.0,699,648,77,5,699,0.7811,699.2132,4.1288,21.4592,3.4335,5.7225,100.0,2.9848,Show product mix inside each channel.
+channel_product_mix,channel_product,Web,Bank account or service,,product_rank_in_channel,1.0,7194,3967,77,5,0,,,1.2011,18.0428,0.7228,0.8757,0.0,30.7186,Show product mix inside each channel.
+channel_product_mix,channel_product,Web,Credit card,,product_rank_in_channel,2.0,6041,3585,77,5,0,,,1.7403,24.5489,1.7547,4.1218,0.0,25.7953,Show product mix inside each channel.
+channel_product_mix,channel_product,Fax,Bank account or service,,product_rank_in_channel,1.0,204,201,67,5,0,,,5.6225,28.9216,0.4902,0.0,0.0,0.8711,Show product mix inside each channel.
+channel_product_mix,channel_product,Fax,Credit card,,product_rank_in_channel,2.0,94,93,48,5,0,,,4.5851,32.9787,3.1915,1.0638,0.0,0.4014,Show product mix inside each channel.
+channel_product_mix,channel_product,Referral,Bank account or service,,product_rank_in_channel,1.0,4317,2965,77,5,0,,,4.091,13.6669,1.691,2.0848,0.0,18.4338,Show product mix inside each channel.
+channel_product_mix,channel_product,Referral,Credit card,,product_rank_in_channel,2.0,1986,1639,77,5,0,,,4.9401,18.5801,3.8268,8.3082,0.0,8.4803,Show product mix inside each channel.
+channel_product_mix,channel_product,Email,Bank account or service,,product_rank_in_channel,1.0,5,5,5,3,0,,,1.6,0.0,0.0,20.0,0.0,0.0214,Show product mix inside each channel.
+channel_product_mix,channel_product,Email,Credit card,,product_rank_in_channel,2.0,3,3,3,2,0,,,28.3333,0.0,0.0,66.6667,0.0,0.0128,Show product mix inside each channel.
+channel_issue_mix,channel_issue,Postal mail,"Account opening, closing, or management",,issue_rank_in_channel,1.0,317,313,75,5,0,,,4.2808,22.082,0.9464,0.6309,0.0,1.3536,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Postal mail,Deposits and withdrawals,,issue_rank_in_channel,2.0,160,157,67,5,0,,,4.1813,19.375,0.0,0.625,0.0,0.6832,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Postal mail,Billing disputes,,issue_rank_in_channel,3.0,82,82,48,5,0,,,3.7317,25.6098,2.439,2.439,0.0,0.3501,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Postal mail,Closing/Cancelling account,,issue_rank_in_channel,4.0,66,66,40,5,0,,,4.3333,15.1515,1.5152,1.5152,0.0,0.2818,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Postal mail,Identity theft / Fraud / Embezzlement,,issue_rank_in_channel,5.0,61,60,33,4,0,,,3.2787,13.1148,3.2787,1.6393,0.0,0.2605,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Phone,"Account opening, closing, or management",,issue_rank_in_channel,1.0,857,793,77,5,857,0.8051,695.6569,2.6138,14.5858,1.2835,1.9837,100.0,3.6594,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Phone,Deposits and withdrawals,,issue_rank_in_channel,2.0,569,543,77,5,569,0.833,703.42,3.2302,14.4112,1.0545,2.812,100.0,2.4297,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Phone,Problems caused by my funds being low,,issue_rank_in_channel,3.0,161,159,63,5,161,0.7019,725.2174,2.1739,10.559,0.6211,2.4845,100.0,0.6875,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Phone,Billing disputes,,issue_rank_in_channel,4.0,138,137,60,5,138,0.8551,688.6812,3.1304,16.6667,2.1739,3.6232,100.0,0.5893,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Phone,"Making/receiving payments, sending money",,issue_rank_in_channel,5.0,120,120,61,5,120,0.8167,688.2833,2.225,17.5,2.5,4.1667,100.0,0.5124,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Web,"Account opening, closing, or management",,issue_rank_in_channel,1.0,2786,2164,77,5,0,,,1.2814,19.9569,0.7179,0.7179,0.0,11.8963,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Web,Deposits and withdrawals,,issue_rank_in_channel,2.0,1691,1443,77,5,0,,,1.2496,18.0367,0.887,1.0645,0.0,7.2206,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Web,Problems caused by my funds being low,,issue_rank_in_channel,3.0,1225,1100,77,5,0,,,0.9551,12.2449,0.2449,0.4898,0.0,5.2308,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Web,Billing disputes,,issue_rank_in_channel,4.0,920,845,77,5,0,,,1.688,30.4348,1.5217,3.3696,0.0,3.9284,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Web,Using a debit or ATM card,,issue_rank_in_channel,5.0,768,720,77,5,0,,,0.8125,17.9688,0.5208,1.1719,0.0,3.2794,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Fax,"Account opening, closing, or management",,issue_rank_in_channel,1.0,96,95,49,5,0,,,7.8333,28.125,0.0,0.0,0.0,0.4099,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Fax,Deposits and withdrawals,,issue_rank_in_channel,2.0,68,68,43,5,0,,,3.8676,27.9412,1.4706,0.0,0.0,0.2904,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Fax,Billing disputes,,issue_rank_in_channel,3.0,24,24,21,4,0,,,3.625,45.8333,4.1667,0.0,0.0,0.1025,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Fax,Identity theft / Fraud / Embezzlement,,issue_rank_in_channel,4.0,18,18,14,4,0,,,5.4444,38.8889,5.5556,0.0,0.0,0.0769,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Fax,"Making/receiving payments, sending money",,issue_rank_in_channel,5.0,17,17,15,4,0,,,3.1176,17.6471,0.0,0.0,0.0,0.0726,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Referral,"Account opening, closing, or management",,issue_rank_in_channel,1.0,1825,1527,77,5,0,,,4.3775,15.8356,1.6986,2.0274,0.0,7.7928,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Referral,Deposits and withdrawals,,issue_rank_in_channel,2.0,1299,1161,77,5,0,,,3.8714,12.7021,2.1555,2.3095,0.0,5.5468,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Referral,Problems caused by my funds being low,,issue_rank_in_channel,3.0,611,582,76,5,0,,,3.4566,9.6563,0.6547,1.964,0.0,2.609,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Referral,Billing disputes,,issue_rank_in_channel,4.0,395,378,77,5,0,,,5.5494,20.0,2.5316,7.5949,0.0,1.6867,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Referral,"Making/receiving payments, sending money",,issue_rank_in_channel,5.0,347,338,74,5,0,,,4.8184,14.4092,2.5937,2.0173,0.0,1.4817,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Email,"Account opening, closing, or management",,issue_rank_in_channel,1.0,3,3,3,1,0,,,0.6667,0.0,0.0,33.3333,0.0,0.0128,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Email,Billing disputes,,issue_rank_in_channel,2.0,1,1,1,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0043,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Email,Collection debt dispute,,issue_rank_in_channel,3.0,1,1,1,1,0,,,84.0,0.0,0.0,100.0,0.0,0.0043,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Email,Deposits and withdrawals,,issue_rank_in_channel,4.0,1,1,1,1,0,,,6.0,0.0,0.0,0.0,0.0,0.0043,Show leading issue types inside each channel.
+channel_issue_mix,channel_issue,Email,Other fee,,issue_rank_in_channel,5.0,1,1,1,1,0,,,1.0,0.0,0.0,100.0,0.0,0.0043,Show leading issue types inside each channel.
+channel_response_mix,channel_response,Postal mail,Closed with explanation,,response_rank_in_channel,1.0,780,735,77,5,0,,,4.5038,22.5641,0.8974,0.0,0.0,3.3306,Show response categories inside each channel.
+channel_response_mix,channel_response,Postal mail,Closed with monetary relief,,response_rank_in_channel,2.0,136,135,57,5,0,,,3.8235,9.5588,0.7353,0.0,0.0,0.5807,Show response categories inside each channel.
+channel_response_mix,channel_response,Postal mail,Closed with non-monetary relief,,response_rank_in_channel,3.0,94,92,48,4,0,,,3.8936,12.766,0.0,0.0,0.0,0.4014,Show response categories inside each channel.
+channel_response_mix,channel_response,Postal mail,Closed with relief,,response_rank_in_channel,4.0,20,20,15,4,0,,,3.1,15.0,10.0,0.0,0.0,0.0854,Show response categories inside each channel.
+channel_response_mix,channel_response,Postal mail,Closed without relief,,response_rank_in_channel,5.0,17,17,13,5,0,,,9.7059,41.1765,5.8824,100.0,0.0,0.0726,Show response categories inside each channel.
+channel_response_mix,channel_response,Postal mail,In progress,,response_rank_in_channel,6.0,12,12,12,5,0,,,1.9167,0.0,0.0,0.0,0.0,0.0512,Show response categories inside each channel.
+channel_response_mix,channel_response,Phone,Closed with explanation,,response_rank_in_channel,1.0,1649,1444,77,5,1649,0.7987,695.2401,3.4142,17.829,1.3948,0.0,100.0,7.0413,Show response categories inside each channel.
+channel_response_mix,channel_response,Phone,Closed with monetary relief,,response_rank_in_channel,2.0,439,418,76,5,439,0.7904,702.5581,2.2096,9.1116,1.139,0.0,100.0,1.8745,Show response categories inside each channel.
+channel_response_mix,channel_response,Phone,Closed with non-monetary relief,,response_rank_in_channel,3.0,194,193,71,5,194,0.8557,708.2474,2.4639,15.9794,1.0309,0.0,100.0,0.8284,Show response categories inside each channel.
+channel_response_mix,channel_response,Phone,Closed with relief,,response_rank_in_channel,4.0,85,84,41,5,85,0.7529,678.3412,3.2706,15.2941,7.0588,0.0,100.0,0.363,Show response categories inside each channel.
+channel_response_mix,channel_response,Phone,Closed without relief,,response_rank_in_channel,5.0,84,84,44,5,84,0.75,700.5357,3.0119,27.381,8.3333,100.0,100.0,0.3587,Show response categories inside each channel.
+channel_response_mix,channel_response,Phone,Closed,,response_rank_in_channel,6.0,37,37,27,5,37,0.8649,818.1351,4.8919,29.7297,2.7027,0.0,100.0,0.158,Show response categories inside each channel.
+channel_response_mix,channel_response,Web,Closed with explanation,,response_rank_in_channel,1.0,7981,4145,77,5,0,,,1.5687,26.0118,0.7768,0.0,0.0,34.0792,Show response categories inside each channel.
+channel_response_mix,channel_response,Web,Closed with monetary relief,,response_rank_in_channel,2.0,3175,2368,77,5,0,,,0.8825,10.2677,0.5669,0.0,0.0,13.5574,Show response categories inside each channel.
+channel_response_mix,channel_response,Web,Closed with non-monetary relief,,response_rank_in_channel,3.0,1189,1063,77,5,0,,,1.7973,16.5685,1.0934,0.0,0.0,5.0771,Show response categories inside each channel.
+channel_response_mix,channel_response,Web,Closed with relief,,response_rank_in_channel,4.0,350,339,76,5,0,,,1.9571,14.5714,7.4286,0.0,0.0,1.4945,Show response categories inside each channel.
+channel_response_mix,channel_response,Web,Closed without relief,,response_rank_in_channel,5.0,312,299,75,5,0,,,2.1635,29.1667,7.0513,100.0,0.0,1.3323,Show response categories inside each channel.
+channel_response_mix,channel_response,Web,Closed,,response_rank_in_channel,6.0,119,117,59,5,0,,,2.0,33.6134,2.521,0.0,0.0,0.5081,Show response categories inside each channel.
+channel_response_mix,channel_response,Fax,Closed with explanation,,response_rank_in_channel,1.0,215,213,70,5,0,,,5.786,34.4186,1.3953,0.0,0.0,0.9181,Show response categories inside each channel.
+channel_response_mix,channel_response,Fax,Closed with monetary relief,,response_rank_in_channel,2.0,55,55,40,5,0,,,3.9455,12.7273,1.8182,0.0,0.0,0.2349,Show response categories inside each channel.
+channel_response_mix,channel_response,Fax,Closed with non-monetary relief,,response_rank_in_channel,3.0,20,20,16,5,0,,,4.5,25.0,0.0,0.0,0.0,0.0854,Show response categories inside each channel.
+channel_response_mix,channel_response,Fax,Closed with relief,,response_rank_in_channel,4.0,5,5,5,4,0,,,4.2,40.0,0.0,0.0,0.0,0.0214,Show response categories inside each channel.
+channel_response_mix,channel_response,Fax,Closed,,response_rank_in_channel,5.0,1,1,1,1,0,,,4.0,100.0,0.0,0.0,0.0,0.0043,Show response categories inside each channel.
+channel_response_mix,channel_response,Fax,Closed without relief,,response_rank_in_channel,6.0,1,1,1,1,0,,,1.0,100.0,0.0,100.0,0.0,0.0043,Show response categories inside each channel.
+channel_response_mix,channel_response,Referral,Closed with explanation,,response_rank_in_channel,1.0,3711,2676,77,5,0,,,4.7109,19.1593,1.5629,0.0,0.0,15.8461,Show response categories inside each channel.
+channel_response_mix,channel_response,Referral,Closed with monetary relief,,response_rank_in_channel,2.0,1462,1276,77,5,0,,,3.6669,6.0192,1.0944,0.0,0.0,6.2428,Show response categories inside each channel.
+channel_response_mix,channel_response,Referral,Closed with non-monetary relief,,response_rank_in_channel,3.0,437,422,77,5,0,,,5.5446,14.8741,3.6613,0.0,0.0,1.866,Show response categories inside each channel.
+channel_response_mix,channel_response,Referral,Closed with relief,,response_rank_in_channel,4.0,295,284,72,5,0,,,2.7254,10.1695,6.1017,0.0,0.0,1.2597,Show response categories inside each channel.
+channel_response_mix,channel_response,Referral,Closed without relief,,response_rank_in_channel,5.0,255,249,73,5,0,,,2.4235,18.0392,7.8431,100.0,0.0,1.0889,Show response categories inside each channel.
+channel_response_mix,channel_response,Referral,Closed,,response_rank_in_channel,6.0,99,99,52,5,0,,,6.5455,19.1919,8.0808,0.0,0.0,0.4227,Show response categories inside each channel.
+channel_response_mix,channel_response,Email,Closed with relief,,response_rank_in_channel,1.0,4,4,4,3,0,,,0.5,0.0,0.0,0.0,0.0,0.0171,Show response categories inside each channel.
+channel_response_mix,channel_response,Email,Closed without relief,,response_rank_in_channel,2.0,3,3,3,2,0,,,28.3333,0.0,0.0,100.0,0.0,0.0128,Show response categories inside each channel.
+channel_response_mix,channel_response,Email,Closed with explanation,,response_rank_in_channel,3.0,1,1,1,1,0,,,6.0,0.0,0.0,0.0,0.0,0.0043,Show response categories inside each channel.
+channel_delay_mix,channel_delay,Postal mail,one_to_two_days,,delay_rank_in_channel,1.0,434,418,77,5,0,,,1.3664,19.5853,1.1521,1.8433,0.0,1.8532,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Postal mail,three_to_seven_days,,delay_rank_in_channel,2.0,382,369,76,5,0,,,4.4869,20.1571,0.7853,1.0471,0.0,1.6312,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Postal mail,same_day,,delay_rank_in_channel,3.0,146,145,60,5,0,,,0.0,18.4932,1.3699,1.3699,0.0,0.6234,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Postal mail,over_seven_days,,delay_rank_in_channel,4.0,109,105,53,5,0,,,21.7523,21.1009,2.7523,2.7523,0.0,0.4654,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Phone,one_to_two_days,,delay_rank_in_channel,1.0,932,863,77,5,932,0.8004,694.4388,1.2682,15.6652,2.3605,5.6867,100.0,3.9797,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Phone,same_day,,delay_rank_in_channel,2.0,742,699,77,5,742,0.7844,693.5458,0.0,14.4205,0.8086,0.1348,100.0,3.1684,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Phone,three_to_seven_days,,delay_rank_in_channel,3.0,725,678,76,5,725,0.8069,700.4124,4.4138,17.6552,2.069,3.5862,100.0,3.0958,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Phone,over_seven_days,,delay_rank_in_channel,4.0,105,105,60,5,105,0.7905,759.9048,32.5238,29.5238,3.8095,3.8095,100.0,0.4484,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Web,same_day,,delay_rank_in_channel,1.0,9161,4388,77,5,0,,,-0.0206,20.62,0.4912,0.7204,0.0,39.1178,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Web,one_to_two_days,,delay_rank_in_channel,2.0,2105,1756,77,5,0,,,1.3496,21.0451,3.5629,8.6936,0.0,8.9884,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Web,three_to_seven_days,,delay_rank_in_channel,3.0,1598,1397,77,5,0,,,4.2553,23.4043,2.0025,3.5044,0.0,6.8235,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Web,over_seven_days,,delay_rank_in_channel,4.0,371,359,75,5,0,,,26.1509,20.2156,1.6173,1.8868,0.0,1.5842,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Fax,three_to_seven_days,,delay_rank_in_channel,1.0,115,115,57,5,0,,,4.4957,27.8261,0.8696,0.0,0.0,0.4911,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Fax,one_to_two_days,,delay_rank_in_channel,2.0,100,99,53,5,0,,,1.36,33.0,2.0,1.0,0.0,0.427,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Fax,over_seven_days,,delay_rank_in_channel,3.0,44,44,28,5,0,,,21.0227,31.8182,0.0,0.0,0.0,0.1879,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Fax,same_day,,delay_rank_in_channel,4.0,39,39,28,5,0,,,0.0,28.2051,2.5641,0.0,0.0,0.1665,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Referral,three_to_seven_days,,delay_rank_in_channel,1.0,2734,2095,77,5,0,,,4.5044,15.2158,1.2436,1.7557,0.0,11.6743,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Referral,one_to_two_days,,delay_rank_in_channel,2.0,2395,1931,77,5,0,,,1.4154,15.0731,1.6284,1.8372,0.0,10.2267,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Referral,same_day,,delay_rank_in_channel,3.0,701,656,77,5,0,,,-0.0043,15.8345,5.4208,20.8274,0.0,2.9933,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Referral,over_seven_days,,delay_rank_in_channel,4.0,473,449,76,5,0,,,24.8837,15.0106,8.0338,3.5941,0.0,2.0197,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Email,one_to_two_days,,delay_rank_in_channel,1.0,3,3,3,2,0,,,1.0,0.0,0.0,33.3333,0.0,0.0128,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Email,same_day,,delay_rank_in_channel,2.0,3,3,3,3,0,,,0.0,0.0,0.0,33.3333,0.0,0.0128,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Email,over_seven_days,,delay_rank_in_channel,3.0,1,1,1,1,0,,,84.0,0.0,0.0,100.0,0.0,0.0043,Show sent-delay mix inside each channel.
+channel_delay_mix,channel_delay,Email,three_to_seven_days,,delay_rank_in_channel,4.0,1,1,1,1,0,,,6.0,0.0,0.0,0.0,0.0,0.0043,Show sent-delay mix inside each channel.
+channel_region_mix,channel_region,Postal mail,Northeast,,region_rank_in_channel,1.0,494,453,32,1,0,,,4.7915,18.4211,1.2146,1.417,0.0,2.1094,Show regional mix inside each channel.
+channel_region_mix,channel_region,Postal mail,South,,region_rank_in_channel,2.0,195,181,17,1,0,,,3.3436,23.0769,2.0513,1.5385,0.0,0.8327,Show regional mix inside each channel.
+channel_region_mix,channel_region,Postal mail,West,,region_rank_in_channel,3.0,195,175,13,1,0,,,3.8821,21.5385,1.0256,1.0256,0.0,0.8327,Show regional mix inside each channel.
+channel_region_mix,channel_region,Postal mail,Midwest,,region_rank_in_channel,4.0,159,144,12,1,0,,,4.9686,16.9811,0.6289,2.5157,0.0,0.6789,Show regional mix inside each channel.
+channel_region_mix,channel_region,Postal mail,unknown,,region_rank_in_channel,5.0,28,26,3,1,0,,,4.0,25.0,0.0,3.5714,0.0,0.1196,Show regional mix inside each channel.
+channel_region_mix,channel_region,Phone,Northeast,,region_rank_in_channel,1.0,1200,970,32,1,1200,0.8217,715.9467,2.9275,15.5,2.25,4.1667,100.0,5.124,Show regional mix inside each channel.
+channel_region_mix,channel_region,Phone,South,,region_rank_in_channel,2.0,460,366,17,1,460,0.8065,709.2239,2.7978,15.0,1.087,0.8696,100.0,1.9642,Show regional mix inside each channel.
+channel_region_mix,channel_region,Phone,West,,region_rank_in_channel,3.0,398,315,13,1,398,0.7513,676.8995,2.5126,16.3317,1.2563,3.5176,100.0,1.6995,Show regional mix inside each channel.
+channel_region_mix,channel_region,Phone,Midwest,,region_rank_in_channel,4.0,360,299,12,1,360,0.7556,670.6389,4.6361,20.5556,1.6667,3.6111,100.0,1.5372,Show regional mix inside each channel.
+channel_region_mix,channel_region,Phone,unknown,,region_rank_in_channel,5.0,86,69,3,1,86,0.7907,618.6279,3.814,20.9302,4.6512,3.4884,100.0,0.3672,Show regional mix inside each channel.
+channel_region_mix,channel_region,Web,Northeast,,region_rank_in_channel,1.0,6213,2315,32,1,0,,,1.4177,20.7146,1.2232,2.3982,0.0,26.5297,Show regional mix inside each channel.
+channel_region_mix,channel_region,Web,South,,region_rank_in_channel,2.0,2482,923,17,1,0,,,1.6265,21.9581,0.8461,2.2965,0.0,10.5982,Show regional mix inside each channel.
+channel_region_mix,channel_region,Web,West,,region_rank_in_channel,3.0,2126,791,13,1,0,,,1.3702,21.1665,1.4111,2.3048,0.0,9.0781,Show regional mix inside each channel.
+channel_region_mix,channel_region,Web,Midwest,,region_rank_in_channel,4.0,2003,730,12,1,0,,,1.312,20.1198,1.1982,2.4463,0.0,8.5529,Show regional mix inside each channel.
+channel_region_mix,channel_region,Web,unknown,,region_rank_in_channel,5.0,411,150,3,1,0,,,1.8686,23.3577,1.7032,1.9465,0.0,1.755,Show regional mix inside each channel.
+channel_region_mix,channel_region,Fax,Northeast,,region_rank_in_channel,1.0,147,142,31,1,0,,,6.102,25.1701,1.3605,0.0,0.0,0.6277,Show regional mix inside each channel.
+channel_region_mix,channel_region,Fax,West,,region_rank_in_channel,2.0,52,51,13,1,0,,,3.9231,34.6154,3.8462,0.0,0.0,0.222,Show regional mix inside each channel.
+channel_region_mix,channel_region,Fax,South,,region_rank_in_channel,3.0,48,47,16,1,0,,,3.75,29.1667,0.0,0.0,0.0,0.205,Show regional mix inside each channel.
+channel_region_mix,channel_region,Fax,Midwest,,region_rank_in_channel,4.0,45,45,12,1,0,,,4.8889,42.2222,0.0,2.2222,0.0,0.1922,Show regional mix inside each channel.
+channel_region_mix,channel_region,Fax,unknown,,region_rank_in_channel,5.0,6,6,3,1,0,,,12.8333,33.3333,0.0,0.0,0.0,0.0256,Show regional mix inside each channel.
+channel_region_mix,channel_region,Referral,Northeast,,region_rank_in_channel,1.0,2900,1713,32,1,0,,,4.3148,15.7931,2.7586,4.931,0.0,12.3831,Show regional mix inside each channel.
+channel_region_mix,channel_region,Referral,South,,region_rank_in_channel,2.0,1282,723,17,1,0,,,4.1583,15.4446,2.1061,3.5101,0.0,5.4742,Show regional mix inside each channel.
+channel_region_mix,channel_region,Referral,West,,region_rank_in_channel,3.0,997,591,13,1,0,,,4.2076,15.1454,2.5075,3.6108,0.0,4.2572,Show regional mix inside each channel.
+channel_region_mix,channel_region,Referral,Midwest,,region_rank_in_channel,4.0,921,543,12,1,0,,,5.2106,13.2465,1.6287,2.4973,0.0,3.9327,Show regional mix inside each channel.
+channel_region_mix,channel_region,Referral,unknown,,region_rank_in_channel,5.0,203,120,3,1,0,,,3.1232,14.7783,0.9852,3.9409,0.0,0.8668,Show regional mix inside each channel.
+channel_region_mix,channel_region,Email,Northeast,,region_rank_in_channel,1.0,3,3,3,1,0,,,0.6667,0.0,0.0,33.3333,0.0,0.0128,Show regional mix inside each channel.
+channel_region_mix,channel_region,Email,Midwest,,region_rank_in_channel,2.0,2,2,2,1,0,,,42.5,0.0,0.0,100.0,0.0,0.0085,Show regional mix inside each channel.
+channel_region_mix,channel_region,Email,South,,region_rank_in_channel,3.0,1,1,1,1,0,,,6.0,0.0,0.0,0.0,0.0,0.0043,Show regional mix inside each channel.
+channel_region_mix,channel_region,Email,West,,region_rank_in_channel,4.0,1,1,1,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0043,Show regional mix inside each channel.
+channel_region_mix,channel_region,Email,unknown,,region_rank_in_channel,5.0,1,1,1,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0043,Show regional mix inside each channel.
+channel_call_overlay,channel_call,Postal mail,unknown,,call_type_rank_in_channel,1.0,1071,979,77,5,0,,,4.3679,19.7946,1.2138,1.5873,0.0,4.5732,Compare call linkage inside each channel.
+channel_call_overlay,channel_call,Phone,PS,,call_type_rank_in_channel,1.0,1723,1482,77,5,1723,0.9008,704.8056,2.9565,16.4248,2.0894,3.4243,100.0,7.3573,Compare call linkage inside each channel.
+channel_call_overlay,channel_call,Phone,NW,,call_type_rank_in_channel,2.0,424,409,77,5,424,0.1745,670.4481,3.9387,16.5094,1.4151,2.5943,100.0,1.8105,Compare call linkage inside each channel.
+channel_call_overlay,channel_call,Phone,NE,,call_type_rank_in_channel,3.0,234,232,68,5,234,1.1325,686.3376,2.6026,15.812,1.7094,4.2735,100.0,0.9992,Compare call linkage inside each channel.
+channel_call_overlay,channel_call,Phone,TT,,call_type_rank_in_channel,4.0,85,81,45,5,85,0.9765,673.0,2.9059,16.4706,0.0,3.5294,100.0,0.363,Compare call linkage inside each channel.
+channel_call_overlay,channel_call,Phone,IN,,call_type_rank_in_channel,5.0,21,21,19,5,21,0.1905,775.9524,1.9048,33.3333,0.0,4.7619,100.0,0.0897,Compare call linkage inside each channel.
+channel_call_overlay,channel_call,Web,unknown,,call_type_rank_in_channel,1.0,13235,4909,77,5,0,,,1.4472,21.0125,1.1938,2.3574,0.0,56.5139,Compare call linkage inside each channel.
+channel_call_overlay,channel_call,Fax,unknown,,call_type_rank_in_channel,1.0,298,291,75,5,0,,,5.2953,30.2013,1.3423,0.3356,0.0,1.2725,Compare call linkage inside each channel.
+channel_call_overlay,channel_call,Referral,unknown,,call_type_rank_in_channel,1.0,6303,3690,77,5,0,,,4.3586,15.215,2.364,4.0457,0.0,26.914,Compare call linkage inside each channel.
+channel_call_overlay,channel_call,Email,unknown,,call_type_rank_in_channel,1.0,8,8,8,5,0,,,11.625,0.0,0.0,37.5,0.0,0.0342,Compare call linkage inside each channel.

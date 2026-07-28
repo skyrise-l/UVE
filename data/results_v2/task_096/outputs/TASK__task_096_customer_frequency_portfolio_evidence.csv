@@ -1,0 +1,168 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,customer_count,order_count,line_count,book_count,total_price,avg_order_value,avg_unit_price,delivered_orders,cancelled_orders,returned_orders,share_pct,secondary_value,notes
+customer_cohort_month_profile,first_order_month,2020-01,repeat_customer,,cohort_value_rank,1.0,125,753,753,753,7534.19,10.0099,,,,,9.9856,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2019-12,repeat_customer,,cohort_value_rank,2.0,101,603,603,603,6033.04,9.9211,,,,,7.9961,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-02,repeat_customer,,cohort_value_rank,3.0,81,492,492,492,4994.31,10.0802,,,,,6.6193,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-01,heavy_repeat_customer,,cohort_value_rank,4.0,38,485,485,485,4978.97,10.1954,,,,,6.599,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-03,repeat_customer,,cohort_value_rank,5.0,93,503,503,503,4867.26,9.681,,,,,6.451,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2019-12,heavy_repeat_customer,,cohort_value_rank,6.0,32,409,409,409,4293.39,10.5402,,,,,5.6904,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-05,repeat_customer,,cohort_value_rank,7.0,83,436,436,436,4286.6,9.8612,,,,,5.6814,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-04,repeat_customer,,cohort_value_rank,8.0,75,411,411,411,3917.82,9.325,,,,,5.1926,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-06,repeat_customer,,cohort_value_rank,9.0,54,311,311,311,3083.57,9.8744,,,,,4.0869,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-02,heavy_repeat_customer,,cohort_value_rank,10.0,19,233,233,233,2446.44,10.5066,,,,,3.2425,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-08,repeat_customer,,cohort_value_rank,11.0,46,233,233,233,2343.67,10.2847,,,,,3.1062,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-07,repeat_customer,,cohort_value_rank,12.0,41,219,219,219,2339.19,10.6033,,,,,3.1003,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-04,heavy_repeat_customer,,cohort_value_rank,13.0,19,226,226,226,2127.53,9.3922,,,,,2.8198,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-09,repeat_customer,,cohort_value_rank,14.0,34,176,176,176,1747.67,9.7304,,,,,2.3163,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-10,repeat_customer,,cohort_value_rank,15.0,33,160,160,160,1387.88,9.0482,,,,,1.8395,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-03,heavy_repeat_customer,,cohort_value_rank,16.0,9,109,109,109,1090.67,9.9834,,,,,1.4455,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-11,repeat_customer,,cohort_value_rank,17.0,25,108,108,108,1063.59,9.681,,,,,1.4097,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-12,repeat_customer,,cohort_value_rank,18.0,20,99,99,99,958.01,9.9591,,,,,1.2697,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2021-01,repeat_customer,,cohort_value_rank,19.0,20,89,89,89,919.19,10.5318,,,,,1.2183,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2021-02,repeat_customer,,cohort_value_rank,20.0,14,66,66,66,674.37,10.1276,,,,,0.8938,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2021-04,repeat_customer,,cohort_value_rank,21.0,14,66,66,66,663.65,9.7829,,,,,0.8796,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-05,heavy_repeat_customer,,cohort_value_rank,22.0,5,56,56,56,570.45,10.177,,,,,0.7561,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2021-05,repeat_customer,,cohort_value_rank,23.0,10,49,49,49,537.64,10.9968,,,,,0.7126,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-06,heavy_repeat_customer,,cohort_value_rank,24.0,4,45,45,45,526.28,11.5741,,,,,0.6975,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2021-07,repeat_customer,,cohort_value_rank,25.0,9,41,41,41,422.2,10.0933,,,,,0.5596,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2021-03,repeat_customer,,cohort_value_rank,26.0,10,41,41,41,390.15,9.2837,,,,,0.5171,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2021-06,repeat_customer,,cohort_value_rank,27.0,9,36,36,36,351.81,9.7234,,,,,0.4663,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-09,heavy_repeat_customer,,cohort_value_rank,28.0,3,34,34,34,345.32,10.2874,,,,,0.4577,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2021-09,repeat_customer,,cohort_value_rank,29.0,8,35,35,35,337.19,9.5284,,,,,0.4469,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-07,heavy_repeat_customer,,cohort_value_rank,30.0,3,33,33,33,293.13,8.9074,,,,,0.3885,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-05,two_order_customer,,cohort_value_rank,31.0,13,26,26,26,290.82,11.1854,,,,,0.3854,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-08,two_order_customer,,cohort_value_rank,32.0,15,30,30,30,255.81,8.527,,,,,0.339,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-10,heavy_repeat_customer,,cohort_value_rank,33.0,2,26,26,26,255.17,9.8297,,,,,0.3382,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-04,two_order_customer,,cohort_value_rank,34.0,11,22,22,22,241.97,10.9986,,,,,0.3207,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2022-10,single_order_customer,,cohort_value_rank,35.0,19,19,19,19,230.86,12.1505,,,,,0.306,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-09,two_order_customer,,cohort_value_rank,36.0,10,20,20,20,219.86,10.993,,,,,0.2914,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2021-11,repeat_customer,,cohort_value_rank,37.0,4,23,23,23,208.38,8.9302,,,,,0.2762,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-06,two_order_customer,,cohort_value_rank,38.0,9,18,18,18,205.45,11.4139,,,,,0.2723,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2022-03,single_order_customer,,cohort_value_rank,39.0,17,17,17,17,200.56,11.7976,,,,,0.2658,,First observed order month profile for customer demand.
+customer_cohort_month_profile,first_order_month,2020-08,heavy_repeat_customer,,cohort_value_rank,40.0,2,21,21,21,200.27,9.4637,,,,,0.2654,,First observed order month profile for customer demand.
+customer_frequency_baseline,frequency_bucket,repeat_customer,,,frequency_value_rank,1.0,923,5005,5005,5005,49652.97,9.9207,,2318,216,129,65.8089,,Customer frequency buckets and their demand contribution.
+customer_frequency_baseline,frequency_bucket,heavy_repeat_customer,,,frequency_value_rank,2.0,138,1700,1700,1700,17348.12,10.2048,,791,52,46,22.9928,,Customer frequency buckets and their demand contribution.
+customer_frequency_baseline,frequency_bucket,single_order_customer,,,frequency_value_rank,3.0,427,427,427,427,4397.37,10.2983,,199,18,8,5.8282,,Customer frequency buckets and their demand contribution.
+customer_frequency_baseline,frequency_bucket,two_order_customer,,,frequency_value_rank,4.0,209,418,418,418,4051.76,9.6932,,192,14,17,5.3701,,Customer frequency buckets and their demand contribution.
+customer_frequency_baseline,frequency_bucket,no_observed_orders,,,frequency_value_rank,5.0,303,0,0,0,0.0,,,,,,0.0,,Customer frequency buckets and their demand contribution.
+frequency_language_mix,frequency_language,heavy_repeat_customer,English,,language_rank_within_frequency,1.0,138,1338,1338,1234,13579.55,,10.1491,,,,78.2768,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,repeat_customer,English,,language_rank_within_frequency,1.0,919,3999,3999,3203,39552.8,,9.8907,,,,79.6585,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,single_order_customer,English,,language_rank_within_frequency,1.0,331,331,331,327,3416.41,,10.3215,,,,77.6921,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,two_order_customer,English,,language_rank_within_frequency,1.0,198,325,325,320,3155.35,,9.7088,,,,77.876,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,heavy_repeat_customer,United States English,,language_rank_within_frequency,2.0,111,227,227,207,2421.2,,10.6661,,,,13.9566,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,repeat_customer,United States English,,language_rank_within_frequency,2.0,481,654,654,534,6541.8,,10.0028,,,,13.175,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,single_order_customer,United States English,,language_rank_within_frequency,2.0,55,55,55,55,550.6,,10.0109,,,,12.5211,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,two_order_customer,United States English,,language_rank_within_frequency,2.0,61,64,64,64,581.25,,9.082,,,,14.3456,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,heavy_repeat_customer,British English,,language_rank_within_frequency,3.0,39,43,43,39,425.05,,9.8849,,,,2.4501,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,repeat_customer,British English,,language_rank_within_frequency,3.0,110,112,112,88,1183.72,,10.5689,,,,2.384,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,single_order_customer,Spanish,,language_rank_within_frequency,3.0,10,10,10,10,114.51,,11.451,,,,2.6041,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,two_order_customer,British English,,language_rank_within_frequency,3.0,8,8,8,8,97.68,,12.21,,,,2.4108,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,heavy_repeat_customer,Spanish,,language_rank_within_frequency,4.0,33,38,38,36,366.21,,9.6371,,,,2.1109,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,repeat_customer,Spanish,,language_rank_within_frequency,4.0,84,88,88,69,832.54,,9.4607,,,,1.6767,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,single_order_customer,British English,,language_rank_within_frequency,4.0,12,12,12,11,90.43,,7.5358,,,,2.0565,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,two_order_customer,Spanish,,language_rank_within_frequency,4.0,10,10,10,10,90.96,,9.096,,,,2.245,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,heavy_repeat_customer,German,,language_rank_within_frequency,5.0,15,15,15,14,153.51,,10.234,,,,0.8849,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,repeat_customer,French,,language_rank_within_frequency,5.0,60,60,60,45,594.2,,9.9033,,,,1.1967,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,single_order_customer,German,,language_rank_within_frequency,5.0,5,5,5,5,48.35,,9.67,,,,1.0995,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,two_order_customer,French,,language_rank_within_frequency,5.0,6,6,6,6,67.35,,11.225,,,,1.6622,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,heavy_repeat_customer,French,,language_rank_within_frequency,6.0,16,17,17,15,146.14,,8.5965,,,,0.8424,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,repeat_customer,German,,language_rank_within_frequency,6.0,41,42,42,36,451.8,,10.7571,,,,0.9099,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,single_order_customer,Japanese,,language_rank_within_frequency,6.0,3,3,3,3,45.38,,15.1267,,,,1.032,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,two_order_customer,Greek,,language_rank_within_frequency,6.0,2,2,2,2,29.17,,14.585,,,,0.7199,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,heavy_repeat_customer,Japanese,,language_rank_within_frequency,7.0,8,8,8,6,91.74,,11.4675,,,,0.5288,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,repeat_customer,Japanese,,language_rank_within_frequency,7.0,18,18,18,15,156.78,,8.71,,,,0.3158,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,single_order_customer,French,,language_rank_within_frequency,7.0,5,5,5,5,41.61,,8.322,,,,0.9462,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,two_order_customer,German,,language_rank_within_frequency,7.0,1,1,1,1,13.83,,13.83,,,,0.3413,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,heavy_repeat_customer,Multiple Languages,,language_rank_within_frequency,8.0,5,5,5,5,56.62,,11.324,,,,0.3264,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,repeat_customer,Multiple Languages,,language_rank_within_frequency,8.0,7,7,7,7,75.22,,10.7457,,,,0.1515,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,single_order_customer,Portuguese,,language_rank_within_frequency,8.0,2,2,2,2,31.43,,15.715,,,,0.7147,,Language mix by customer frequency bucket.
+frequency_language_mix,frequency_language,two_order_customer,Middle English,,language_rank_within_frequency,8.0,1,1,1,1,8.39,,8.39,,,,0.2071,,Language mix by customer frequency bucket.
+frequency_lifecycle_mix,frequency_lifecycle,heavy_repeat_customer,incomplete_or_in_progress,,lifecycle_rank_within_frequency,1.0,138,857,857,857,8752.04,10.2124,,0,0,0,50.4118,,Lifecycle outcome mix by customer frequency bucket.
+frequency_lifecycle_mix,frequency_lifecycle,repeat_customer,incomplete_or_in_progress,,lifecycle_rank_within_frequency,1.0,881,2471,2471,2471,24322.3,9.8431,,0,0,0,49.3706,,Lifecycle outcome mix by customer frequency bucket.
+frequency_lifecycle_mix,frequency_lifecycle,single_order_customer,incomplete_or_in_progress,,lifecycle_rank_within_frequency,1.0,210,210,210,210,2080.81,9.9086,,0,0,0,49.1803,,Lifecycle outcome mix by customer frequency bucket.
+frequency_lifecycle_mix,frequency_lifecycle,two_order_customer,incomplete_or_in_progress,,lifecycle_rank_within_frequency,1.0,156,210,210,210,2028.8,9.661,,0,0,0,50.2392,,Lifecycle outcome mix by customer frequency bucket.
+frequency_lifecycle_mix,frequency_lifecycle,heavy_repeat_customer,delivered_path,,lifecycle_rank_within_frequency,2.0,138,745,745,745,7550.36,10.1347,,745,0,0,43.8235,,Lifecycle outcome mix by customer frequency bucket.
+frequency_lifecycle_mix,frequency_lifecycle,repeat_customer,delivered_path,,lifecycle_rank_within_frequency,2.0,849,2189,2189,2189,21867.86,9.9899,,2189,0,0,43.7363,,Lifecycle outcome mix by customer frequency bucket.
+frequency_lifecycle_mix,frequency_lifecycle,single_order_customer,delivered_path,,lifecycle_rank_within_frequency,2.0,191,191,191,191,2045.87,10.7114,,191,0,0,44.7307,,Lifecycle outcome mix by customer frequency bucket.
+frequency_lifecycle_mix,frequency_lifecycle,two_order_customer,delivered_path,,lifecycle_rank_within_frequency,2.0,134,175,175,175,1754.3,10.0246,,175,0,0,41.866,,Lifecycle outcome mix by customer frequency bucket.
+frequency_lifecycle_mix,frequency_lifecycle,heavy_repeat_customer,cancelled_path,,lifecycle_rank_within_frequency,3.0,46,52,52,52,552.08,10.6169,,0,52,0,3.0588,,Lifecycle outcome mix by customer frequency bucket.
+frequency_lifecycle_mix,frequency_lifecycle,repeat_customer,cancelled_path,,lifecycle_rank_within_frequency,3.0,194,216,216,216,2134.06,9.8799,,0,216,0,4.3157,,Lifecycle outcome mix by customer frequency bucket.
+frequency_lifecycle_mix,frequency_lifecycle,single_order_customer,cancelled_path,,lifecycle_rank_within_frequency,3.0,18,18,18,18,200.0,11.1111,,0,18,0,4.2155,,Lifecycle outcome mix by customer frequency bucket.
+frequency_lifecycle_mix,frequency_lifecycle,two_order_customer,returned_path,,lifecycle_rank_within_frequency,3.0,17,17,17,17,125.05,7.3559,,17,0,17,4.067,,Lifecycle outcome mix by customer frequency bucket.
+frequency_lifecycle_mix,frequency_lifecycle,heavy_repeat_customer,returned_path,,lifecycle_rank_within_frequency,4.0,43,46,46,46,493.64,10.7313,,46,0,46,2.7059,,Lifecycle outcome mix by customer frequency bucket.
+frequency_lifecycle_mix,frequency_lifecycle,repeat_customer,returned_path,,lifecycle_rank_within_frequency,4.0,122,129,129,129,1328.75,10.3004,,129,0,129,2.5774,,Lifecycle outcome mix by customer frequency bucket.
+frequency_lifecycle_mix,frequency_lifecycle,single_order_customer,returned_path,,lifecycle_rank_within_frequency,4.0,8,8,8,8,70.69,8.8363,,8,0,8,1.8735,,Lifecycle outcome mix by customer frequency bucket.
+frequency_lifecycle_mix,frequency_lifecycle,two_order_customer,cancelled_path,,lifecycle_rank_within_frequency,4.0,14,14,14,14,131.93,9.4236,,0,14,0,3.3493,,Lifecycle outcome mix by customer frequency bucket.
+frequency_lifecycle_mix,frequency_lifecycle,two_order_customer,no_history,,lifecycle_rank_within_frequency,5.0,2,2,2,2,11.68,5.84,,0,0,0,0.4785,,Lifecycle outcome mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,heavy_repeat_customer,Vintage,,publisher_rank_within_frequency,1.0,49,60,60,52,602.39,,10.0398,,,,3.4724,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,repeat_customer,Vintage,,publisher_rank_within_frequency,1.0,137,151,151,112,1426.15,,9.4447,,,,2.8722,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,single_order_customer,Penguin Books,,publisher_rank_within_frequency,1.0,13,13,13,13,172.62,,13.2785,,,,3.9255,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,two_order_customer,Vintage,,publisher_rank_within_frequency,1.0,13,13,13,13,129.4,,9.9538,,,,3.1937,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,heavy_repeat_customer,Penguin Books,,publisher_rank_within_frequency,2.0,30,34,34,31,409.69,,12.0497,,,,2.3616,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,repeat_customer,Penguin Books,,publisher_rank_within_frequency,2.0,99,106,106,90,1077.9,,10.1689,,,,2.1709,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,single_order_customer,Bantam,,publisher_rank_within_frequency,2.0,5,5,5,5,63.8,,12.76,,,,1.4509,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,two_order_customer,Penguin Classics,,publisher_rank_within_frequency,2.0,9,9,9,9,115.77,,12.8633,,,,2.8573,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,heavy_repeat_customer,HarperCollins,,publisher_rank_within_frequency,3.0,22,26,26,22,246.6,,9.4846,,,,1.4215,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,repeat_customer,Penguin Classics,,publisher_rank_within_frequency,3.0,90,95,95,77,918.18,,9.6651,,,,1.8492,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,single_order_customer,Ballantine Books,,publisher_rank_within_frequency,3.0,6,6,6,6,63.35,,10.5583,,,,1.4406,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,two_order_customer,Ballantine Books,,publisher_rank_within_frequency,3.0,9,9,9,9,102.39,,11.3767,,,,2.527,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,heavy_repeat_customer,Ballantine Books,,publisher_rank_within_frequency,4.0,18,21,21,18,236.68,,11.2705,,,,1.3643,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,repeat_customer,Ballantine Books,,publisher_rank_within_frequency,4.0,70,72,72,54,698.15,,9.6965,,,,1.4061,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,single_order_customer,Mariner Books,,publisher_rank_within_frequency,4.0,6,6,6,6,63.03,,10.505,,,,1.4334,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,two_order_customer,Harper Perennial,,publisher_rank_within_frequency,4.0,9,9,9,9,83.2,,9.2444,,,,2.0534,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,heavy_repeat_customer,Mariner Books,,publisher_rank_within_frequency,5.0,20,20,20,17,192.62,,9.631,,,,1.1103,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,repeat_customer,Mariner Books,,publisher_rank_within_frequency,5.0,61,63,63,51,640.78,,10.1711,,,,1.2905,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,single_order_customer,G.P. Putnam's Sons,,publisher_rank_within_frequency,5.0,4,4,4,4,55.18,,13.795,,,,1.2548,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,two_order_customer,HarperCollins,,publisher_rank_within_frequency,5.0,8,8,8,8,82.39,,10.2988,,,,2.0334,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,heavy_repeat_customer,Bantam,,publisher_rank_within_frequency,6.0,15,15,15,14,182.2,,12.1467,,,,1.0503,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,repeat_customer,Harper Perennial,,publisher_rank_within_frequency,6.0,54,56,56,50,633.76,,11.3171,,,,1.2764,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,single_order_customer,Everyman's Library,,publisher_rank_within_frequency,6.0,4,4,4,4,54.79,,13.6975,,,,1.246,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,two_order_customer,Scribner,,publisher_rank_within_frequency,6.0,5,5,5,5,61.85,,12.37,,,,1.5265,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,heavy_repeat_customer,Cambridge University Press,,publisher_rank_within_frequency,7.0,12,13,13,12,165.91,,12.7623,,,,0.9564,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,repeat_customer,Pocket Books,,publisher_rank_within_frequency,7.0,44,45,45,36,548.53,,12.1896,,,,1.1047,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,single_order_customer,Picador,,publisher_rank_within_frequency,7.0,4,4,4,3,52.83,,13.2075,,,,1.2014,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,two_order_customer,Cambridge University Press,,publisher_rank_within_frequency,7.0,5,5,5,5,58.54,,11.708,,,,1.4448,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,heavy_repeat_customer,Dover Publications,,publisher_rank_within_frequency,8.0,15,15,15,14,157.22,,10.4813,,,,0.9063,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,repeat_customer,HarperCollins,,publisher_rank_within_frequency,8.0,48,48,48,40,468.48,,9.76,,,,0.9435,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,single_order_customer,St. Martin's Press,,publisher_rank_within_frequency,8.0,5,5,5,5,52.71,,10.542,,,,1.1987,,Publisher mix by customer frequency bucket.
+frequency_publisher_mix,frequency_publisher,two_order_customer,Penguin Books,,publisher_rank_within_frequency,8.0,7,7,7,7,54.52,,7.7886,,,,1.3456,,Publisher mix by customer frequency bucket.
+frequency_shipping_mix,frequency_shipping,heavy_repeat_customer,Priority,,shipping_rank_within_frequency,1.0,133,462,462,462,4852.06,10.5023,,,,,27.9688,,Shipping method mix by customer frequency bucket.
+frequency_shipping_mix,frequency_shipping,repeat_customer,Standard,,shipping_rank_within_frequency,1.0,716,1275,1275,1275,12597.39,9.8803,,,,,25.3709,,Shipping method mix by customer frequency bucket.
+frequency_shipping_mix,frequency_shipping,single_order_customer,International,,shipping_rank_within_frequency,1.0,123,123,123,123,1371.55,11.1508,,,,,31.1902,,Shipping method mix by customer frequency bucket.
+frequency_shipping_mix,frequency_shipping,two_order_customer,Express,,shipping_rank_within_frequency,1.0,100,118,118,118,1190.86,10.092,,,,,29.3912,,Shipping method mix by customer frequency bucket.
+frequency_shipping_mix,frequency_shipping,heavy_repeat_customer,Express,,shipping_rank_within_frequency,2.0,134,424,424,424,4264.68,10.0582,,,,,24.583,,Shipping method mix by customer frequency bucket.
+frequency_shipping_mix,frequency_shipping,repeat_customer,Express,,shipping_rank_within_frequency,2.0,696,1258,1258,1258,12588.89,10.0071,,,,,25.3538,,Shipping method mix by customer frequency bucket.
+frequency_shipping_mix,frequency_shipping,single_order_customer,Express,,shipping_rank_within_frequency,2.0,112,112,112,112,1083.93,9.6779,,,,,24.6495,,Shipping method mix by customer frequency bucket.
+frequency_shipping_mix,frequency_shipping,two_order_customer,Standard,,shipping_rank_within_frequency,2.0,93,104,104,104,986.55,9.4861,,,,,24.3487,,Shipping method mix by customer frequency bucket.
+frequency_shipping_mix,frequency_shipping,heavy_repeat_customer,International,,shipping_rank_within_frequency,3.0,132,415,415,415,4193.9,10.1058,,,,,24.175,,Shipping method mix by customer frequency bucket.
+frequency_shipping_mix,frequency_shipping,repeat_customer,Priority,,shipping_rank_within_frequency,3.0,698,1262,1262,1262,12564.32,9.9559,,,,,25.3043,,Shipping method mix by customer frequency bucket.
+frequency_shipping_mix,frequency_shipping,single_order_customer,Standard,,shipping_rank_within_frequency,3.0,93,93,93,93,1042.88,11.2138,,,,,23.716,,Shipping method mix by customer frequency bucket.
+frequency_shipping_mix,frequency_shipping,two_order_customer,International,,shipping_rank_within_frequency,3.0,90,102,102,102,945.13,9.266,,,,,23.3264,,Shipping method mix by customer frequency bucket.
+frequency_shipping_mix,frequency_shipping,heavy_repeat_customer,Standard,,shipping_rank_within_frequency,4.0,131,399,399,399,4037.48,10.119,,,,,23.2733,,Shipping method mix by customer frequency bucket.
+frequency_shipping_mix,frequency_shipping,repeat_customer,International,,shipping_rank_within_frequency,4.0,694,1210,1210,1210,11902.37,9.8367,,,,,23.9711,,Shipping method mix by customer frequency bucket.
+frequency_shipping_mix,frequency_shipping,single_order_customer,Priority,,shipping_rank_within_frequency,4.0,99,99,99,99,899.01,9.0809,,,,,20.4443,,Shipping method mix by customer frequency bucket.
+frequency_shipping_mix,frequency_shipping,two_order_customer,Priority,,shipping_rank_within_frequency,4.0,84,94,94,94,929.22,9.8853,,,,,22.9337,,Shipping method mix by customer frequency bucket.
+top_customer_profile,customer,Theo Hebron,1601,heavy_repeat_customer,customer_value_rank,1.0,1,20,20,20,251.71,12.5855,,8,0,0,0.3336,18.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Lucia Fearon,695,heavy_repeat_customer,customer_value_rank,2.0,1,20,20,20,240.17,12.0085,,9,1,0,0.3183,15.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Annabelle Lambert-Ciorwyn,1811,heavy_repeat_customer,customer_value_rank,3.0,1,15,15,15,222.23,14.8153,,9,0,0,0.2945,13.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Ruttger Royce,184,heavy_repeat_customer,customer_value_rank,4.0,1,23,23,23,219.73,9.5535,,13,0,1,0.2912,15.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Helene Guy,1862,heavy_repeat_customer,customer_value_rank,5.0,1,16,16,16,209.76,13.11,,8,1,0,0.278,11.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Joycelin Pagon,455,heavy_repeat_customer,customer_value_rank,6.0,1,15,15,15,189.95,12.6633,,10,2,0,0.2518,12.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Nicola Price,1382,heavy_repeat_customer,customer_value_rank,7.0,1,14,14,14,182.59,13.0421,,8,0,0,0.242,11.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Gideon Bartkowiak,1699,heavy_repeat_customer,customer_value_rank,8.0,1,14,14,14,179.49,12.8207,,8,0,0,0.2379,10.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Mort Zienkiewicz,426,heavy_repeat_customer,customer_value_rank,9.0,1,15,15,15,179.35,11.9567,,6,0,1,0.2377,12.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Judy Claibourn,1565,heavy_repeat_customer,customer_value_rank,10.0,1,15,15,15,178.32,11.888,,7,1,0,0.2363,14.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Germaine Arbon,1765,heavy_repeat_customer,customer_value_rank,11.0,1,14,14,14,176.93,12.6379,,6,0,1,0.2345,11.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Belle Kneesha,1433,heavy_repeat_customer,customer_value_rank,12.0,1,17,17,17,171.62,10.0953,,8,0,0,0.2275,15.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Prue Habble,1328,heavy_repeat_customer,customer_value_rank,13.0,1,15,15,15,166.99,11.1327,,8,1,0,0.2213,13.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Raquela Gwilliam,488,heavy_repeat_customer,customer_value_rank,14.0,1,15,15,15,165.68,11.0453,,6,0,0,0.2196,11.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Nial Giraux,677,heavy_repeat_customer,customer_value_rank,15.0,1,14,14,14,165.53,11.8236,,5,1,0,0.2194,12.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Zorana Sherburn,1848,heavy_repeat_customer,customer_value_rank,16.0,1,13,13,13,164.46,12.6508,,6,1,0,0.218,12.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Andrea Headford,1104,heavy_repeat_customer,customer_value_rank,17.0,1,15,15,15,164.31,10.954,,6,1,0,0.2178,13.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Ransom Clive,1499,heavy_repeat_customer,customer_value_rank,18.0,1,14,14,14,161.89,11.5636,,6,0,0,0.2146,10.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Kilian Mayer,714,heavy_repeat_customer,customer_value_rank,19.0,1,13,13,13,161.08,12.3908,,7,0,0,0.2135,11.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Carter Dannell,291,heavy_repeat_customer,customer_value_rank,20.0,1,14,14,14,159.61,11.4007,,4,1,0,0.2115,11.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Isabella Toogood,1393,heavy_repeat_customer,customer_value_rank,21.0,1,14,14,14,155.95,11.1393,,7,1,0,0.2067,12.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Crosby Corden,872,heavy_repeat_customer,customer_value_rank,22.0,1,16,16,16,153.46,9.5912,,7,0,0,0.2034,12.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Raine Antonchik,1125,heavy_repeat_customer,customer_value_rank,23.0,1,13,13,13,152.9,11.7615,,8,2,1,0.2027,10.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Jennilee Tuma,1127,heavy_repeat_customer,customer_value_rank,24.0,1,16,16,16,152.11,9.5069,,5,0,0,0.2016,14.0,Top customers by observed order value and activity depth.
+top_customer_profile,customer,Shayna Farbrother,271,heavy_repeat_customer,customer_value_rank,25.0,1,12,12,12,150.73,12.5608,,6,1,1,0.1998,10.0,Top customers by observed order value and activity depth.

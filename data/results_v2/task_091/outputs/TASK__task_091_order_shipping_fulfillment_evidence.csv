@@ -1,0 +1,164 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,order_count,customer_count,line_count,book_count,total_order_value,avg_order_value,shipping_cost,status_count,delivered_orders,cancelled_orders,returned_orders,share_pct,secondary_value,notes
+destination_country_order_mix,destination_country,China,,,country_value_rank,1.0,1176,378,1176,1176,11802.7,10.0363,,,552,38,33,15.643,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Indonesia,,,country_value_rank,2.0,995,298,995,995,9800.16,9.8494,,,468,47,26,12.9889,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Russia,,,country_value_rank,3.0,510,157,510,510,4820.89,9.4527,,,217,24,12,6.3895,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Philippines,,,country_value_rank,4.0,334,100,334,334,3405.17,10.1951,,,149,13,7,4.5131,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Brazil,,,country_value_rank,5.0,333,100,333,333,3381.84,10.1557,,,154,14,8,4.4822,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Poland,,,country_value_rank,6.0,324,92,324,324,3300.02,10.1852,,,151,9,2,4.3738,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Peru,,,country_value_rank,7.0,252,70,252,252,2588.15,10.2704,,,116,9,4,3.4303,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Portugal,,,country_value_rank,8.0,259,98,259,259,2492.69,9.6243,,,129,8,7,3.3038,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,United States of America,,,country_value_rank,9.0,223,89,223,223,2184.74,9.797,,,90,7,7,2.8956,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,France,,,country_value_rank,10.0,209,70,209,209,2019.8,9.6641,,,90,14,6,2.677,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Sweden,,,country_value_rank,11.0,148,66,148,148,1598.66,10.8018,,,68,3,6,2.1188,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Colombia,,,country_value_rank,12.0,131,33,131,131,1363.19,10.406,,,64,1,7,1.8067,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Guatemala,,,country_value_rank,13.0,116,24,116,116,1279.98,11.0343,,,57,6,5,1.6965,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Czech Republic,,,country_value_rank,14.0,131,54,131,131,1272.85,9.7164,,,58,10,9,1.687,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Japan,,,country_value_rank,15.0,119,42,119,119,1183.25,9.9433,,,53,3,3,1.5683,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Pakistan,,,country_value_rank,16.0,102,18,102,102,1002.23,9.8258,,,51,5,0,1.3283,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Canada,,,country_value_rank,17.0,90,22,90,90,960.02,10.6669,,,44,2,2,1.2724,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Armenia,,,country_value_rank,18.0,93,27,93,93,914.0,9.828,,,46,2,1,1.2114,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Ukraine,,,country_value_rank,19.0,93,41,93,93,885.28,9.5191,,,50,3,4,1.1733,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Haiti,,,country_value_rank,20.0,88,11,88,88,837.87,9.5213,,,41,6,2,1.1105,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Iran,,,country_value_rank,21.0,82,19,82,82,822.53,10.0309,,,35,4,4,1.0902,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Ecuador,,,country_value_rank,22.0,63,7,63,63,691.87,10.9821,,,37,3,1,0.917,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Syria,,,country_value_rank,23.0,67,17,67,67,649.21,9.6897,,,31,1,3,0.8604,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Costa Rica,,,country_value_rank,24.0,60,13,60,60,637.92,10.632,,,26,2,2,0.8455,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Mexico,,,country_value_rank,25.0,63,21,63,63,636.73,10.1068,,,32,2,2,0.8439,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Afghanistan,,,country_value_rank,26.0,54,21,54,54,594.22,11.0041,,,21,2,0,0.7876,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Thailand,,,country_value_rank,27.0,61,31,61,61,577.49,9.467,,,25,5,2,0.7654,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Vietnam,,,country_value_rank,28.0,54,18,54,54,542.86,10.053,,,29,0,1,0.7195,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Nigeria,,,country_value_rank,29.0,56,24,56,56,526.15,9.3955,,,34,3,1,0.6973,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Belarus,,,country_value_rank,30.0,49,14,49,49,503.06,10.2665,,,23,4,2,0.6667,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Democratic Republic of the Congo,,,country_value_rank,31.0,42,6,42,42,485.11,11.5502,,,26,1,3,0.643,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Madagascar,,,country_value_rank,32.0,45,22,45,45,480.57,10.6793,,,22,1,3,0.6369,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Myanmar,,,country_value_rank,33.0,42,10,42,42,427.81,10.186,,,26,0,1,0.567,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Netherlands,,,country_value_rank,34.0,38,8,38,38,427.55,11.2513,,,18,0,0,0.5667,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Norway,,,country_value_rank,35.0,43,13,43,43,402.31,9.356,,,16,3,0,0.5332,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Serbia,,,country_value_rank,36.0,36,18,36,36,363.82,10.1061,,,19,1,0,0.4822,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Uzbekistan,,,country_value_rank,37.0,35,5,35,35,356.03,10.1723,,,13,4,2,0.4719,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Morocco,,,country_value_rank,38.0,36,6,36,36,347.73,9.6592,,,18,1,3,0.4609,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Cameroon,,,country_value_rank,39.0,36,16,36,36,345.68,9.6022,,,20,1,2,0.4582,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Kenya,,,country_value_rank,40.0,39,9,39,39,341.21,8.749,,,21,1,0,0.4522,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Argentina,,,country_value_rank,41.0,25,15,25,25,334.06,13.3624,,,13,1,1,0.4428,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Azerbaijan,,,country_value_rank,42.0,38,12,38,38,332.76,8.7568,,,20,0,1,0.441,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Greece,,,country_value_rank,43.0,36,27,36,36,326.61,9.0725,,,18,2,1,0.4329,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Mali,,,country_value_rank,44.0,29,8,29,29,323.29,11.1479,,,13,2,1,0.4285,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Bhutan,,,country_value_rank,45.0,30,6,30,30,317.99,10.5997,,,16,3,0,0.4215,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Honduras,,,country_value_rank,46.0,30,9,30,30,302.39,10.0797,,,14,3,0,0.4008,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Ireland,,,country_value_rank,47.0,27,6,27,27,294.02,10.8896,,,13,1,1,0.3897,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Venezuela,,,country_value_rank,48.0,28,4,28,28,287.78,10.2779,,,12,1,0,0.3814,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Libya,,,country_value_rank,49.0,25,5,25,25,271.67,10.8668,,,12,1,0,0.3601,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Germany,,,country_value_rank,50.0,20,8,20,20,261.12,13.056,,,9,1,0,0.3461,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Guinea,,,country_value_rank,51.0,24,6,24,24,260.36,10.8483,,,7,1,1,0.3451,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Macedonia,,,country_value_rank,52.0,28,4,28,28,256.48,9.16,,,10,2,2,0.3399,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Ghana,,,country_value_rank,53.0,24,4,24,24,249.01,10.3754,,,12,1,0,0.33,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Bangladesh,,,country_value_rank,54.0,21,6,21,21,238.44,11.3543,,,8,0,0,0.316,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Sierra Leone,,,country_value_rank,55.0,24,6,24,24,235.78,9.8242,,,8,1,0,0.3125,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,South Africa,,,country_value_rank,56.0,32,8,32,32,231.18,7.2244,,,16,3,0,0.3064,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,New Zealand,,,country_value_rank,57.0,18,2,18,18,209.81,11.6561,,,4,2,1,0.2781,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,United Kingdom,,,country_value_rank,58.0,20,4,20,20,207.69,10.3845,,,9,0,0,0.2753,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Tajikistan,,,country_value_rank,59.0,21,6,21,21,205.09,9.7662,,,8,1,0,0.2718,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Albania,,,country_value_rank,60.0,22,6,22,22,203.0,9.2273,,,8,2,0,0.2691,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Croatia,,,country_value_rank,61.0,18,13,18,18,188.5,10.4722,,,9,0,1,0.2498,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Slovenia,,,country_value_rank,62.0,21,13,21,21,185.32,8.8248,,,11,1,0,0.2456,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Malaysia,,,country_value_rank,63.0,20,9,20,20,180.58,9.029,,,9,1,0,0.2393,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Hungary,,,country_value_rank,64.0,17,9,17,17,176.6,10.3882,,,9,1,0,0.2341,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Tunisia,,,country_value_rank,65.0,13,5,13,13,129.06,9.9277,,,5,0,0,0.1711,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Comoros,,,country_value_rank,66.0,13,5,13,13,128.99,9.9223,,,2,0,0,0.171,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Burkina Faso,,,country_value_rank,67.0,14,2,14,14,127.46,9.1043,,,4,0,0,0.1689,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Samoa,,,country_value_rank,68.0,12,2,12,12,121.1,10.0917,,,5,1,0,0.1605,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Finland,,,country_value_rank,69.0,14,8,14,14,113.76,8.1257,,,4,1,1,0.1508,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Nepal,,,country_value_rank,70.0,12,6,12,12,109.32,9.11,,,5,0,1,0.1449,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,South Korea,,,country_value_rank,71.0,10,5,10,10,104.46,10.446,,,4,0,1,0.1384,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Taiwan,,,country_value_rank,72.0,8,4,8,8,103.09,12.8863,,,2,0,0,0.1366,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Panama,,,country_value_rank,73.0,12,12,12,12,101.21,8.4342,,,6,2,2,0.1341,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Tanzania,,,country_value_rank,74.0,8,7,8,8,99.95,12.4938,,,3,0,0,0.1325,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Micronesia,,,country_value_rank,75.0,8,2,8,8,89.91,11.2388,,,5,0,0,0.1192,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Rwanda,,,country_value_rank,76.0,6,6,6,6,84.52,14.0867,,,2,0,0,0.112,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Georgia,,,country_value_rank,77.0,8,4,8,8,83.64,10.455,,,5,0,1,0.1109,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Uganda,,,country_value_rank,78.0,6,6,6,6,64.4,10.7333,,,3,0,0,0.0854,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Australia,,,country_value_rank,79.0,9,5,9,9,64.17,7.13,,,3,0,0,0.085,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Slovakia,,,country_value_rank,80.0,8,4,8,8,56.9,7.1125,,,2,0,0,0.0754,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Moldova,,,country_value_rank,81.0,6,2,6,6,56.65,9.4417,,,3,0,0,0.0751,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Cuba,,,country_value_rank,82.0,4,4,4,4,52.27,13.0675,,,2,0,0,0.0693,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Montenegro,,,country_value_rank,83.0,6,6,6,6,48.49,8.0817,,,2,0,0,0.0643,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Kazakhstan,,,country_value_rank,84.0,4,4,4,4,40.45,10.1125,,,3,0,0,0.0536,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Egypt,,,country_value_rank,85.0,5,5,5,5,38.94,7.788,,,4,0,1,0.0516,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Mongolia,,,country_value_rank,86.0,4,4,4,4,38.35,9.5875,,,1,1,0,0.0508,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Ethiopia,,,country_value_rank,87.0,4,4,4,4,32.31,8.0775,,,3,0,0,0.0428,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Yemen,,,country_value_rank,88.0,5,5,5,5,31.07,6.214,,,2,0,0,0.0412,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Latvia,,,country_value_rank,89.0,3,3,3,3,30.25,10.0833,,,1,0,0,0.0401,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Ivory Coast,,,country_value_rank,90.0,2,2,2,2,24.46,12.23,,,1,0,0,0.0324,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Luxembourg,,,country_value_rank,91.0,4,2,4,4,23.66,5.915,,,1,1,0,0.0314,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Cyprus,,,country_value_rank,92.0,4,4,4,4,23.18,5.795,,,3,0,0,0.0307,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Malta,,,country_value_rank,93.0,3,3,3,3,21.9,7.3,,,1,0,0,0.029,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Lesotho,,,country_value_rank,94.0,2,1,2,2,17.44,8.72,,,1,0,0,0.0231,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Kosovo,,,country_value_rank,95.0,1,1,1,1,17.06,17.06,,,1,0,0,0.0226,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Denmark,,,country_value_rank,96.0,2,2,2,2,15.81,7.905,,,1,0,0,0.021,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Kyrgyzstan,,,country_value_rank,97.0,3,3,3,3,14.89,4.9633,,,2,0,0,0.0197,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Bulgaria,,,country_value_rank,98.0,1,1,1,1,7.38,7.38,,,0,0,0,0.0098,,Destination-country concentration of order value and fulfillment exposure.
+destination_country_order_mix,destination_country,Palestine,,,country_value_rank,99.0,1,1,1,1,0.84,0.84,,,0,0,0,0.0011,,Destination-country concentration of order value and fulfillment exposure.
+order_month_profile,order_month,2022-07,,,month_value_rank,1.0,238,223,238,238,2453.51,10.3089,,3.0756,122,9,7,3.2518,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2021-08,,,month_value_rank,2.0,224,205,224,224,2404.02,10.7322,,3.0313,114,9,3,3.1862,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2020-05,,,month_value_rank,3.0,233,220,233,233,2396.05,10.2835,,2.8755,100,8,5,3.1757,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2022-01,,,month_value_rank,4.0,218,199,218,218,2381.84,10.9259,,3.1147,117,9,8,3.1568,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2020-08,,,month_value_rank,5.0,232,207,232,232,2364.37,10.1913,,2.9526,110,5,5,3.1337,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2022-03,,,month_value_rank,6.0,226,201,226,226,2320.9,10.2695,,2.9381,101,11,12,3.0761,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2021-12,,,month_value_rank,7.0,245,220,245,245,2284.55,9.3247,,2.902,110,9,1,3.0279,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2020-01,,,month_value_rank,8.0,237,216,237,237,2263.39,9.5502,,2.9325,109,10,3,2.9998,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2022-05,,,month_value_rank,9.0,230,206,230,230,2211.2,9.6139,,3.0,109,10,8,2.9307,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2020-06,,,month_value_rank,10.0,215,196,215,215,2196.84,10.2179,,3.0,104,3,8,2.9116,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2022-06,,,month_value_rank,11.0,209,193,209,209,2189.34,10.4753,,3.0,97,7,10,2.9017,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2021-07,,,month_value_rank,12.0,216,197,216,216,2185.81,10.1195,,2.8935,94,12,5,2.897,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2021-10,,,month_value_rank,13.0,217,198,217,217,2168.86,9.9947,,2.894,96,7,6,2.8746,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2022-09,,,month_value_rank,14.0,227,209,227,227,2158.3,9.5079,,2.9295,105,14,4,2.8606,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2021-09,,,month_value_rank,15.0,204,189,204,204,2117.36,10.3792,,2.9461,91,10,8,2.8063,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2020-04,,,month_value_rank,16.0,221,210,221,221,2114.71,9.5688,,3.0407,110,6,7,2.8028,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2021-06,,,month_value_rank,17.0,197,180,197,197,2097.27,10.646,,2.9797,90,10,7,2.7797,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2021-11,,,month_value_rank,18.0,212,194,212,212,2094.47,9.8796,,2.9387,99,7,4,2.776,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2020-10,,,month_value_rank,19.0,204,191,204,204,2089.09,10.2406,,2.9706,93,8,7,2.7688,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2022-04,,,month_value_rank,20.0,206,190,206,206,2079.69,10.0956,,2.932,92,6,7,2.7564,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2021-01,,,month_value_rank,21.0,215,190,215,215,2062.53,9.5932,,2.8744,89,9,5,2.7336,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2022-08,,,month_value_rank,22.0,213,202,213,213,2060.71,9.6747,,3.061,110,12,10,2.7312,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2020-03,,,month_value_rank,23.0,205,190,205,205,2053.99,10.0195,,2.9512,94,2,5,2.7223,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2022-10,,,month_value_rank,24.0,218,197,218,218,2046.64,9.3883,,2.8119,92,8,2,2.7126,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2020-11,,,month_value_rank,25.0,198,186,198,198,1958.74,9.8926,,3.0202,98,12,2,2.5961,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2020-09,,,month_value_rank,26.0,208,187,208,208,1946.54,9.3584,,3.0865,109,6,2,2.5799,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2022-02,,,month_value_rank,27.0,183,169,183,183,1940.15,10.6019,,3.0164,87,11,4,2.5714,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2021-05,,,month_value_rank,28.0,195,185,195,195,1927.93,9.8868,,2.9179,85,9,4,2.5552,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2022-11,,,month_value_rank,29.0,188,182,188,188,1909.08,10.1547,,2.9362,87,5,5,2.5303,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2020-12,,,month_value_rank,30.0,193,173,193,193,1858.17,9.6278,,2.9171,85,12,4,2.4628,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2020-02,,,month_value_rank,31.0,180,168,180,180,1850.66,10.2814,,3.0778,91,5,7,2.4528,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2021-02,,,month_value_rank,32.0,188,177,188,188,1831.4,9.7415,,2.9521,86,6,3,2.4273,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2021-04,,,month_value_rank,33.0,174,167,174,174,1778.28,10.22,,2.954,81,6,4,2.3569,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2021-03,,,month_value_rank,34.0,183,167,183,183,1754.2,9.5858,,2.929,83,5,7,2.325,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2020-07,,,month_value_rank,35.0,184,173,184,184,1751.54,9.5192,,2.9674,85,11,5,2.3215,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2019-12,,,month_value_rank,36.0,163,149,163,163,1621.12,9.9455,,2.9571,74,7,6,2.1486,,Order timing profile for demand and fulfillment context.
+order_month_profile,order_month,2022-12,,,month_value_rank,37.0,51,51,51,51,526.97,10.3327,,2.1373,1,4,0,0.6984,,Order timing profile for demand and fulfillment context.
+order_value_bucket_status,order_value_bucket,high_value_tertile,,,value_bucket_rank,1.0,2517,1177,2517,2517,42174.39,16.7558,,2.9714,1189,99,71,55.897,,High- and low-value order buckets checked against status exposure.
+order_value_bucket_status,order_value_bucket,mid_value_tertile,,,value_bucket_rank,2.0,2517,1195,2517,2517,25121.51,9.9807,,2.9547,1163,105,65,33.2955,,High- and low-value order buckets checked against status exposure.
+order_value_bucket_status,order_value_bucket,low_value_tertile,,,value_bucket_rank,3.0,2516,1169,2516,2516,8154.32,3.241,,2.9539,1148,96,64,10.8075,,High- and low-value order buckets checked against status exposure.
+shipping_method_order_baseline,shipping_method,Priority,,,shipping_value_rank,1.0,1917,1014,1917,1917,19244.61,10.0389,8.9,2.9457,876,76,59,25.5064,,"Order value, customer reach, and status exposure by shipping method."
+shipping_method_order_baseline,shipping_method,Express,,,shipping_value_rank,2.0,1912,1042,1912,1912,19128.36,10.0044,11.9,2.9592,885,82,45,25.3523,,"Order value, customer reach, and status exposure by shipping method."
+shipping_method_order_baseline,shipping_method,Standard,,,shipping_value_rank,3.0,1871,1033,1871,1871,18664.3,9.9756,5.9,2.9866,890,76,50,24.7372,,"Order value, customer reach, and status exposure by shipping method."
+shipping_method_order_baseline,shipping_method,International,,,shipping_value_rank,4.0,1850,1039,1850,1850,18412.95,9.9529,24.5,2.9486,849,66,46,24.4041,,"Order value, customer reach, and status exposure by shipping method."
+shipping_status_interaction,shipping_method_status,Express,no_terminal_status,,outcome_rank_within_shipping,1.0,945,676,,,9416.9,9.965,,2.0201,,,,49.4247,,Interaction between selected shipping method and fulfillment outcome.
+shipping_status_interaction,shipping_method_status,International,no_terminal_status,,outcome_rank_within_shipping,1.0,935,665,,,9203.73,9.8436,,2.0118,,,,50.5405,,Interaction between selected shipping method and fulfillment outcome.
+shipping_status_interaction,shipping_method_status,Priority,no_terminal_status,,outcome_rank_within_shipping,1.0,965,667,,,9667.39,10.018,,2.0021,,,,50.3391,,Interaction between selected shipping method and fulfillment outcome.
+shipping_status_interaction,shipping_method_status,Standard,no_terminal_status,,outcome_rank_within_shipping,1.0,905,655,,,8907.61,9.8427,,2.0177,,,,48.3699,,Interaction between selected shipping method and fulfillment outcome.
+shipping_status_interaction,shipping_method_status,Express,delivered,,outcome_rank_within_shipping,2.0,840,623,,,8401.4,10.0017,,4.0,,,,43.9331,,Interaction between selected shipping method and fulfillment outcome.
+shipping_status_interaction,shipping_method_status,International,delivered,,outcome_rank_within_shipping,2.0,803,612,,,8144.95,10.1432,,4.0,,,,43.4054,,Interaction between selected shipping method and fulfillment outcome.
+shipping_status_interaction,shipping_method_status,Priority,delivered,,outcome_rank_within_shipping,2.0,817,589,,,8188.5,10.0226,,4.0,,,,42.6187,,Interaction between selected shipping method and fulfillment outcome.
+shipping_status_interaction,shipping_method_status,Standard,delivered,,outcome_rank_within_shipping,2.0,840,608,,,8483.54,10.0995,,4.0,,,,44.8958,,Interaction between selected shipping method and fulfillment outcome.
+shipping_status_interaction,shipping_method_status,Express,cancelled,,outcome_rank_within_shipping,3.0,82,79,,,856.76,10.4483,,2.0,,,,4.2887,,Interaction between selected shipping method and fulfillment outcome.
+shipping_status_interaction,shipping_method_status,International,cancelled,,outcome_rank_within_shipping,3.0,66,65,,,632.8,9.5879,,2.0,,,,3.5676,,Interaction between selected shipping method and fulfillment outcome.
+shipping_status_interaction,shipping_method_status,Priority,cancelled,,outcome_rank_within_shipping,3.0,76,75,,,773.26,10.1745,,2.0,,,,3.9645,,Interaction between selected shipping method and fulfillment outcome.
+shipping_status_interaction,shipping_method_status,Standard,cancelled,,outcome_rank_within_shipping,3.0,76,74,,,755.25,9.9375,,2.0,,,,4.062,,Interaction between selected shipping method and fulfillment outcome.
+shipping_status_interaction,shipping_method_status,Express,returned,,outcome_rank_within_shipping,4.0,45,44,,,453.3,10.0733,,5.0,,,,2.3536,,Interaction between selected shipping method and fulfillment outcome.
+shipping_status_interaction,shipping_method_status,International,returned,,outcome_rank_within_shipping,4.0,46,46,,,431.47,9.3798,,5.0,,,,2.4865,,Interaction between selected shipping method and fulfillment outcome.
+shipping_status_interaction,shipping_method_status,Priority,returned,,outcome_rank_within_shipping,4.0,59,59,,,615.46,10.4315,,5.0,,,,3.0777,,Interaction between selected shipping method and fulfillment outcome.
+shipping_status_interaction,shipping_method_status,Standard,returned,,outcome_rank_within_shipping,4.0,50,50,,,517.9,10.358,,5.0,,,,2.6724,,Interaction between selected shipping method and fulfillment outcome.
+status_outcome_baseline,status_outcome,no_terminal_status,,,outcome_order_rank,1.0,3750,,,,37195.63,,,,,,,49.6689,,Terminal and unresolved fulfillment outcomes across orders.
+status_outcome_baseline,status_outcome,delivered,,,outcome_order_rank,2.0,3300,,,,33218.39,,,,,,,43.7086,,Terminal and unresolved fulfillment outcomes across orders.
+status_outcome_baseline,status_outcome,cancelled,,,outcome_order_rank,3.0,300,,,,3018.07,,,,,,,3.9735,,Terminal and unresolved fulfillment outcomes across orders.
+status_outcome_baseline,status_outcome,returned,,,outcome_order_rank,4.0,200,,,,2018.13,,,,,,,2.649,,Terminal and unresolved fulfillment outcomes across orders.

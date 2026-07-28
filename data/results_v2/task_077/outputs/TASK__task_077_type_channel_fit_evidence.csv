@@ -1,0 +1,43 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,store_count,state_count,payterm_count,title_count,type_count,order_count,sale_lines,sample_qty,revenue_proxy,share_pct,secondary_value,notes
+discount_channel_context,discount_rule,Customer Discount,Bookbeat,OR,discount_pct,5.0,,,,,,,,,,,0.0,Discount rule context for interpreting channel and type demand.
+discount_channel_context,discount_rule,Volume Discount,ALL_STORES,ALL,discount_pct,6.7,,,,,,,,,,,100.0,Discount rule context for interpreting channel and type demand.
+discount_channel_context,discount_rule,Initial Customer,ALL_STORES,ALL,discount_pct,10.5,,,,,,,,,,,0.0,Discount rule context for interpreting channel and type demand.
+payterms_type_fit,payterms_type,Net 30,popular_comp,2,type_rank_in_payterms,1.0,2,2,,2,,2,2,80.0,1688.5,46.1616,,Payment-term demand mix by title type.
+payterms_type_fit,payterms_type,Net 60,psychology,3,type_rank_in_payterms,1.0,3,2,,5,,3,6,98.0,1248.75,67.5566,,Payment-term demand mix by title type.
+payterms_type_fit,payterms_type,ON invoice,psychology,1,type_rank_in_payterms,1.0,1,1,,1,,1,1,75.0,821.25,70.1533,,Payment-term demand mix by title type.
+payterms_type_fit,payterms_type,Net 30,trad_cook,1,type_rank_in_payterms,2.0,1,1,,3,,1,3,80.0,1376.8,37.6401,,Payment-term demand mix by title type.
+payterms_type_fit,payterms_type,Net 60,business,2,type_rank_in_payterms,2.0,2,2,,2,,2,2,20.0,399.8,21.6289,,Payment-term demand mix by title type.
+payterms_type_fit,payterms_type,ON invoice,business,2,type_rank_in_payterms,2.0,2,2,,2,,2,2,45.0,304.55,26.0155,,Payment-term demand mix by title type.
+payterms_type_fit,payterms_type,Net 30,business,1,type_rank_in_payterms,3.0,1,1,,1,,1,1,25.0,298.75,8.1675,,Payment-term demand mix by title type.
+payterms_type_fit,payterms_type,Net 60,mod_cook,1,type_rank_in_payterms,3.0,1,1,,1,,1,1,10.0,199.9,10.8145,,Payment-term demand mix by title type.
+payterms_type_fit,payterms_type,ON invoice,mod_cook,1,type_rank_in_payterms,3.0,1,1,,1,,1,1,15.0,44.85,3.8312,,Payment-term demand mix by title type.
+payterms_type_fit,payterms_type,Net 30,psychology,1,type_rank_in_payterms,4.0,1,1,,1,,1,1,20.0,219.0,5.9872,,Payment-term demand mix by title type.
+payterms_type_fit,payterms_type,Net 30,mod_cook,1,type_rank_in_payterms,5.0,1,1,,1,,1,1,25.0,74.75,2.0436,,Payment-term demand mix by title type.
+state_type_fit,state_type,CA,trad_cook,1,state_rank_in_type,1.0,1,,1,3,,1,3,80.0,1376.8,100.0,,State-by-type fit and concentration.
+state_type_fit,state_type,CA,popular_comp,1,state_rank_in_type,1.0,1,,1,1,,1,1,50.0,1000.0,59.2242,,State-by-type fit and concentration.
+state_type_fit,state_type,CA,mod_cook,1,state_rank_in_type,1.0,1,,1,1,,1,1,10.0,199.9,62.5665,,State-by-type fit and concentration.
+state_type_fit,state_type,OR,business,1,state_rank_in_type,1.0,1,,2,2,,2,2,35.0,498.65,49.7109,,State-by-type fit and concentration.
+state_type_fit,state_type,WA,psychology,2,state_rank_in_type,1.0,2,,2,5,,3,6,108.0,1358.25,59.3381,,State-by-type fit and concentration.
+state_type_fit,state_type,CA,psychology,2,state_rank_in_type,2.0,2,,2,1,,2,2,85.0,930.75,40.6619,,State-by-type fit and concentration.
+state_type_fit,state_type,CA,business,1,state_rank_in_type,2.0,1,,2,2,,2,2,50.0,404.5,40.325,,State-by-type fit and concentration.
+state_type_fit,state_type,OR,popular_comp,1,state_rank_in_type,2.0,1,,1,1,,1,1,30.0,688.5,40.7758,,State-by-type fit and concentration.
+state_type_fit,state_type,WA,mod_cook,1,state_rank_in_type,2.0,1,,1,1,,1,1,25.0,74.75,23.3959,,State-by-type fit and concentration.
+state_type_fit,state_type,OR,mod_cook,1,state_rank_in_type,3.0,1,,1,1,,1,1,15.0,44.85,14.0376,,State-by-type fit and concentration.
+state_type_fit,state_type,WA,business,1,state_rank_in_type,3.0,1,,1,1,,1,1,5.0,99.95,9.9641,,State-by-type fit and concentration.
+type_channel_baseline,title_type,psychology,2,3,type_revenue_rank,1.0,4,2,3,5,,5,8,193.0,2289.0,34.2824,,"Type-level demand across states, stores, and payment terms."
+type_channel_baseline,title_type,popular_comp,2,1,type_revenue_rank,2.0,2,2,1,2,,2,2,80.0,1688.5,25.2887,,"Type-level demand across states, stores, and payment terms."
+type_channel_baseline,title_type,trad_cook,1,1,type_revenue_rank,3.0,1,1,1,3,,1,3,80.0,1376.8,20.6203,,"Type-level demand across states, stores, and payment terms."
+type_channel_baseline,title_type,business,3,3,type_revenue_rank,4.0,3,3,3,4,,5,5,90.0,1003.1,15.0234,,"Type-level demand across states, stores, and payment terms."
+type_channel_baseline,title_type,mod_cook,3,3,type_revenue_rank,5.0,3,3,3,2,,3,3,50.0,319.5,4.7852,,"Type-level demand across states, stores, and payment terms."
+type_store_dependence,store_type,business,Bookbeat,OR,store_rank_in_type,1.0,1,,,2,,2,2,35.0,498.65,49.7109,,Top store dependence within each title type.
+type_store_dependence,store_type,mod_cook,Fricative Bookshop,CA,store_rank_in_type,1.0,1,,,1,,1,1,10.0,199.9,62.5665,,Top store dependence within each title type.
+type_store_dependence,store_type,popular_comp,Barnum's,CA,store_rank_in_type,1.0,1,,,1,,1,1,50.0,1000.0,59.2242,,Top store dependence within each title type.
+type_store_dependence,store_type,psychology,Doc-U-Mat: Quality Laundry and Books,WA,store_rank_in_type,1.0,1,,,5,,2,5,105.0,1325.4,57.903,,Top store dependence within each title type.
+type_store_dependence,store_type,trad_cook,News & Brews,CA,store_rank_in_type,1.0,1,,,3,,1,3,80.0,1376.8,100.0,,Top store dependence within each title type.
+type_store_dependence,store_type,business,Fricative Bookshop,CA,store_rank_in_type,2.0,1,,,2,,2,2,50.0,404.5,40.325,,Top store dependence within each title type.
+type_store_dependence,store_type,mod_cook,Doc-U-Mat: Quality Laundry and Books,WA,store_rank_in_type,2.0,1,,,1,,1,1,25.0,74.75,23.3959,,Top store dependence within each title type.
+type_store_dependence,store_type,popular_comp,Bookbeat,OR,store_rank_in_type,2.0,1,,,1,,1,1,30.0,688.5,40.7758,,Top store dependence within each title type.
+type_store_dependence,store_type,psychology,Barnum's,CA,store_rank_in_type,2.0,1,,,1,,1,1,75.0,821.25,35.8781,,Top store dependence within each title type.
+type_store_dependence,store_type,business,Eric the Read Books,WA,store_rank_in_type,3.0,1,,,1,,1,1,5.0,99.95,9.9641,,Top store dependence within each title type.
+type_store_dependence,store_type,mod_cook,Bookbeat,OR,store_rank_in_type,3.0,1,,,1,,1,1,15.0,44.85,14.0376,,Top store dependence within each title type.
+type_store_dependence,store_type,psychology,News & Brews,CA,store_rank_in_type,3.0,1,,,1,,1,1,10.0,109.5,4.7837,,Top store dependence within each title type.

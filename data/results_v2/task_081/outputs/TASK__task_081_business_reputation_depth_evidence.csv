@@ -1,0 +1,68 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,businesses,reviews,tips,checkin_slots,avg_business_stars,avg_review_stars,active_rate_pct,long_review_rate_pct,long_tip_rate_pct,share_pct,notes
+rating_review_depth,star_bucket_review_depth,3.0_to_3.99_star,Low,,business_volume_rank,1,3887,24658,7268,73507,3.2932,3.3008,84.461,18.109,4.7628,24.9406,business star bucket crossed with platform review-count label
+rating_review_depth,star_bucket_review_depth,4.5_to_5_star,Low,,business_volume_rank,2,3779,19577,3950,37459,4.7569,4.7229,92.1937,13.6871,3.7514,24.2477,business star bucket crossed with platform review-count label
+rating_review_depth,star_bucket_review_depth,below_3_star,Low,,business_volume_rank,3,2268,11484,2923,29955,2.1235,2.1195,87.5661,22.1524,4.8415,14.5525,business star bucket crossed with platform review-count label
+rating_review_depth,star_bucket_review_depth,4.0_to_4.49_star,Low,,business_volume_rank,4,2130,14416,4262,42392,4.0,3.9858,88.0751,15.4602,4.3671,13.667,business star bucket crossed with platform review-count label
+rating_review_depth,star_bucket_review_depth,3.0_to_3.99_star,Medium,,business_volume_rank,5,1262,53325,15848,74421,3.349,3.3816,84.3899,19.6567,5.8273,8.0975,business star bucket crossed with platform review-count label
+rating_review_depth,star_bucket_review_depth,4.0_to_4.49_star,Medium,,business_volume_rank,6,918,40154,11440,52153,4.0,3.996,87.6906,18.4318,5.9805,5.8903,business star bucket crossed with platform review-count label
+rating_review_depth,star_bucket_review_depth,4.5_to_5_star,Medium,,business_volume_rank,7,431,16878,4362,21527,4.5638,4.4956,91.8794,16.5229,7.0289,2.7655,business star bucket crossed with platform review-count label
+rating_review_depth,star_bucket_review_depth,4.0_to_4.49_star,High,,business_volume_rank,8,319,47832,12796,25783,4.0,3.9924,93.7304,21.2222,5.5691,2.0468,business star bucket crossed with platform review-count label
+rating_review_depth,star_bucket_review_depth,3.0_to_3.99_star,High,,business_volume_rank,9,268,37604,9843,22386,3.4104,3.4669,91.791,23.567,5.2091,1.7196,business star bucket crossed with platform review-count label
+rating_review_depth,star_bucket_review_depth,below_3_star,Medium,,business_volume_rank,10,136,4583,1377,7789,2.3529,2.4249,81.6176,23.9484,8.3296,0.8726,business star bucket crossed with platform review-count label
+rating_review_depth,star_bucket_review_depth,4.5_to_5_star,High,,business_volume_rank,11,92,13097,3380,7003,4.5109,4.4298,96.7391,20.6987,6.0252,0.5903,business star bucket crossed with platform review-count label
+rating_review_depth,star_bucket_review_depth,4.0_to_4.49_star,Uber,,business_volume_rank,12,58,24316,5682,5576,4.0,4.0324,98.2759,24.2304,4.4634,0.3722,business star bucket crossed with platform review-count label
+rating_review_depth,star_bucket_review_depth,4.5_to_5_star,Uber,,business_volume_rank,13,20,9659,2268,2081,4.5,4.3452,100.0,20.7313,4.5788,0.1283,business star bucket crossed with platform review-count label
+rating_review_depth,star_bucket_review_depth,3.0_to_3.99_star,Uber,,business_volume_rank,14,10,4262,1441,1020,3.45,3.5086,100.0,24.0866,4.8028,0.0642,business star bucket crossed with platform review-count label
+rating_review_depth,star_bucket_review_depth,below_3_star,High,,business_volume_rank,15,7,1061,317,649,2.4286,2.5092,85.7143,26.3312,5.835,0.0449,business star bucket crossed with platform review-count label
+city_market_quality,city,Phoenix,AZ,,city_business_rank,1,5492,130993,36511,147414,3.6582,3.653,88.11,18.5505,4.717,35.239,largest city markets with quality and activity overlays
+city_market_quality,city,Scottsdale,AZ,,city_business_rank,2,2617,72009,17549,77971,3.8093,3.8013,84.7917,19.7641,4.8318,16.7918,largest city markets with quality and activity overlays
+city_market_quality,city,Tempe,AZ,,city_business_rank,3,1444,37509,9792,43044,3.6402,3.6258,86.1496,19.6306,4.3983,9.2653,largest city markets with quality and activity overlays
+city_market_quality,city,Mesa,AZ,,city_business_rank,4,1348,17529,5019,30025,3.6439,3.6414,90.1335,16.1578,5.4167,8.6493,largest city markets with quality and activity overlays
+city_market_quality,city,Chandler,AZ,,city_business_rank,5,1178,21247,5654,29906,3.677,3.6653,87.9457,17.2164,3.9125,7.5585,largest city markets with quality and activity overlays
+city_market_quality,city,Glendale,AZ,,city_business_rank,6,820,10915,3310,18045,3.5878,3.5818,88.2927,15.4239,4.4242,5.2615,largest city markets with quality and activity overlays
+city_market_quality,city,Gilbert,AZ,,city_business_rank,7,630,10130,2985,15701,3.7548,3.7453,90.6349,15.0141,4.7426,4.0423,largest city markets with quality and activity overlays
+city_market_quality,city,Peoria,AZ,,city_business_rank,8,385,4698,1628,9269,3.6143,3.5979,91.9481,14.409,4.7567,2.4703,largest city markets with quality and activity overlays
+city_market_quality,city,Surprise,AZ,,city_business_rank,9,241,2421,724,5194,3.5975,3.5841,92.5311,13.9601,6.4602,1.5464,largest city markets with quality and activity overlays
+city_market_quality,city,Goodyear,AZ,,city_business_rank,10,214,2474,829,5189,3.4977,3.4849,92.9907,10.8831,5.776,1.3731,largest city markets with quality and activity overlays
+city_market_quality,city,Avondale,AZ,,city_business_rank,11,168,2136,752,4444,3.6161,3.6221,87.5,14.1203,5.7635,1.078,largest city markets with quality and activity overlays
+city_market_quality,city,Cave Creek,AZ,,city_business_rank,12,106,1474,262,1457,3.9764,3.9451,91.5094,13.1148,3.0009,0.6801,largest city markets with quality and activity overlays
+city_market_quality,city,Queen Creek,AZ,,city_business_rank,13,98,1154,283,2030,3.6071,3.6368,92.8571,11.666,7.6407,0.6288,largest city markets with quality and activity overlays
+city_market_quality,city,Paradise Valley,AZ,,city_business_rank,14,71,1595,287,1622,3.7113,3.7185,81.6901,20.3835,1.024,0.4556,largest city markets with quality and activity overlays
+city_market_quality,city,Casa Grande,AZ,,city_business_rank,15,68,424,111,842,3.3309,3.2888,94.1176,13.3934,4.8564,0.4363,largest city markets with quality and activity overlays
+category_quality,category,Restaurants,,,category_business_rank,1,5556,224732,58465,202016,3.4591,3.4522,80.0756,17.2717,5.4741,35.6497,"largest categories compared on rating, activity, and active status"
+category_quality,category,Shopping,,,category_business_rank,2,2499,20492,6015,55892,3.6897,3.6689,91.3565,15.9771,3.7823,16.0346,"largest categories compared on rating, activity, and active status"
+category_quality,category,Food,,,category_business_rank,3,2091,46292,15356,86150,3.7637,3.7586,84.8398,14.2899,4.6282,13.4167,"largest categories compared on rating, activity, and active status"
+category_quality,category,Beauty & Spas,,,category_business_rank,4,1109,8719,1780,14316,3.9504,3.9461,95.0406,14.8529,5.7841,7.1158,"largest categories compared on rating, activity, and active status"
+category_quality,category,Automotive,,,category_business_rank,5,859,5361,1338,11942,3.7806,3.7811,96.9732,14.8337,7.4751,5.5117,"largest categories compared on rating, activity, and active status"
+category_quality,category,Mexican,,,category_business_rank,6,822,28201,7141,29787,3.5146,3.5165,82.2384,15.9705,5.18,5.2743,"largest categories compared on rating, activity, and active status"
+category_quality,category,Health & Medical,,,category_business_rank,7,815,3783,541,4880,3.9417,3.9375,97.6687,22.5253,4.6454,5.2294,"largest categories compared on rating, activity, and active status"
+category_quality,category,Home Services,,,category_business_rank,8,761,3497,291,4179,3.6439,3.6228,97.8975,22.9416,3.5525,4.8829,"largest categories compared on rating, activity, and active status"
+category_quality,category,Nightlife,,,category_business_rank,9,752,42268,12135,33401,3.5419,3.5333,71.4096,21.506,4.7256,4.8252,"largest categories compared on rating, activity, and active status"
+category_quality,category,Fashion,,,category_business_rank,10,701,5901,1875,18931,3.674,3.6623,91.4408,15.2532,2.7876,4.4979,"largest categories compared on rating, activity, and active status"
+category_quality,category,Active Life,,,category_business_rank,11,695,7958,2356,21992,4.0719,4.0671,92.8058,22.1695,4.2203,4.4594,"largest categories compared on rating, activity, and active status"
+category_quality,category,Bars,,,category_business_rank,12,628,38294,10887,30212,3.5295,3.5189,71.1783,21.0647,5.1307,4.0295,"largest categories compared on rating, activity, and active status"
+category_quality,category,Sandwiches,,,category_business_rank,13,609,21543,5587,21786,3.5624,3.547,87.8489,14.5708,4.8622,3.9076,"largest categories compared on rating, activity, and active status"
+category_quality,category,American (Traditional),,,category_business_rank,14,607,26792,8338,29049,3.3517,3.3434,79.9012,18.4909,5.6311,3.8948,"largest categories compared on rating, activity, and active status"
+category_quality,category,Fast Food,,,category_business_rank,15,599,6680,2764,19069,3.0726,3.0442,94.8247,11.2131,4.6645,3.8434,"largest categories compared on rating, activity, and active status"
+category_quality,category,Pizza,,,category_business_rank,16,589,23544,5515,17866,3.3956,3.3887,83.5314,14.6935,6.1551,3.7793,"largest categories compared on rating, activity, and active status"
+category_quality,category,Event Planning & Services,,,category_business_rank,17,588,9597,2292,15552,3.6726,3.648,91.8367,23.6312,5.8485,3.7729,"largest categories compared on rating, activity, and active status"
+category_quality,category,Local Services,,,category_business_rank,18,540,3051,520,4289,3.8463,3.8419,96.6667,14.9567,3.8553,3.4649,"largest categories compared on rating, activity, and active status"
+category_quality,category,Hotels & Travel,,,category_business_rank,19,495,10197,2724,14940,3.403,3.3899,95.3535,24.7161,7.1245,3.1761,"largest categories compared on rating, activity, and active status"
+category_quality,category,American (New),,,category_business_rank,20,441,34085,9032,21011,3.6383,3.627,73.0159,22.3897,6.0098,2.8296,"largest categories compared on rating, activity, and active status"
+review_depth_alignment,review_count_label,High,,,review_depth_order,3,686,99594,26336,55821,3.8222,3.8306,93.2945,22.1202,5.4923,4.4017,whether higher platform review-depth labels carry different average star levels
+review_depth_alignment,review_count_label,Uber,,,review_depth_order,4,88,38237,9391,8677,4.0511,4.044,98.8636,23.4188,4.5282,0.5646,whether higher platform review-depth labels carry different average star levels
+review_depth_alignment,review_count_label,Medium,,,review_depth_order,2,2747,114940,33027,155890,3.7079,3.7144,86.5308,18.9682,6.1909,17.6259,whether higher platform review-depth labels carry different average star levels
+review_depth_alignment,review_count_label,Low,,,review_depth_order,1,12064,70135,18403,183313,3.6566,3.6446,88.1051,17.0163,4.3909,77.4078,whether higher platform review-depth labels carry different average star levels
+review_voice_overlay,linked_review_star_bucket,linked_reviews_3.0_to_3.99,,,linked_review_bucket_rank,1,6083,169803,47805,209533,3.4863,3.4722,85.7965,18.6516,4.7387,39.0311,business stars compared with linked review-row star averages
+review_voice_overlay,linked_review_star_bucket,linked_reviews_4.0_to_4.49,,,linked_review_bucket_rank,2,3269,102441,27241,104194,4.16,4.1741,88.9569,16.2159,5.3366,20.9753,business stars compared with linked review-row star averages
+review_voice_overlay,linked_review_star_bucket,linked_reviews_4.5_to_5,,,linked_review_bucket_rank,3,3251,24181,4712,33518,4.7741,4.8365,92.9868,13.5019,3.5424,20.8598,business stars compared with linked review-row star averages
+review_voice_overlay,linked_review_star_bucket,linked_reviews_below_3,,,linked_review_bucket_rank,4,2976,26481,7398,56456,2.3256,2.2323,86.5927,21.594,5.4966,19.0953,business stars compared with linked review-row star averages
+review_voice_overlay,linked_review_star_bucket,no_linked_review_rows,,,linked_review_bucket_rank,5,6,0,1,0,4.9167,,100.0,0.0,0.0,0.0385,business stars compared with linked review-row star averages
+active_status_quality,active_status,true,Low,,active_review_depth_rank,1,10629,60734,16787,174751,3.6795,3.6662,100.0,16.421,4.7494,68.2002,active status crossed with platform review-depth label
+active_status_quality,active_status,true,Medium,,active_review_depth_rank,2,2377,100718,29937,143596,3.7305,3.737,100.0,18.0389,6.627,15.2518,active status crossed with platform review-depth label
+active_status_quality,active_status,true,High,,active_review_depth_rank,3,640,93206,24951,53046,3.8305,3.838,100.0,21.7441,5.5969,4.1065,active status crossed with platform review-depth label
+active_status_quality,active_status,true,Uber,,active_review_depth_rank,4,87,37558,9268,8602,4.0517,4.0447,100.0,23.3646,4.5522,0.5582,active status crossed with platform review-depth label
+active_status_quality,active_status,false,Low,,active_review_depth_rank,5,1435,9401,1616,8562,3.4871,3.4846,0.0,21.4263,1.7358,9.2076,active status crossed with platform review-depth label
+active_status_quality,active_status,false,Medium,,active_review_depth_rank,6,370,14222,3090,12294,3.5622,3.569,0.0,24.9381,3.3895,2.3741,active status crossed with platform review-depth label
+active_status_quality,active_status,false,High,,active_review_depth_rank,7,46,6388,1385,2775,3.7065,3.7283,0.0,27.352,4.0367,0.2952,active status crossed with platform review-depth label
+active_status_quality,active_status,false,Uber,,active_review_depth_rank,8,1,679,123,75,4.0,3.9823,0.0,28.1296,2.439,0.0064,active status crossed with platform review-depth label

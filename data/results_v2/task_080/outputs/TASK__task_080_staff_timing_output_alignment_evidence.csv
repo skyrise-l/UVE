@@ -1,0 +1,27 @@
+evidence_block,grain,item,item_2,item_3,rank_label,rank_value,employee_count,hire_year_count,early_hire_count,recent_hire_count,title_count,type_count,order_count,sale_lines,sample_qty,revenue_proxy,avg_job_level,revenue_per_employee,secondary_value,notes
+active_publisher_hiring,publisher,Algodata Infosystems,1988,1994,revenue_rank,1.0,10,6,3,1,6,2,6,6,135.0,2586.95,106.4,258.695,7.0,Hiring timeline among publishers with linked catalog output.
+active_publisher_hiring,publisher,Binnet & Hardley,1989,1993,revenue_rank,2.0,10,5,4,2,7,4,7,7,150.0,2128.1,84.9,212.81,8.0,Hiring timeline among publishers with linked catalog output.
+active_publisher_hiring,publisher,New Moon Books,1988,1994,revenue_rank,3.0,10,6,5,3,5,2,8,8,208.0,1961.85,155.0,196.185,5.0,Hiring timeline among publishers with linked catalog output.
+hire_period_seniority,hire_period,late_1993_1994,5,,employee_count,10.0,10,,,,,,,,,,154.2,,5.0,Seniority distribution across broad hiring periods.
+hire_period_seniority,hire_period,middle_1991_1992,5,,employee_count,14.0,14,,,,,,,,,,119.0714,,5.0,Seniority distribution across broad hiring periods.
+hire_period_seniority,hire_period,early_1988_1990,6,,employee_count,19.0,19,,,,,,,,,,131.3684,,6.0,Seniority distribution across broad hiring periods.
+hire_year_distribution,hire_year,1990,5,6,employee_count_rank,1.0,8,,,,,,,,,12894.95,132.25,,5.0,Employee hiring-year distribution and active-output exposure.
+hire_year_distribution,hire_year,1989,5,2,employee_count_rank,2.0,7,,,,,,,,,4715.05,141.4286,,5.0,Employee hiring-year distribution and active-output exposure.
+hire_year_distribution,hire_year,1991,5,5,employee_count_rank,3.0,7,,,,,,,,,11850.8,153.0,,5.0,Employee hiring-year distribution and active-output exposure.
+hire_year_distribution,hire_year,1992,3,7,employee_count_rank,4.0,7,,,,,,,,,16107.0,85.1429,,3.0,Employee hiring-year distribution and active-output exposure.
+hire_year_distribution,hire_year,1993,4,4,employee_count_rank,5.0,7,,,,,,,,,8179.9,146.7143,,4.0,Employee hiring-year distribution and active-output exposure.
+hire_year_distribution,hire_year,1988,2,4,employee_count_rank,6.0,4,,,,,,,,,8472.5,112.0,,2.0,Employee hiring-year distribution and active-output exposure.
+hire_year_distribution,hire_year,1994,3,2,employee_count_rank,7.0,3,,,,,,,,,4548.8,171.6667,,3.0,Employee hiring-year distribution and active-output exposure.
+inactive_hiring_mismatch,publisher,Five Lakes Publishing,1993,1993,employee_count,1.0,1,1,0,1,0,0,0,0,0.0,0.0,198.0,0.0,3.0,Publishers with hiring footprint but no linked catalog or sales output.
+inactive_hiring_mismatch,publisher,GGG&G,1991,1991,employee_count,1.0,1,1,0,0,0,0,0,0,0.0,0.0,172.0,0.0,4.0,Publishers with hiring footprint but no linked catalog or sales output.
+inactive_hiring_mismatch,publisher,Ramona Publishers,1989,1989,employee_count,1.0,1,1,1,0,0,0,0,0,0.0,0.0,246.0,0.0,1.0,Publishers with hiring footprint but no linked catalog or sales output.
+inactive_hiring_mismatch,publisher,Scootney Books,1989,1991,employee_count,3.0,3,3,2,0,0,0,0,0,0.0,0.0,214.0,0.0,2.0,Publishers with hiring footprint but no linked catalog or sales output.
+inactive_hiring_mismatch,publisher,Lucerne Publishing,1989,1994,employee_count,7.0,7,4,4,3,0,0,0,0,0.0,0.0,140.5714,0.0,6.0,Publishers with hiring footprint but no linked catalog or sales output.
+publisher_hiring_output,publisher,Algodata Infosystems,1988,1994,revenue_rank,1.0,10,6,3,1,6,2,6,6,135.0,2586.95,106.4,258.695,7.0,"Publisher hiring timeline, seniority, and output baseline."
+publisher_hiring_output,publisher,Binnet & Hardley,1989,1993,revenue_rank,2.0,10,5,4,2,7,4,7,7,150.0,2128.1,84.9,212.81,8.0,"Publisher hiring timeline, seniority, and output baseline."
+publisher_hiring_output,publisher,New Moon Books,1988,1994,revenue_rank,3.0,10,6,5,3,5,2,8,8,208.0,1961.85,155.0,196.185,5.0,"Publisher hiring timeline, seniority, and output baseline."
+publisher_hiring_output,publisher,Five Lakes Publishing,1993,1993,revenue_rank,4.0,1,1,0,1,0,0,0,0,0.0,0.0,198.0,0.0,3.0,"Publisher hiring timeline, seniority, and output baseline."
+publisher_hiring_output,publisher,GGG&G,1991,1991,revenue_rank,5.0,1,1,0,0,0,0,0,0,0.0,0.0,172.0,0.0,4.0,"Publisher hiring timeline, seniority, and output baseline."
+publisher_hiring_output,publisher,Lucerne Publishing,1989,1994,revenue_rank,6.0,7,4,4,3,0,0,0,0,0.0,0.0,140.5714,0.0,6.0,"Publisher hiring timeline, seniority, and output baseline."
+publisher_hiring_output,publisher,Ramona Publishers,1989,1989,revenue_rank,7.0,1,1,1,0,0,0,0,0,0.0,0.0,246.0,0.0,1.0,"Publisher hiring timeline, seniority, and output baseline."
+publisher_hiring_output,publisher,Scootney Books,1989,1991,revenue_rank,8.0,3,3,2,0,0,0,0,0,0.0,0.0,214.0,0.0,2.0,"Publisher hiring timeline, seniority, and output baseline."
