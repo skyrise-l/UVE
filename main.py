@@ -13,10 +13,9 @@ import shutil
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Mapping, Optional, Sequence, Tuple
+from typing import Any, Dict, Iterable, List, Mapping, Optional, Tuple
 
 from agent import InsightBenchAgent
-from visual_policy_experiment import VisualPolicyComparisonAgent
 from code_execute.error_classification import EVALUATION_ERROR, classify_error_message
 from data_loader import MetadataEnrichmentConfig, load_tasks, stream_bird_tasks
 from evaluate import BirdEDAEvaluator, InsightBenchEvaluator, build_evaluation_client
@@ -215,17 +214,9 @@ def _build_agent_and_evaluator(
     llm_client: OpenAICompatibleClient,
     evaluation_enabled: bool = True,
 ) -> Tuple[Any, Optional[Any], str]:
-    agent_config = dict(config.get("agent") or {})
-    requested_mode = str(agent_config.get("mode") or "main").strip().lower()
-
-    if requested_mode == "visual_policy_comparison":
-        agent = VisualPolicyComparisonAgent(llm_client=llm_client, config=config)
-        agent_mode = "visual_policy_comparison"
-    elif requested_mode == "main":
-        agent = InsightBenchAgent(llm_client=llm_client, config=config)
-        agent_mode = "bird_eda_v2" if benchmark == "bird" else "insightbench"
-    else:
-        raise ValueError(f"Unsupported agent.mode: {requested_mode}")
+    """构建主 Agent；忽略旧配置里已移除的实验模式字段。"""
+    agent = InsightBenchAgent(llm_client=llm_client, config=config)
+    agent_mode = "bird_eda_v2" if benchmark == "bird" else "insightbench"
 
     # 关闭评估时不初始化 judge client 或官方评估依赖，避免无意义的模型和环境检查。
     if not evaluation_enabled:
@@ -263,131 +254,6 @@ def _failed_agent_result(exc: Exception) -> Dict[str, Any]:
         "error_type_counts": {error_type: 1},
         "run_status": "failed",
     }
-
-
-def _load_existing_comparison_result(
-    result_path: Path,
-    task_id: str,
-    variants: Sequence[str],
-    *,
-    require_evaluation: bool,
-) -> Optional[Dict[str, Any]]:
-    """复用已有视觉策略结果；开启评估时要求所有模式均已评估。"""
-    if not result_path.is_file():
-        return None
-    try:
-        result = read_json(result_path)
-    except Exception as exc:
-        print(f"[WARN] existing comparison result unreadable, rerun task={task_id}: {exc}")
-        return None
-
-    if not isinstance(result, dict):
-        return None
-    if str(result.get("task_id") or "") != task_id:
-        return None
-    if str(result.get("agent_mode") or "") != "visual_policy_comparison":
-        return None
-    if not isinstance(result.get("shared_root_token_usage"), dict):
-        return None
-    if not isinstance(result.get("bound_experiment_token_usage"), dict):
-        return None
-
-    stored_variants = result.get("variants")
-    if not isinstance(stored_variants, dict):
-        return None
-    for variant in variants:
-        item = stored_variants.get(variant)
-        if not isinstance(item, dict):
-            return None
-        agent_result = item.get("agent_result")
-        if not isinstance(agent_result, dict):
-            return None
-        if str(agent_result.get("error") or "").strip():
-            return None
-        if require_evaluation:
-            evaluation = item.get("evaluation")
-            if not isinstance(evaluation, dict):
-                return None
-            if str(evaluation.get("status") or "").strip().lower() != "evaluated":
-                return None
-    return result
-
-
-def _failed_comparison_result(exc: Exception, variants: Sequence[str]) -> Dict[str, Any]:
-    """当绑定实验整体异常时，为三个模式生成一致的失败结果。"""
-    return {
-        "shared_root_questions": [],
-        "shared_root_token_usage": dict(_ZERO_USAGE),
-        "bound_experiment_token_usage": dict(_ZERO_USAGE),
-        "variants": {
-            variant: _failed_agent_result(exc)
-            for variant in variants
-        },
-    }
-
-
-def _comparison_task_result_payload(
-    *,
-    benchmark: str,
-    task: Any,
-    task_id: str,
-    run_metadata: Mapping[str, Any],
-    comparison_result: Dict[str, Any],
-    evaluations: Mapping[str, Dict[str, Any]],
-) -> Dict[str, Any]:
-    """保存共享 Root Questions，并为每个模式保存一组 agent/evaluation 结果。"""
-    variant_results = dict(comparison_result.get("variants") or {})
-    if not variant_results:
-        raise ValueError("Comparison agent returned no variant results.")
-
-    first_variant = next(iter(variant_results))
-    payload = _task_result_payload(
-        benchmark=benchmark,
-        task=task,
-        task_id=task_id,
-        agent_mode="visual_policy_comparison",
-        run_metadata=run_metadata,
-        agent_result=dict(variant_results[first_variant] or {}),
-        evaluation=dict(evaluations.get(first_variant) or {}),
-    )
-    payload.pop("agent_result", None)
-    payload.pop("evaluation", None)
-    payload["shared_root_questions"] = list(comparison_result.get("shared_root_questions") or [])
-    payload["shared_root_token_usage"] = dict(
-        comparison_result.get("shared_root_token_usage") or _ZERO_USAGE
-    )
-    payload["bound_experiment_token_usage"] = dict(
-        comparison_result.get("bound_experiment_token_usage") or _ZERO_USAGE
-    )
-    payload["variants"] = {
-        variant: {
-            "agent_result": dict(agent_result or {}),
-            "evaluation": dict(evaluations.get(variant) or {}),
-        }
-        for variant, agent_result in variant_results.items()
-    }
-    return payload
-
-
-def _comparison_score_rows(
-    task_result: Mapping[str, Any],
-    benchmark: str,
-) -> List[Dict[str, Any]]:
-    """把一个绑定任务结果展开为三个可直接汇总的 score row。"""
-    task_id = str(task_result.get("task_id") or "")
-    rows: List[Dict[str, Any]] = []
-    for variant, item in dict(task_result.get("variants") or {}).items():
-        row = _score_row_from_result(
-            {
-                "task_id": task_id,
-                "agent_result": dict(item.get("agent_result") or {}),
-                "evaluation": dict(item.get("evaluation") or {}),
-            },
-            benchmark,
-        )
-        row["variant"] = str(variant)
-        rows.append(row)
-    return rows
 
 
 def _evaluate_result(
@@ -543,36 +409,6 @@ def _overview_payload(
     return overview
 
 
-def _comparison_overview_payload(
-    *,
-    score_rows: List[Dict[str, Any]],
-    benchmark: str,
-    run_metadata: Mapping[str, Any],
-    variants: Sequence[str],
-) -> Dict[str, Any]:
-    """按模式分别汇总指标，避免把三种策略混成一个平均数。"""
-    variant_overviews: Dict[str, Any] = {}
-    for variant in variants:
-        rows = [row for row in score_rows if str(row.get("variant") or "") == variant]
-        overview = _overview_payload(
-            score_rows=rows,
-            benchmark=benchmark,
-            agent_mode=variant,
-            run_metadata=run_metadata,
-        )
-        overview.pop("benchmark", None)
-        overview.pop("agent_mode", None)
-        overview.pop("run_metadata", None)
-        variant_overviews[variant] = overview
-
-    return {
-        "benchmark": benchmark,
-        "agent_mode": "visual_policy_comparison",
-        "run_metadata": dict(run_metadata or {}),
-        "variants": variant_overviews,
-    }
-
-
 def main() -> None:
     args = parse_args()
     config = read_json(args.config)
@@ -606,9 +442,6 @@ def main() -> None:
         agent_mode,
         evaluation_enabled,
     )
-    is_comparison = agent_mode == "visual_policy_comparison"
-    variants = list(getattr(agent, "variants", [])) if is_comparison else []
-
     score_rows: List[Dict[str, Any]] = []
     for index, task in enumerate(tasks, start=1):
         task_id = _task_id(task)
@@ -618,32 +451,18 @@ def main() -> None:
         progress = f"{index}/{task_count}" if task_count is not None else str(index)
         print(f"[{progress}] benchmark={benchmark} task={task_id}")
 
-        if is_comparison:
-            existing_result = _load_existing_comparison_result(
-                result_path,
-                task_id,
-                variants,
-                require_evaluation=evaluation_enabled,
-            )
-        else:
-            existing_result = _load_existing_task_result(
-                result_path,
-                task_id,
-                agent_mode,
-                require_evaluation=evaluation_enabled,
-            )
+        existing_result = _load_existing_task_result(
+            result_path,
+            task_id,
+            agent_mode,
+            require_evaluation=evaluation_enabled,
+        )
 
         if existing_result is not None:
             print(f"[SKIP] task={task_id} already completed: {result_path}")
-            if is_comparison:
-                reused_rows = _comparison_score_rows(existing_result, benchmark)
-                for row in reused_rows:
-                    row["reused_existing_result"] = True
-                score_rows.extend(reused_rows)
-            else:
-                reused_row = _score_row_from_result(existing_result, benchmark)
-                reused_row["reused_existing_result"] = True
-                score_rows.append(reused_row)
+            reused_row = _score_row_from_result(existing_result, benchmark)
+            reused_row["reused_existing_result"] = True
+            score_rows.append(reused_row)
             if benchmark == "bird":
                 del task
             continue
@@ -652,119 +471,58 @@ def main() -> None:
         logger = QueryLogger(log_path)
         logger.log_header(task)
 
-        if is_comparison:
-            try:
-                comparison_result = agent.run(task=task, output_dir=run_path, logger=logger)
-            except Exception as exc:
-                logger.log_exception("runtime_error", exc)
-                comparison_result = _failed_comparison_result(exc, variants)
+        try:
+            agent_result = agent.run(task=task, output_dir=run_path, logger=logger)
+        except Exception as exc:
+            logger.log_exception("runtime_error", exc)
+            agent_result = _failed_agent_result(exc)
 
-            evaluations: Dict[str, Dict[str, Any]] = {}
-            for variant, agent_result in dict(comparison_result.get("variants") or {}).items():
-                if not evaluation_enabled:
-                    evaluations[variant] = _disabled_evaluation_result()
-                    continue
-                try:
-                    evaluations[variant] = _evaluate_result(
-                        benchmark=benchmark,
-                        evaluator=evaluator,
-                        task=task,
-                        agent_result=agent_result,
-                        logger=logger,
-                    )
-                except Exception as exc:
-                    logger.log_exception(f"{variant}_evaluation_error", exc)
-                    agent_result["evaluation_error"] = str(exc)[:1000]
-                    error_counts = dict(agent_result.get("error_type_counts") or {})
-                    error_counts[EVALUATION_ERROR] = int(error_counts.get(EVALUATION_ERROR) or 0) + 1
-                    agent_result["error_type_counts"] = error_counts
-                    evaluations[variant] = evaluator.skipped_result(reason=str(exc), logger=logger)
-
-            if benchmark == "bird" and evaluation_enabled:
-                evaluations = {
-                    variant: _persist_bird_evaluation_report(
-                        evaluation,
-                        run_path,
-                        filename=f"bird_evaluation_report_{variant}.json",
-                    )
-                    for variant, evaluation in evaluations.items()
-                }
-
-            task_result = _comparison_task_result_payload(
-                benchmark=benchmark,
-                task=task,
-                task_id=task_id,
-                run_metadata=run_metadata,
-                comparison_result=comparison_result,
-                evaluations=evaluations,
-            )
-            write_json(result_path, task_result)
-
-            task_rows = _comparison_score_rows(task_result, benchmark)
-            for row in task_rows:
-                row["reused_existing_result"] = False
-            score_rows.extend(task_rows)
+        if not evaluation_enabled:
+            evaluation = _disabled_evaluation_result()
         else:
             try:
-                agent_result = agent.run(task=task, output_dir=run_path, logger=logger)
+                evaluation = _evaluate_result(
+                    benchmark=benchmark,
+                    evaluator=evaluator,
+                    task=task,
+                    agent_result=agent_result,
+                    logger=logger,
+                )
             except Exception as exc:
-                logger.log_exception("runtime_error", exc)
-                agent_result = _failed_agent_result(exc)
+                logger.log_exception("evaluation_error", exc)
+                agent_result["evaluation_error"] = str(exc)[:1000]
+                error_counts = dict(agent_result.get("error_type_counts") or {})
+                error_counts[EVALUATION_ERROR] = int(error_counts.get(EVALUATION_ERROR) or 0) + 1
+                agent_result["error_type_counts"] = error_counts
+                evaluation = evaluator.skipped_result(reason=str(exc), logger=logger)
 
-            if not evaluation_enabled:
-                evaluation = _disabled_evaluation_result()
-            else:
-                try:
-                    evaluation = _evaluate_result(
-                        benchmark=benchmark,
-                        evaluator=evaluator,
-                        task=task,
-                        agent_result=agent_result,
-                        logger=logger,
-                    )
-                except Exception as exc:
-                    logger.log_exception("evaluation_error", exc)
-                    agent_result["evaluation_error"] = str(exc)[:1000]
-                    error_counts = dict(agent_result.get("error_type_counts") or {})
-                    error_counts[EVALUATION_ERROR] = int(error_counts.get(EVALUATION_ERROR) or 0) + 1
-                    agent_result["error_type_counts"] = error_counts
-                    evaluation = evaluator.skipped_result(reason=str(exc), logger=logger)
+        if benchmark == "bird" and evaluation_enabled:
+            evaluation = _persist_bird_evaluation_report(evaluation, run_path)
 
-            if benchmark == "bird" and evaluation_enabled:
-                evaluation = _persist_bird_evaluation_report(evaluation, run_path)
+        task_result = _task_result_payload(
+            benchmark=benchmark,
+            task=task,
+            task_id=task_id,
+            agent_mode=agent_mode,
+            run_metadata=run_metadata,
+            agent_result=agent_result,
+            evaluation=evaluation,
+        )
+        write_json(result_path, task_result)
 
-            task_result = _task_result_payload(
-                benchmark=benchmark,
-                task=task,
-                task_id=task_id,
-                agent_mode=agent_mode,
-                run_metadata=run_metadata,
-                agent_result=agent_result,
-                evaluation=evaluation,
-            )
-            write_json(result_path, task_result)
-
-            score_row = _score_row_from_result(task_result, benchmark)
-            score_row["reused_existing_result"] = False
-            score_rows.append(score_row)
+        score_row = _score_row_from_result(task_result, benchmark)
+        score_row["reused_existing_result"] = False
+        score_rows.append(score_row)
 
         if benchmark == "bird":
             del task
 
-    if is_comparison:
-        overview = _comparison_overview_payload(
-            score_rows=score_rows,
-            benchmark=benchmark,
-            run_metadata=run_metadata,
-            variants=variants,
-        )
-    else:
-        overview = _overview_payload(
-            score_rows=score_rows,
-            benchmark=benchmark,
-            agent_mode=agent_mode,
-            run_metadata=run_metadata,
-        )
+    overview = _overview_payload(
+        score_rows=score_rows,
+        benchmark=benchmark,
+        agent_mode=agent_mode,
+        run_metadata=run_metadata,
+    )
 
     write_json(output_root / "overview.json", overview)
     write_json(output_root / "task_scores.json", score_rows)
